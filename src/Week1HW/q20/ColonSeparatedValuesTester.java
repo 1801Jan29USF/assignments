@@ -13,14 +13,13 @@ public class ColonSeparatedValuesTester {
         ArrayList<Person> list = new ArrayList<>();
         Scanner in = null;
         try {
-            in = new Scanner(new File("src/Week1HW.q20/Data.txt"));//connect to the Data.txt file in this package
+            in = new Scanner(new File("src/Week1HW/q20/Data.txt"));//connect to the Data.txt file in this package
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            System.out.println("No file found.");
+            System.exit(1);
         }
-        if (in != null) {
-            while(in.hasNext()){//check if more data can be read
-                list.add(new Person(in.nextLine()));
-            }
+        while(in.hasNext()){//check if more data can be read
+            list.add(new Person(in.nextLine()));
         }
         for (Person p:list) {
             System.out.println(p);
