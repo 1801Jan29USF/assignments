@@ -10,11 +10,9 @@ import java.util.Scanner;
  */
 public class WithdrawScreen implements Screen {
     private User currentUser;
-    private Bank bank;
 
-    WithdrawScreen(User currentUser, Bank bank) {
+    WithdrawScreen(User currentUser) {
         this.currentUser = currentUser;
-        this.bank = bank;
     }
 
     @Override
@@ -22,12 +20,12 @@ public class WithdrawScreen implements Screen {
         Scanner in = new Scanner(System.in);
         System.out.print("Withdrawal amount << ");
         String amt = in.nextLine();
-        if(bank.withdraw(currentUser, amt)){
+        if(Bank.getBank().withdraw(currentUser, amt)){
             System.out.println("Withdrawal successful!");
         }
         else{
             System.out.println("Withdrawal failed.");
         }
-        return new MainScreenLogIn(currentUser, bank);
+        return new MainScreenLogIn(currentUser);
     }
 }

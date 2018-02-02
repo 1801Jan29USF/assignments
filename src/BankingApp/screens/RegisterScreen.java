@@ -8,10 +8,6 @@ import java.util.Scanner;
  * Functionality: Manages the account registration screen.
  */
 public class RegisterScreen implements Screen {
-    private Bank bank;
-    RegisterScreen(Bank bank) {
-        this.bank = bank;
-    }
 
     @Override
     public Screen prompt() {
@@ -21,12 +17,12 @@ public class RegisterScreen implements Screen {
         user = in.nextLine();
         System.out.print("Password << ");
         pwd = in.nextLine();
-        if(bank.register(user, pwd)){
+        if(Bank.getBank().register(user, pwd)){
             System.out.println("User registered! Try logging in now.");
         }
         else{
             System.out.println("User already exists.");
         }
-        return new MainScreenNoLogIn(bank);
+        return new MainScreenNoLogIn();
     }
 }

@@ -7,17 +7,15 @@ import BankingApp.beans.User;
  */
 public class ViewTransactionHistoryScreen implements Screen {
     private User currentUser;
-    private Bank bank;
 
-    ViewTransactionHistoryScreen(User currentUser, Bank bank) {
+    ViewTransactionHistoryScreen(User currentUser) {
         this.currentUser = currentUser;
-        this.bank = bank;
     }
 
     @Override
     public Screen prompt() {
         System.out.println("Transaction History:");
-        bank.printTransactionHistory(currentUser);
-        return new MainScreenLogIn(currentUser, bank);
+        Bank.getBank().printTransactionHistory(currentUser);
+        return new MainScreenLogIn(currentUser);
     }
 }

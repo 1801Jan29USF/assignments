@@ -9,11 +9,6 @@ import java.util.Scanner;
  * Functionality: Manages the log in screen.
  */
 public class LoginScreen implements Screen {
-    private Bank bank;
-
-    LoginScreen(Bank bank) {
-        this.bank = bank;
-    }
 
     @Override
     public Screen prompt() {
@@ -23,14 +18,14 @@ public class LoginScreen implements Screen {
         user = in.nextLine();
         System.out.print("Password << ");
         pwd = in.nextLine();
-        User u = bank.login(user, pwd);
+        User u = Bank.getBank().login(user, pwd);
         if(u != null){
             System.out.println("Log in successful!");
-            return new MainScreenLogIn(u, bank);
+            return new MainScreenLogIn(u);
         }
         else{
             System.out.println("Invalid log in attempt.");
-            return new MainScreenNoLogIn(bank);
+            return new MainScreenNoLogIn();
         }
     }
 }

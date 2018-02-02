@@ -1,6 +1,6 @@
 package BankingApp.beans;
 
-import java.io.*;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Calendar;
 
@@ -8,12 +8,21 @@ import java.util.Calendar;
  * Functionality: A bean describing a bank with a list of users.
  */
 public class Bank implements Serializable {
+    private static Bank bank = new Bank();
     static final long serialVersionUID = 42L;
     private ArrayList<User> userList;
 
-    public Bank(){
+    private Bank(){
         userList = new ArrayList<>();
         userList.add(new User("test", "test"));
+    }
+
+    public static Bank getBank(){
+        return bank;
+    }
+
+    public static void setBank(Bank b){
+        bank = b;
     }
 
     public User login(String user, String pwd) {

@@ -1,6 +1,5 @@
 package BankingApp.screens;
 
-import BankingApp.beans.Bank;
 import BankingApp.beans.User;
 
 import java.util.Scanner;
@@ -10,11 +9,9 @@ import java.util.Scanner;
  */
 public class MainScreenLogIn implements Screen {
     private User currentUser;
-    private Bank bank;
 
-    MainScreenLogIn(User u, Bank bank) {
+    MainScreenLogIn(User u) {
         this.currentUser = u;
-        this.bank = bank;
     }
 
     @Override
@@ -24,15 +21,15 @@ public class MainScreenLogIn implements Screen {
         String cmd = in.nextLine();
         switch (cmd){
             case "W":
-                return new WithdrawScreen(currentUser, bank);
+                return new WithdrawScreen(currentUser);
             case "D":
-                return new DepositScreen(currentUser, bank);
+                return new DepositScreen(currentUser);
             case "T":
-                return new ViewTransactionHistoryScreen(currentUser, bank);
+                return new ViewTransactionHistoryScreen(currentUser);
             case "L":
-                return new LogoutScreen(bank);
+                return new LogoutScreen();
             case "exit":
-                return new ExitScreen(bank);
+                return new ExitScreen();
             default:
                 System.out.println("Invalid command.");
                 return this;

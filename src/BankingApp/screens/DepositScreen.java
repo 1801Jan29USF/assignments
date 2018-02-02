@@ -10,11 +10,9 @@ import java.util.Scanner;
  */
 public class DepositScreen implements Screen {
     private User currentUser;
-    private Bank bank;
 
-    DepositScreen(User currentUser, Bank bank) {
+    DepositScreen(User currentUser) {
         this.currentUser = currentUser;
-        this.bank = bank;
     }
 
     @Override
@@ -22,12 +20,12 @@ public class DepositScreen implements Screen {
         Scanner in = new Scanner(System.in);
         System.out.print("Deposit amount << ");
         String amt = in.nextLine();
-        if(bank.deposit(currentUser, amt)){
+        if(Bank.getBank().deposit(currentUser, amt)){
             System.out.println("Deposit successful!");
         }
         else{
             System.out.println("Deposit failed.");
         }
-        return new MainScreenLogIn(currentUser, bank);
+        return new MainScreenLogIn(currentUser);
     }
 }
