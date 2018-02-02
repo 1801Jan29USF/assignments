@@ -5,5 +5,5 @@ package BankingApp.screens;
  */
 
 public interface Screen {
-    Screen prompt();
+    void prompt();
 }

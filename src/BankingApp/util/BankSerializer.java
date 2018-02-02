@@ -5,9 +5,30 @@ import BankingApp.beans.Bank;
 import java.io.*;
 
 /**
- * Functionality: Utility function to serialize bank objects for retrieval.
+ * Functionality: Utility singleton function to serialize bank objects for retrieval.
  */
 public class BankSerializer {
+    private static String filepath = "src/BankingApp/banks/Bank.bnk";
+    private static BankSerializer bankSerializer = new BankSerializer(filepath);
+
+    private BankSerializer(String strFilePath){
+        filepath = strFilePath;
+        File file = new File(filepath);
+        try {
+            if(!file.createNewFile()) {
+                Bank.setBank((Bank)readBankFile(filepath));
+            }
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    public static void doNothing(){}
+
+    public static BankSerializer getBankSerializer() {
+        return bankSerializer;
+    }
+
     public void writeBankFile(Object object, String filePath){
         try (FileOutputStream file = new FileOutputStream(filePath)) {
             ObjectOutputStream out = new ObjectOutputStream(file);
@@ -22,7 +43,7 @@ public class BankSerializer {
         }
     }
 
-    public Object readBankFile(String filePath){
+    private Object readBankFile(String filePath){
         try(FileInputStream file = new FileInputStream(filePath)) {
             ObjectInputStream in = new ObjectInputStream(file);
 

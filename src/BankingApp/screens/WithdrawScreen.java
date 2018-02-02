@@ -2,6 +2,7 @@ package BankingApp.screens;
 
 import BankingApp.beans.Bank;
 import BankingApp.beans.User;
+import BankingApp.factories.ScreenFactory;
 
 import java.util.Scanner;
 
@@ -11,12 +12,12 @@ import java.util.Scanner;
 public class WithdrawScreen implements Screen {
     private User currentUser;
 
-    WithdrawScreen(User currentUser) {
+    public WithdrawScreen(User currentUser) {
         this.currentUser = currentUser;
     }
 
     @Override
-    public Screen prompt() {
+    public void prompt() {
         Scanner in = new Scanner(System.in);
         System.out.print("Withdrawal amount << ");
         String amt = in.nextLine();
@@ -26,6 +27,6 @@ public class WithdrawScreen implements Screen {
         else{
             System.out.println("Withdrawal failed.");
         }
-        return new MainScreenLogIn(currentUser);
+        ScreenFactory.getScreenFactory().setCurrentScreen("mainLogIn", currentUser);
     }
 }

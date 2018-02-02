@@ -1,6 +1,7 @@
 package BankingApp.screens;
 
 import BankingApp.beans.Bank;
+import BankingApp.factories.ScreenFactory;
 
 import java.util.Scanner;
 
@@ -10,7 +11,7 @@ import java.util.Scanner;
 public class RegisterScreen implements Screen {
 
     @Override
-    public Screen prompt() {
+    public void prompt() {
         String user, pwd;
         Scanner in = new Scanner(System.in);
         System.out.print("Username << ");
@@ -23,6 +24,6 @@ public class RegisterScreen implements Screen {
         else{
             System.out.println("User already exists.");
         }
-        return new MainScreenNoLogIn();
+        ScreenFactory.getScreenFactory().setCurrentScreen("mainNoLogIn");
     }
 }

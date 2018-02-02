@@ -2,6 +2,7 @@ package BankingApp.screens;
 
 import BankingApp.beans.Bank;
 import BankingApp.beans.User;
+import BankingApp.factories.ScreenFactory;
 
 import java.util.Scanner;
 
@@ -11,21 +12,21 @@ import java.util.Scanner;
 public class LoginScreen implements Screen {
 
     @Override
-    public Screen prompt() {
+    public void prompt() {
         String user, pwd;
         Scanner in = new Scanner(System.in);
         System.out.print("Username << ");
         user = in.nextLine();
         System.out.print("Password << ");
         pwd = in.nextLine();
-        User u = Bank.getBank().login(user, pwd);
-        if(u != null){
+        User currentUser = Bank.getBank().login(user, pwd);
+        if(currentUser != null){
             System.out.println("Log in successful!");
-            return new MainScreenLogIn(u);
+            ScreenFactory.getScreenFactory().setCurrentScreen("mainLogIn", currentUser);
         }
         else{
             System.out.println("Invalid log in attempt.");
-            return new MainScreenNoLogIn();
+            ScreenFactory.getScreenFactory().setCurrentScreen("mainNoLogIn");
         }
     }
 }

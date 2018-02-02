@@ -1,9 +1,8 @@
 package BankingApp.screens;
 
 import BankingApp.beans.Bank;
+import BankingApp.factories.ScreenFactory;
 import BankingApp.util.BankSerializer;
-
-import java.util.Scanner;
 
 /**
  * Functionality: Manages the closing of the application, serializing the bank before shutting down.
@@ -11,12 +10,10 @@ import java.util.Scanner;
 public class ExitScreen implements Screen {
 
     @Override
-    public Screen prompt() {
+    public void prompt() {
         if(Bank.getBank() != null){
-            BankSerializer bs = new BankSerializer();
-            bs.writeBankFile(Bank.getBank(), "src/BankingApp/banks/Bank.bnk");
+            BankSerializer.getBankSerializer().writeBankFile(Bank.getBank(), "src/BankingApp/banks/Bank.bnk");
         }
-        new Scanner(System.in).close();
-        return new ShutdownScreen();
+        ScreenFactory.getScreenFactory().setCurrentScreen("shutdown");
     }
 }

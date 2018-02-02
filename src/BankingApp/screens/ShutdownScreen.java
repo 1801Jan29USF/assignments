@@ -5,7 +5,5 @@ package BankingApp.screens;
  */
 public class ShutdownScreen implements Screen {
     @Override
-    public Screen prompt() {
-        return null;
-    }//never actually returns null
+    public void prompt() {}//never actually gets called
 }

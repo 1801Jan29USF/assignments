@@ -2,6 +2,7 @@ package BankingApp.screens;
 
 import BankingApp.beans.Bank;
 import BankingApp.beans.User;
+import BankingApp.factories.ScreenFactory;
 
 import java.util.Scanner;
 
@@ -11,12 +12,12 @@ import java.util.Scanner;
 public class DepositScreen implements Screen {
     private User currentUser;
 
-    DepositScreen(User currentUser) {
+    public DepositScreen(User currentUser) {
         this.currentUser = currentUser;
     }
 
     @Override
-    public Screen prompt() {
+    public void prompt() {
         Scanner in = new Scanner(System.in);
         System.out.print("Deposit amount << ");
         String amt = in.nextLine();
@@ -26,6 +27,6 @@ public class DepositScreen implements Screen {
         else{
             System.out.println("Deposit failed.");
         }
-        return new MainScreenLogIn(currentUser);
+        ScreenFactory.getScreenFactory().setCurrentScreen("mainLogIn", currentUser);
     }
 }

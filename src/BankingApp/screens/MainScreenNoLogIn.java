@@ -1,5 +1,7 @@
 package BankingApp.screens;
 
+import BankingApp.factories.ScreenFactory;
+
 import java.util.Scanner;
 
 /**
@@ -8,20 +10,23 @@ import java.util.Scanner;
 public class MainScreenNoLogIn implements Screen {
 
     @Override
-    public Screen prompt() {
+    public void prompt() {
         Scanner in = new Scanner(System.in);
         System.out.print("Log in or Register? (L/R) << ");
         String cmd = in.nextLine();
         switch (cmd){
             case "L":
-               return new LoginScreen();
+                ScreenFactory.getScreenFactory().setCurrentScreen("login");
+                break;
             case "R":
-                return new RegisterScreen();
+                ScreenFactory.getScreenFactory().setCurrentScreen("register");
+                break;
             case "exit":
-                return new ExitScreen();
+                ScreenFactory.getScreenFactory().setCurrentScreen("exit");
+                break;
             default:
                 System.out.println("Command not recognized.");
-                return this;
+                break;
         }
     }
 }
