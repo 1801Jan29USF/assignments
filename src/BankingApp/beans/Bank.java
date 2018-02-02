@@ -1,8 +1,12 @@
 package BankingApp.beans;
 
+import BankingApp.factories.TransactionFactory;
+
 import java.io.Serializable;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 
 /**
  * Functionality: A bean describing a bank with a list of users.
@@ -69,13 +73,11 @@ public class Bank implements Serializable {
     }
 
     private void recordTransaction(User currentUser, double amt, boolean isWithdrawal) {
-        currentUser.addToTransactionHistory(
-                new Transaction(currentUser.getTransactionHistory().size(), amt, isWithdrawal,
-                        Calendar.getInstance().getTime().toString()));
+        currentUser.addToTransactionHistory(TransactionFactory.getTransaction(amt, isWithdrawal, new Date().toString()));
     }
 
-    public void printTransactionHistory(User u){
-        for (Transaction t:u.getTransactionHistory()) {
+    public void printTransactionHistory(User user){
+        for (Transaction t:user.getTransactionHistory()) {
             System.out.println(t);
         }
     }
