@@ -13,7 +13,7 @@ public class LoginScreen implements Screen {
 	@Override
 	public Screen prompt(Bank bank) {
 		// TODO Auto-generated method stub
-		System.out.println("ACCOUNT LOGIN");
+		System.out.println("ACCOUNT LOGIN\n");
 		System.out.println("Please enter your Username: ");
 		String username = bank.scan.nextLine();
 		System.out.println("Please enter your Password: ");
@@ -22,10 +22,10 @@ public class LoginScreen implements Screen {
 		User current = bank.checkIfExists(username, password);
 		
 		if (current != null) {
-			System.out.println("Welcome to your Account.");
+			System.out.println("Welcome to your Account.\n");
 			return new UserAccountScreen(bank, current);
 		} else {
-			System.out.println("You do not have a Revature Banking account. Please register.");
+			System.out.println("You do not have a Revature Banking account. Please register.\n");
 			return new RegisterScreen(bank);
 		}
 

@@ -15,10 +15,9 @@ public class MainMenu implements Screen {
 
 	@Override
 	public Screen prompt(Bank bank) {
-		System.out.println("Revature Banking");
-		System.out.println("Please select an option: ");
+		System.out.println("PLEASE SELECT AN OPTION: \n");
 		System.out.println("Enter 1 to Login");
-		System.out.println("Enter 2 to Register");
+		System.out.println("Enter 2 to Register\n");
 		String input = scan.nextLine();
 
 		switch (input) {
@@ -28,7 +27,7 @@ public class MainMenu implements Screen {
 		case "2":
 			return new RegisterScreen(bank);
 		default:
-			System.out.println("invalid option");
+			System.out.println("invalid option\n");
 			break;
 		}
 		return new MainMenu(bank);

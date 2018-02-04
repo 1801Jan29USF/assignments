@@ -14,20 +14,20 @@ public class RegisterScreen implements Screen {
 	@Override
 	public Screen prompt(Bank bank) {
 		// TODO Auto-generated method stub
-		System.out.println("ACCOUNT REGISTRATION ");
+		System.out.println("ACCOUNT REGISTRATION \n");
 		System.out.println("Please enter your Username: ");
 		String username = bank.scan.nextLine();
 		System.out.println("Please enter your Password: ");
 		String password = bank.scan.nextLine();
 	
 		if (!bank.checkIfExists(username)) {
-			User current = new User(username, password,0,0);
+			User current = new User(username, password);
 			bank.register(current);
-			System.out.println("Congratulations, your account has been created.");
+			System.out.println("Congratulations, your account has been created.\n");
 			return new UserAccountScreen(bank, current);
 			
 		} else {
-			System.out.println("Account already exists. Please pick a different Username.");
+			System.out.println("Account already exists. Please pick a different Username.\n");
 			return new RegisterScreen(bank);
 		}
 

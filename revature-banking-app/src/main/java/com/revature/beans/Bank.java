@@ -15,7 +15,7 @@ public class Bank implements Serializable {
 
 	private static final long serialVersionUID = 4558957633562884310L;
 
-	private ArrayList<User> users = new ArrayList<>(0);
+	public ArrayList<User> users = new ArrayList<>(0);
 
 	public AccountsSerializer us = new AccountsSerializer();
 
@@ -38,13 +38,16 @@ public class Bank implements Serializable {
 	}
 
 	public void deposit(User u, int amount, String type) {
-		if (type == "c") {
+		if (type.hashCode() == "c".hashCode()) {
 			u.checking = u.checking + amount;
+			System.out.println(amount + "$ has been deposited to your Checking account\n");
 			us.SerializeUsers(this.users, "Users.txt");
 			u.transactions.add(dateFormat.format(date) + "	Deposited " + amount + "$ to checking");
 			log.info(u.toString() + " deposited " + amount + "$ to checking");
 		} else {
 			u.savings = u.savings + amount;
+			System.out.println(amount + "$ has been deposited to your Savings account\n");
+			System.out.println("\n");
 			us.SerializeUsers(this.users, "Users.txt");
 			u.transactions.add(dateFormat.format(date) + "	Deposited " + amount + "$ to savings");
 			log.info(u.toString() + " deposited " + amount + "$ to savings");
@@ -53,36 +56,35 @@ public class Bank implements Serializable {
 
 	public void withdraw(User a, int amount) {
 		if (a.checking - amount < 0) {
-			System.out.println("Insufficient funds in Checking acct");
+			System.out.println("Insufficient funds in Checking acct\n");
 			log.info(a.toString() + " attempted to withdraw " + amount + "$ but their account had insufficient funds");
 			return;
 		}
 		a.checking = a.checking - amount;
 		us.SerializeUsers(this.users, "Accounts.txt");
+		System.out.println(amount + "$ has been withdrawn from your checking account\n");
 		a.transactions.add(dateFormat.format(date) + "	Withdrew " + amount + "$ from Checking Account");
 		log.info(a.toString() + " withdrew " + amount + "$ from Checking Account");
 	}
-	
+
 	public void transfer(User a, int amount) {
 		if (a.checking - amount < 0) {
-			System.out.println("Insufficient funds in Checking acct. Cannot complete transfer");
+			System.out.println("Insufficient funds in Checking acct. Cannot complete transfer\n");
 			log.info(a.toString() + " attempted to transfer " + amount + "$ but their account had insufficient funds");
 			return;
 		}
-		a.checking -=amount;
+		a.checking -= amount;
 		a.savings += amount;
+		System.out.println("\n");
 	}
 
 	public void balance(User u, String type) {
-		if (type == "c") {
+		if (type.hashCode() == "c".hashCode()) {
 			System.out.println(u.checking);
-		}
-		else {
+		} else {
 			System.out.println(u.savings);
 		}
 	}
-	
-	
 
 	// loops through accounts and checks is account
 	// already exists. if so, returns account object
@@ -117,20 +119,37 @@ public class Bank implements Serializable {
 		log.info(u.toString() + " added");
 	}
 
-	public void quickPayDeposit(User receiver, User sender, int amount) {
-		receiver.checking += receiver.checking + amount;
-		us.SerializeUsers(this.users, "Users.txt");
-		receiver.transactions.add(dateFormat.format(date) + sender.getUsername() + "	Quickpayed you " + amount + "$");
-		sender.transactions.add(dateFormat.format(date) + "	Quickpayed " + amount + "$ to " + receiver.getUsername());
-		log.info(sender.toString() + " quickpayed " + amount + "$ to " + receiver.getUsername());
-	}
-
 	public void quickPay(String receiver, User sender, int amount) {
-
+		if (sender.checking - amount < 0) {
+			System.out.println("Your Checking balance too low for Quickpay transaction\n");
+			return;
+		}
+		boolean userFound = false;
 		for (User user : this.users) {
 			if (receiver.hashCode() == user.getUsername().hashCode()) {
-				this.quickPayDeposit(user, sender, amount);
+				userFound = true;
+				user.checking += amount;
+				sender.checking -= amount;
+				us.SerializeUsers(this.users, "Users.txt");
+				System.out.println("\n");
+				user.transactions
+						.add(dateFormat.format(date) + sender.getUsername() + "	Quickpayed you " + amount + "$");
+				sender.transactions
+						.add(dateFormat.format(date) + "	Quickpayed " + amount + "$ to " + user.getUsername());
+				log.info(sender.toString() + " quickpayed " + amount + "$ to " + user.getUsername());
 			}
 		}
+		if (userFound == false) {
+			System.out.println("Receiver account could not be found. Please check your input\n");
+		}
+	}
+
+	public void printTrans(User user) {
+		System.out.println("Your Transactions\n");
+		for (String t : user.transactions) {
+			System.out.println(t);
+			System.out.println("\n");
+		}
+		System.out.println("\n");
 	}
 }

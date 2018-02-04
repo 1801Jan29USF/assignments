@@ -1,0 +1,70 @@
+
+2018-02-04 10:23:20 INFO  Bank:117 - User [username=ian, password=perfitt] added
+2018-02-04 10:23:57 INFO  Bank:117 - User [username=john, password=perfitt] added
+2018-02-04 10:24:30 INFO  Bank:52 - User [username=ian, password=perfitt] deposited 100$ to savings
+2018-02-04 10:24:35 INFO  Bank:46 - User [username=ian, password=perfitt] deposited 100$ to checking
+2018-02-04 10:25:02 INFO  Bank:65 - User [username=ian, password=perfitt] withdrew 50$ from Checking Account
+2018-02-04 10:26:24 INFO  Bank:136 - User [username=ian, password=perfitt] quickpayed 50$ to john
+2018-02-04 10:55:05 INFO  Bank:117 - User [username=ian, password=perfitt] added
+2018-02-04 10:56:25 INFO  Bank:117 - User [username=ian, password=perfitt] added
+2018-02-04 11:01:20 INFO  Bank:117 - User [username=ian, password=perfitt] added
+2018-02-04 11:01:39 INFO  Bank:117 - User [username=ian, password=perfitt] added
+2018-02-04 11:09:35 INFO  Bank:117 - User [username=ian, password=perfitt] added
+2018-02-04 11:11:06 INFO  Bank:117 - User [username=ian, password=perfitt] added
+2018-02-04 11:12:07 INFO  Bank:117 - User [username=ian, password=perfitt] added
+2018-02-04 11:13:04 INFO  Bank:117 - User [username=ian, password=perfitt] added
+2018-02-04 11:14:01 INFO  Bank:117 - User [username=ian, password=perfitt] added
+2018-02-04 11:17:27 INFO  Bank:117 - User [username=ian, password=perfitt] added
+2018-02-04 11:18:46 INFO  Bank:117 - User [username=ian, password=perfitt] added
+2018-02-04 11:20:11 INFO  Bank:117 - User [username=ian, password=perfitt] added
+2018-02-04 11:22:55 INFO  Bank:117 - User [username=ian, password=perfitt] added
+2018-02-04 11:23:03 INFO  Bank:52 - User [username=ian, password=perfitt] deposited 100$ to savings
+2018-02-04 11:24:29 INFO  Bank:118 - User [username=ian, password=perfitt] added
+2018-02-04 11:25:04 INFO  Bank:118 - User [username=ian, password=perfitt] added
+2018-02-04 11:31:23 INFO  Bank:118 - User [username=ian, password=perfitt] added
+2018-02-04 11:32:43 INFO  BankTests:25 - Initializing Bank Class tests...
+2018-02-04 11:32:43 INFO  BankTests:30 - Setting up the array of Users.
+2018-02-04 11:32:43 INFO  Bank:46 - User [username=ian, password=skiing1992] deposited 100$ to checking
+2018-02-04 11:32:43 INFO  Bank:66 - User [username=ian, password=skiing1992] withdrew 100$ from Checking Account
+2018-02-04 11:32:43 INFO  BankTests:55 - Test ran
+2018-02-04 11:32:43 INFO  BankTests:30 - Setting up the array of Users.
+2018-02-04 11:32:43 INFO  Bank:46 - User [username=ian, password=skiing1992] deposited 100$ to checking
+2018-02-04 11:32:43 INFO  Bank:53 - User [username=ian, password=skiing1992] deposited 100$ to savings
+2018-02-04 11:32:43 INFO  BankTests:55 - Test ran
+2018-02-04 11:32:43 INFO  BankTests:60 - Testing completed
+2018-02-04 11:32:49 INFO  BankTests:25 - Initializing Bank Class tests...
+2018-02-04 11:32:49 INFO  BankTests:30 - Setting up the array of Users.
+2018-02-04 11:32:49 INFO  Bank:46 - User [username=ian, password=skiing1992] deposited 100$ to checking
+2018-02-04 11:32:49 INFO  Bank:66 - User [username=ian, password=skiing1992] withdrew 100$ from Checking Account
+2018-02-04 11:32:49 INFO  BankTests:55 - Test ran
+2018-02-04 11:32:49 INFO  BankTests:30 - Setting up the array of Users.
+2018-02-04 11:32:49 INFO  Bank:46 - User [username=ian, password=skiing1992] deposited 100$ to checking
+2018-02-04 11:32:49 INFO  Bank:53 - User [username=ian, password=skiing1992] deposited 100$ to savings
+2018-02-04 11:32:49 INFO  BankTests:55 - Test ran
+2018-02-04 11:32:49 INFO  BankTests:60 - Testing completed
+2018-02-04 11:32:58 INFO  BankTests:25 - Initializing Bank Class tests...
+2018-02-04 11:32:58 INFO  BankTests:30 - Setting up the array of Users.
+2018-02-04 11:32:58 INFO  Bank:46 - User [username=ian, password=skiing1992] deposited 100$ to checking
+2018-02-04 11:32:58 INFO  Bank:66 - User [username=ian, password=skiing1992] withdrew 100$ from Checking Account
+2018-02-04 11:32:58 INFO  BankTests:55 - Test ran
+2018-02-04 11:32:58 INFO  BankTests:30 - Setting up the array of Users.
+2018-02-04 11:32:58 INFO  Bank:46 - User [username=ian, password=skiing1992] deposited 100$ to checking
+2018-02-04 11:32:58 INFO  Bank:53 - User [username=ian, password=skiing1992] deposited 100$ to savings
+2018-02-04 11:32:58 INFO  BankTests:55 - Test ran
+2018-02-04 11:32:58 INFO  BankTests:60 - Testing completed
+2018-02-04 11:33:03 INFO  BankTests:25 - Initializing Bank Class tests...
+2018-02-04 11:33:03 INFO  BankTests:30 - Setting up the array of Users.
+2018-02-04 11:33:03 INFO  Bank:46 - User [username=ian, password=skiing1992] deposited 100$ to checking
+2018-02-04 11:33:03 INFO  Bank:66 - User [username=ian, password=skiing1992] withdrew 100$ from Checking Account
+2018-02-04 11:33:03 INFO  BankTests:55 - Test ran
+2018-02-04 11:33:03 INFO  BankTests:30 - Setting up the array of Users.
+2018-02-04 11:33:03 INFO  Bank:46 - User [username=ian, password=skiing1992] deposited 100$ to checking
+2018-02-04 11:33:03 INFO  Bank:53 - User [username=ian, password=skiing1992] deposited 100$ to savings
+2018-02-04 11:33:03 INFO  BankTests:55 - Test ran
+2018-02-04 11:33:03 INFO  BankTests:60 - Testing completed
+2018-02-04 11:33:23 INFO  Bank:118 - User [username=ian, password=perfitt] added
+2018-02-04 11:33:33 INFO  Bank:46 - User [username=ian, password=perfitt] deposited 100$ to checking
+2018-02-04 11:33:48 INFO  Bank:66 - User [username=ian, password=perfitt] withdrew 100$ from Checking Account
+2018-02-04 11:38:50 INFO  Bank:119 - User [username=ian, password=perfitt] added
+2018-02-04 11:39:08 INFO  Bank:60 - User [username=ian, password=perfitt] attempted to withdraw 100$ but their account had insufficient funds
+2018-02-04 11:52:33 INFO  Bank:119 - User [username=ian, password=perfitt] added

@@ -9,6 +9,7 @@ public class BankingLauncher {
 
 		// Singleton bank instance
 		Bank bank = Bank.getBank();
+		System.out.println("Welcome to Bank of Revature!\n");
 		Screen currentScreen = new MainMenu(bank);
 		while (true) {
 			currentScreen = currentScreen.prompt(bank);
