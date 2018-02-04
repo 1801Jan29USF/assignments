@@ -17,6 +17,8 @@ A simple banking app which uses the process of serialization to have persistent 
 * A user can register
 
 # How to use
+Runs from the Banker class
+
 List of valid users for option 1 (sign in) include:
   * username: SlickRick password: pass
   * username: matt password: james
