@@ -7,12 +7,11 @@ import com.revature.screens.Screen;
 public class BankingLauncher {
 	public static void main(String[] args) {
 
-		// bank instance
-		Bank bank = new Bank();
-
+		// Singleton bank instance
+		Bank bank = Bank.getBank();
 		Screen currentScreen = new MainMenu(bank);
 		while (true) {
-			currentScreen = currentScreen.prompt();
+			currentScreen = currentScreen.prompt(bank);
 		}
 	}
 }

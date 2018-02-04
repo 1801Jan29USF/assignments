@@ -1,11 +1,4 @@
-2018-02-02 20:40:25 INFO  Bank:83 - Username: johnny bravo with Password:  hunk of a manadded
-2018-02-02 20:48:36 INFO  Bank:83 - Username: johnny with Password:  bravoadded
-2018-02-02 20:48:49 INFO  Bank:83 - Username: max with Password:  amillionadded
-2018-02-02 20:51:42 INFO  Bank:83 - User with usernamee: georgemichael, and Password:  jaskldf added
-2018-02-02 21:36:18 INFO  Bank:86 - User with username: ianperfitt, and Password:  Skiing1992 added
-2018-02-02 21:47:25 INFO  Bank:85 - User with username: ianperfitt, and Password:  Skiing1992 added
-2018-02-02 21:47:30 INFO  Bank:35 - User: ianperfitt deposited 100$
-2018-02-02 21:47:40 INFO  Bank:35 - User: ianperfitt deposited 200$
-2018-02-02 21:47:44 INFO  Bank:35 - User: ianperfitt deposited 300$
-2018-02-02 21:58:51 INFO  Bank:92 - User with username: ianperfitt, and Password:  Skiing1992 added
-2018-02-02 21:58:59 INFO  Bank:42 - User: ianperfitt deposited 200$
+
+2018-02-03 14:24:55 INFO  Bank:95 - User with username: ianperfitt, and Password:  Skiing1992 added
+2018-02-03 14:25:07 INFO  Bank:95 - User with username: johnperfitt, and Password:  Skiing1992 added
+2018-02-03 14:25:18 INFO  Bank:95 - User with username: patperfitt, and Password:  Skiing1992 added

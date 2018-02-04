@@ -7,15 +7,14 @@ import com.revature.beans.Bank;
 public class MainMenu implements Screen {
 
 	private Scanner scan = new Scanner(System.in);
-	private Bank bank;
 
 	public MainMenu(Bank bank) {
 		super();
-		this.bank = bank;
+		prompt(bank);
 	}
 
 	@Override
-	public Screen prompt() {
+	public Screen prompt(Bank bank) {
 		System.out.println("Revature Banking");
 		System.out.println("Please select an option: ");
 		System.out.println("Enter 1 to Login");

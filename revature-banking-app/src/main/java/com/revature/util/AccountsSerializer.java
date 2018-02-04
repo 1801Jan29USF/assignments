@@ -1,5 +1,4 @@
 package com.revature.util;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -8,13 +7,13 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
-import com.revature.beans.Account;
+import com.revature.beans.User;
 
 public class AccountsSerializer {
 
-	public void SerializeAccounts(ArrayList<Account> a, String fileName) {
+	public void SerializeUsers(ArrayList<User> c, String fileName) {
 		try (ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream(fileName))) {
-			os.writeObject(a);
+			os.writeObject(c);
 			os.flush();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
@@ -24,10 +23,10 @@ public class AccountsSerializer {
 			e.printStackTrace();
 		}
 	}
-
-	public ArrayList<Account> DeserializeAccounts(String fileName) {
+	
+	public ArrayList<User> DeserializeUsers(String fileName) {
 		try (ObjectInputStream is = new ObjectInputStream(new FileInputStream(fileName))) {
-			return (ArrayList<Account>) is.readObject();
+			return (ArrayList<User>) is.readObject();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -41,4 +40,5 @@ public class AccountsSerializer {
 
 		return null;
 	}
+	
 }
