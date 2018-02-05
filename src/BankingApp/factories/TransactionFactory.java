@@ -9,6 +9,7 @@ public class TransactionFactory {
     private static int id = 1;
 
     public static Transaction getTransaction(double amt, boolean isWithdrawal, String datetime) {
+        if(amt < 0)return null;
         return new Transaction(id++, amt, isWithdrawal, datetime);
     }
 }

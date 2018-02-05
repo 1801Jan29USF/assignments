@@ -23,6 +23,11 @@ public class BankSerializer {
         }
     }
 
+    public static void setFilepath(String filepath) {
+        BankSerializer.filepath = filepath;
+        bankSerializer = new BankSerializer(filepath);
+    }
+
     public static void doNothing(){}
 
     public static BankSerializer getBankSerializer() {
@@ -43,7 +48,7 @@ public class BankSerializer {
         }
     }
 
-    private Object readBankFile(String filePath){
+    public Object readBankFile(String filePath){
         try(FileInputStream file = new FileInputStream(filePath)) {
             ObjectInputStream in = new ObjectInputStream(file);
 

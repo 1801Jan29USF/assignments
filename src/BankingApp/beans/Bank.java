@@ -3,9 +3,7 @@ package BankingApp.beans;
 import BankingApp.factories.TransactionFactory;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 
 /**
@@ -14,11 +12,23 @@ import java.util.Date;
 public class Bank implements Serializable {
     private static Bank bank = new Bank();
     static final long serialVersionUID = 42L;
-    private ArrayList<User> userList;
+    private static ArrayList<User> userList;
 
     private Bank(){
         userList = new ArrayList<>();
-        userList.add(new User("test", "test"));
+        addUser("test", "test");
+    }
+
+    public void addUser(User u){
+        userList.add(u);
+    }
+
+    public void addUser(String user, String pwd){
+        addUser(new User(user, pwd));
+    }
+
+    public static void doNothing(){
+
     }
 
     public static Bank getBank(){
@@ -40,18 +50,16 @@ public class Bank implements Serializable {
         return null;
     }
 
-    public boolean withdraw(User currentUser, String amt) {
-        double amount = Double.parseDouble(amt);
+    public boolean withdraw(User currentUser, double amount) {
         if(currentUser.getBalance() >= amount && amount >= 0){
             currentUser.setBalance(currentUser.getBalance() - amount);
-            recordTransaction(currentUser, Double.parseDouble(amt), true);
+            recordTransaction(currentUser, amount, true);
             return true;
         }
         return false;
     }
 
-    public boolean deposit(User currentUser, String amt) {
-        double amount = Double.parseDouble(amt);
+    public boolean deposit(User currentUser, double amount) {
         if(amount >= 0){
             currentUser.setBalance(currentUser.getBalance() + amount);
             recordTransaction(currentUser, amount, false);
@@ -67,7 +75,7 @@ public class Bank implements Serializable {
             return false;
         }
         else{
-            userList.add(new User(user, pwd));
+            addUser(u);
             return true;
         }
     }
