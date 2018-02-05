@@ -41,7 +41,8 @@ public class LoginScreen implements Screen {
 			return new RegisterScreen().prompt();
 
 			// otherwise, check every user in our list to see if the input matches a
-			// username
+			// username. could have made this a switch, but only two cases, so just used
+			// single if statement for registering.
 		} else {
 			for (AuthUser u : us.getUsers()) {
 				if (u.getUsername().equals(inputname)) {

@@ -61,18 +61,14 @@ public class UserSerializer implements Serializable {
 	// List<AuthUser> userList = us.getUsers();
 	//
 	// }
-	
+
 	// returns the list 'currentList' instantiated in this class's constructor.
 	public List<AuthUser> getUsers() {
 		return currentList;
 	}
 
 	public void addUser(AuthUser m) {
-		// List<AuthUser> users = new ArrayList<>();
-
-		// The constructor logic now creates a new list if one didn't already exist, the
-		// above line is unnecessary
-
+		// The constructor logic creates a new list if one didn't already exist
 		List<AuthUser> users = getUsers();
 		users.add(m);
 		serializeUser(users);
@@ -81,7 +77,7 @@ public class UserSerializer implements Serializable {
 
 	}
 
-	//getter for 'current user' in changing balance methods
+	// getter for 'current user' in changing balance methods
 	public AuthUser getCurrentuser() {
 		return currentuser;
 	}
@@ -90,7 +86,7 @@ public class UserSerializer implements Serializable {
 		this.currentuser = currentuser;
 	}
 
-	//returns the user serializer singleton
+	// returns the user serializer singleton
 	public static UserSerializer getUserSerializer() {
 		return us;
 	}
