@@ -68,3 +68,43 @@
 2018-02-04 11:38:50 INFO  Bank:119 - User [username=ian, password=perfitt] added
 2018-02-04 11:39:08 INFO  Bank:60 - User [username=ian, password=perfitt] attempted to withdraw 100$ but their account had insufficient funds
 2018-02-04 11:52:33 INFO  Bank:119 - User [username=ian, password=perfitt] added
+2018-02-05 16:50:41 INFO  BankTests:25 - Initializing Bank Class tests...
+2018-02-05 16:50:41 INFO  BankTests:30 - Setting up the array of Users.
+2018-02-05 16:50:41 INFO  Bank:46 - User [username=ian, password=skiing1992] deposited 100$ to checking
+2018-02-05 16:50:41 INFO  Bank:53 - User [username=ian, password=skiing1992] deposited 100$ to savings
+2018-02-05 16:50:41 INFO  BankTests:78 - Test ran
+2018-02-05 16:50:41 INFO  BankTests:30 - Setting up the array of Users.
+2018-02-05 16:50:41 INFO  Bank:46 - User [username=ian, password=skiing1992] deposited 100$ to checking
+2018-02-05 16:50:41 INFO  Bank:67 - User [username=ian, password=skiing1992] withdrew 100$ from Checking Account
+2018-02-05 16:50:41 INFO  BankTests:51 - 100$ successfully withdrawn from checking.
+
+2018-02-05 16:50:41 INFO  BankTests:78 - Test ran
+2018-02-05 16:50:41 INFO  BankTests:30 - Setting up the array of Users.
+2018-02-05 16:50:41 INFO  Bank:46 - User [username=ian, password=skiing1992] deposited 100$ to checking
+2018-02-05 16:50:41 INFO  BankTests:62 - 100$ successfully deposited to checking.
+
+2018-02-05 16:50:41 INFO  Bank:53 - User [username=ian, password=skiing1992] deposited 100$ to savings
+2018-02-05 16:50:41 INFO  BankTests:69 - 100$ successfully deposited to savings.
+
+2018-02-05 16:50:41 INFO  BankTests:78 - Test ran
+2018-02-05 16:50:41 INFO  BankTests:83 - Testing completed
+2018-02-05 16:50:54 INFO  BankTests:25 - Initializing Bank Class tests...
+2018-02-05 16:50:54 INFO  BankTests:30 - Setting up the array of Users.
+2018-02-05 16:50:54 INFO  Bank:46 - User [username=ian, password=skiing1992] deposited 100$ to checking
+2018-02-05 16:50:54 INFO  Bank:53 - User [username=ian, password=skiing1992] deposited 100$ to savings
+2018-02-05 16:50:54 INFO  BankTests:78 - Test ran
+2018-02-05 16:50:54 INFO  BankTests:30 - Setting up the array of Users.
+2018-02-05 16:50:54 INFO  Bank:46 - User [username=ian, password=skiing1992] deposited 100$ to checking
+2018-02-05 16:50:54 INFO  Bank:67 - User [username=ian, password=skiing1992] withdrew 100$ from Checking Account
+2018-02-05 16:50:54 INFO  BankTests:51 - 100$ successfully withdrawn from checking.
+
+2018-02-05 16:50:54 INFO  BankTests:78 - Test ran
+2018-02-05 16:50:54 INFO  BankTests:30 - Setting up the array of Users.
+2018-02-05 16:50:54 INFO  Bank:46 - User [username=ian, password=skiing1992] deposited 100$ to checking
+2018-02-05 16:50:54 INFO  BankTests:62 - 100$ successfully deposited to checking.
+
+2018-02-05 16:50:54 INFO  Bank:53 - User [username=ian, password=skiing1992] deposited 100$ to savings
+2018-02-05 16:50:54 INFO  BankTests:69 - 100$ successfully deposited to savings.
+
+2018-02-05 16:50:54 INFO  BankTests:78 - Test ran
+2018-02-05 16:50:54 INFO  BankTests:83 - Testing completed

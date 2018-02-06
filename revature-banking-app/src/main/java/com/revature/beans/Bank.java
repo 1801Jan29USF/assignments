@@ -5,6 +5,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.Scanner;
 
 import org.apache.log4j.Logger;
@@ -15,7 +16,7 @@ public class Bank implements Serializable {
 
 	private static final long serialVersionUID = 4558957633562884310L;
 
-	public ArrayList<User> users = new ArrayList<>(0);
+	public List<User> users = new ArrayList<>(0);
 
 	public AccountsSerializer us = new AccountsSerializer();
 

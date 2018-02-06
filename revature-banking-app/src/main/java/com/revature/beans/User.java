@@ -2,6 +2,7 @@ package com.revature.beans;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.List;
 
 public class User implements Serializable{
 
@@ -19,7 +20,7 @@ public class User implements Serializable{
 
 	public int savings;
 
-	public ArrayList<String> transactions = new ArrayList<>(0);
+	public List<String> transactions = new ArrayList<>(0);
 
 	public String getUsername() {
 		return username;

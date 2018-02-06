@@ -5,13 +5,13 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.util.ArrayList;
+import java.util.List;
 
 import com.revature.beans.User;
 
 public class AccountsSerializer {
 
-	public void SerializeUsers(ArrayList<User> c, String fileName) {
+	public void SerializeUsers(List<User> c, String fileName) {
 		try (ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream(fileName))) {
 			os.writeObject(c);
 			os.flush();
@@ -24,9 +24,9 @@ public class AccountsSerializer {
 		}
 	}
 	
-	public ArrayList<User> DeserializeUsers(String fileName) {
+	public List<User> DeserializeUsers(String fileName) {
 		try (ObjectInputStream is = new ObjectInputStream(new FileInputStream(fileName))) {
-			return (ArrayList<User>) is.readObject();
+			return (List<User>) is.readObject();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

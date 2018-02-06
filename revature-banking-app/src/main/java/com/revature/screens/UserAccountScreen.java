@@ -31,72 +31,18 @@ public class UserAccountScreen implements Screen {
 		switch (input) {
 
 		case "1":
-			System.out.println("Please Enter Amount for Deposit: ");
-			int depositAmt = 0;
-			try {
-				depositAmt = Integer.parseInt(scan.nextLine());
-			} catch (NumberFormatException e) {
-				System.out.println("Invalid input for deposit\n");
-				break;
-			}
-			if (depositAmt < 0) {
-				System.out.println("Deposit amount must be greater or equal to 0\n");
-				break;
-			}
-			System.out.println("Press s for Savings");
-			System.out.println("Press c for Checking");
-			String type = scan.nextLine();
-			if (!((type.hashCode() == "s".hashCode()) || (type.hashCode() == "c".hashCode()))) {
-				System.out.println("Invalid account option\n");
-				break;
-			}
-			bank.deposit(curr, depositAmt, type);
-			break;
+			return new DepositScreen(bank,curr);
 		case "2":
-			System.out.println("Please Enter Amount for Withdrawal: ");
-			int withdrawAmt = 0;
-			try {
-				withdrawAmt = Integer.parseInt(scan.nextLine());
-			} catch (NumberFormatException e) {
-				System.out.println("Invalid input for withdrawal\n");
-				break;
-			}
-			if (withdrawAmt < 0) {
-				System.out.println("Withdrawal amount must be greater or equal to 0\n");
-				break;
-			}
-			bank.withdraw(curr, withdrawAmt);
-			break;
+			return new WithdrawalScreen(bank, curr);
 		case "3":
-			System.out.println("Press s for Savings");
-			System.out.println("Press c for Checking");
-			String type2 = scan.nextLine();
-			if (!((type2.hashCode() == "s".hashCode()) || (type2.hashCode() == "c".hashCode()))) {
-				System.out.println("Invalid account option\n");
-				break;
-			}
-			bank.balance(curr, input);
-			break;
+			return new ViewBalanceScreen(bank, curr);
 		case "4":
 			bank.printTrans(curr);
 			break;
 		case "5":
 			return new QuickPayScreen(bank, curr);
 		case "6":
-			System.out.println("Enter amount for transfer");
-			int transferAmt = 0;
-			try {
-				transferAmt = Integer.parseInt(scan.nextLine());
-			} catch (NumberFormatException e) {
-				System.out.println("Invalid input for transfer\n");
-				break;
-			}
-			if (transferAmt < 0) {
-				System.out.println("Transfer amount must be greater or equal to 0\n");
-				break;
-			}
-			bank.transfer(curr, transferAmt);
-			break;
+			return new TransferScreen(bank, curr);
 		case "7":
 			bank.users = bank.us.DeserializeUsers("Users.txt");
 			return new MainMenu(bank);
