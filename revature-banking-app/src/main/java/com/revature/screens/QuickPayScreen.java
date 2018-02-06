@@ -1,13 +1,9 @@
 package com.revature.screens;
 
-import java.util.Scanner;
-
 import com.revature.beans.Bank;
 import com.revature.beans.User;
 
 public class QuickPayScreen implements Screen {
-
-	private Scanner scan = new Scanner(System.in);
 
 	private User curr;
 
@@ -19,12 +15,13 @@ public class QuickPayScreen implements Screen {
 
 	@Override
 	public Screen prompt(Bank bank) {
+		System.out.println("QUICKPAY \n");
 		System.out.println("Enter Username of receiver: ");
-		String receiver = scan.nextLine();
+		String receiver = bank.scan.nextLine();
 		System.out.println("Enter amount to send: ");
 		int amount = 0;
 		try {
-			amount = Integer.parseInt(scan.nextLine());
+			amount = Integer.parseInt(bank.scan.nextLine());
 		} catch (NumberFormatException e) {
 			System.out.println("Invalid input for Quickpay\n");
 		}

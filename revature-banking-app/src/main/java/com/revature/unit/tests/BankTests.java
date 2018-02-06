@@ -36,13 +36,6 @@ public class BankTests {
 	}
 
 	@Test
-	public void testingViewBalanceFunction() {
-		bank.deposit(users.get(0), 100, "c");
-		bank.deposit(users.get(0), 100, "s");
-		assertTrue(users.get(0).checking == 100);
-	}
-
-	@Test
 	public void testingWithdrawFunction() {
 		bank.deposit(users.get(0), 100, "c");
 		bank.withdraw(users.get(0), 100);
@@ -54,6 +47,46 @@ public class BankTests {
 		}
 	}
 
+	@Test
+	public void testingQuickPayFunction() {
+		bank.deposit(users.get(1), 100,"c");
+		bank.quickPay("ian", users.get(1), 100);
+		try {
+			assertTrue(users.get(0).checking == 100);
+			assertTrue(users.get(1).checking == 0);
+			log.info("100$ successfully quickpayed.\n");
+		} catch (AssertionError e) {
+			log.info("100$ unsuccessfully quickpayed.\n");
+		}
+		
+	}
+	
+	@Test
+	public void testingTransferFunction() {
+		bank.deposit(users.get(0), 100,"c");
+		bank.transfer(users.get(0), 100);
+		try {
+			assertTrue(users.get(0).savings == 100);
+			assertTrue(users.get(0).checking == 0);
+			log.info("100$ successfully transferred.\n");
+		} catch (AssertionError e) {
+			log.info("100$ unsuccessfully transferred.\n");
+		}
+		
+	}
+	
+	@Test
+	public void testingChangeNamePass() {
+		bank.updateUserPass(users.get(0), "george","george");
+		try {
+			assertTrue(users.get(0).getUsername().hashCode() == "george".hashCode());
+			log.info("username and password successfully changed.\n");
+		} catch (AssertionError e) {
+			log.info("username and password unsuccessfully changed.\n");
+		}
+		
+	}
+	
 	@Test
 	public void testingDepositFunction() {
 		bank.deposit(users.get(0), 100, "c");

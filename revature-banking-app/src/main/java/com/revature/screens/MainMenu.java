@@ -1,12 +1,8 @@
 package com.revature.screens;
 
-import java.util.Scanner;
-
 import com.revature.beans.Bank;
 
 public class MainMenu implements Screen {
-
-	private Scanner scan = new Scanner(System.in);
 
 	public MainMenu(Bank bank) {
 		super();
@@ -18,7 +14,7 @@ public class MainMenu implements Screen {
 		System.out.println("PLEASE SELECT AN OPTION: \n");
 		System.out.println("Enter 1 to Login");
 		System.out.println("Enter 2 to Register\n");
-		String input = scan.nextLine();
+		String input = bank.scan.nextLine();
 
 		switch (input) {
 		

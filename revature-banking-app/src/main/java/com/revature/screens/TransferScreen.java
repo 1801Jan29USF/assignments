@@ -1,28 +1,25 @@
 package com.revature.screens;
 
-import java.util.Scanner;
-
 import com.revature.beans.Bank;
 import com.revature.beans.User;
 
 public class TransferScreen implements Screen {
 
-	
+	private User curr;
+
 	public TransferScreen(Bank bank, User curr) {
 		super();
 		this.curr = curr;
 		prompt(bank);
 	}
 
-	private User curr;
-	private Scanner scan = new Scanner(System.in);
-	
 	@Override
 	public Screen prompt(Bank bank) {
+		System.out.println("TRANSFER \n");
 		System.out.println("Enter amount for transfer");
 		int transferAmt = 0;
 		try {
-			transferAmt = Integer.parseInt(scan.nextLine());
+			transferAmt = Integer.parseInt(bank.scan.nextLine());
 		} catch (NumberFormatException e) {
 			System.out.println("Invalid input for transfer\n");
 			return new UserAccountScreen(bank, curr);

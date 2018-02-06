@@ -4,10 +4,10 @@ import com.revature.beans.Bank;
 import com.revature.screens.MainMenu;
 import com.revature.screens.Screen;
 
-public class BankingLauncher {
-	public static void main(String[] args) {
+public class BankingLauncher implements Runnable {
 
-		// Singleton bank instance
+	@Override
+	public void run() {
 		Bank bank = Bank.getBank();
 		System.out.println("Welcome to Bank of Revature!\n");
 		Screen currentScreen = new MainMenu(bank);
@@ -15,4 +15,5 @@ public class BankingLauncher {
 			currentScreen = currentScreen.prompt(bank);
 		}
 	}
+
 }

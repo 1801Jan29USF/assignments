@@ -11,31 +11,37 @@ public class User implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = 129762462802621867L;
-	
-	public String username;
 
-	public String password;	
+	private String username;
+
+	@Override
+	public String toString() {
+		return "User [username=" + username + ", password=" + password + ", checking=" + checking + ", savings="
+				+ savings + "]";
+	}
+
+	private String password;	
 
 	public int checking;
 
 	public int savings;
 
-	public List<String> transactions = new ArrayList<>(0);
+	List<String> transactions = new ArrayList<>(0);
 
 	public String getUsername() {
 		return username;
 	}
 
-	public void setUsername(String username) {
-		this.username = username;
-	}
-
 	public String getPassword() {
 		return password;
 	}
+	
+	public void setUsername(String u) {
+		this.username = u;
+	}
 
-	public void setPassword(String password) {
-		this.password = password;
+	public void setPassword(String p) {
+		this.password = p;
 	}
 
 	public User(String username, String password) {
@@ -44,27 +50,6 @@ public class User implements Serializable{
 		this.password = password;
 		this.checking = 0;
 		this.savings = 0;
-	}
-	
-	@Override
-	public String toString() {
-		return "User [username=" + username + ", password=" + password + "]";
-	}
-
-	public int getChecking() {
-		return checking;
-	}
-
-	public void setChecking(int checking) {
-		this.checking = checking;
-	}
-
-	public int getSavings() {
-		return savings;
-	}
-
-	public void setSavings(int savings) {
-		this.savings = savings;
 	}
 
 }

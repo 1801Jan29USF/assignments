@@ -12,6 +12,11 @@ import org.apache.log4j.Logger;
 
 import com.revature.util.AccountsSerializer;
 
+/*Serializable Bank class implemented as a Singleton.
+ *Contains transaction methods, arraylist of
+ *users, A Scanner instance for reading user input
+ *and a logger for logging all bank transactions.
+ */
 public class Bank implements Serializable {
 
 	private static final long serialVersionUID = 4558957633562884310L;
@@ -38,6 +43,7 @@ public class Bank implements Serializable {
 		return b;
 	}
 
+	// deposits specified amount into either checking or savings
 	public void deposit(User u, int amount, String type) {
 		if (type.hashCode() == "c".hashCode()) {
 			u.checking = u.checking + amount;
@@ -48,13 +54,13 @@ public class Bank implements Serializable {
 		} else {
 			u.savings = u.savings + amount;
 			System.out.println(amount + "$ has been deposited to your Savings account\n");
-			System.out.println("\n");
 			us.SerializeUsers(this.users, "Users.txt");
 			u.transactions.add(dateFormat.format(date) + "	Deposited " + amount + "$ to savings");
 			log.info(u.toString() + " deposited " + amount + "$ to savings");
 		}
 	}
 
+	// withdraws specified amount from checking.
 	public void withdraw(User a, int amount) {
 		if (a.checking - amount < 0) {
 			System.out.println("Insufficient funds in Checking acct\n");
@@ -68,6 +74,7 @@ public class Bank implements Serializable {
 		log.info(a.toString() + " withdrew " + amount + "$ from Checking Account");
 	}
 
+	// transfers specified amount from **checking to savings**
 	public void transfer(User a, int amount) {
 		if (a.checking - amount < 0) {
 			System.out.println("Insufficient funds in Checking acct. Cannot complete transfer\n");
@@ -76,9 +83,10 @@ public class Bank implements Serializable {
 		}
 		a.checking -= amount;
 		a.savings += amount;
-		System.out.println("\n");
+		System.out.println("You transferred " + amount + " $ to " + "Savings\n");
 	}
 
+	// prints out the balance of either checking or savings
 	public void balance(User u, String type) {
 		if (type.hashCode() == "c".hashCode()) {
 			System.out.println(u.checking);
@@ -87,11 +95,8 @@ public class Bank implements Serializable {
 		}
 	}
 
-	// loops through accounts and checks is account
-	// already exists. if so, returns account object
-	// if not returns null. (Login)
+	// checks if user exists in users ArrayList (for Login)
 	public User checkIfExists(String username, String password) {
-		// check to see if account already exists
 		for (int i = 0; i < this.users.size(); i++) {
 			if (users.get(i).getUsername().hashCode() == username.hashCode()
 					&& users.get(i).getPassword().hashCode() == password.hashCode()) {
@@ -101,9 +106,7 @@ public class Bank implements Serializable {
 		return null;
 	}
 
-	// loops through accounts and checks is account
-	// already exists. if so, returns account object
-	// if not returns null. (Registration)
+	// checks if username already exists (for Registration)
 	public boolean checkIfExists(String username) {
 		boolean exists = false;
 		for (int i = 0; i < this.users.size(); i++) {
@@ -114,12 +117,39 @@ public class Bank implements Serializable {
 		return exists;
 	}
 
+	// checks if username already exists (for Username change)
+	public boolean checkIfExists(String username, User c) {
+		boolean exists = false;
+		for (int i = 0; i < this.users.size(); i++) {
+			if ((users.get(i).getUsername().hashCode() == username.hashCode())) {
+				exists = true;
+			}
+		}
+		return exists;
+	}
+
+	// changes a user's password and username
+	public void updateUserPass(User c, String username, String password) {
+		c.setPassword(password);
+		c.setUsername(username);
+		us.SerializeUsers(this.users, "Users.txt");
+		log.info(c.toString() + "changed his/her username to " + 
+							username + " and his/her password to" + password + "\n");
+		c.transactions.add(dateFormat.format(date) + "	Changed username to " +
+							username + " and password to " + password + "\n");
+		us.SerializeUsers(this.users, "Users.txt");
+		return;
+	}
+
+	// adds the user into the users ArrayList
 	public void register(User u) {
 		this.users.add(u);
 		us.SerializeUsers(this.users, "Users.txt");
 		log.info(u.toString() + " added");
 	}
 
+	//takes money out of senders checking and adds it to receiver's checking acct
+	//**user can only send money from checking account**
 	public void quickPay(String receiver, User sender, int amount) {
 		if (sender.checking - amount < 0) {
 			System.out.println("Your Checking balance too low for Quickpay transaction\n");
@@ -138,6 +168,7 @@ public class Bank implements Serializable {
 				sender.transactions
 						.add(dateFormat.format(date) + "	Quickpayed " + amount + "$ to " + user.getUsername());
 				log.info(sender.toString() + " quickpayed " + amount + "$ to " + user.getUsername());
+				System.out.println("You quickpayed" + amount + " $ to " + receiver + "\n");
 			}
 		}
 		if (userFound == false) {
@@ -145,12 +176,14 @@ public class Bank implements Serializable {
 		}
 	}
 
+	// prints a specific user's transaction history to standard output
 	public void printTrans(User user) {
 		System.out.println("Your Transactions\n");
 		for (String t : user.transactions) {
 			System.out.println(t);
 			System.out.println("\n");
 		}
+		us.SerializeUsers(this.users, "Users.txt");
 		System.out.println("\n");
 	}
 }
