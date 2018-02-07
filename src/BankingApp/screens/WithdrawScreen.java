@@ -21,7 +21,7 @@ public class WithdrawScreen implements Screen {
         Scanner in = new Scanner(System.in);
         System.out.print("Withdrawal amount << ");
         String amt = in.nextLine();
-        if(Bank.getBank().withdraw(currentUser, Double.parseDouble(amt))){
+        if(Bank.getBank().withdraw(currentUser, amt)){
             System.out.println("Withdrawal successful!");
         }
         else{

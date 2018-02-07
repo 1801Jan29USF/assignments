@@ -21,7 +21,7 @@ public class DepositScreen implements Screen {
         Scanner in = new Scanner(System.in);
         System.out.print("Deposit amount << ");
         String amt = in.nextLine();
-        if(Bank.getBank().deposit(currentUser, Double.parseDouble(amt))){
+        if(Bank.getBank().deposit(currentUser, amt)){
             System.out.println("Deposit successful!");
         }
         else{
