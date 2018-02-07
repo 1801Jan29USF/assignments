@@ -3,9 +3,7 @@ package BankingApp.beans;
 import BankingApp.factories.TransactionFactory;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 
 /**
