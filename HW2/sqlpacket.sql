@@ -149,9 +149,14 @@ FROM Artist
 CROSS JOIN Album
 ORDER BY Artist.name asc;
 --7.5 SELF
---Task – Perform a self-join on the employee table, joining on the reportsto column.
-Select *
-FROM Employee, Employee
+--Task – Perform a self-join on the employee table, joining on the reportsTo column.
+SELECT Employee.FirstName AS Employee1_First, Employee.LastName AS Employee1_Last, 
+    Employee.FirstName AS Employee2_First, Employee.LastName AS Employee2_Last, Employee.ReportsTo
+    FROM Employee
+    WHERE Employee.EmployeeID <> Employee.EmployeeID
+    AND Employee.EmployeeID = Employee.ReportsTo
+    ORDER BY Employee.ReportsTo;
+
 
 --8.0 Indexes
 --In this section you will be creating Indexes on various tables. Indexes can speed up performance of reading data.

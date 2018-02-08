@@ -1,0 +1,42 @@
+
+/*******************************************************************************
+   Create database
+********************************************************************************/
+CREATE USER bankuser
+IDENTIFIED BY Skiing1992
+DEFAULT TABLESPACE users
+TEMPORARY TABLESPACE temp
+QUOTA 10M ON users;
+
+GRANT connect to bankuser;
+GRANT resource to bankuser;
+GRANT create session TO bankuser;
+GRANT create table TO bankuser;
+GRANT create view TO bankuser;
+
+
+
+conn bankuser/Skiing1992
+
+
+/*******************************************************************************
+   Create User Account Table
+********************************************************************************/
+CREATE TABLE UserAccount
+(
+    user_id NUMBER(1,0) NOT NULL,
+    username VARCHAR2(500) NOT NULL,
+    pass VARCHAR2(500) NOT NULL,
+    checking number NOT NULL,
+    savings number NOT NULL,
+    CONSTRAINT PK_UserAccount PRIMARY KEY (user_id)
+);
+
+CREATE TABLE BankTransactions
+(
+    user_id NUMBER(1,0) NOT NULL,
+    transaction_id NUMBER (1,0) NOT NULL,
+    user_transaction varchar2(500),
+    FOREIGN KEY (user_id) REFERENCES UserAccount (user_id)
+);
+
