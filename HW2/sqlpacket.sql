@@ -59,55 +59,100 @@ SELECT *FROM Invoice
 SELECT * FROM Invoice
     WHERE Total BETWEEN 15 AND 50;
 --Task – Select all employees hired between 1st of June 2003 and 1st of March 2004
+SELECT *FROM Employee
+    WHERE HireDate BETWEEN TO_DATE('2003-6-1 00:00:00','yyyy-mm-dd hh24:mi:ss') AND TO_DATE('2004-03-1 00:00:00','yyyy-mm-dd hh24:mi:ss');
 --2.7 DELETE
 --Task – Delete a record in Customer table where the name is Robert Walter (There may be constraints that rely on this, find out how to resolve them).
---
+ALTER TABLE Invoice
+    DROP CONSTRAINT FK_InvoiceCustomerId;
+    
+ALTER TABLE Invoice
+    ADD CONSTRAINT I_C_ID_Casc
+    FOREIGN KEY (CustomerId) REFERENCES Customer (CustomerId)
+    ON DELETE CASCADE;
+
+DELETE Customer
+    WHERE FirstName = 'Robert' AND LastName = 'Walter';
+
 --?	SQL Functions
 --In this section you will be using the Oracle system functions, as well as your own functions, to perform various actions against the database
 --3.1 System Defined Functions
 --Task – Create a function that returns the current time.
+SELECT SYSTIMESTAMP AT TIME ZONE 'EST' FROM DUAL;
 --Task – create a function that returns the length of a mediatype from the mediatype table
+SELECT LENGTH(NAME) FROM MediaType;
 --3.2 System Defined Aggregate Functions
 --Task – Create a function that returns the average total of all invoices
---Task – Create a function that returns the most expensive track
+SELECT AVG(Total) FROM Invoice;
+--Task – Create a function that returns the most expensive trac
+SELECT MAX(UnitPrice) FROM Track;
 --3.3 User Defined Scalar Functions
 --Task – Create a function that returns the average price of invoiceline items in the invoiceline table
+SELECT AVG(UnitPrice) FROM InvoiceLine;
 --3.4 User Defined Table Valued Functions
 --Task – Create a function that returns all employees who are born after 1968.
+SELECT *FROM Employee
+    WHERE BirthDate >= TO_DATE('1969-1-1 00:00:00','yyyy-mm-dd hh24:mi:ss');
 --4.0 Stored Procedures
 -- In this section you will be creating and executing stored procedures. You will be creating various types of stored procedures that take input and output parameters.
 --4.1 Basic Stored Procedure
 --Task – Create a stored procedure that selects the first and last names of all the employees.
+--TODO
 --4.2 Stored Procedure Input Parameters
 --Task – Create a stored procedure that updates the personal information of an employee.
+--TODO
 --Task – Create a stored procedure that returns the managers of an employee.
+--TODO
 --4.3 Stored Procedure Output Parameters
 --Task – Create a stored procedure that returns the name and company of a customer.
+--TODO
 --5.0 Transactions
 --In this section you will be working with transactions. Transactions are usually nested within a stored procedure. You will also be working with handling errors in your SQL.
 --Task – Create a transaction that given a invoiceId will delete that invoice (There may be constraints that rely on this, find out how to resolve them).
+--TODO
 --Task – Create a transaction nested within a stored procedure that inserts a new record in the Customer table
+--TODO
 --6.0 Triggers
 --In this section you will create various kinds of triggers that work when certain DML statements are executed on a table.
+--TODO
 --6.1 AFTER/FOR
 --Task - Create an after insert trigger on the employee table fired after a new record is inserted into the table.
+--TODO
 --Task – Create an after update trigger on the album table that fires after a row is inserted in the table
+--TODO
 --Task – Create an after delete trigger on the customer table that fires after a row is deleted from the table.
---
+--TODO
 --6.2 INSTEAD OF
 --Task – Create an instead of trigger that restricts the deletion of any invoice that is priced over 50 dollars.
+--TODO
 --7.0 JOINS
 --In this section you will be working with combing various tables through the use of joins. You will work with outer, inner, right, left, cross, and self joins.
 --7.1 INNER
 --Task – Create an inner join that joins customers and orders and specifies the name of the customer and the invoiceId.
+SELECT Customer.FirstName,Customer.LastName,Invoice.InvoiceId
+    FROM Customer
+    INNER JOIN Invoice ON Customer.CustomerId = Invoice.CustomerId;
 --7.2 OUTER
 --Task – Create an outer join that joins the customer and invoice table, specifying the CustomerId, firstname, lastname, invoiceId, and total.
+SELECT Customer.CustomerId,Customer.FirstName, Customer.LastName, Invoice.InvoiceId, Invoice.total
+    FROM Customer
+    FULL OUTER JOIN Invoice ON Customer.CustomerId = Invoice.CustomerId;
 --7.3 RIGHT
 --Task – Create a right join that joins album and artist specifying artist name and title.
+SELECT Artist.Name, Album.Title
+    FROM Artist
+    RIGHT JOIN Album ON Album.ArtistId = Artist.ArtistId;
 --7.4 CROSS
 --Task – Create a cross join that joins album and artist and sorts by artist name in ascending order.
+SELECT *
+FROM Artist
+CROSS JOIN Album
+ORDER BY Artist.name asc;
 --7.5 SELF
 --Task – Perform a self-join on the employee table, joining on the reportsto column.
+Select *
+FROM Employee, Employee
+
 --8.0 Indexes
 --In this section you will be creating Indexes on various tables. Indexes can speed up performance of reading data.
 --8.1 Clustered Indexes
@@ -115,68 +160,6 @@ SELECT * FROM Invoice
 --9.0 Administration
 --In this section you will be creating backup files of your database. After you create the backup file you will also restore the database.
 --Task – Create a .bak file for the Chinook database.
---
---*******DO NOT DO*******
---Part II – Creating and working with your own custom database **********DO NOT DO*****
---?	Creating the OfficeSupply Database
---Objective: In this section you will be creating a database based on information given to you in this handbook. 
---1.1 Create Company Database using SSMS Interface
---Task – Create a user and name it “OfficeSupply” in Oracle Web Console
---Task – Delete the OfficeSupply user
---1.2 Create Company Database using DDL
---Task – Create a user and name it “OfficeSupply” using DDL (SQL Script in SQL Developer)
---?	Creating Tables and Relationships
---Objective: In this section you will be creating tables for the OfficeSupply database, you will create attributes and corresponding datatypes. You will also create relationships between the tables. 
---2.1 Create Tables for OfficeSupply
---Task – Using the DDL, create a table named “Employees” with following attributes and datatypes: 
---EmployeeID(PK number, not null), UserName(varchar(20), not null), Password(varchar(20), not null), 
---Name(varchar(25), not null), Department(char(2), not null), Manager(number, not null).
---
---Task – Using the DDL, create a table named “Orders” with following attributes and datatypes:
---OrderID(PK, number, not null), EmployeeID(FK, number, not null), OrderDate(date, not null), Status(char, not null).
---
---Task – Using the DDL, create a table named “OrderItem” with the following attributes and datatypes:
---OrderID(PK, FK, number, not null), ProductID(PK, FK, number, not null), Quantity(number, not null).
---
---Task – Using DDL, create a table named “Category” with the following attributes and datatypes:
---CatID(PK, number, not null), Name(varchar(80), null), Descript(varchar(255), null)
---
---Task – Using DDL, create a table named “Product” with the following attributes and datatypes:
---ProductID(PK, number, not null), CatID(FK, number, not null), Name(varchar(80), null), Descript(varchar(255), null),
---UnitCost(number, null), SuppID(FK, number, not null).
---
---Task – Using DDL, create a table named “Supplier” with the following attributes and datatypes:
---SuppID(PK, number, not null), Name(varchar(80), null).
---
---2.2 Creating Relationships
---Task – Create a 1:N relationship between Employees(PK) and Orders(FK)
---Task – Create a 1:N relationship between Orders(PK) and OrderItem(FK)
---Task – Create a 1:N relationship between Product(PK) and OrderItem(FK)
---Task – Create a 1:N relationship between Supplier(PK) and Product(FK)
---Task – Create a 1:N relationship between Category(PK) and Product(FK)
---
---
---
---
---
---
---?	Performing SQL Queries
---Objective: In this section you will be querying and performing CRUD operations on the OfficeSupply database using various DML and SQL statements *Before you begin performing queries against your database, enter into your tables, the following data exactly as shown in the images:
---Employee Table
--- 
---
---
---
---
---
---Product Table
--- 
---Supplier Table
--- 
---Category Table
--- 
---
---
 --3.1 SELECT
 --Task – Select all the rows from the employees table
 --Task – Select all the rows from the employees table where the Department is HR
