@@ -30,7 +30,6 @@ INSERT INTO Genre
 INSERT INTO Employee (EmployeeId, LastName, FirstName, Title, BirthDate, HireDate, Address, City, State, Country, PostalCode, Phone, Fax, Email)
     VALUES (9, 'Adamsss', 'Andrew', 'General Manager', TO_DATE('1962-2-18 00:00:00','yyyy-mm-dd hh24:mi:ss'), TO_DATE('2002-8-14 00:00:00','yyyy-mm-dd hh24:mi:ss'), '11120 Jasper Ave NW', 'Edmonton', 'AB', 'Canada', 'T5K 2N1', '+1 (780) 428-9482', '+1 (780) 428-3457', 'andrew@chinookcorp.com');
 INSERT INTO Employee (EmployeeId, LastName, FirstName, Title, BirthDate, HireDate, Address, City, State, Country, PostalCode, Phone, Fax, Email)
-INSERT INTO Employee (EmployeeId, LastName, FirstName, Title, BirthDate, HireDate, Address, City, State, Country, PostalCode, Phone, Fax, Email)
     VALUES (10, 'Adamsss', 'Paulie', 'General Manager', TO_DATE('1962-2-18 00:00:00','yyyy-mm-dd hh24:mi:ss'), TO_DATE('2002-8-14 00:00:00','yyyy-mm-dd hh24:mi:ss'), '11120 Jasper Ave NW', 'Edmonton', 'AB', 'Canada', 'T5K 2N1', '+1 (780) 428-9482', '+1 (780) 428-3457', 'andrew@chinookcorp.com');
 --Task – Insert two new records into Customer table
 INSERT INTO Customer (CustomerId, FirstName, LastName, Address, City, Country, PostalCode, Phone, Email, SupportRepId) 
@@ -67,6 +66,14 @@ ALTER TABLE Invoice
     FOREIGN KEY (CustomerId) REFERENCES Customer (CustomerId)
     ON DELETE CASCADE;
 
+ALTER TABLE InvoiceLine
+    DROP CONSTRAINT FK_InvoiceLineInvoiceId;
+    
+ALTER TABLE InvoiceLine
+    ADD CONSTRAINT InvoiceLine_Casc
+    FOREIGN KEY (InvoiceId) REFERENCES Invoice (InvoiceId)
+    ON DELETE CASCADE;
+
 DELETE Customer
     WHERE FirstName = 'Robert' AND LastName = 'Walter';
 
@@ -93,18 +100,19 @@ BEGIN
         RETURN average;
 END;
 /
+
 --3.4 User Defined Table Valued Functions
 --Task – Create a function that returns all employees who are born after 1968.
 CREATE OR REPLACE FUNCTION return_employees
 RETURN SYS_REFCURSOR
-IS
-BEGIN
-DECLARE 
+IS 
 results SYS_REFCURSOR;
-    OPEN results FOR SELECT BirthDate FROM Employee;
-        WHERE BirthDate >= TO_DATE('1969-1-1 00:00:00','yyyy-mm-dd hh24:mi:ss');
-        RETURN results;
-END return_employees;
+BEGIN
+     OPEN results FOR SELECT *
+         FROM Employee
+         WHERE BirthDate >= TO_DATE('1969-1-1 00:00:00','yyyy-mm-dd hh24:mi:ss');
+         RETURN results;
+END;
 / 
 
 --4.0 Stored Procedures
@@ -112,11 +120,15 @@ END return_employees;
 --4.1 Basic Stored Procedure
 --Task – Create a stored procedure that selects the first and last names of all the employees.
 CREATE PROCEDURE first_and_last
+(results OUT SYS_REFCURSOR)
 IS 
 BEGIN
-    SELECT Employee.FirstName, Employee.LastName *FROM Employee
+    OPEN results FOR SELECT FirstName, LastName 
+    FROM Employee;
+    
 END first_and_last;
 /
+
 --4.2 Stored Procedure Input Parameters
 --Task – Create a stored procedure that updates the personal information of an employee.
 -- stored procedure
@@ -129,10 +141,9 @@ CREATE OR REPLACE PROCEDURE update_personal_info
     PostalCode_param IN VARCHAR2)
 IS 
 BEGIN
-    UPDATE EMPLOYEE SET Address = Address_param, City = City_param,
+    UPDATE Employee SET Address = Address_param, City = City_param,
     State = State_param, Country = Country_param, PostalCode = PostalCode_param
     WHERE EmployeeId = EmployeeId_param;
-    COMMIT;
 END;
 /
 --Task – Create a stored procedure that returns the managers of an employee.
@@ -153,7 +164,7 @@ CREATE OR REPLACE PROCEDURE comp_and_name
 (CustomerId_param IN NUMBER, results OUT sys_refcursor)
 AS 
 BEGIN
-  OPEN results FOR SELECT Customer.FirstName, Customer.Company
+  OPEN results FOR SELECT FirstName, Company
   FROM Customer
   WHERE Customer.CustomerId = CustomerId_param ;
 END comp_and_name;
@@ -175,16 +186,17 @@ END delete_invoice;
 / 
 
 --Task – Create a transaction nested within a stored procedure that inserts a new record in the Customer table
-CREATE SEQUENCE Customer_id_seq START WITH 6;
+CREATE SEQUENCE Customer_id_seq START WITH 60;
 
 CREATE OR REPLACE PROCEDURE new_customer_record
 (
     FirstName_param IN VARCHAR2,LastName_param IN VARCHAR2,Company_param IN VARCHAR2,Address_param IN VARCHAR2,City_param IN VARCHAR2,
-    State_param IN VARCHAR2,Country_param IN VARCHAR2,PostalCode_param IN VARCHAR2,Phone_param IN VARCHAR2,Fax_param IN VARCHAR2,Email_param IN VARCHAR2,SupportRepId_param IN NUMBER)
+    State_param IN VARCHAR2,Country_param IN VARCHAR2,PostalCode_param IN VARCHAR2,Phone_param IN VARCHAR2,Fax_param IN VARCHAR2,
+    Email_param IN VARCHAR2,SupportRepId_param IN NUMBER)
 IS
 BEGIN
     INSERT INTO Customer (CustomerId, FirstName, LastName, Company, Address, City, State, Country, PostalCode, Phone, Fax, Email, SupportRepId)
-    VALUES (customer_id_seq.nextVal, FirstName_param,
+    VALUES (Customer_id_seq.nextVal, FirstName_param,
     LastName_param,Company_param,Address_param,City_param,State_param,Country_param,PostalCode_param,Phone_param,Fax_param,Email_param,SupportRepId_param);
 COMMIT;
 END new_customer_record;
@@ -221,13 +233,15 @@ END;
 /
 --6.2 INSTEAD OF
 --Task – Create an instead of trigger that restricts the deletion of any invoice that is priced over 50 dollars.
+CREATE VIEW i_view AS SELECT * FROM invoice;
+DROP TRIGGER Invoice_Trigger;
 CREATE OR REPLACE TRIGGER Invoice_Trigger
-BEFORE DELETE ON Invoice
+INSTEAD OF DELETE ON i_view
 FOR EACH ROW
 BEGIN
-    IF (old.Total > 50.0)
+    IF (:old.Total > 50.0)
        THEN DBMS_OUTPUT.PUT_LINE('Deletions not allowed for any invoice priced over 50 dollars');
-    ELSE DELETE FROM Invoice WHERE InvoiceId = old.InvoiceId;
+    ELSE DELETE FROM Invoice WHERE InvoiceId = :old.InvoiceId;
     END IF;
 END Invoice_Trigger;
 /
