@@ -1,31 +1,33 @@
 package com.revature.screens;
 
-import com.revature.beans.Bank;
+import java.util.Scanner;
 
 public class MainMenu implements Screen {
 
-	public MainMenu(Bank bank) {
+	public Scanner scan = new Scanner(System.in);
+
+	public MainMenu() {
 		super();
-		prompt(bank);
+		prompt();
 	}
 
-	@Override
-	public Screen prompt(Bank bank) {
+	public Screen prompt() {
 		System.out.println("PLEASE SELECT AN OPTION: \n");
 		System.out.println("Enter 1 to Login");
 		System.out.println("Enter 2 to Register\n");
-		String input = bank.scan.nextLine();
+		String input = scan.nextLine();
 
 		switch (input) {
-		
+
 		case "1":
-			return new LoginScreen(bank);
-		case "2":
-			return new RegisterScreen(bank);
+			return new LoginScreen();
+		 case "2":
+		 return new RegisterScreen();
 		default:
 			System.out.println("invalid option\n");
 			break;
 		}
-		return new MainMenu(bank);
+		return new MainMenu();
 	}
+
 }

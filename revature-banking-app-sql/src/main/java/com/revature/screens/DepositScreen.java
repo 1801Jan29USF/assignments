@@ -1,43 +1,48 @@
 package com.revature.screens;
 
-import com.revature.beans.Bank;
+import java.util.Scanner;
+
 import com.revature.beans.User;
+import com.revature.dao.BankDAOJDBC;
 
 public class DepositScreen implements Screen {
 
 	private User curr;
 
-	public DepositScreen(Bank bank, User u) {
+	public Scanner scan = new Scanner(System.in);
+	public BankDAOJDBC dao = new BankDAOJDBC();
+
+	public DepositScreen(User u) {
 		super();
 		this.curr = u;
-		prompt(bank);
+		prompt();
 	}
 
 	@Override
-	public Screen prompt(Bank bank) {
+	public Screen prompt() {
 		System.out.println("DEPOSIT \n");
 		System.out.println("Please Enter Amount for Deposit: ");
 		int depositAmt = 0;
 		try {
-			depositAmt = Integer.parseInt(bank.scan.nextLine());
+			depositAmt = Integer.parseInt(scan.nextLine());
 		} catch (NumberFormatException e) {
 			System.out.println("Invalid input for deposit\n");
-			return new UserAccountScreen(bank, curr);
+			return new UserAccountScreen(curr);
 		}
 		if (depositAmt < 0) {
 			System.out.println("Deposit amount must be greater or equal to 0\n");
-			return new UserAccountScreen(bank, curr);
+			return new UserAccountScreen(curr);
 		}
 		System.out.println("Press s for Savings");
 		System.out.println("Press c for Checking");
-		String type = bank.scan.nextLine();
+		String type = scan.nextLine();
 		if (!((type.hashCode() == "s".hashCode()) || (type.hashCode() == "c".hashCode()))) {
 			System.out.println("Invalid account option\n");
-			return new UserAccountScreen(bank, curr);
+			return new UserAccountScreen(curr);
 		}
-		bank.deposit(curr, depositAmt, type);
+		dao.deposit(curr.userId, depositAmt, type);
 
-		return new UserAccountScreen(bank, curr);
+		return new UserAccountScreen(curr);
 	}
 
 }

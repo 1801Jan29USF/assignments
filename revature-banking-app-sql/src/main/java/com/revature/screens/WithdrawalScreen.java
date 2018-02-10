@@ -1,34 +1,39 @@
 package com.revature.screens;
 
-import com.revature.beans.Bank;
+import java.util.Scanner;
+
 import com.revature.beans.User;
+import com.revature.dao.BankDAOJDBC;
 
 public class WithdrawalScreen implements Screen {
 
 	private User curr;
 	
-	public WithdrawalScreen(Bank bank, User curr) {
+	public Scanner scan = new Scanner(System.in);
+	public BankDAOJDBC dao = new BankDAOJDBC();
+
+	public WithdrawalScreen(User curr) {
 		super();
 		this.curr = curr;
-		prompt(bank);
+		prompt();
 	}
 
 	@Override
-	public Screen prompt(Bank bank) {
+	public Screen prompt() {
 		System.out.println("WITHDRAWAL \n");
 		System.out.println("Please Enter Amount for Withdrawal: ");
 		int withdrawAmt = 0;
 		try {
-			withdrawAmt = Integer.parseInt(bank.scan.nextLine());
+			withdrawAmt = Integer.parseInt(scan.nextLine());
 		} catch (NumberFormatException e) {
 			System.out.println("Invalid input for withdrawal\n");
-			return new UserAccountScreen(bank, curr);
+			return new UserAccountScreen(curr);
 		}
 		if (withdrawAmt < 0) {
 			System.out.println("Withdrawal amount must be greater or equal to 0\n");
-			return new UserAccountScreen(bank, curr);
+			return new UserAccountScreen(curr);
 		}
-		bank.withdraw(curr, withdrawAmt);
-		return new UserAccountScreen(bank, curr);
+		dao.withdraw(curr.userId, withdrawAmt);
+		return new UserAccountScreen(curr);
 	}
 }

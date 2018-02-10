@@ -1,38 +1,41 @@
 package com.revature.screens;
 
-import com.revature.beans.Bank;
+import java.util.Scanner;
+
 import com.revature.beans.User;
+import com.revature.dao.BankDAOJDBC;
 
 public class LoginScreen implements Screen {
 
-	public LoginScreen(Bank bank) {
+	public Scanner scan = new Scanner(System.in);
+	
+	public BankDAOJDBC dao = new BankDAOJDBC();
+
+	public LoginScreen() {
 		super();
-		prompt(bank);
+		prompt();
 	}
 
 	@Override
-	public Screen prompt(Bank bank) {
-
+	public Screen prompt() {
 		System.out.println("ACCOUNT LOGIN\n");
 		System.out.println("Please enter your Username or exit to return to Main Menu: ");
-		String input = bank.scan.nextLine();
-		//Added exit functionality in last minute, not the best style :(
+		String input = scan.nextLine();
 		if (input.hashCode() == "exit".hashCode()) {
-			return new MainMenu(bank);
+			return new MainMenu();
 		}
 		System.out.println("Please enter your Password: ");
-		String password = bank.scan.nextLine();
+		String password = scan.nextLine();
 
-		User current = bank.checkIfExists(input, password);
+		User current = dao.login(input, password);
 
 		if (current != null) {
 			System.out.println("Welcome to your Account.\n");
-			return new UserAccountScreen(bank, current);
+			return new UserAccountScreen();
 		} else {
 			System.out.println("You do not have a Revature Banking account. Please register.");
-			return new RegisterScreen(bank);
+			return new RegisterScreen();
 		}
-
 	}
 
 }

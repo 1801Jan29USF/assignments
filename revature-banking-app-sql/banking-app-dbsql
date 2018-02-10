@@ -1,42 +1,71 @@
 
+
+/*******************************************************************************
+   Drop database if it exists
+********************************************************************************/
+DROP USER revaturebank CASCADE;
+
 /*******************************************************************************
    Create database
 ********************************************************************************/
-CREATE USER bankuser
-IDENTIFIED BY Skiing1992
+CREATE USER revaturebank
+IDENTIFIED BY p4ssw0rd
 DEFAULT TABLESPACE users
 TEMPORARY TABLESPACE temp
 QUOTA 10M ON users;
 
-GRANT connect to bankuser;
-GRANT resource to bankuser;
-GRANT create session TO bankuser;
-GRANT create table TO bankuser;
-GRANT create view TO bankuser;
+GRANT connect to revaturebank;
+GRANT resource to revaturebank;
+GRANT create session TO revaturebank;
+GRANT create table TO revaturebank;
+GRANT create view TO revaturebank;
 
 
 
-conn bankuser/Skiing1992
+conn revaturebank/p4ssw0rd
 
 
 /*******************************************************************************
-   Create User Account Table
+   Create User Table
 ********************************************************************************/
-CREATE TABLE UserAccount
+CREATE TABLE user_account
 (
-    user_id NUMBER(1,0) NOT NULL,
+    user_id NUMBER PRIMARY KEY,
     username VARCHAR2(500) NOT NULL,
     pass VARCHAR2(500) NOT NULL,
     checking number NOT NULL,
-    savings number NOT NULL,
-    CONSTRAINT PK_UserAccount PRIMARY KEY (user_id)
+    savings number NOT NULL
 );
 
-CREATE TABLE BankTransactions
-(
-    user_id NUMBER(1,0) NOT NULL,
-    transaction_id NUMBER (1,0) NOT NULL,
-    user_transaction varchar2(500),
-    FOREIGN KEY (user_id) REFERENCES UserAccount (user_id)
+
+/*******************************************************************************
+   Create Transaction Table
+********************************************************************************/
+CREATE TABLE transactions
+(   
+    transaction_id NUMBER PRIMARY KEY,
+    user_id NUMBER NOT NULL
 );
 
+/*******************************************************************************
+   Create sequences
+********************************************************************************/
+CREATE SEQUENCE user_id_seq START WITH 1;
+/*******************************************************************************
+   Create triggers
+********************************************************************************/
+
+CREATE OR REPLACE TRIGGER user_id_trigger
+BEFORE INSERT OR UPDATE on user_account
+FOR EACH ROW
+BEGIN
+    IF INSERTING THEN
+        SELECT user_id_seq.nextVal INTO :new.user_id FROM dual;
+    ELSIF UPDATING THEN
+        SELECT :old.user_id INTO :new.user_id FROM dual;
+    END IF;
+END;
+/
+
+commit;
+exit;

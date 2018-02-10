@@ -1,20 +1,23 @@
 package com.revature.screens;
 
-import com.revature.beans.Bank;
+import java.util.Scanner;
+
 import com.revature.beans.User;
 
 public class UserAccountScreen implements Screen {
 
 	private User curr;
-
-	public UserAccountScreen(Bank bank, User curr) {
+	
+	public Scanner scan = new Scanner(System.in);
+	
+	public UserAccountScreen(User c) {
 		super();
-		this.curr = curr;
-		prompt(bank);
+		this.curr = c;
+		prompt();
 	}
 
 	@Override
-	public Screen prompt(Bank bank) {
+	public Screen prompt() {
 		System.out.println("How can we help you?\n");
 		System.out.println("Press 1 for Deposit: ");
 		System.out.println("Press 2 for Withdrawal: ");
@@ -24,32 +27,31 @@ public class UserAccountScreen implements Screen {
 		System.out.println("Press 6 to Transfer Money from Checking to Savings");
 		System.out.println("Press 7 to Change Your User Name And Password");
 		System.out.println("Press 8 to Logout");
-		String input = bank.scan.nextLine();
+		String input = scan.nextLine();
 
 		switch (input) {
 
 		case "1":
-			return new DepositScreen(bank, curr);
+			return new DepositScreen(curr);
 		case "2":
-			return new WithdrawalScreen(bank, curr);
+//			return new WithdrawalScreen(bank, curr);
 		case "3":
-			return new ViewBalanceScreen(bank, curr);
+//			return new ViewBalanceScreen(bank, curr);
 		case "4":
-			bank.printTrans(curr);
+//			bank.printTrans(curr);
 			break;
 		case "5":
-			return new QuickPayScreen(bank, curr);
+//			return new QuickPayScreen(bank, curr);
 		case "6":
-			return new TransferScreen(bank, curr);
+//			return new TransferScreen(bank, curr);
 		case "7":
-			return new ChangeUserAndPassScreen(bank, curr);
+//			return new ChangeUserAndPassScreen(bank, curr);
 		case "8":
-			bank.users = bank.us.DeserializeUsers("Users.txt");
-			return new MainMenu(bank);
+			return new MainMenu();
 		default:
 			System.out.println("invalid option\n");
 			break;
 		}
-		return new UserAccountScreen(bank, curr);
+		return new UserAccountScreen(curr);
 	}
 }
