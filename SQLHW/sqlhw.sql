@@ -41,13 +41,13 @@ UPDATE customer
 SET firstname='Robert', lastname='Walter'
 WHERE firstname='Aaron' AND lastname='Mitchell';
 
--- Update name of artist in the Artist table “Creedence Clearwater Revival” to “CCR”
+-- Update name of artist in the Artist table â€œCreedence Clearwater Revivalâ€ to â€œCCRâ€
 UPDATE artist
 SET NAME='CCR'
 WHERE NAME='Creedence Clearwater Revival';
 
 
--- Select all invoices with a billing address like “T%”
+-- Select all invoices with a billing address like â€œT%â€
 SELECT * FROM invoice
 WHERE billingaddress LIKE 'T%';
 
@@ -190,7 +190,7 @@ CREATE OR REPLACE TRIGGER update_trig
 AFTER UPDATE ON album
 FOR EACH ROW
 BEGIN
-    dbms_output.put_line('New album has been added.');
+    dbms_output.put_line('Album has changed.');
 END;
 /
 
