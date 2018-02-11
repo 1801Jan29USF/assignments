@@ -61,7 +61,6 @@ public class BankDAOJDBC implements BankDAO {
 				log.trace("No user found with username: " + u + " and password: " + p);
 				System.out.println(
 						"No user found with username: " + u + " and password: " + p + ". Please check you input.\n");
-
 			}
 
 		} catch (SQLException e) {
@@ -100,164 +99,121 @@ public class BankDAOJDBC implements BankDAO {
 		log.trace("Attempting to get connection to db");
 		try (Connection conn = connUtil.getConnection()) {
 			log.trace("connection established with db, creating prepared statement to save user");
-			PreparedStatement ps = conn
-					.prepareStatement("UPDATE user_account SET " + type + "= " + type + " + " + amt + " WHERE user_id = " + id + ";");
-			ps.executeUpdate(); 
+			PreparedStatement ps = conn.prepareStatement(
+					"UPDATE user_account SET " + type + "= " + type + " + " + amt + " WHERE user_id = " + id + ";");
+			ps.executeUpdate();
 
 		} catch (SQLException e) {
 			log.warn("failed to retrieve user");
 		}
 	}
-	
+
 	@Override
 	public void withdraw(int id, int amt) {
 		log.trace("method called to withdraw money from account");
 		log.trace("Attempting to get connection to db");
 		try (Connection conn = connUtil.getConnection()) {
 			log.trace("connection established with db, creating prepared statement to save user");
-			PreparedStatement ps = conn
-					.prepareStatement("UPDATE user_account SET checking = checking - " + amt + " WHERE user_id = " + id + ";");
-			ps.setInt(1, id);
-			ps.executeUpdate(); 
+			PreparedStatement ps = conn.prepareStatement(
+					"UPDATE user_account SET checking = checking - " + amt + " WHERE user_id = " + id + ";");
+			ps.executeUpdate();
 
 		} catch (SQLException e) {
 			log.warn("failed to retrieve user");
 		}
 	}
 
-	// @Override
-	// public int save(User u) {
-	// log.trace("method called to insert new user");
-	// log.trace("Attempting to get connection to db");
-	// try (Connection conn = connUtil.getConnection()) {
-	// log.trace("connection established with db, creating prepared statement");
-	// PreparedStatement ps = conn.prepareStatement("INSERT INTO User (username,
-	// password, checking, savings) VALUES (?,?,?,?)",
-	// new String[] { "flashcard_id" });
-	// ps.setString(1, u.getUsername());
-	// ps.setString(2, u.getPassword());
-	// ps.setInt(3, 0);
-	// ps.setInt(4, 0);
-	//
-	// int rowsInserted = ps.executeUpdate();
-	// log.debug("query inserted " + rowsInserted + " rows into the db");
-	// ResultSet rs = ps.getGeneratedKeys();
-	// if (rs.next()) {
-	// u.setId(rs.getInt(1));
-	// return rs.getInt(1);
-	// }
-	//
-	// } catch (SQLException e) {
-	// log.warn("failed to insert new user");
-	// }
-	//
-	// return 0;
-	// }
+	@Override
+	public int balance(int id, String type) {
+		log.trace("method called to view account balance");
+		log.trace("Attempting to get connection to db");
+		int balance = 0;
+		try (Connection conn = connUtil.getConnection()) {
+			log.trace("connection established with db, creating prepared statement to save user");
+			PreparedStatement ps = conn
+					.prepareStatement("SELECT " + type + " FROM user_account WHERE user_id = " + id + ";");
+			ResultSet rs = ps.executeQuery();
+			balance = rs.getInt(type);
+		} catch (SQLException e) {
+			log.warn("failed to retrieve user");
+		}
+		return balance;
 
-	// @Override
-	// public void save(Flashcard fc, int setId) {
-	// log.trace("method called to insert new flashcard into set with id" + setId);
-	// log.trace("Attempting to get connection to db");
-	// try (Connection conn =
-	// DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe",
-	// "flashcard",
-	// "p4ssw0rd")) {
-	// CallableStatement cs = conn.prepareCall("call
-	// create_flashcard_for_set(?,?,?,?)");
-	// cs.setString(1, fc.getQuestion());
-	// cs.setString(2, fc.getAnswer());
-	// cs.setInt(3, setId);
-	// cs.registerOutParameter(4, Types.INTEGER);
-	// cs.execute();
-	//
-	// log.trace("flashcard created with id" + cs.getInt(4));
-	// fc.setId(cs.getInt(4));
-	//
-	// } catch (SQLException e) {
-	// log.warn("failed to insert new flashcard");
-	// }
-	// }
-	//
-	// /**
-	// * Do not use regular statements this is a dangerous method
-	// */
-	// @Override
-	// public void update(Flashcard fc) {
-	// log.trace("method called to update new flashcard");
-	// log.trace("Attempting to get connection to db");
-	// try (Connection conn =
-	// DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe",
-	// "flashcard",
-	// "p4ssw0rd")) {
-	// Statement s = conn.createStatement();
-	// int numRowsUpdated = s.executeUpdate("UPDATE flashcard SET question = '" +
-	// fc.getQuestion() + "', answer='"
-	// + fc.getAnswer() + "' WHERE flashcard_id=" + fc.getId());
-	// log.trace("updated " + numRowsUpdated + " row s");
-	// } catch (SQLException e) {
-	// e.printStackTrace();
-	// log.warn("failed to update flashcard");
-	// }
-	// }
-	//
-	// @Override
-	// public void delete(Flashcard fc) {
-	// // TODO Auto-generated method stub
-	//
-	// }
-	//
-	// @Override
-	// public Flashcard get(int id) {
-	// log.trace("method called to select flashcard with id " + id);
-	// log.trace("Attempting to get connection to db");
-	// try (Connection conn =
-	// DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe",
-	// "flashcard",
-	// "p4ssw0rd")) {
-	// PreparedStatement ps = conn.prepareStatement("SELECT * FROM flashcard WHERE
-	// flashcard_id = ?");
-	// ps.setInt(1, id);
-	// ResultSet rs = ps.executeQuery();
-	// if (rs.next()) {
-	// Flashcard fc = new Flashcard(rs.getInt("flashcard_id"),
-	// rs.getString("question"),
-	// rs.getString("answer"));
-	// return fc;
-	// } else {
-	// log.trace("No flashcard found with id " + id);
-	// }
-	//
-	// } catch (SQLException e) {
-	// e.printStackTrace();
-	// log.warn("failed to retreive flashcard");
-	// }
-	// return null;
-	// }
-	//
-	// @Override
-	// public List<Flashcard> findBySetId(int id) {
-	// log.trace("method called to select flashcard with set id " + id);
-	// log.trace("Attempting to get connection to db");
-	// try (Connection conn = connUtil.getConnection()) {
-	// List<Flashcard> cardsInSet = new ArrayList<>();
-	// PreparedStatement ps = conn.prepareStatement(
-	// "SELECT * FROM flashcard INNER JOIN flashcard_cardset USING(flashcard_id)
-	// WHERE set_id = ?");
-	// ps.setInt(1, id);
-	// ResultSet rs = ps.executeQuery();
-	// while (rs.next()) {
-	// Flashcard fc = new Flashcard(rs.getInt("flashcard_id"),
-	// rs.getString("question"),
-	// rs.getString("answer"));
-	// cardsInSet.add(fc);
-	// }
-	// log.trace("retreived all flashcards in set and returning the list");
-	// return cardsInSet;
-	// } catch (SQLException e) {
-	// e.printStackTrace();
-	// log.warn("failed to retreive flashcard");
-	// }
-	// return null;
-	// }
+	}
 
+	@Override
+	public void transfer(int id, int amt, String type) {
+		log.trace("method called to transfer money");
+		log.trace("Attempting to get connection to db");
+		try (Connection conn = connUtil.getConnection()) {
+			log.trace("connection established with db, creating prepared statement to save user");
+			if (type.hashCode() == "checking".hashCode()) {
+				PreparedStatement ps = conn.prepareStatement(
+						"UPDATE user_account SET checking = checking + " + amt + " WHERE user_id = " + id + ";");
+				ps.executeUpdate();
+				ps = conn.prepareStatement(
+						"UPDATE user_account SET checking = checking - " + amt + " WHERE user_id = " + id + ";");
+				ps.executeUpdate();
+			} else {
+				PreparedStatement ps = conn.prepareStatement(
+						"UPDATE user_account SET savings = savings + " + amt + " WHERE user_id = " + id + ";");
+				ps.executeUpdate();
+				ps = conn.prepareStatement(
+						"UPDATE user_account SET savings = savings - " + amt + " WHERE user_id = " + id + ";");
+				ps.executeUpdate();
+			}
+
+		}
+
+		catch (SQLException e) {
+			log.warn("failed to retrieve user");
+		}
+
+	}
+
+	@Override
+	public void quickPay(String receiver, int id, int amount) {
+		log.trace("method called to transfer money");
+		log.trace("Attempting to get connection to db");
+		try (Connection conn = connUtil.getConnection()) {
+			log.trace("connection established with db, creating prepared statement to save user");
+
+			PreparedStatement ps = conn.prepareStatement(
+					"UPDATE user_account SET checking = checking - " + amount + " WHERE user_id = " + id + ";");
+			ps.executeUpdate();
+			ps = conn.prepareStatement(
+					"UPDATE user_account SET checking = checking + " + amount + " WHERE username = " + receiver + ";");
+			ps.executeUpdate();
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+	@Override
+	public boolean updateUserPass(int id, String username, String password) {
+		boolean added = true;
+		log.trace("method called to transfer money");
+		log.trace("Attempting to get connection to db");
+		try (Connection conn = connUtil.getConnection()) {
+			log.trace("connection established with db, creating prepared statement to save user");
+
+			PreparedStatement ps = conn
+					.prepareStatement("SELECT *FROM user_account WHERE username = " + username + ";");
+			ResultSet rs = ps.executeQuery();
+			if (rs == null) {
+				ps = conn.prepareStatement("UPDATE user_account SET username = " + username + "AND password = "
+						+ password + " WHERE user_id = " + id + ";");
+			} else {
+				added = false;
+			}
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return added;
+	}
 }

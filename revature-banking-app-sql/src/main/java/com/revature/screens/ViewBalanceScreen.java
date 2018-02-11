@@ -1,30 +1,36 @@
 package com.revature.screens;
 
-import com.revature.beans.Bank;
+import java.util.Scanner;
+
 import com.revature.beans.User;
+import com.revature.dao.BankDAOJDBC;
 
 public class ViewBalanceScreen implements Screen {
 
-	public ViewBalanceScreen(Bank bank, User curr) {
+	public Scanner scan = new Scanner(System.in);
+
+	public BankDAOJDBC dao = new BankDAOJDBC();
+
+	public ViewBalanceScreen(User curr) {
 		super();
 		this.curr = curr;
-		prompt(bank);
+		prompt();
 	}
 
 	private User curr;
 
 	@Override
-	public Screen prompt(Bank bank) {
+	public Screen prompt() {
 		System.out.println("VIEW BALANCE \n");
 		System.out.println("Press s for Savings");
 		System.out.println("Press c for Checking");
-		String type2 = bank.scan.nextLine();
-		if (!((type2.hashCode() == "s".hashCode()) || (type2.hashCode() == "c".hashCode()))) {
+		String type = scan.nextLine();
+		if (!((type.hashCode() == "s".hashCode()) || (type.hashCode() == "c".hashCode()))) {
 			System.out.println("Invalid account option\n");
-			return new UserAccountScreen(bank, curr);
+			return new UserAccountScreen(curr);
 		}
-		bank.balance(curr, type2);
-		return new UserAccountScreen(bank, curr);
+		dao.balance(curr.userId, type);
+		return new UserAccountScreen(curr);
 	}
 
 }

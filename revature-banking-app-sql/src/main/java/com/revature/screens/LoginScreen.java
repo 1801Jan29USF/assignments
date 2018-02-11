@@ -31,7 +31,7 @@ public class LoginScreen implements Screen {
 
 		if (current != null) {
 			System.out.println("Welcome to your Account.\n");
-			return new UserAccountScreen();
+			return new UserAccountScreen(current);
 		} else {
 			System.out.println("You do not have a Revature Banking account. Please register.");
 			return new RegisterScreen();

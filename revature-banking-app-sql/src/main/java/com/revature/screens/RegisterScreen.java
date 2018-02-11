@@ -30,7 +30,7 @@ public class RegisterScreen implements Screen {
 		User current = dao.register(input, password);
 		if (current != null) {
 			System.out.println("Congratulations, your account has been created.\n");
-			return new UserAccountScreen();
+			return new UserAccountScreen(current);
 
 		} else {
 			System.out.println("Account already exists. Please pick a different Username.\n");

@@ -1,36 +1,42 @@
 package com.revature.screens;
 
-import com.revature.beans.Bank;
+import java.util.Scanner;
+
 import com.revature.beans.User;
+import com.revature.dao.BankDAOJDBC;
 
 public class QuickPayScreen implements Screen {
 
 	private User curr;
 
-	public QuickPayScreen(Bank bank, User u) {
+	public Scanner scan = new Scanner(System.in);
+
+	public BankDAOJDBC dao = new BankDAOJDBC();
+
+	public QuickPayScreen(User u) {
 		super();
 		this.curr = u;
-		prompt(bank);
+		prompt();
 	}
 
 	@Override
-	public Screen prompt(Bank bank) {
+	public Screen prompt() {
 		System.out.println("QUICKPAY \n");
 		System.out.println("Enter Username of receiver: ");
-		String receiver = bank.scan.nextLine();
+		String receiver = scan.nextLine();
 		System.out.println("Enter amount to send: ");
 		int amount = 0;
 		try {
-			amount = Integer.parseInt(bank.scan.nextLine());
+			amount = Integer.parseInt(scan.nextLine());
 		} catch (NumberFormatException e) {
 			System.out.println("Invalid input for Quickpay\n");
 		}
 		if (amount < 0) {
 			System.out.println("Quickpay amount must be greater or equal to 0\n");
 		}
-		bank.quickPay(receiver, curr, amount);
+		dao.quickPay(receiver, curr.getId(), amount);
 
-		return new UserAccountScreen(bank, curr);
+		return new UserAccountScreen(curr);
 	}
 
 }
