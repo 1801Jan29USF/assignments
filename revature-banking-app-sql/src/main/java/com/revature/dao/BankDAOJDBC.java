@@ -99,8 +99,13 @@ public class BankDAOJDBC implements BankDAO {
 		try (Connection conn = connUtil.getConnection()) {
 			log.trace("connection established with db, creating prepared statement to save user");
 			PreparedStatement ps = conn.prepareStatement(
-					"UPDATE user_account SET " + type + "= " + type + " + " + amt + " WHERE user_id = " + id + ";");
+					"UPDATE user_account SET " + type + " = " + type + " + " + amt + " WHERE user_id = " + id);
 			ps.executeUpdate();
+			PreparedStatement ps2 = conn.prepareStatement("INSERT INTO transactions (user_id, trans) VALUES (?,?)");
+			ps2.setInt(1, id);
+			String t = "Deposited " + amt + "$ into " + type + " account";
+			ps2.setString(2,t);
+			ps2.executeUpdate();
 
 		} catch (SQLException e) {
 			log.warn("failed to retrieve user");
@@ -114,8 +119,13 @@ public class BankDAOJDBC implements BankDAO {
 		try (Connection conn = connUtil.getConnection()) {
 			log.trace("connection established with db, creating prepared statement to save user");
 			PreparedStatement ps = conn.prepareStatement(
-					"UPDATE user_account SET checking = checking - " + amt + " WHERE user_id = " + id + ";");
+					"UPDATE user_account SET checking = checking - " + amt + " WHERE user_id = " + id);
 			ps.executeUpdate();
+			PreparedStatement ps2 = conn.prepareStatement("INSERT INTO transactions (user_id, trans) VALUES (?,?)");
+			ps2.setInt(1, id);
+			String t = "Withdrew " + amt + "$ from checking account.";
+			ps2.setString(2,t);
+			ps2.executeUpdate();
 
 		} catch (SQLException e) {
 			log.warn("failed to retrieve user");
@@ -129,10 +139,12 @@ public class BankDAOJDBC implements BankDAO {
 		int balance = 0;
 		try (Connection conn = connUtil.getConnection()) {
 			log.trace("connection established with db, creating prepared statement to save user");
-			PreparedStatement ps = conn
-					.prepareStatement("SELECT " + type + " FROM user_account WHERE user_id = " + id + ";");
+			PreparedStatement ps = conn.prepareStatement("SELECT " + type + " FROM user_account WHERE user_id = ?");
+			ps.setInt(1, id);
 			ResultSet rs = ps.executeQuery();
-			balance = rs.getInt(type);
+			if (rs.next()) {
+				balance = rs.getInt(type);
+			}
 		} catch (SQLException e) {
 			log.warn("failed to retrieve user");
 		}
@@ -148,19 +160,24 @@ public class BankDAOJDBC implements BankDAO {
 			log.trace("connection established with db, creating prepared statement to save user");
 			if (type.hashCode() == "checking".hashCode()) {
 				PreparedStatement ps = conn.prepareStatement(
-						"UPDATE user_account SET checking = checking + " + amt + " WHERE user_id = " + id + ";");
+						"UPDATE user_account SET checking = checking + " + amt + " WHERE user_id = " + id);
 				ps.executeUpdate();
 				ps = conn.prepareStatement(
-						"UPDATE user_account SET checking = checking - " + amt + " WHERE user_id = " + id + ";");
+						"UPDATE user_account SET savings = savings - " + amt + " WHERE user_id = " + id);
 				ps.executeUpdate();
 			} else {
 				PreparedStatement ps = conn.prepareStatement(
-						"UPDATE user_account SET savings = savings + " + amt + " WHERE user_id = " + id + ";");
+						"UPDATE user_account SET savings = savings + " + amt + " WHERE user_id = " + id);
 				ps.executeUpdate();
 				ps = conn.prepareStatement(
-						"UPDATE user_account SET savings = savings - " + amt + " WHERE user_id = " + id + ";");
+						"UPDATE user_account SET checking = checking - " + amt + " WHERE user_id = " + id);
 				ps.executeUpdate();
 			}
+			PreparedStatement ps2 = conn.prepareStatement("INSERT INTO transactions (user_id, trans) VALUES (?,?)");
+			ps2.setInt(1, id);
+			String t = "Transferred " + amt + "$ into " + type + " account";
+			ps2.setString(2,t);
+			ps2.executeUpdate();
 
 		}
 
@@ -178,11 +195,18 @@ public class BankDAOJDBC implements BankDAO {
 			log.trace("connection established with db, creating prepared statement to save user");
 
 			PreparedStatement ps = conn.prepareStatement(
-					"UPDATE user_account SET checking = checking - " + amount + " WHERE user_id = " + id + ";");
+					"UPDATE user_account SET checking = checking - " + amount + " WHERE user_id = " + id);
 			ps.executeUpdate();
 			ps = conn.prepareStatement(
-					"UPDATE user_account SET checking = checking + " + amount + " WHERE username = " + receiver + ";");
+					"UPDATE user_account SET checking = checking + " + amount + " WHERE username = ?");
+			ps.setString(1, receiver);
 			ps.executeUpdate();
+			
+			PreparedStatement ps2 = conn.prepareStatement("INSERT INTO transactions (user_id, trans) VALUES (?,?)");
+			ps2.setInt(1, id);
+			String t = "Quickpayed " + amount + "$ to " + receiver;
+			ps2.setString(2,t);
+			ps2.executeUpdate();
 
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -199,12 +223,16 @@ public class BankDAOJDBC implements BankDAO {
 		try (Connection conn = connUtil.getConnection()) {
 			log.trace("connection established with db, creating prepared statement to save user");
 
-			PreparedStatement ps = conn
-					.prepareStatement("SELECT *FROM user_account WHERE username = " + username + ";");
+			PreparedStatement ps = conn.prepareStatement("SELECT *FROM user_account WHERE username = ?");
+			ps.setString(1, username);
 			ResultSet rs = ps.executeQuery();
-			if (rs == null) {
-				ps = conn.prepareStatement("UPDATE user_account SET username = " + username + "AND password = "
-						+ password + " WHERE user_id = " + id + ";");
+
+			if (rs.next() == false) {
+				ps = conn.prepareStatement("UPDATE user_account SET username = ?, pass = ? WHERE user_id = ?");
+				ps.setString(1, username);
+				ps.setString(2, password);
+				ps.setInt(3, id);
+				ps.executeUpdate();
 			} else {
 				added = false;
 			}
@@ -214,5 +242,25 @@ public class BankDAOJDBC implements BankDAO {
 			e.printStackTrace();
 		}
 		return added;
+	}
+
+	@Override
+	public void printTrans(int id) {
+		log.trace("method called to print user transactions");
+		log.trace("Attempting to get connection to db");
+		try (Connection conn = connUtil.getConnection()) {
+			log.trace("connection established with db, creating prepared statement to save user");
+
+			PreparedStatement ps = conn.prepareStatement("SELECT *FROM transactions WHERE user_id = " + id);
+			ResultSet rs = ps.executeQuery();
+			System.out.println("Your Transaction History:\n");
+			while (rs.next()) {
+				System.out.println(rs.getString("trans") + "\n");
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 	}
 }

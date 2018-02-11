@@ -22,14 +22,14 @@ public class ViewBalanceScreen implements Screen {
 	@Override
 	public Screen prompt() {
 		System.out.println("VIEW BALANCE \n");
-		System.out.println("Press s for Savings");
-		System.out.println("Press c for Checking");
+		System.out.println("Enter checking to view the balance of your checking account.\n");
+		System.out.println("Enter savings to view the balance of your savings account.\n");
 		String type = scan.nextLine();
-		if (!((type.hashCode() == "s".hashCode()) || (type.hashCode() == "c".hashCode()))) {
+		if (!((type.hashCode() == "savings".hashCode()) || (type.hashCode() == "checking".hashCode()))) {
 			System.out.println("Invalid account option\n");
 			return new UserAccountScreen(curr);
 		}
-		dao.balance(curr.userId, type);
+		System.out.println("Your balance is " + dao.balance(curr.userId, type) + "$\n");
 		return new UserAccountScreen(curr);
 	}
 

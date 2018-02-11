@@ -3,13 +3,16 @@ package com.revature.screens;
 import java.util.Scanner;
 
 import com.revature.beans.User;
+import com.revature.dao.BankDAOJDBC;
 
 public class UserAccountScreen implements Screen {
 
-	private User curr;
-	
 	public Scanner scan = new Scanner(System.in);
-	
+
+	public BankDAOJDBC dao = new BankDAOJDBC();
+
+	private User curr;
+
 	public UserAccountScreen(User c) {
 		super();
 		this.curr = c;
@@ -24,7 +27,7 @@ public class UserAccountScreen implements Screen {
 		System.out.println("Press 3 to View Account Balance: ");
 		System.out.println("Press 4 to View Transaction History: ");
 		System.out.println("Press 5 to QuickPay");
-		System.out.println("Press 6 to Transfer Money from Checking to Savings");
+		System.out.println("Press 6 to Transfer Money");
 		System.out.println("Press 7 to Change Your User Name And Password");
 		System.out.println("Press 8 to Logout");
 		String input = scan.nextLine();
@@ -34,18 +37,18 @@ public class UserAccountScreen implements Screen {
 		case "1":
 			return new DepositScreen(curr);
 		case "2":
-//			return new WithdrawalScreen(bank, curr);
+			return new WithdrawalScreen(curr);
 		case "3":
-//			return new ViewBalanceScreen(bank, curr);
+			return new ViewBalanceScreen(curr);
 		case "4":
-//			bank.printTrans(curr);
+			dao.printTrans(curr.getId());
 			break;
 		case "5":
-//			return new QuickPayScreen(bank, curr);
+			return new QuickPayScreen(curr);
 		case "6":
-//			return new TransferScreen(bank, curr);
+			 return new TransferScreen(curr);
 		case "7":
-//			return new ChangeUserAndPassScreen(bank, curr);
+			return new ChangeUserAndPassScreen(curr);
 		case "8":
 			return new MainMenu();
 		default:

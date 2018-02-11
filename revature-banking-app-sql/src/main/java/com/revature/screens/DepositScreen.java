@@ -33,10 +33,10 @@ public class DepositScreen implements Screen {
 			System.out.println("Deposit amount must be greater or equal to 0\n");
 			return new UserAccountScreen(curr);
 		}
-		System.out.println("Press s for Savings");
-		System.out.println("Press c for Checking");
+		System.out.println("Enter savings to deposit " + depositAmt + "$ into you checking account");
+		System.out.println("Enter savings to deposit " + depositAmt + "$ into you savings account");
 		String type = scan.nextLine();
-		if (!((type.hashCode() == "s".hashCode()) || (type.hashCode() == "c".hashCode()))) {
+		if (!((type.hashCode() == "savings".hashCode()) || (type.hashCode() == "checking".hashCode()))) {
 			System.out.println("Invalid account option\n");
 			return new UserAccountScreen(curr);
 		}

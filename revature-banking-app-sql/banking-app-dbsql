@@ -31,7 +31,7 @@ conn revaturebank/p4ssw0rd
 CREATE TABLE user_account
 (
     user_id NUMBER PRIMARY KEY,
-    username VARCHAR2(500),
+    username VARCHAR2(500) NOT NULL,
     pass VARCHAR2(500) NOT NULL,
     checking number NOT NULL,
     savings number NOT NULL
@@ -43,8 +43,10 @@ CREATE TABLE user_account
 ********************************************************************************/
 CREATE TABLE transactions
 (   
-    transaction_id NUMBER PRIMARY KEY,
-    user_id NUMBER NOT NULL
+    transaction_id NUMBER,
+    user_id NUMBER,
+    trans varchar2(500),
+    FOREIGN KEY (user_id) REFERENCES user_account (user_id)
 );
 
 /*******************************************************************************

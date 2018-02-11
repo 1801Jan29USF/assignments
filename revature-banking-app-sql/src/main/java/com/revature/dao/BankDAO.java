@@ -20,4 +20,6 @@ public interface BankDAO {
 	void quickPay(String receiver, int id, int amount);
 	
 	boolean updateUserPass(int id, String username, String password);
+	
+	void printTrans(int id);
 }
