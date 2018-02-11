@@ -143,13 +143,69 @@ SELECT born_after() FROM dual;
 
 
 -- Create a stored procedure that selects the first and last names of all the employees.
-
+CREATE OR REPLACE PROCEDURE get_full_name
+IS
+BEGIN
+  FOR employee IN (
+    SELECT firstname, lastname 
+    FROM employee
+  )
+  LOOP
+    dbms_output.put_line
+      ('FirstName = ' || employee.firstname || ', Last name = ' || employee.lastname);
+  END LOOP;
+END;
+/
+SET SERVEROUTPUT ON
+BEGIN
+    get_full_name();
+END;
 -- Create a stored procedure that updates the personal information of an employee.
-
+CREATE OR REPLACE PROCEDURE change_info
+(new_first VARCHAR, new_last VARCHAR,ref_id NUMBER)
+IS
+BEGIN
+    UPDATE employee 
+    SET firstname = new_first, lastname = new_last
+    WHERE employeeid = ref_id;
+END;
+/
+BEGIN
+    change_info('Ricardo', 'Viera',1);
+END;
+SELECT * FROM employee;
 -- Create a stored procedure that returns the managers of an employee.
- 
--- Create a stored procedure that returns the name and company of a customer.
+CREATE OR REPLACE PROCEDURE reports_to
+(emp_id NUMBER)
+IS
+rep_to NUMBER;
+BEGIN
+    SELECT reportsto INTO rep_to FROM employee 
+    WHERE employeeid=emp_id;
+    dbms_output.put_line
+    ('Employee with id = ' || emp_id || ', reports to = ' || rep_to);
+END; 
 
+SET SERVEROUTPUT ON
+BEGIN
+    reports_to(2);
+END;
+-- Create a stored procedure that returns the name and company of a customer.
+CREATE OR REPLACE PROCEDURE get_name_company
+(customer_id NUMBER, f_name OUT VARCHAR2, f_comp OUT VARCHAR2)
+IS
+BEGIN
+    SELECT firstname, company INTO f_name, f_comp FROM customer
+    WHERE customerid=customer_id;
+END;
+--not sure how to test it???
+SET SERVEROUTPUT ON
+DECLARE 
+f_name VARCHAR2(30);
+f_comp VARCHAR2(30);
+BEGIN
+    get_name_company(1,f_name,f_comp);
+END;
 
 -- Create a transaction that given a invoiceId will delete that invoice (There may be constraints that rely on this, find out how to resolve them).
 ALTER TABLE invoiceline DROP CONSTRAINT fk_invoicelineinvoiceid;
@@ -190,7 +246,7 @@ CREATE OR REPLACE TRIGGER update_trig
 AFTER UPDATE ON album
 FOR EACH ROW
 BEGIN
-    dbms_output.put_line('Album has changed.');
+    dbms_output.put_line('New album has been added.');
 END;
 /
 
@@ -203,6 +259,14 @@ BEGIN
 END;
 /
 -- Create an instead of trigger that restricts the deletion of any invoice that is priced over 50 dollars.
+CREATE OR REPLACE TRIGGER invoice_trig
+BEFORE DELETE ON invoice
+FOR EACH ROW
+BEGIN 
+  IF :OLD.total > 50 THEN
+    INSERT INTO invoice VALUES(:OLD.invoiceid, :OLD.customerid, :OLD.invoicedate, :OLD.billingaddress, :OLD.billingcity, :OLD.billingstate, :OLD.billingcountry, :OLD.billingpostalcode, :OLD.total);
+    END IF;
+END;
 
 -- INNER
 -- Create an inner join that joins customers and orders and specifies the name of the customer and the invoiceId.
@@ -234,4 +298,3 @@ WHERE e1.reportsto = e2.employeeid;
 -- Create a clustered index on of table of your choice
 CREATE INDEX trk_albm
 ON track (trackid,albumid);
-
