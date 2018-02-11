@@ -48,10 +48,9 @@ public class BankDAOJDBC implements BankDAO {
 		log.trace("method called to check for uniqueness of login credentials");
 		log.trace("Attempting to get connection to db");
 		try (Connection conn = connUtil.getConnection()) {
-			log.trace("connection established with db, creating prepared statement to save user");
-			PreparedStatement ps = conn.prepareStatement("SELECT * FROM user_account WHERE username = ? AND pass = ?");
+			log.trace("connection established with db, creating prepared statement to access");
+			PreparedStatement ps = conn.prepareStatement("SELECT * FROM user_account WHERE username = ?");
 			ps.setString(1, u);
-			ps.setString(2, p);
 			ResultSet rs = ps.executeQuery();
 			if (rs.next()) {
 				User user = new User(rs.getInt("user_id"), rs.getString("username"), rs.getString("pass"),
@@ -78,13 +77,13 @@ public class BankDAOJDBC implements BankDAO {
 			PreparedStatement ps = conn.prepareStatement("SELECT * FROM user_account WHERE username = ?");
 			ps.setString(1, u);
 			ResultSet rs = ps.executeQuery();
-			if (rs.next()) {
-				log.trace("User credentials are not uniqe.");
-
-			} else {
+			if (rs.getRow() == 0) {
 				User user = new User(0, u, p, 0, 0);
 				save(user);
 				return user;
+
+			} else {
+				log.trace("User credentials are not uniqe.");
 			}
 
 		} catch (SQLException e) {
