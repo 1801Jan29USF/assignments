@@ -7,7 +7,7 @@ import java.util.*;
 
 /**
  * @author Brandon
- * Launcher for the bank, imports user singleton user serializer from getUserSerializer() method.
+ * Launcher for the bank, imports singleton userserializer from getUserSerializer() method.
  *
  */
 public class BankLauncher {
