@@ -1,6 +1,5 @@
 package BankingApp.factories;
 
-import BankingApp.beans.User;
 import BankingApp.screens.*;
 
 /**
@@ -26,7 +25,7 @@ public class ScreenFactory {
                 currentScreen = new LoginScreen();
                 break;
             case "logout":
-                currentScreen = new LogoutScreen();
+                currentScreen = new MainScreenNoLogIn();
                 break;
             case "mainNoLogIn":
                 currentScreen = new MainScreenNoLogIn();
@@ -34,27 +33,20 @@ public class ScreenFactory {
             case "register":
                 currentScreen = new RegisterScreen();
                 break;
-            case "shutdown":
-                currentScreen = new ShutdownScreen();
-                break;
-            default:
-                System.out.println("UHOH");
-                break;
-        }
-    }
-    public void setCurrentScreen(String type, User user){
-        switch(type){
             case "deposit":
-                currentScreen = new DepositScreen(user);
+                currentScreen = new DepositScreen();
                 break;
             case "mainLogIn":
-                currentScreen = new MainScreenLogIn(user);
+                currentScreen = new MainScreenLogIn();
                 break;
             case "viewTransactions":
-                currentScreen = new ViewTransactionHistoryScreen(user);
+                currentScreen = new ViewTransactionHistoryScreen();
+                break;
+            case "viewBalance":
+                currentScreen = new ViewBalanceScreen();
                 break;
             case "withdraw":
-                currentScreen = new WithdrawScreen(user);
+                currentScreen = new WithdrawScreen();
                 break;
             default:
                 System.out.println("UHOH");
