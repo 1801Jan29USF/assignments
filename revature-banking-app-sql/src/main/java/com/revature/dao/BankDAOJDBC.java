@@ -272,6 +272,7 @@ public class BankDAOJDBC implements BankDAO {
 			String t = "Deletion of user profile with id: " + id;
 			ps.setString(2, t);
 			ps.executeUpdate();
+			log.trace("blajlsdf");
 			PreparedStatement ps2 = conn.prepareStatement("DELETE FROM bank_users WHERE user_id = ?");
 			ps2.setInt(1, id);
 			ps2.executeUpdate();
