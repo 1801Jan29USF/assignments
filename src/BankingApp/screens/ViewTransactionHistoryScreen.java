@@ -6,7 +6,7 @@ import BankingApp.factories.ScreenFactory;
 import java.sql.*;
 
 /**
- * Functionality: Manages the screen which displays the transaction history of the logged in user.
+ * Functionality: Manages the screen displaying the view transaction history function.
  */
 public class ViewTransactionHistoryScreen implements Screen {
 

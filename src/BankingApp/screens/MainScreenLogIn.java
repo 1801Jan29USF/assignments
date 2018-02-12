@@ -5,7 +5,7 @@ import BankingApp.factories.ScreenFactory;
 import java.util.Scanner;
 
 /**
- * Functionality: Manages the main menu displayed if the user is logged in.
+ * Functionality: Manages the main screen displayed if the user is logged in.
  */
 public class MainScreenLogIn implements Screen {
 

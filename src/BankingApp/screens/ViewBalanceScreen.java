@@ -6,12 +6,12 @@ import BankingApp.factories.ScreenFactory;
 import java.sql.*;
 
 /**
- * Functionality:
+ * Functionality: Manages the screen displaying the view balance function.
  */
 public class ViewBalanceScreen implements Screen {
     @Override
     public void prompt() {
-        double bal = -1;
+        double bal;
         try (Connection c = DriverManager.getConnection("jdbc:oracle:thin:@revaturetraining.ckqxq1sfkqwb.us-east-1.rds.amazonaws.com:1521:ORCL", "bankadmin", "pass")){
             PreparedStatement ps = c.prepareCall("SELECT balance FROM bank_users WHERE uname = ?");
             ps.setString(1, String.valueOf(User.getUname()));

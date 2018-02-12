@@ -7,7 +7,7 @@ import java.sql.*;
 import java.util.Scanner;
 
 /**
- * Functionality: Manages the withdrawal functionality.
+ * Functionality: Manages the screen displaying the withdrawal function.
  */
 public class WithdrawScreen implements Screen {
 

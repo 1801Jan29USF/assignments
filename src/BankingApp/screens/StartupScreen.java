@@ -3,7 +3,7 @@ package BankingApp.screens;
 import BankingApp.factories.ScreenFactory;
 
 /**
- * Functionality:
+ * Functionality: Prints a welcome message upon startup.
  */
 public class StartupScreen implements Screen {
     @Override

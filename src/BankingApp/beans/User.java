@@ -3,7 +3,7 @@ package BankingApp.beans;
 import java.io.Serializable;
 
 /**
- * Functionality: A bean describing a user of a bank with a username, password, account balance, and transaction history
+ * Functionality: A singleton bean which stores a static value tracking the active user.
  */
 public class User implements Serializable {
     static final long serialVersionUID = 42L;

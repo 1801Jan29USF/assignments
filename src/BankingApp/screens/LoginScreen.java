@@ -7,7 +7,7 @@ import java.sql.*;
 import java.util.Scanner;
 
 /**
- * Functionality: Manages the log in screen.
+ * Functionality: Manages the screen displaying the login function.
  */
 public class LoginScreen implements Screen {
     @Override

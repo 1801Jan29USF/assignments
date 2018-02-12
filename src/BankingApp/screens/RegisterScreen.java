@@ -6,7 +6,7 @@ import java.sql.*;
 import java.util.Scanner;
 
 /**
- * Functionality: Manages the account registration screen.
+ * Functionality: Manages the screen displaying the registration function.
  */
 public class RegisterScreen implements Screen {
 
@@ -14,7 +14,6 @@ public class RegisterScreen implements Screen {
     public void prompt() {
         String user, pwd;
         Scanner in = new Scanner(System.in);
-        int result = -1;
         System.out.print("Username << ");
         user = in.nextLine();
         System.out.print("Password << ");
