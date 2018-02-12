@@ -24,6 +24,8 @@ public class WithdrawScreen implements Screen {
             System.out.println("Withdrawal successful!");
         } catch (SQLIntegrityConstraintViolationException e) {
             System.out.println("Withdrawal failed. You may have attempted an overdraft.");
+        } catch (SQLSyntaxErrorException e){
+            System.out.println("Input must be non-negative. Try again.");
         } catch (SQLException e){
             e.printStackTrace();
         } catch (NumberFormatException e){

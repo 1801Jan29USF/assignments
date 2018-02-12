@@ -3,10 +3,7 @@ package BankingApp.screens;
 import BankingApp.beans.User;
 import BankingApp.factories.ScreenFactory;
 
-import java.sql.CallableStatement;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Scanner;
 
 
@@ -26,7 +23,10 @@ public class DepositScreen implements Screen {
             ps.setDouble(2, Double.parseDouble(amt));
             ps.execute();
             System.out.println("Deposit successful!");
-        } catch (SQLException e) {
+        }catch (SQLSyntaxErrorException e){
+            System.out.println("Input must be non-negative. Try again.");
+        }
+        catch (SQLException e) {
             System.out.println("Deposit failed.");
             e.printStackTrace();
         }catch (NumberFormatException e){

@@ -28,6 +28,7 @@ public class LoginScreen implements Screen {
             result = rs.getString(1);
             System.out.println("Log in successful.");
             User.setUname(user);
+            System.out.printf("Welcome back, %s.\n", User.getUname());
         } catch (SQLException e) {
             System.out.println("Log in failed.");
             e.printStackTrace();
