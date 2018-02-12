@@ -1,5 +1,6 @@
 package BankingApp.screens;
 
+import BankingApp.beans.ConnectionUtility;
 import BankingApp.beans.User;
 import BankingApp.factories.ScreenFactory;
 
@@ -13,7 +14,7 @@ public class ViewTransactionHistoryScreen implements Screen {
     @Override
     public void prompt() {
         System.out.println("Transaction History:");
-        try (Connection c = DriverManager.getConnection("jdbc:oracle:thin:@revaturetraining.ckqxq1sfkqwb.us-east-1.rds.amazonaws.com:1521:ORCL", "bankadmin", "pass")){
+        try (Connection c = ConnectionUtility.getConnection()){
             PreparedStatement ps = c.prepareStatement("SELECT t_id, is_withdrawal, amount, datetime FROM transactions WHERE responsible_user = ?");
             ps.setString(1, User.getUname());
             ResultSet rs = ps.executeQuery();

@@ -11,7 +11,7 @@ import java.util.Properties;
  * Functionality:
  */
 public class ConnectionUtility {
-    private Properties prop = new Properties();
+    private static Properties prop = new Properties();
     private static ConnectionUtility connUtil = new ConnectionUtility();
 
     private ConnectionUtility(){
@@ -22,7 +22,7 @@ public class ConnectionUtility {
         }
     }
 
-    public Connection getConnection() throws SQLException{
+    public static Connection getConnection() throws SQLException{
         return DriverManager.getConnection(prop.getProperty("url"), prop.getProperty("username"), prop.getProperty("pass"));
     }
 

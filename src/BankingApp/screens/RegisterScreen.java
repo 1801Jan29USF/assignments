@@ -1,5 +1,6 @@
 package BankingApp.screens;
 
+import BankingApp.beans.ConnectionUtility;
 import BankingApp.factories.ScreenFactory;
 
 import java.sql.*;
@@ -18,7 +19,7 @@ public class RegisterScreen implements Screen {
         user = in.nextLine();
         System.out.print("Password << ");
         pwd = in.nextLine();
-        try (Connection c = DriverManager.getConnection("jdbc:oracle:thin:@revaturetraining.ckqxq1sfkqwb.us-east-1.rds.amazonaws.com:1521:ORCL", "bankadmin", "pass")){
+        try (Connection c = ConnectionUtility.getConnection()){
             CallableStatement cs = c.prepareCall("{call registration(?, ?)}");
             cs.setString(1, user);
             cs.setString(2, pwd);

@@ -1,5 +1,6 @@
 package BankingApp.screens;
 
+import BankingApp.beans.ConnectionUtility;
 import BankingApp.beans.User;
 import BankingApp.factories.ScreenFactory;
 
@@ -17,7 +18,7 @@ public class DepositScreen implements Screen {
         Scanner in = new Scanner(System.in);
         System.out.print("Deposit amount << ");
         String amt = in.nextLine();
-        try (Connection c = DriverManager.getConnection("jdbc:oracle:thin:@revaturetraining.ckqxq1sfkqwb.us-east-1.rds.amazonaws.com:1521:ORCL", "bankadmin", "pass")){
+        try (Connection c = ConnectionUtility.getConnection()){
             CallableStatement ps = c.prepareCall("{CALL deposit(?,?)}");
             ps.setString(1, String.valueOf(User.getUname()));
             ps.setDouble(2, Double.parseDouble(amt));
