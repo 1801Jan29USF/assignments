@@ -22,7 +22,9 @@ public class QuickPayScreen implements Screen {
 	@Override
 	public Screen prompt() {
 		System.out.println("QUICKPAY \n");
-		System.out.println("Enter Username of receiver: ");
+		System.out.println("Enter The Account Name you would like to send from: ");
+		String acct = scan.nextLine();
+		System.out.println("Enter Receiver's Account Name: ");
 		String receiver = scan.nextLine();
 		System.out.println("Enter amount to send: ");
 		int amount = 0;
@@ -34,7 +36,7 @@ public class QuickPayScreen implements Screen {
 		if (amount < 0) {
 			System.out.println("Quickpay amount must be greater or equal to 0\n");
 		}
-		dao.quickPay(receiver, curr.getId(), amount);
+		dao.quickPay(acct, receiver, curr.getId(), amount);
 
 		return new UserAccountScreen(curr);
 	}

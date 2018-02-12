@@ -22,8 +22,10 @@ public class TransferScreen implements Screen {
 	@Override
 	public Screen prompt() {
 		System.out.println("TRANSFER \n");
-		System.out.println("Which account would you like to transfer to?\n");
-		String type = scan.nextLine();
+		System.out.println("Which account would you like to transfer money from?\n");
+		String acctFrom = scan.nextLine();
+		System.out.println("Which account would you like to transfer money to?\n");
+		String acctTo = scan.nextLine();
 		System.out.println("Enter amount for transfer\n");
 		int transferAmt = 0;
 		try {
@@ -36,7 +38,7 @@ public class TransferScreen implements Screen {
 			System.out.println("Transfer amount must be greater or equal to 0\n");
 			return new UserAccountScreen(curr);
 		}
-		dao.transfer(curr.getId(), transferAmt, type);
+		dao.transfer(curr.getId(), transferAmt, acctFrom, acctTo);
 		return new UserAccountScreen(curr);
 	}
 

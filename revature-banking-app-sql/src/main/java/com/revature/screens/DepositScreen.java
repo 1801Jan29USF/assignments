@@ -33,14 +33,9 @@ public class DepositScreen implements Screen {
 			System.out.println("Deposit amount must be greater or equal to 0\n");
 			return new UserAccountScreen(curr);
 		}
-		System.out.println("Enter savings to deposit " + depositAmt + "$ into you checking account");
-		System.out.println("Enter savings to deposit " + depositAmt + "$ into you savings account");
-		String type = scan.nextLine();
-		if (!((type.hashCode() == "savings".hashCode()) || (type.hashCode() == "checking".hashCode()))) {
-			System.out.println("Invalid account option\n");
-			return new UserAccountScreen(curr);
-		}
-		dao.deposit(curr.userId, depositAmt, type);
+		System.out.println("Enter account name for deposit");
+		String acctName = scan.nextLine();
+		dao.deposit(curr.userId, depositAmt, acctName);
 
 		return new UserAccountScreen(curr);
 	}

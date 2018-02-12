@@ -34,6 +34,8 @@ public class ChangeUserAndPassScreen implements Screen {
 		// If new account name doesn't exist change it
 		if (dao.updateUserPass(curr.getId(), username, password)) {
 			System.out.println("Your username and password have been updated.\n");
+			curr.setUsername(username);
+			curr.setPassword(password);
 			return new UserAccountScreen(curr);
 		}
 		System.out.println("Chosen username already exists. Please choose a new usename.\n");

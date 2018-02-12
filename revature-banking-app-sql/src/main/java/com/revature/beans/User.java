@@ -15,17 +15,12 @@ public class User implements Serializable{
 	private String username;
 
 	private String password;	
-
-	public int checking;
-
-	public int savings;
 	
 	public int userId;
 	
 	@Override
 	public String toString() {
-		return "User [username=" + username + ", password=" + password + ", checking=" + checking + ", savings="
-				+ savings + "]";
+		return "User [username=" + username + ", password=" + password  + "]";
 	}
 
 	List<String> transactions = new ArrayList<>(0);
@@ -54,12 +49,10 @@ public class User implements Serializable{
 		this.password = p;
 	}
 
-	public User(int id, String u, String p, int c, int s) {
+	public User(int id, String u, String p) {
 		super();
 		this.username = u;
 		this.password = p;
-		this.checking = 0;
-		this.savings = 0;
 		this.userId = id;
 	}
 

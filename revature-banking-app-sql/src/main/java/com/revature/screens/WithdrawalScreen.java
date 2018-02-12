@@ -33,7 +33,9 @@ public class WithdrawalScreen implements Screen {
 			System.out.println("Withdrawal amount must be greater or equal to 0\n");
 			return new UserAccountScreen(curr);
 		}
-		dao.withdraw(curr.userId, withdrawAmt);
+		System.out.println("Please enter the account that you would like to withdraw money from:");
+		String acctName = scan.nextLine();
+		dao.withdraw(curr.userId, withdrawAmt, acctName);
 		return new UserAccountScreen(curr);
 	}
 }
