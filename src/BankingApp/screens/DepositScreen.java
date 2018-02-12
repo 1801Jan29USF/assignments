@@ -29,6 +29,8 @@ public class DepositScreen implements Screen {
         } catch (SQLException e) {
             System.out.println("Deposit failed.");
             e.printStackTrace();
+        }catch (NumberFormatException e){
+            System.out.println("Non-number input detected.");
         }
         ScreenFactory.getScreenFactory().setCurrentScreen("mainLogIn");
     }

@@ -20,18 +20,13 @@ public class RegisterScreen implements Screen {
         System.out.print("Password << ");
         pwd = in.nextLine();
         try (Connection c = DriverManager.getConnection("jdbc:oracle:thin:@revaturetraining.ckqxq1sfkqwb.us-east-1.rds.amazonaws.com:1521:ORCL", "bankadmin", "pass")){
-            CallableStatement cs = c.prepareCall("{call registration(?, ?, ?)}");
-            cs.registerOutParameter(3, result);
+            CallableStatement cs = c.prepareCall("{call registration(?, ?)}");
             cs.setString(1, user);
             cs.setString(2, pwd);
             cs.execute();
-            System.out.println(cs.getInt(3));
-            if(cs.getInt(3) != 1){
-                System.out.println("Registration successful. Try logging in.");
-            }
-            else{
-                System.out.println("Can't use that username. Try something else.");
-            }
+            System.out.println("Registration successful. Try logging in.");
+        } catch (SQLIntegrityConstraintViolationException e){
+            System.out.println("You can't use a username that is already taken by another user. Try something else.");
         } catch (SQLException e) {
             System.out.println("Something's wrong. Try another time.");
             e.printStackTrace();

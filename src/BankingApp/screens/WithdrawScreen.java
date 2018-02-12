@@ -16,7 +16,6 @@ public class WithdrawScreen implements Screen {
         Scanner in = new Scanner(System.in);
         System.out.print("Withdrawal amount << ");
         String amt = in.nextLine();
-        int result = -1;
         try (Connection c = DriverManager.getConnection("jdbc:oracle:thin:@revaturetraining.ckqxq1sfkqwb.us-east-1.rds.amazonaws.com:1521:ORCL", "bankadmin", "pass")){
             CallableStatement cs = c.prepareCall("{call withdraw(?, ?)}");
             cs.setString(1, User.getUname());
@@ -27,6 +26,8 @@ public class WithdrawScreen implements Screen {
             System.out.println("Withdrawal failed. You may have attempted an overdraft.");
         } catch (SQLException e){
             e.printStackTrace();
+        } catch (NumberFormatException e){
+            System.out.println("Non-number input detected.");
         }
         ScreenFactory.getScreenFactory().setCurrentScreen("mainLogIn");
     }
