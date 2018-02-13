@@ -1,0 +1,11 @@
+2018-02-13 00:11:24 DEBUG BankUserDaoJDBC:65 - The user attempted to withdraw more than they had
+2018-02-13 00:12:09 DEBUG BankUserDaoJDBC:65 - The user attempted to withdraw more than they had
+2018-02-13 00:14:03 DEBUG BankUserDaoJDBC:65 - The user attempted to withdraw more than they had
+2018-02-13 00:14:14 DEBUG BankUserDaoJDBC:65 - The user attempted to withdraw more than they had
+2018-02-13 00:25:27 DEBUG BankUserDaoJDBC:65 - The user attempted to withdraw more than they had
+2018-02-13 01:19:55 DEBUG BankUserDaoJDBC:191 - The user entered the incorrect password
+2018-02-13 02:48:54 DEBUG BankUserDaoJDBC:93 - The user attempted to withdraw more than they had
+2018-02-13 03:00:07 DEBUG BankUserDaoJDBC:195 - The user entered the incorrect password
+2018-02-13 03:00:33 DEBUG BankUserDaoJDBC:195 - The user entered the incorrect password
+2018-02-13 08:20:22 DEBUG BankUserDaoJDBC:93 - The user attempted to withdraw more than they had
+2018-02-13 08:21:11 DEBUG BankUserDaoJDBC:93 - The user attempted to withdraw more than they had

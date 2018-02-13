@@ -17,12 +17,19 @@ public class Transaction implements Serializable {
 	String action;
 	Double amount;
 	Date dateAndTime;
+	String username;
 
-	public Transaction(String action, Double amount, Date dateAndTime) {
+	public Transaction(Double amount, Date dateAndTime, String username) {
 		super();
-		this.action = action;
-		this.amount = amount;
+		this.action = "Deposited";
+		if (amount < 0.0) {
+			this.action = "Withdrew";
+			this.amount = amount * -1.0;
+		} else {
+			this.amount = amount;
+		}
 		this.dateAndTime = dateAndTime;
+		this.username = username;
 	}
 
 	public String getAction() {
@@ -47,6 +54,11 @@ public class Transaction implements Serializable {
 
 	public void setDateAndTime(Date dateAndTime) {
 		this.dateAndTime = dateAndTime;
+	}
+	
+	public String toString() {
+		return "On " + this.getDateAndTime() + ", " + this.username + " " + this.getAction() + " $"
+				+ this.getAmount() + ".";
 	}
 
 }

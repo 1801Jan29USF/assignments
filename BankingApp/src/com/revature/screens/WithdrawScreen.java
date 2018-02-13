@@ -1,9 +1,9 @@
 package com.revature.screens;
 
-
-import com.revature.beans.BankUser;
-import com.revature.util.BankUserSerializer;
+import com.revature.exceptions.InvalidPasswordException;
+import com.revature.exceptions.OverdraftException;
 import com.revature.util.CommandLineScannerSingleton;
+import com.revature.util.JDBCSingleton;
 
 /**
  * Screen that handles withdrawals for the user's account. Takes a withdrawal
@@ -16,11 +16,11 @@ import com.revature.util.CommandLineScannerSingleton;
  *
  */
 public class WithdrawScreen implements Screen {
-	BankUser user;
+	String username;
 
-	public WithdrawScreen(BankUser user) {
+	public WithdrawScreen(String username) {
 		super();
-		this.user = user;
+		this.username = username;
 	}
 
 	@Override
@@ -40,7 +40,7 @@ public class WithdrawScreen implements Screen {
 			System.out.println("Press enter to return to Main Menu");
 			CommandLineScannerSingleton.getSc().nextLine(); 
 			CommandLineScannerSingleton.getSc().nextLine();
-			return new MainMenu(this.user);
+			return new MainMenu(this.username);
 		}
 		/*
 		 * Returns the user to the Main Menu with a customized menu if they
@@ -51,54 +51,49 @@ public class WithdrawScreen implements Screen {
 			System.out.println("Press enter to return to Main Menu");
 			CommandLineScannerSingleton.getSc().nextLine(); 
 			CommandLineScannerSingleton.getSc().nextLine();
-			return new MainMenu(this.user);
+			return new MainMenu(this.username);
 		}
 		/*
 		 * Catches the user if they try to withdraw more than they have, booting
 		 * them bck to the Main Menu
 		 */
+		System.out.println("Please verify your password for this transaction:");
+		input = CommandLineScannerSingleton.getSc().next();
 		try {
-			user.withdraw(balanceChange);
-		} catch (Exception e) {
+			JDBCSingleton.getJD().withdraw(username, input, balanceChange);
+		}catch (InvalidPasswordException e) {
+			System.out.println("I'm sorry, that password is incorrect.");
+			System.out.println("Press enter to return to Main Menu");
+			CommandLineScannerSingleton.getSc().nextLine();
+			CommandLineScannerSingleton.getSc().nextLine();
+			System.out.println();
+			return new MainMenu(this.username);
+		}catch (OverdraftException e) {
 			System.out.println("I'm sorry, you do not have enough money in your account for this transaction.");
 			System.out.println("Press enter to return to Main Menu");
 			CommandLineScannerSingleton.getSc().nextLine();
 			CommandLineScannerSingleton.getSc().nextLine();
 			System.out.println();
-			return new MainMenu(this.user);
-		}
-		/*
-		 * Withdraws the requested amount from the user's account, updating the
-		 * current BankUser object before serializing it.
-		 */
-		try {
-			this.user.addTransaction("Withdrew", balanceChange);
-			BankUserSerializer.attemptWriteBankUser(this.user, this.user.getFile());
-			System.out.println("Your withdrawal has been successfully processed.");
-			System.out.println();
+			return new MainMenu(this.username);
 		} catch (Exception e) {
-			System.out.println("I'm sorry, this transaction failed.");
+			e.printStackTrace();
+			System.out.println("I'm sorry, something went wrong with this transaction.");
+			System.out.println("Press enter to return to Main Menu");
+			CommandLineScannerSingleton.getSc().nextLine();
+			CommandLineScannerSingleton.getSc().nextLine();
 			System.out.println();
-			user.deposit(balanceChange);
-			user.cancelTransaction();
+			return new MainMenu(this.username);
 		}
+
 		// Returns the user to the Main Menu
+		System.out.println("Your withdrawal has been successfully processed!");
 		System.out.println("Press enter to return to Main Menu");
 		input = CommandLineScannerSingleton.getSc().nextLine();
 		input = CommandLineScannerSingleton.getSc().nextLine();
-		return new MainMenu(this.user);
+		return new MainMenu(this.username);
 
 
 	}
-
-	public BankUser getUser() {
-		return user;
-	}
-
-	public void setUser(BankUser user) {
-		this.user = user;
-	}
-	
 	
 
 }

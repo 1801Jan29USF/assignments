@@ -1,8 +1,7 @@
 package com.revature.screens;
 
-import com.revature.beans.BankUser;
-import com.revature.util.BankUserSerializer;
 import com.revature.util.CommandLineScannerSingleton;
+import com.revature.util.JDBCSingleton;
 
 /**
  * Screen that handles deposits for the user's account. Takes a deposit
@@ -14,11 +13,11 @@ import com.revature.util.CommandLineScannerSingleton;
  *
  */
 public class DepositScreen implements Screen {
-	BankUser user;
+	String username;
 
-	public DepositScreen(BankUser user) {
+	public DepositScreen(String username) {
 		super();
-		this.user = user;
+		this.username = username;
 	}
 
 	@Override
@@ -38,7 +37,7 @@ public class DepositScreen implements Screen {
 			System.out.println("Press enter to return to Main Menu");
 			CommandLineScannerSingleton.getSc().nextLine();
 			CommandLineScannerSingleton.getSc().nextLine();
-			return new MainMenu(this.user);
+			return new MainMenu(this.username);
 		}
 		/*
 		 * Returns the user to the Main Menu with a customized menu if they
@@ -49,37 +48,29 @@ public class DepositScreen implements Screen {
 			System.out.println("Press enter to return to Main Menu");
 			CommandLineScannerSingleton.getSc().nextLine();
 			CommandLineScannerSingleton.getSc().nextLine();
-			return new MainMenu(this.user);
+			return new MainMenu(this.username);
 		}
 		/*
 		 * Deposits the requested amount into the user's account, updating the
 		 * current BankUser object before serializing it.
 		 */
 		try {
-			user.deposit(balanceChange);
-			user.addTransaction("Deposited", balanceChange);
-			BankUserSerializer.attemptWriteBankUser(this.user, this.user.getFile());
+			JDBCSingleton.getJD().deposit(username, balanceChange);;
 			System.out.println("Your deposit has been successfully processed.");
 			System.out.println();
 		} catch (Exception e) {
-			e.printStackTrace();
 			System.out.println("I'm sorry, this transaction failed.");
 			System.out.println();
-			user.safeWithdraw(balanceChange);
-			user.cancelTransaction();
 		}
 
 		// Returns the user to the Main Menu
 		System.out.println("Press enter to return to Main Menu");
 		CommandLineScannerSingleton.getSc().nextLine();
 		CommandLineScannerSingleton.getSc().nextLine();
-		return new MainMenu(this.user);
+		return new MainMenu(this.username);
 
 	}
 
-	public BankUser getUser() {
-		return user;
-	}
 
 
 }
