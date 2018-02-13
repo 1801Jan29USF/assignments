@@ -1,0 +1,312 @@
+2018-02-11 23:05:54 TRACE BankUserDAO:94 - Method called to get the existing users.
+2018-02-11 23:05:54 TRACE BankUserDAO:95 - Attempting to get connection to db.
+2018-02-11 23:05:55 TRACE BankUserDAO:97 - Connection established with db, creating prepared statement.
+2018-02-11 23:06:30 TRACE BankUserDAO:24 - Method called to insert new bank user.
+2018-02-11 23:06:30 TRACE BankUserDAO:25 - Attempting to get connection to db.
+2018-02-11 23:06:31 TRACE BankUserDAO:27 - Connection established with db, creating prepared statement.
+2018-02-11 23:06:31 DEBUG BankUserDAO:33 - This query inserted: 1row in the db.
+2018-02-11 23:07:13 TRACE BankUserDAO:74 - Method called to select id for user: first.
+2018-02-11 23:07:13 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:07:13 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:07:14 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-11 23:07:14 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-11 23:07:14 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:07:39 TRACE BankUserDAO:74 - Method called to select id for user: first.
+2018-02-11 23:07:39 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:07:40 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:07:40 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-11 23:07:40 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-11 23:07:41 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:09:29 TRACE BankUserDAO:74 - Method called to select id for user: first.
+2018-02-11 23:09:29 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:09:29 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:09:29 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-11 23:09:29 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-11 23:09:30 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:09:44 TRACE BankUserDAO:74 - Method called to select id for user: first.
+2018-02-11 23:09:44 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:09:44 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:09:44 TRACE TransactionDAO:22 - Method called to insert a new transaction.
+2018-02-11 23:09:44 TRACE TransactionDAO:23 - Attempting to get connection to db.
+2018-02-11 23:09:45 TRACE TransactionDAO:25 - Connection established with db, creating prepared statement.
+2018-02-11 23:09:45 DEBUG TransactionDAO:33 - this query inserted: 1row in the db.
+2018-02-11 23:09:45 TRACE BankUserDAO:43 - Method called to update an existing user's info
+2018-02-11 23:09:45 TRACE BankUserDAO:44 - Attempting to get connection to db.
+2018-02-11 23:09:46 TRACE BankUserDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:09:46 DEBUG BankUserDAO:51 - This query updated: 1 row in the db.
+2018-02-11 23:09:55 TRACE BankUserDAO:74 - Method called to select id for user: first.
+2018-02-11 23:09:55 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:09:56 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:09:56 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-11 23:09:56 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-11 23:09:57 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:10:03 TRACE BankUserDAO:74 - Method called to select id for user: first.
+2018-02-11 23:10:03 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:10:04 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:10:04 TRACE TransactionDAO:22 - Method called to insert a new transaction.
+2018-02-11 23:10:04 TRACE TransactionDAO:23 - Attempting to get connection to db.
+2018-02-11 23:10:05 TRACE TransactionDAO:25 - Connection established with db, creating prepared statement.
+2018-02-11 23:10:05 DEBUG TransactionDAO:33 - this query inserted: 1row in the db.
+2018-02-11 23:10:05 TRACE BankUserDAO:43 - Method called to update an existing user's info
+2018-02-11 23:10:05 TRACE BankUserDAO:44 - Attempting to get connection to db.
+2018-02-11 23:10:06 TRACE BankUserDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:10:06 DEBUG BankUserDAO:51 - This query updated: 1 row in the db.
+2018-02-11 23:10:10 TRACE BankUserDAO:74 - Method called to select id for user: first.
+2018-02-11 23:10:10 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:10:11 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:10:11 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-11 23:10:11 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-11 23:10:11 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:11:01 TRACE BankUserDAO:94 - Method called to get the existing users.
+2018-02-11 23:11:01 TRACE BankUserDAO:95 - Attempting to get connection to db.
+2018-02-11 23:11:02 TRACE BankUserDAO:97 - Connection established with db, creating prepared statement.
+2018-02-11 23:11:52 TRACE BankUserDAO:24 - Method called to insert new bank user.
+2018-02-11 23:11:52 TRACE BankUserDAO:25 - Attempting to get connection to db.
+2018-02-11 23:11:52 TRACE BankUserDAO:27 - Connection established with db, creating prepared statement.
+2018-02-11 23:11:53 DEBUG BankUserDAO:33 - This query inserted: 1row in the db.
+2018-02-11 23:12:09 TRACE BankUserDAO:74 - Method called to select id for user: second.
+2018-02-11 23:12:09 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:12:09 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:12:09 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-11 23:12:09 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-11 23:12:10 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:12:14 TRACE BankUserDAO:74 - Method called to select id for user: second.
+2018-02-11 23:12:14 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:12:15 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:12:15 TRACE TransactionDAO:22 - Method called to insert a new transaction.
+2018-02-11 23:12:15 TRACE TransactionDAO:23 - Attempting to get connection to db.
+2018-02-11 23:12:15 TRACE TransactionDAO:25 - Connection established with db, creating prepared statement.
+2018-02-11 23:12:15 DEBUG TransactionDAO:33 - this query inserted: 1row in the db.
+2018-02-11 23:12:15 TRACE BankUserDAO:43 - Method called to update an existing user's info
+2018-02-11 23:12:15 TRACE BankUserDAO:44 - Attempting to get connection to db.
+2018-02-11 23:12:16 TRACE BankUserDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:12:16 DEBUG BankUserDAO:51 - This query updated: 1 row in the db.
+2018-02-11 23:12:22 TRACE BankUserDAO:74 - Method called to select id for user: second.
+2018-02-11 23:12:22 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:12:23 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:12:23 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-11 23:12:23 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-11 23:12:23 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:12:30 TRACE BankUserDAO:74 - Method called to select id for user: second.
+2018-02-11 23:12:30 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:12:30 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:12:30 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-11 23:12:30 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-11 23:12:31 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:12:49 TRACE BankUserDAO:74 - Method called to select id for user: second.
+2018-02-11 23:12:49 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:12:50 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:12:50 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-11 23:12:50 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-11 23:12:50 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:12:55 TRACE BankUserDAO:74 - Method called to select id for user: second.
+2018-02-11 23:12:55 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:12:56 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:12:56 TRACE TransactionDAO:22 - Method called to insert a new transaction.
+2018-02-11 23:12:56 TRACE TransactionDAO:23 - Attempting to get connection to db.
+2018-02-11 23:12:56 TRACE TransactionDAO:25 - Connection established with db, creating prepared statement.
+2018-02-11 23:12:56 DEBUG TransactionDAO:33 - this query inserted: 1row in the db.
+2018-02-11 23:12:57 TRACE BankUserDAO:43 - Method called to update an existing user's info
+2018-02-11 23:12:57 TRACE BankUserDAO:44 - Attempting to get connection to db.
+2018-02-11 23:12:57 TRACE BankUserDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:12:57 DEBUG BankUserDAO:51 - This query updated: 1 row in the db.
+2018-02-11 23:13:01 TRACE BankUserDAO:74 - Method called to select id for user: second.
+2018-02-11 23:13:01 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:13:02 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:13:02 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-11 23:13:02 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-11 23:13:03 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:13:11 TRACE BankUserDAO:74 - Method called to select id for user: second.
+2018-02-11 23:13:11 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:13:11 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:13:12 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-11 23:13:12 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-11 23:13:12 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:13:31 TRACE BankUserDAO:74 - Method called to select id for user: second.
+2018-02-11 23:13:31 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:13:32 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:13:32 TRACE TransactionDAO:22 - Method called to insert a new transaction.
+2018-02-11 23:13:32 TRACE TransactionDAO:23 - Attempting to get connection to db.
+2018-02-11 23:13:32 TRACE TransactionDAO:25 - Connection established with db, creating prepared statement.
+2018-02-11 23:13:32 DEBUG TransactionDAO:33 - this query inserted: 1row in the db.
+2018-02-11 23:13:32 TRACE BankUserDAO:43 - Method called to update an existing user's info
+2018-02-11 23:13:32 TRACE BankUserDAO:44 - Attempting to get connection to db.
+2018-02-11 23:13:33 TRACE BankUserDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:13:33 DEBUG BankUserDAO:51 - This query updated: 1 row in the db.
+2018-02-11 23:13:36 TRACE BankUserDAO:74 - Method called to select id for user: second.
+2018-02-11 23:13:36 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:13:36 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:13:36 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-11 23:13:36 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-11 23:13:37 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:13:51 TRACE BankUserDAO:74 - Method called to select id for user: second.
+2018-02-11 23:13:51 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:13:51 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:13:52 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-11 23:13:52 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-11 23:13:52 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:13:56 TRACE BankUserDAO:74 - Method called to select id for user: second.
+2018-02-11 23:13:56 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:13:57 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:13:57 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-11 23:13:57 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-11 23:13:57 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-11 23:14:05 TRACE BankUserDAO:74 - Method called to select id for user: second.
+2018-02-11 23:14:05 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-11 23:14:06 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-11 23:14:06 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-11 23:14:06 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-11 23:14:06 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-12 09:40:38 TRACE BankUserDAO:94 - Method called to get the existing users.
+2018-02-12 09:40:38 TRACE BankUserDAO:95 - Attempting to get connection to db.
+2018-02-12 09:40:38 TRACE BankUserDAO:97 - Connection established with db, creating prepared statement.
+2018-02-12 09:41:11 TRACE BankUserDAO:94 - Method called to get the existing users.
+2018-02-12 09:41:11 TRACE BankUserDAO:95 - Attempting to get connection to db.
+2018-02-12 09:41:11 TRACE BankUserDAO:97 - Connection established with db, creating prepared statement.
+2018-02-12 09:42:03 TRACE BankUserDAO:74 - Method called to select id for user: first.
+2018-02-12 09:42:03 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-12 09:42:03 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-12 09:42:04 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-12 09:42:04 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-12 09:42:04 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-12 09:42:19 TRACE BankUserDAO:74 - Method called to select id for user: first.
+2018-02-12 09:42:19 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-12 09:42:20 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-12 09:42:20 TRACE TransactionDAO:22 - Method called to insert a new transaction.
+2018-02-12 09:42:20 TRACE TransactionDAO:23 - Attempting to get connection to db.
+2018-02-12 09:42:20 TRACE TransactionDAO:25 - Connection established with db, creating prepared statement.
+2018-02-12 09:42:20 DEBUG TransactionDAO:33 - this query inserted: 1row in the db.
+2018-02-12 09:42:20 TRACE BankUserDAO:43 - Method called to update an existing user's info
+2018-02-12 09:42:20 TRACE BankUserDAO:44 - Attempting to get connection to db.
+2018-02-12 09:42:21 TRACE BankUserDAO:46 - Connection established with db, creating prepared statement.
+2018-02-12 09:42:21 DEBUG BankUserDAO:51 - This query updated: 1 row in the db.
+2018-02-12 09:42:23 TRACE BankUserDAO:74 - Method called to select id for user: first.
+2018-02-12 09:42:23 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-12 09:42:24 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-12 09:42:24 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-12 09:42:24 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-12 09:42:24 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-12 09:42:30 TRACE BankUserDAO:74 - Method called to select id for user: first.
+2018-02-12 09:42:30 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-12 09:42:30 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-12 09:42:31 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-12 09:42:31 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-12 09:42:31 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-12 09:42:55 TRACE BankUserDAO:24 - Method called to insert new bank user.
+2018-02-12 09:42:55 TRACE BankUserDAO:25 - Attempting to get connection to db.
+2018-02-12 09:42:55 TRACE BankUserDAO:27 - Connection established with db, creating prepared statement.
+2018-02-12 09:42:55 DEBUG BankUserDAO:33 - This query inserted: 1row in the db.
+2018-02-12 09:43:13 TRACE BankUserDAO:74 - Method called to select id for user: adrian.
+2018-02-12 09:43:13 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-12 09:43:14 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-12 09:43:14 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-12 09:43:14 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-12 09:43:14 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-12 09:43:21 TRACE BankUserDAO:74 - Method called to select id for user: adrian.
+2018-02-12 09:43:21 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-12 09:43:21 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-12 09:43:22 TRACE TransactionDAO:22 - Method called to insert a new transaction.
+2018-02-12 09:43:22 TRACE TransactionDAO:23 - Attempting to get connection to db.
+2018-02-12 09:43:22 TRACE TransactionDAO:25 - Connection established with db, creating prepared statement.
+2018-02-12 09:43:22 DEBUG TransactionDAO:33 - this query inserted: 1row in the db.
+2018-02-12 09:43:22 TRACE BankUserDAO:43 - Method called to update an existing user's info
+2018-02-12 09:43:22 TRACE BankUserDAO:44 - Attempting to get connection to db.
+2018-02-12 09:43:22 TRACE BankUserDAO:46 - Connection established with db, creating prepared statement.
+2018-02-12 09:43:23 DEBUG BankUserDAO:51 - This query updated: 1 row in the db.
+2018-02-12 09:43:25 TRACE BankUserDAO:74 - Method called to select id for user: adrian.
+2018-02-12 09:43:25 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-12 09:43:26 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-12 09:43:26 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-12 09:43:26 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-12 09:43:26 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-12 09:48:20 TRACE BankUserDAO:94 - Method called to get the existing users.
+2018-02-12 09:48:20 TRACE BankUserDAO:95 - Attempting to get connection to db.
+2018-02-12 09:48:21 TRACE BankUserDAO:97 - Connection established with db, creating prepared statement.
+2018-02-12 09:48:41 TRACE BankUserDAO:94 - Method called to get the existing users.
+2018-02-12 09:48:41 TRACE BankUserDAO:95 - Attempting to get connection to db.
+2018-02-12 09:48:42 TRACE BankUserDAO:97 - Connection established with db, creating prepared statement.
+2018-02-12 09:48:55 TRACE BankUserDAO:74 - Method called to select id for user: adrian.
+2018-02-12 09:48:55 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-12 09:48:57 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-12 09:48:57 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-12 09:48:57 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-12 09:48:58 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-12 09:49:05 TRACE BankUserDAO:74 - Method called to select id for user: adrian.
+2018-02-12 09:49:05 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-12 09:49:05 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-12 09:49:05 TRACE TransactionDAO:22 - Method called to insert a new transaction.
+2018-02-12 09:49:05 TRACE TransactionDAO:23 - Attempting to get connection to db.
+2018-02-12 09:49:05 TRACE TransactionDAO:25 - Connection established with db, creating prepared statement.
+2018-02-12 09:49:06 DEBUG TransactionDAO:33 - this query inserted: 1row in the db.
+2018-02-12 09:49:06 TRACE BankUserDAO:43 - Method called to update an existing user's info
+2018-02-12 09:49:06 TRACE BankUserDAO:44 - Attempting to get connection to db.
+2018-02-12 09:49:06 TRACE BankUserDAO:46 - Connection established with db, creating prepared statement.
+2018-02-12 09:49:06 DEBUG BankUserDAO:51 - This query updated: 1 row in the db.
+2018-02-12 11:01:54 TRACE BankUserDAO:94 - Method called to get the existing users.
+2018-02-12 11:01:54 TRACE BankUserDAO:95 - Attempting to get connection to db.
+2018-02-12 11:01:55 TRACE BankUserDAO:97 - Connection established with db, creating prepared statement.
+2018-02-12 11:02:05 TRACE BankUserDAO:74 - Method called to select id for user: adrian.
+2018-02-12 11:02:05 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-12 11:02:05 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-12 11:02:06 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-12 11:02:06 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-12 11:02:06 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-12 11:02:27 TRACE BankUserDAO:74 - Method called to select id for user: adrian.
+2018-02-12 11:02:27 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-12 11:02:28 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-12 11:02:28 TRACE TransactionDAO:22 - Method called to insert a new transaction.
+2018-02-12 11:02:28 TRACE TransactionDAO:23 - Attempting to get connection to db.
+2018-02-12 11:02:28 TRACE TransactionDAO:25 - Connection established with db, creating prepared statement.
+2018-02-12 11:02:28 DEBUG TransactionDAO:33 - this query inserted: 1row in the db.
+2018-02-12 11:02:28 TRACE BankUserDAO:43 - Method called to update an existing user's info
+2018-02-12 11:02:28 TRACE BankUserDAO:44 - Attempting to get connection to db.
+2018-02-12 11:02:29 TRACE BankUserDAO:46 - Connection established with db, creating prepared statement.
+2018-02-12 11:02:29 DEBUG BankUserDAO:51 - This query updated: 1 row in the db.
+2018-02-12 11:02:59 TRACE BankUserDAO:94 - Method called to get the existing users.
+2018-02-12 11:02:59 TRACE BankUserDAO:95 - Attempting to get connection to db.
+2018-02-12 11:03:00 TRACE BankUserDAO:97 - Connection established with db, creating prepared statement.
+2018-02-12 11:03:16 TRACE BankUserDAO:24 - Method called to insert new bank user.
+2018-02-12 11:03:16 TRACE BankUserDAO:25 - Attempting to get connection to db.
+2018-02-12 11:03:16 TRACE BankUserDAO:27 - Connection established with db, creating prepared statement.
+2018-02-12 11:03:16 DEBUG BankUserDAO:33 - This query inserted: 1row in the db.
+2018-02-12 11:10:50 TRACE BankUserDAO:94 - Method called to get the existing users.
+2018-02-12 11:10:50 TRACE BankUserDAO:95 - Attempting to get connection to db.
+2018-02-12 11:10:51 TRACE BankUserDAO:97 - Connection established with db, creating prepared statement.
+2018-02-12 11:11:44 TRACE BankUserDAO:94 - Method called to get the existing users.
+2018-02-12 11:11:44 TRACE BankUserDAO:95 - Attempting to get connection to db.
+2018-02-12 11:11:45 TRACE BankUserDAO:97 - Connection established with db, creating prepared statement.
+2018-02-12 11:11:58 TRACE BankUserDAO:74 - Method called to select id for user: adrian.
+2018-02-12 11:11:58 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-12 11:11:58 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-12 11:11:58 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-12 11:11:58 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-12 11:11:59 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-12 11:12:07 TRACE BankUserDAO:74 - Method called to select id for user: adrian.
+2018-02-12 11:12:07 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-12 11:12:08 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-12 11:12:08 TRACE TransactionDAO:22 - Method called to insert a new transaction.
+2018-02-12 11:12:08 TRACE TransactionDAO:23 - Attempting to get connection to db.
+2018-02-12 11:12:08 TRACE TransactionDAO:25 - Connection established with db, creating prepared statement.
+2018-02-12 11:12:09 DEBUG TransactionDAO:33 - this query inserted: 1row in the db.
+2018-02-12 11:12:09 TRACE BankUserDAO:43 - Method called to update an existing user's info
+2018-02-12 11:12:09 TRACE BankUserDAO:44 - Attempting to get connection to db.
+2018-02-12 11:12:09 TRACE BankUserDAO:46 - Connection established with db, creating prepared statement.
+2018-02-12 11:12:09 DEBUG BankUserDAO:51 - This query updated: 1 row in the db.
+2018-02-12 11:12:11 TRACE BankUserDAO:74 - Method called to select id for user: adrian.
+2018-02-12 11:12:11 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-12 11:12:12 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-12 11:12:12 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-12 11:12:12 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-12 11:12:12 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-12 11:12:40 TRACE BankUserDAO:94 - Method called to get the existing users.
+2018-02-12 11:12:40 TRACE BankUserDAO:95 - Attempting to get connection to db.
+2018-02-12 11:12:41 TRACE BankUserDAO:97 - Connection established with db, creating prepared statement.
+2018-02-12 11:13:33 TRACE BankUserDAO:74 - Method called to select id for user: first.
+2018-02-12 11:13:33 TRACE BankUserDAO:75 - Attempting to get connection to db.
+2018-02-12 11:13:33 TRACE BankUserDAO:77 - Connection established with db, creating prepared statement.
+2018-02-12 11:13:33 TRACE TransactionDAO:43 - Method called to insert a new transaction.
+2018-02-12 11:13:33 TRACE TransactionDAO:44 - Attempting to get connection to db.
+2018-02-12 11:13:34 TRACE TransactionDAO:46 - Connection established with db, creating prepared statement.
+2018-02-12 14:06:33 TRACE BankUserDAO:94 - Method called to get the existing users.
+2018-02-12 14:06:33 TRACE BankUserDAO:95 - Attempting to get connection to db.
+2018-02-12 14:06:34 TRACE BankUserDAO:97 - Connection established with db, creating prepared statement.
