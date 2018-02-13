@@ -2462,3 +2462,13 @@
 2018-02-12 16:04:37 TRACE BankDAOJDBC:199 - method called to transfer money
 2018-02-12 16:04:37 TRACE BankDAOJDBC:200 - Attempting to get connection to db
 2018-02-12 16:04:37 TRACE BankDAOJDBC:202 - connection established with db, creating prepared statement to save user
+2018-02-12 16:55:04 TRACE AccountDAOJDBC:18 - method called to create new account for user with id: 1
+2018-02-12 16:55:04 TRACE AccountDAOJDBC:19 - Attempting to get connection to db
+2018-02-12 16:55:04 TRACE AccountDAOJDBC:21 - connection established with db, creating prepared statement to save account
+2018-02-12 16:55:28 TRACE BankDAOJDBC:169 - method called to transfer money
+2018-02-12 16:55:28 TRACE BankDAOJDBC:170 - Attempting to get connection to db
+2018-02-12 16:55:29 TRACE BankDAOJDBC:172 - connection established with db, creating prepared statement to save user
+2018-02-12 16:58:16 TRACE BankDAOJDBC:169 - method called to transfer money
+2018-02-12 16:58:16 TRACE BankDAOJDBC:170 - Attempting to get connection to db
+2018-02-12 16:58:17 TRACE BankDAOJDBC:172 - connection established with db, creating prepared statement to save user
+2018-02-12 16:58:17 WARN  BankDAOJDBC:192 - failed to retrieve user
