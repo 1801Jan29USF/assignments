@@ -19,7 +19,8 @@ A simple banking app which uses JDBC nad Oracle SQL Developer,in order to have p
 
 # How to use
 Runs from the Banker class
-List of usernames and passwords.
+
+#List of usernames and passwords:
 * second	pass
 * adrian	yoo
 * first	user
