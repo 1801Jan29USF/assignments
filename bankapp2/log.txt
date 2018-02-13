@@ -1,0 +1,305 @@
+2018-02-12 09:55:38 TRACE BankJDBC:22 - connection established
+2018-02-12 09:55:39 DEBUG BankJDBC:28 - 1 rows inserted
+2018-02-12 09:55:39 TRACE BankJDBC:22 - connection established
+2018-02-12 09:55:39 DEBUG BankJDBC:28 - 1 rows inserted
+2018-02-12 09:55:40 TRACE BankJDBC:22 - connection established
+2018-02-12 09:55:40 DEBUG BankJDBC:28 - 1 rows inserted
+2018-02-12 09:55:40 TRACE BankJDBC:22 - connection established
+2018-02-12 09:55:40 DEBUG BankJDBC:28 - 1 rows inserted
+2018-02-12 09:55:41 TRACE BankJDBC:22 - connection established
+2018-02-12 09:55:41 DEBUG BankJDBC:28 - 1 rows inserted
+2018-02-12 09:56:29 TRACE BankJDBC:81 - connection established
+2018-02-12 09:56:29 WARN  BankJDBC:91 - failed
+2018-02-12 10:10:21 TRACE BankJDBC:40 - connection established
+2018-02-12 10:12:54 TRACE BankJDBC:40 - connection established
+2018-02-12 10:12:54 TRACE BankJDBC:48 - balance0.0
+2018-02-12 10:14:55 TRACE BankJDBC:40 - connection established
+2018-02-12 10:14:55 TRACE BankJDBC:48 - usernamemattbalance0.0
+2018-02-12 10:17:03 TRACE BankJDBC:40 - connection established
+2018-02-12 10:17:03 TRACE BankJDBC:48 - usernamemattbalance0.0
+2018-02-12 10:20:17 TRACE BankJDBC:65 - connection established
+2018-02-12 10:24:38 TRACE BankJDBC:40 - connection established
+2018-02-12 10:24:38 TRACE BankJDBC:48 - username mattbalance 0.0
+2018-02-12 10:24:52 TRACE BankJDBC:65 - connection established
+2018-02-12 10:29:25 TRACE BankJDBC:40 - connection established
+2018-02-12 10:29:25 TRACE BankJDBC:48 - username mattbalance 800.0
+2018-02-12 10:29:49 TRACE BankJDBC:82 - connection established
+2018-02-12 10:29:49 WARN  BankJDBC:92 - failed
+2018-02-12 10:29:57 TRACE BankJDBC:65 - connection established
+2018-02-12 10:29:57 DEBUG BankJDBC:71 - 1 rows updated
+2018-02-12 10:30:04 TRACE BankJDBC:65 - connection established
+2018-02-12 10:30:04 DEBUG BankJDBC:71 - 1 rows updated
+2018-02-12 10:32:26 TRACE BankJDBC:40 - connection established
+2018-02-12 10:32:26 TRACE BankJDBC:48 - username mattbalance 800.0
+2018-02-12 10:32:34 TRACE BankJDBC:82 - connection established
+2018-02-12 10:32:34 WARN  BankJDBC:92 - failed
+2018-02-12 10:42:30 TRACE BankJDBC:40 - connection established
+2018-02-12 10:42:31 TRACE BankJDBC:48 - username mattbalance 800.0
+2018-02-12 10:42:37 TRACE BankJDBC:82 - connection established
+2018-02-12 10:42:37 TRACE BankJDBC:86 - do i get here
+2018-02-12 10:42:37 WARN  BankJDBC:93 - failed
+2018-02-12 10:43:45 TRACE BankJDBC:40 - connection established
+2018-02-12 10:43:46 TRACE BankJDBC:48 - username mattbalance 800.0
+2018-02-12 10:43:49 TRACE BankJDBC:82 - connection established
+2018-02-12 10:43:49 TRACE BankJDBC:87 - do i get here
+2018-02-12 10:43:49 WARN  BankJDBC:93 - failed
+2018-02-12 10:46:07 TRACE BankJDBC:40 - connection established
+2018-02-12 10:46:07 TRACE BankJDBC:48 - username mattbalance 800.0
+2018-02-12 10:46:10 TRACE BankJDBC:82 - connection established
+2018-02-12 10:46:10 WARN  BankJDBC:92 - failed
+2018-02-12 10:53:03 TRACE BankJDBC:41 - connection established
+2018-02-12 10:53:04 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 10:53:07 TRACE BankJDBC:83 - connection established
+2018-02-12 10:53:07 WARN  BankJDBC:97 - failed
+2018-02-12 10:53:42 TRACE BankJDBC:41 - connection established
+2018-02-12 10:53:42 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 10:53:47 TRACE BankJDBC:83 - connection established
+2018-02-12 10:53:47 TRACE BankJDBC:87 - do i get here 0
+2018-02-12 10:53:47 WARN  BankJDBC:98 - failed
+2018-02-12 10:54:21 TRACE BankJDBC:41 - connection established
+2018-02-12 10:54:21 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 10:54:25 TRACE BankJDBC:83 - connection established
+2018-02-12 10:54:25 TRACE BankJDBC:87 - do i get here 0
+2018-02-12 10:54:25 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 10:54:25 WARN  BankJDBC:99 - failed
+2018-02-12 10:58:03 TRACE BankJDBC:41 - connection established
+2018-02-12 10:58:03 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 10:58:06 TRACE BankJDBC:83 - connection established
+2018-02-12 10:58:06 TRACE BankJDBC:87 - do i get here 0
+2018-02-12 10:58:06 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 10:58:06 WARN  BankJDBC:99 - failed
+2018-02-12 10:58:27 TRACE BankJDBC:41 - connection established
+2018-02-12 10:58:27 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 10:58:45 TRACE BankJDBC:83 - connection established
+2018-02-12 10:58:45 TRACE BankJDBC:87 - do i get here 0
+2018-02-12 10:58:45 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 10:58:45 WARN  BankJDBC:99 - failed
+2018-02-12 10:59:17 TRACE BankJDBC:41 - connection established
+2018-02-12 10:59:18 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 10:59:20 TRACE BankJDBC:83 - connection established
+2018-02-12 10:59:20 TRACE BankJDBC:87 - do i get here 0
+2018-02-12 10:59:20 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 10:59:20 WARN  BankJDBC:99 - failed
+2018-02-12 10:59:34 TRACE BankJDBC:41 - connection established
+2018-02-12 10:59:35 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 10:59:37 TRACE BankJDBC:83 - connection established
+2018-02-12 10:59:38 TRACE BankJDBC:87 - do i get here 0
+2018-02-12 10:59:38 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 10:59:38 WARN  BankJDBC:99 - failed
+2018-02-12 11:03:59 TRACE BankJDBC:41 - connection established
+2018-02-12 11:04:00 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:04:02 TRACE BankJDBC:83 - connection established
+2018-02-12 11:04:02 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:04:02 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:04:02 WARN  BankJDBC:99 - failed
+2018-02-12 11:06:03 TRACE BankJDBC:41 - connection established
+2018-02-12 11:06:03 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:06:05 TRACE BankJDBC:83 - connection established
+2018-02-12 11:06:05 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:06:05 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:06:05 TRACE BankJDBC:91 - do i get here 1
+2018-02-12 11:06:05 WARN  BankJDBC:99 - failed
+2018-02-12 11:06:44 TRACE BankJDBC:41 - connection established
+2018-02-12 11:06:44 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:06:47 TRACE BankJDBC:83 - connection established
+2018-02-12 11:06:47 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:06:47 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:06:47 TRACE BankJDBC:91 - do i get here 1
+2018-02-12 11:06:47 WARN  BankJDBC:99 - failed
+2018-02-12 11:07:38 TRACE BankJDBC:41 - connection established
+2018-02-12 11:07:39 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:07:42 TRACE BankJDBC:83 - connection established
+2018-02-12 11:07:42 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:07:42 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:07:42 TRACE BankJDBC:91 - do i get here 1 null
+2018-02-12 11:07:42 WARN  BankJDBC:99 - failed
+2018-02-12 11:08:14 TRACE BankJDBC:41 - connection established
+2018-02-12 11:08:14 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:08:17 TRACE BankJDBC:83 - connection established
+2018-02-12 11:08:17 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:08:17 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:08:17 WARN  BankJDBC:99 - failed
+2018-02-12 11:09:36 TRACE BankJDBC:41 - connection established
+2018-02-12 11:09:37 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:09:39 TRACE BankJDBC:83 - connection established
+2018-02-12 11:09:39 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:09:39 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:09:39 WARN  BankJDBC:99 - failed
+2018-02-12 11:10:23 TRACE BankJDBC:41 - connection established
+2018-02-12 11:10:23 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:10:26 TRACE BankJDBC:83 - connection established
+2018-02-12 11:10:26 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:10:26 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:10:26 WARN  BankJDBC:99 - failed
+2018-02-12 11:20:09 TRACE BankJDBC:41 - connection established
+2018-02-12 11:20:09 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:20:12 TRACE BankJDBC:83 - connection established
+2018-02-12 11:20:12 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:20:12 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:20:12 WARN  BankJDBC:99 - failed
+2018-02-12 11:20:52 TRACE BankJDBC:41 - connection established
+2018-02-12 11:20:53 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:20:56 TRACE BankJDBC:83 - connection established
+2018-02-12 11:20:56 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:20:56 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:20:56 TRACE BankJDBC:91 - do i get here 1 null
+2018-02-12 11:20:56 WARN  BankJDBC:99 - failed
+2018-02-12 11:21:19 TRACE BankJDBC:41 - connection established
+2018-02-12 11:21:19 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:21:21 TRACE BankJDBC:83 - connection established
+2018-02-12 11:21:21 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:21:21 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:21:21 WARN  BankJDBC:99 - failed
+2018-02-12 11:24:35 TRACE BankJDBC:41 - connection established
+2018-02-12 11:24:36 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:24:40 TRACE BankJDBC:83 - connection established
+2018-02-12 11:24:41 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:24:41 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:24:41 WARN  BankJDBC:99 - failed
+2018-02-12 11:25:04 TRACE BankJDBC:41 - connection established
+2018-02-12 11:25:04 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:25:07 TRACE BankJDBC:83 - connection established
+2018-02-12 11:25:07 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:25:07 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:25:07 TRACE BankJDBC:91 - do i get here 1 null
+2018-02-12 11:25:07 WARN  BankJDBC:99 - failed
+2018-02-12 11:25:43 TRACE BankJDBC:41 - connection established
+2018-02-12 11:25:43 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:25:46 TRACE BankJDBC:83 - connection established
+2018-02-12 11:25:46 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:25:46 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:25:46 WARN  BankJDBC:99 - failed
+2018-02-12 11:30:23 TRACE BankJDBC:41 - connection established
+2018-02-12 11:30:23 TRACE BankJDBC:52 - user not found
+2018-02-12 11:30:30 TRACE BankJDBC:41 - connection established
+2018-02-12 11:30:30 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:30:33 TRACE BankJDBC:83 - connection established
+2018-02-12 11:30:34 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@16267862
+2018-02-12 11:30:34 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:30:34 WARN  BankJDBC:100 - failed
+2018-02-12 11:32:35 TRACE BankJDBC:41 - connection established
+2018-02-12 11:32:36 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:32:39 TRACE BankJDBC:83 - connection established
+2018-02-12 11:32:39 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:32:39 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:32:39 TRACE BankJDBC:91 - do i get here 1 null
+2018-02-12 11:32:39 WARN  BankJDBC:100 - failed
+2018-02-12 11:34:49 TRACE BankJDBC:41 - connection established
+2018-02-12 11:34:49 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:34:52 TRACE BankJDBC:83 - connection established
+2018-02-12 11:34:52 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:34:52 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:34:52 TRACE BankJDBC:91 - do i get here 1 null
+2018-02-12 11:34:52 WARN  BankJDBC:100 - failed
+2018-02-12 11:35:46 TRACE BankJDBC:41 - connection established
+2018-02-12 11:35:46 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:35:49 TRACE BankJDBC:83 - connection established
+2018-02-12 11:35:49 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:35:49 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:35:49 WARN  BankJDBC:100 - failed
+2018-02-12 11:39:13 TRACE BankJDBC:41 - connection established
+2018-02-12 11:39:14 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:39:16 TRACE BankJDBC:83 - connection established
+2018-02-12 11:39:16 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:39:16 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:39:16 WARN  BankJDBC:100 - failed
+2018-02-12 11:40:21 TRACE BankJDBC:41 - connection established
+2018-02-12 11:40:21 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:40:24 TRACE BankJDBC:83 - connection established
+2018-02-12 11:40:24 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:40:24 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:40:24 WARN  BankJDBC:100 - failed
+2018-02-12 11:40:56 TRACE BankJDBC:41 - connection established
+2018-02-12 11:40:56 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:40:59 TRACE BankJDBC:83 - connection established
+2018-02-12 11:40:59 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:40:59 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:40:59 WARN  BankJDBC:100 - failed
+2018-02-12 11:41:50 TRACE BankJDBC:41 - connection established
+2018-02-12 11:41:50 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:41:52 TRACE BankJDBC:83 - connection established
+2018-02-12 11:41:53 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:41:53 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:41:53 WARN  BankJDBC:100 - failed
+2018-02-12 11:43:34 TRACE BankJDBC:41 - connection established
+2018-02-12 11:43:34 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:43:37 TRACE BankJDBC:83 - connection established
+2018-02-12 11:43:37 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:43:37 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:43:37 WARN  BankJDBC:100 - failed
+2018-02-12 11:44:15 TRACE BankJDBC:41 - connection established
+2018-02-12 11:44:15 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:44:18 TRACE BankJDBC:83 - connection established
+2018-02-12 11:44:18 TRACE BankJDBC:87 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:44:18 TRACE BankJDBC:89 - do i get here 0.5
+2018-02-12 11:44:18 TRACE BankJDBC:91 - do i get here 1 null
+2018-02-12 11:44:18 WARN  BankJDBC:100 - failed
+2018-02-12 11:45:36 TRACE BankJDBC:41 - connection established
+2018-02-12 11:45:36 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:45:39 TRACE BankJDBC:83 - connection established
+2018-02-12 11:45:39 WARN  BankJDBC:100 - failed
+2018-02-12 11:48:17 TRACE BankJDBC:41 - connection established
+2018-02-12 11:48:17 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:48:20 TRACE BankJDBC:83 - connection established
+2018-02-12 11:48:20 WARN  BankJDBC:104 - failed
+2018-02-12 11:48:39 TRACE BankJDBC:41 - connection established
+2018-02-12 11:48:40 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 11:48:42 TRACE BankJDBC:83 - connection established
+2018-02-12 11:48:42 TRACE BankJDBC:91 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 11:48:42 TRACE BankJDBC:93 - do i get here 0.5
+2018-02-12 11:48:42 TRACE BankJDBC:95 - do i get here 1 -200
+2018-02-12 11:48:42 TRACE BankJDBC:97 - do i get here 2
+2018-02-12 12:01:53 TRACE BankJDBC:41 - connection established
+2018-02-12 12:01:54 TRACE BankJDBC:49 - username mattbalance 800.0
+2018-02-12 12:01:56 TRACE BankJDBC:83 - connection established
+2018-02-12 12:01:56 TRACE BankJDBC:92 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 12:01:56 TRACE BankJDBC:94 - do i get here 0.5
+2018-02-12 12:01:56 TRACE BankJDBC:96 - do i get here 1 -200
+2018-02-12 12:01:56 TRACE BankJDBC:98 - do i get here 2
+2018-02-12 12:01:56 TRACE BankJDBC:94 - do i get here 0.5
+2018-02-12 12:01:56 TRACE BankJDBC:96 - do i get here 1 200
+2018-02-12 12:01:56 TRACE BankJDBC:98 - do i get here 2
+2018-02-12 12:01:56 TRACE BankJDBC:94 - do i get here 0.5
+2018-02-12 12:01:56 TRACE BankJDBC:96 - do i get here 1 200
+2018-02-12 12:01:56 TRACE BankJDBC:98 - do i get here 2
+2018-02-12 12:01:56 TRACE BankJDBC:94 - do i get here 0.5
+2018-02-12 12:01:56 TRACE BankJDBC:96 - do i get here 1 100
+2018-02-12 12:01:56 TRACE BankJDBC:98 - do i get here 2
+2018-02-12 12:01:56 TRACE BankJDBC:94 - do i get here 0.5
+2018-02-12 12:01:56 TRACE BankJDBC:96 - do i get here 1 100
+2018-02-12 12:01:56 TRACE BankJDBC:98 - do i get here 2
+2018-02-12 16:54:42 TRACE BankJDBC:43 - connection established
+2018-02-12 16:54:43 TRACE BankJDBC:51 - username mattbalance 800.0
+2018-02-12 16:54:49 TRACE BankJDBC:85 - connection established
+2018-02-12 16:54:49 WARN  BankJDBC:109 - failed
+2018-02-12 16:58:53 TRACE BankJDBC:43 - connection established
+2018-02-12 16:58:54 TRACE BankJDBC:51 - username mattbalance 800.0
+2018-02-12 16:58:56 TRACE BankJDBC:85 - connection established
+2018-02-12 16:58:56 WARN  BankJDBC:110 - failed
+2018-02-12 16:59:34 TRACE BankJDBC:43 - connection established
+2018-02-12 16:59:35 TRACE BankJDBC:51 - username mattbalance 800.0
+2018-02-12 16:59:37 TRACE BankJDBC:85 - connection established
+2018-02-12 16:59:37 TRACE BankJDBC:100 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 16:59:37 TRACE BankJDBC:102 - do i get here 0.5
+2018-02-12 16:59:37 TRACE BankJDBC:104 - do i get here 1 -200
+2018-02-12 16:59:37 TRACE BankJDBC:106 - do i get here 2 2018-02-12
+2018-02-12 16:59:37 TRACE BankJDBC:102 - do i get here 0.5
+2018-02-12 16:59:37 TRACE BankJDBC:104 - do i get here 1 200
+2018-02-12 16:59:37 TRACE BankJDBC:106 - do i get here 2 2018-02-12
+2018-02-12 16:59:37 TRACE BankJDBC:102 - do i get here 0.5
+2018-02-12 16:59:37 TRACE BankJDBC:104 - do i get here 1 200
+2018-02-12 16:59:37 TRACE BankJDBC:106 - do i get here 2 2018-02-12
+2018-02-12 16:59:37 TRACE BankJDBC:102 - do i get here 0.5
+2018-02-12 16:59:37 TRACE BankJDBC:104 - do i get here 1 100
+2018-02-12 16:59:37 TRACE BankJDBC:106 - do i get here 2 2018-02-12
+2018-02-12 16:59:37 TRACE BankJDBC:102 - do i get here 0.5
+2018-02-12 16:59:37 TRACE BankJDBC:104 - do i get here 1 100
+2018-02-12 16:59:37 TRACE BankJDBC:106 - do i get here 2 2018-02-11
+2018-02-13 00:50:51 TRACE BankJDBC:43 - connection established
+2018-02-13 00:50:51 TRACE BankJDBC:51 - username mattbalance 800.0
+2018-02-13 00:50:57 TRACE BankJDBC:85 - connection established
+2018-02-13 00:51:08 TRACE BankJDBC:68 - connection established
+2018-02-13 00:51:08 DEBUG BankJDBC:74 - 1 rows updated
+2018-02-13 00:51:25 TRACE BankJDBC:68 - connection established
+2018-02-13 00:51:26 DEBUG BankJDBC:74 - 1 rows updated
+2018-02-13 00:51:31 TRACE BankJDBC:85 - connection established
