@@ -15,18 +15,19 @@ public class AccountDAOJDBC implements AccountDAO {
 
 	@Override
 	public void createAccount(int id, String name, String type) {
-		log.trace("method called to create new account");
+		log.trace("method called to create new account for user with id: " + id);
 		log.trace("Attempting to get connection to db");
 		try (Connection conn = connUtil.getConnection()) {
 			log.trace("connection established with db, creating prepared statement to save account");
-			CallableStatement cs = conn.prepareCall("{call create_account_for_user(?,?,?,?)}");
-			cs.setInt(1, 0);
-			cs.setInt(2, id);
-			cs.setString(3, name);
-			cs.setString(4, type);
+			CallableStatement cs = conn.prepareCall("call create_account_for_user(?,?,?,?)");
+			cs.setInt(1, id);
+			cs.setString(2, name);
+			cs.setString(3, type);
+			cs.setInt(4, 0);
 			cs.execute();
 		} catch (SQLException e) {
-			log.warn("failed to insert new account");
+			log.warn("failed to create new account for user with id: " + id);
+			System.out.println("The account name that you have chosen already exists. Please select a different name and try again");
 		}
 
 	}
@@ -42,12 +43,12 @@ public class AccountDAOJDBC implements AccountDAO {
 			ps.executeUpdate();
 			ps = conn.prepareStatement("INSERT INTO transactions (user_id, trans) VALUES (?,?)");
 			ps.setInt(1, id);
-			String t = "Deletion of " + acctName + " account created with by user with id: " + id;
+			String t = "Deletion of " + acctName + " account created by user with id: " + id;
 			ps.setString(2, t);
 			ps.executeUpdate();
-			log.trace("account deleted");
 		} catch (SQLException e) {
 			log.warn("failed to insert new account");
+
 		}
 
 	}

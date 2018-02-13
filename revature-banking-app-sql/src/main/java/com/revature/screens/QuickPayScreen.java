@@ -35,6 +35,7 @@ public class QuickPayScreen implements Screen {
 		}
 		if (amount < 0) {
 			System.out.println("Quickpay amount must be greater or equal to 0\n");
+			return new UserAccountScreen(curr);
 		}
 		dao.quickPay(acct, receiver, curr.getId(), amount);
 

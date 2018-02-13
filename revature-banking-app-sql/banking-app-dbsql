@@ -41,18 +41,18 @@ CREATE TABLE accounts
 (
     account_id NUMBER NOT NULL,
     user_id NUMBER,
-    account_name VARCHAR2(20) NOT NULL,
-    account_type VARCHAR2(50), 
-    balance NUMBER,
+    account_name VARCHAR2(20) NOT NULL UNIQUE,
+    account_type VARCHAR2(50)NOT NULL, 
+    balance NUMBER CHECK (balance >= 0),
     FOREIGN KEY (user_id) REFERENCES bank_users (user_id) ON DELETE CASCADE,
     CONSTRAINT account_id_pk PRIMARY KEY (account_id)
     
 );
 CREATE TABLE transactions
 (   
-    transaction_id NUMBER,
-    user_id NUMBER,
-    trans varchar2(500),
+    transaction_id NUMBER NOT NULL,
+    user_id NUMBER NOT NULL,
+    trans varchar2(500) NOT NULL,
     CONSTRAINT transaction_id_pk PRIMARY KEY (transaction_id)
 );
 
@@ -109,16 +109,21 @@ END;
 ********************************************************************************/
 
 CREATE OR REPLACE PROCEDURE create_account_for_user
-(a_id IN number,
-u_id IN number,
-a_name IN number,
-a_type IN number)
+(u_id IN number,
+a_name IN varchar2,
+a_type IN varchar2,
+bal IN number)
 IS 
 BEGIN
-    INSERT INTO accounts (account_id, user_id, account_name, account_type) 
-        VALUES (a_id, u_id, a_name, a_type);
+    INSERT INTO accounts (user_id, account_name, account_type, balance) 
+        VALUES (u_id, a_name, a_type, bal);
     
 END create_account_for_user;
 /
+
+/*******************************************************************************
+   Functions
+********************************************************************************/
+
 commit;
 exit;

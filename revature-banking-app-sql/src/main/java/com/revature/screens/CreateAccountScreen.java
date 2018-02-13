@@ -21,13 +21,13 @@ public class CreateAccountScreen implements Screen {
 	@Override
 	public Screen prompt() {
 		System.out.println("CREATE ACCOUNT \n");
-		System.out.println("Enter name of account? (*No apostrophes are allowed in account name*)\n");
+		System.out.println("Enter Name of Account: (*No apostrophes are allowed in account name*)\n");
 		String name = scan.nextLine();
 		if (name.contains("'")) {
 			System.out.println("Your chosen account name contains an apostrophe. Please select an account name that does not contain an apostrophe.\n");
 			return new CreateAccountScreen(curr);
 		}
-		System.out.println("Enter savings to create a savings account, or checking to create a checking account)");
+		System.out.println("What kind of account would you like to create (checking or savings)?");
 		String type = scan.nextLine();
 		if (!((type.hashCode() == "savings".hashCode()) || (type.hashCode() == "checking".hashCode()))) {
 			System.out.println("Invalid account option\n");

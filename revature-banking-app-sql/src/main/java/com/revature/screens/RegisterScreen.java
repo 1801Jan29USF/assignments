@@ -20,7 +20,7 @@ public class RegisterScreen implements Screen {
 	public Screen prompt() {
 		System.out.println("ACCOUNT REGISTRATION \n");
 		//added exit functionality in last minute, not the best style :(
-		System.out.println("Please enter your Username or enter exit to return to Main Menu.\n");
+		System.out.println("Please enter your Username or enter exit to return to Main Menu.");
 		String input = scan.nextLine();
 		if (input.hashCode() == "exit".hashCode()) {
 			return new MainMenu();

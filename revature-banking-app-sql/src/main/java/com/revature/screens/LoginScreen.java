@@ -33,7 +33,7 @@ public class LoginScreen implements Screen {
 			System.out.println("Welcome to your Account.\n");
 			return new UserAccountScreen(current);
 		} else {
-			System.out.println("You do not have a Revature Banking account. Please register.");
+			System.out.println("You do not have a Revature Banking account. Please register. \n");
 			return new RegisterScreen();
 		}
 	}

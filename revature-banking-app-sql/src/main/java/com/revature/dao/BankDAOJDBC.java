@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.SQLIntegrityConstraintViolationException;
 
 import org.apache.log4j.Logger;
 
@@ -42,10 +43,10 @@ public class BankDAOJDBC implements BankDAO {
 
 	@Override
 	public User login(String u, String p) {
-		log.trace("method called to check for uniqueness of login credentials");
+		log.trace("method called to check for uniqueness of login credentials and login");
 		log.trace("Attempting to get connection to db");
 		try (Connection conn = connUtil.getConnection()) {
-			log.trace("connection established with db, creating prepared statement to access");
+			log.trace("connection established with db, creating prepared statement to access login credentials");
 			PreparedStatement ps = conn.prepareStatement("SELECT * FROM bank_users WHERE username = ?");
 			ps.setString(1, u);
 			ResultSet rs = ps.executeQuery();
@@ -53,13 +54,11 @@ public class BankDAOJDBC implements BankDAO {
 				User user = new User(rs.getInt("user_id"), rs.getString("username"), rs.getString("pass"));
 				return user;
 			} else {
-				log.trace("No user found with username: " + u + " and password: " + p);
-				System.out.println(
-						"No user found with username: " + u + " and password: " + p + ". Please check you input.\n");
+				log.trace("No User found with Username: " + u + " and Password: " + p);
 			}
 
 		} catch (SQLException e) {
-			log.warn("failed to retrieve user");
+			log.warn("failed to retrieve User");
 		}
 		return null;
 	}
@@ -94,11 +93,15 @@ public class BankDAOJDBC implements BankDAO {
 		log.trace("Attempting to get connection to db");
 		try (Connection conn = connUtil.getConnection()) {
 			log.trace("connection established with db, creating prepared statement to save user");
-			PreparedStatement ps = conn
-					.prepareStatement("UPDATE accounts SET balance = balance + ? WHERE account_name = ?");
+
+			PreparedStatement ps = conn.prepareStatement("UPDATE accounts SET balance = balance + ? WHERE account_name = ?");
 			ps.setInt(1, amt);
 			ps.setString(2, acctName);
-			ps.executeUpdate();
+			if (ps.executeUpdate() == 0) {
+				log.warn("No update occured most likely because the user entered an invalid account name");
+				System.out.println("Account name does not exist. \n");
+				return;
+			}
 			PreparedStatement ps2 = conn.prepareStatement("INSERT INTO transactions (user_id, trans) VALUES (?,?)");
 			ps2.setInt(1, id);
 			String t = "Deposited " + amt + "$ into " + acctName;
@@ -120,7 +123,11 @@ public class BankDAOJDBC implements BankDAO {
 					.prepareStatement("UPDATE accounts SET balance = balance - ? WHERE account_name = ?");
 			ps.setInt(1, amt);
 			ps.setString(2, acctName);
-			ps.executeUpdate();
+			if (ps.executeUpdate() == 0) {
+				log.warn("No update occured most likely because the user entered an invalid account name");
+				System.out.println("Account name does not exist. \n");
+				return;
+			}
 			PreparedStatement ps2 = conn.prepareStatement("INSERT INTO transactions (user_id, trans) VALUES (?,?)");
 			ps2.setInt(1, id);
 			String t = "Withdrew " + amt + "$ into " + acctName;
@@ -128,6 +135,8 @@ public class BankDAOJDBC implements BankDAO {
 			ps2.executeUpdate();
 
 		} catch (SQLException e) {
+			System.out.println(
+					"The amount you entered will cause an overdraft to occur on your account. Please enter another number.\n");
 			log.warn("failed to retrieve user");
 		}
 	}
@@ -144,6 +153,9 @@ public class BankDAOJDBC implements BankDAO {
 			ResultSet rs = ps.executeQuery();
 			if (rs.next()) {
 				balance = rs.getInt("balance");
+			} else {
+				System.out.println(
+						"The account name that you have chosen already exists. Please select a different name and try again.\n");
 			}
 		} catch (SQLException e) {
 			log.warn("failed to retrieve user");
@@ -189,27 +201,32 @@ public class BankDAOJDBC implements BankDAO {
 		try (Connection conn = connUtil.getConnection()) {
 			log.trace("connection established with db, creating prepared statement to save user");
 
-			PreparedStatement ps = conn
-					.prepareStatement("UPDATE accounts SET balance = balance - ? WHERE account_name = ?");
+			PreparedStatement ps = conn.prepareStatement("UPDATE accounts SET balance = balance - ? WHERE account_name = ?");
 			ps.setInt(1, amount);
 			ps.setString(2, acct);
-			ps.executeUpdate();
+			if (ps.executeUpdate() == 0) {
+				System.out.println("The account that you have chosen to QuickPay from does not exist.\n");
+				return;
+			}
 			ps = conn.prepareStatement("UPDATE accounts SET balance = balance + ? WHERE account_name = ?");
 			ps.setInt(1, amount);
 			ps.setString(2, receiver);
-			ps.executeUpdate();
-
+			if (ps.executeUpdate() == 0) {
+				System.out.println("The account that you have chosen to QuickPay to does not exist. ");
+				return;
+			}
 			PreparedStatement ps2 = conn.prepareStatement("INSERT INTO transactions (user_id, trans) VALUES (?,?)");
 			ps2.setInt(1, id);
 			String t = "Quickpayed " + amount + "$ to " + receiver;
 			ps2.setString(2, t);
 			ps2.executeUpdate();
-
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+		} 
+		catch (SQLIntegrityConstraintViolationException e) {
+			System.out.println("The amount you entered will cause you to overdraft you account. Please enter a different amount.\n");
+		} 
+		catch (SQLException e) {
 			e.printStackTrace();
 		}
-
 	}
 
 	@Override
