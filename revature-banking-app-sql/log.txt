@@ -2472,3 +2472,352 @@
 2018-02-12 16:58:16 TRACE BankDAOJDBC:170 - Attempting to get connection to db
 2018-02-12 16:58:17 TRACE BankDAOJDBC:172 - connection established with db, creating prepared statement to save user
 2018-02-12 16:58:17 WARN  BankDAOJDBC:192 - failed to retrieve user
+2018-02-12 17:58:28 WARN  AccountDAOJDBC:29 - failed to create new account for user with id: 2
+2018-02-12 18:16:32 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:16:32 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:16:34 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:16:40 TRACE AccountDAOJDBC:18 - method called to create new account for user with id: 1
+2018-02-12 18:16:40 TRACE AccountDAOJDBC:19 - Attempting to get connection to db
+2018-02-12 18:16:41 TRACE AccountDAOJDBC:21 - connection established with db, creating prepared statement to save account
+2018-02-12 18:16:49 TRACE AccountDAOJDBC:18 - method called to create new account for user with id: 1
+2018-02-12 18:16:49 TRACE AccountDAOJDBC:19 - Attempting to get connection to db
+2018-02-12 18:16:50 TRACE AccountDAOJDBC:21 - connection established with db, creating prepared statement to save account
+2018-02-12 18:17:04 TRACE BankDAOJDBC:92 - method called to deposit money into account
+2018-02-12 18:17:04 TRACE BankDAOJDBC:93 - Attempting to get connection to db
+2018-02-12 18:17:05 TRACE BankDAOJDBC:95 - connection established with db, creating prepared statement to save user
+2018-02-12 18:17:34 TRACE BankDAOJDBC:169 - method called to transfer money
+2018-02-12 18:17:34 TRACE BankDAOJDBC:170 - Attempting to get connection to db
+2018-02-12 18:17:36 TRACE BankDAOJDBC:172 - connection established with db, creating prepared statement to save user
+2018-02-12 18:17:36 WARN  BankDAOJDBC:192 - failed to retrieve user
+2018-02-12 18:18:15 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:18:15 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:18:16 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:18:23 TRACE AccountDAOJDBC:18 - method called to create new account for user with id: 1
+2018-02-12 18:18:23 TRACE AccountDAOJDBC:19 - Attempting to get connection to db
+2018-02-12 18:18:24 TRACE AccountDAOJDBC:21 - connection established with db, creating prepared statement to save account
+2018-02-12 18:20:40 TRACE BankDAOJDBC:68 - method called to check for uniqueness of registration credentials
+2018-02-12 18:20:40 TRACE BankDAOJDBC:69 - Attempting to get connection to db
+2018-02-12 18:20:42 TRACE BankDAOJDBC:71 - connection established with db, creating prepared statement to save user
+2018-02-12 18:20:42 TRACE BankDAOJDBC:21 - method called to insert new user
+2018-02-12 18:20:42 TRACE BankDAOJDBC:22 - Attempting to get connection to db
+2018-02-12 18:20:43 TRACE BankDAOJDBC:24 - connection established with db, creating prepared statement to save user
+2018-02-12 18:20:44 DEBUG BankDAOJDBC:31 - query inserted 1 rows into the bank_users
+2018-02-12 18:21:02 TRACE AccountDAOJDBC:18 - method called to create new account for user with id: 1
+2018-02-12 18:21:02 TRACE AccountDAOJDBC:19 - Attempting to get connection to db
+2018-02-12 18:21:04 TRACE AccountDAOJDBC:21 - connection established with db, creating prepared statement to save account
+2018-02-12 18:21:09 TRACE AccountDAOJDBC:18 - method called to create new account for user with id: 1
+2018-02-12 18:21:09 TRACE AccountDAOJDBC:19 - Attempting to get connection to db
+2018-02-12 18:21:10 TRACE AccountDAOJDBC:21 - connection established with db, creating prepared statement to save account
+2018-02-12 18:21:16 TRACE BankDAOJDBC:92 - method called to deposit money into account
+2018-02-12 18:21:16 TRACE BankDAOJDBC:93 - Attempting to get connection to db
+2018-02-12 18:21:17 TRACE BankDAOJDBC:95 - connection established with db, creating prepared statement to save user
+2018-02-12 18:21:32 TRACE BankDAOJDBC:199 - method called to transfer money
+2018-02-12 18:21:32 TRACE BankDAOJDBC:200 - Attempting to get connection to db
+2018-02-12 18:21:33 TRACE BankDAOJDBC:202 - connection established with db, creating prepared statement to save user
+2018-02-12 18:23:34 TRACE BankDAOJDBC:169 - method called to transfer money
+2018-02-12 18:23:34 TRACE BankDAOJDBC:170 - Attempting to get connection to db
+2018-02-12 18:23:35 TRACE BankDAOJDBC:172 - connection established with db, creating prepared statement to save user
+2018-02-12 18:25:56 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:25:56 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:25:58 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:26:33 TRACE BankDAOJDBC:169 - method called to transfer money
+2018-02-12 18:26:33 TRACE BankDAOJDBC:170 - Attempting to get connection to db
+2018-02-12 18:26:34 TRACE BankDAOJDBC:172 - connection established with db, creating prepared statement to save user
+2018-02-12 18:26:34 WARN  BankDAOJDBC:197 - failed to retrieve user
+2018-02-12 18:29:37 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:29:37 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:29:38 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:29:45 TRACE BankDAOJDBC:92 - method called to deposit money into account
+2018-02-12 18:29:45 TRACE BankDAOJDBC:93 - Attempting to get connection to db
+2018-02-12 18:29:46 TRACE BankDAOJDBC:95 - connection established with db, creating prepared statement to save user
+2018-02-12 18:29:56 TRACE BankDAOJDBC:169 - method called to transfer money
+2018-02-12 18:29:56 TRACE BankDAOJDBC:170 - Attempting to get connection to db
+2018-02-12 18:29:57 TRACE BankDAOJDBC:172 - connection established with db, creating prepared statement to save user
+2018-02-12 18:31:03 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:31:03 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:31:04 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:31:16 TRACE BankDAOJDBC:169 - method called to transfer money
+2018-02-12 18:31:16 TRACE BankDAOJDBC:170 - Attempting to get connection to db
+2018-02-12 18:31:18 TRACE BankDAOJDBC:172 - connection established with db, creating prepared statement to save user
+2018-02-12 18:32:04 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:32:04 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:32:05 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:32:50 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:32:50 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:32:51 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:32:56 TRACE BankDAOJDBC:240 - method called to update username and password
+2018-02-12 18:32:56 TRACE BankDAOJDBC:241 - Attempting to get connection to db
+2018-02-12 18:32:57 TRACE BankDAOJDBC:243 - connection established with db, creating prepared statement to save user
+2018-02-12 18:34:02 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:34:02 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:34:04 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:34:05 TRACE BankDAOJDBC:57 - No User found with Username: ian and Password: perfitt
+2018-02-12 18:34:48 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:34:48 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:34:51 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:35:02 TRACE BankDAOJDBC:170 - method called to transfer money
+2018-02-12 18:35:02 TRACE BankDAOJDBC:171 - Attempting to get connection to db
+2018-02-12 18:35:03 TRACE BankDAOJDBC:173 - connection established with db, creating prepared statement to save user
+2018-02-12 18:35:17 TRACE AccountDAOJDBC:37 - method called to delete an account
+2018-02-12 18:35:17 TRACE AccountDAOJDBC:38 - Attempting to get connection to db
+2018-02-12 18:35:20 TRACE AccountDAOJDBC:40 - connection established with db, creating prepared statement to save account
+2018-02-12 18:36:19 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:36:19 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:36:21 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:37:26 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:37:26 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:37:29 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:38:25 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:38:25 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:38:27 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:38:28 TRACE BankDAOJDBC:57 - No User found with Username: ian and Password: jfdsklf
+2018-02-12 18:38:33 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:38:33 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:38:36 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:38:44 TRACE BankDAOJDBC:288 - method called to delete user
+2018-02-12 18:38:45 TRACE BankDAOJDBC:289 - Attempting to get connection to db
+2018-02-12 18:38:50 TRACE BankDAOJDBC:291 - connection established with db, creating prepared statement to save account
+2018-02-12 18:39:31 TRACE BankDAOJDBC:297 - blajlsdf
+2018-02-12 18:41:36 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:41:36 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:41:37 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:41:38 TRACE BankDAOJDBC:57 - No User found with Username: ian and Password: perfitt
+2018-02-12 18:41:42 TRACE BankDAOJDBC:68 - method called to check for uniqueness of registration credentials
+2018-02-12 18:41:42 TRACE BankDAOJDBC:69 - Attempting to get connection to db
+2018-02-12 18:41:43 TRACE BankDAOJDBC:71 - connection established with db, creating prepared statement to save user
+2018-02-12 18:41:43 TRACE BankDAOJDBC:21 - method called to insert new user
+2018-02-12 18:41:43 TRACE BankDAOJDBC:22 - Attempting to get connection to db
+2018-02-12 18:41:44 TRACE BankDAOJDBC:24 - connection established with db, creating prepared statement to save user
+2018-02-12 18:41:44 DEBUG BankDAOJDBC:31 - query inserted 1 rows into the bank_users
+2018-02-12 18:42:10 TRACE AccountDAOJDBC:18 - method called to create new account for user with id: 2
+2018-02-12 18:42:10 TRACE AccountDAOJDBC:19 - Attempting to get connection to db
+2018-02-12 18:42:12 TRACE AccountDAOJDBC:21 - connection established with db, creating prepared statement to save account
+2018-02-12 18:42:15 TRACE BankDAOJDBC:288 - method called to delete user
+2018-02-12 18:42:15 TRACE BankDAOJDBC:289 - Attempting to get connection to db
+2018-02-12 18:42:17 TRACE BankDAOJDBC:291 - connection established with db, creating prepared statement to save account
+2018-02-12 18:43:37 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:43:37 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:43:39 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:44:23 TRACE BankDAOJDBC:288 - method called to delete user
+2018-02-12 18:44:23 TRACE BankDAOJDBC:289 - Attempting to get connection to db
+2018-02-12 18:44:24 TRACE BankDAOJDBC:291 - connection established with db, creating prepared statement to save account
+2018-02-12 18:46:18 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:46:18 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:46:19 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:46:23 TRACE BankDAOJDBC:288 - method called to delete user
+2018-02-12 18:46:23 TRACE BankDAOJDBC:289 - Attempting to get connection to db
+2018-02-12 18:46:24 TRACE BankDAOJDBC:291 - connection established with db, creating prepared statement to save account
+2018-02-12 18:47:42 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:47:42 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:47:44 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:48:29 TRACE BankDAOJDBC:46 - method called to check for uniqueness of login credentials and login
+2018-02-12 18:48:29 TRACE BankDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 18:48:31 TRACE BankDAOJDBC:49 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 18:48:54 TRACE BankDAOJDBC:68 - method called to check for uniqueness of registration credentials
+2018-02-12 18:48:54 TRACE BankDAOJDBC:69 - Attempting to get connection to db
+2018-02-12 18:48:56 TRACE BankDAOJDBC:71 - connection established with db, creating prepared statement to save user
+2018-02-12 18:48:56 TRACE BankDAOJDBC:81 - User credentials are not uniqe.
+2018-02-12 18:50:11 TRACE BankDAOJDBC:68 - method called to check for uniqueness of registration credentials
+2018-02-12 18:50:11 TRACE BankDAOJDBC:69 - Attempting to get connection to db
+2018-02-12 18:50:13 TRACE BankDAOJDBC:71 - connection established with db, creating prepared statement to save user
+2018-02-12 18:50:13 TRACE BankDAOJDBC:21 - method called to insert new user
+2018-02-12 18:50:13 TRACE BankDAOJDBC:22 - Attempting to get connection to db
+2018-02-12 18:50:14 TRACE BankDAOJDBC:24 - connection established with db, creating prepared statement to save user
+2018-02-12 18:50:15 DEBUG BankDAOJDBC:31 - query inserted 1 rows into the bank_users
+2018-02-12 18:50:25 TRACE AccountDAOJDBC:18 - method called to create new account for user with id: 3
+2018-02-12 18:50:25 TRACE AccountDAOJDBC:19 - Attempting to get connection to db
+2018-02-12 18:50:27 TRACE AccountDAOJDBC:21 - connection established with db, creating prepared statement to save account
+2018-02-12 18:50:32 TRACE BankDAOJDBC:288 - method called to delete user
+2018-02-12 18:50:32 TRACE BankDAOJDBC:289 - Attempting to get connection to db
+2018-02-12 18:50:33 TRACE BankDAOJDBC:291 - connection established with db, creating prepared statement to save account
+2018-02-12 20:39:53 TRACE TransactionsDAOJDBC:81 - method called to check for uniqueness of registration credentials
+2018-02-12 20:39:53 TRACE TransactionsDAOJDBC:82 - Attempting to get connection to db
+2018-02-12 20:39:53 WARN  TransactionsDAOJDBC:102 - failed to retrieve user
+2018-02-12 20:59:51 TRACE TransactionsDAOJDBC:81 - method called to check for uniqueness of registration credentials
+2018-02-12 20:59:51 TRACE TransactionsDAOJDBC:82 - Attempting to get connection to db
+2018-02-12 20:59:53 TRACE TransactionsDAOJDBC:86 - connection established with db, creating prepared statement to register user
+2018-02-12 20:59:53 TRACE TransactionsDAOJDBC:91 - username is unique, creating user
+2018-02-12 20:59:53 TRACE TransactionsDAOJDBC:22 - method called to insert new user
+2018-02-12 20:59:53 TRACE TransactionsDAOJDBC:23 - Attempting to get connection to db
+2018-02-12 20:59:54 TRACE TransactionsDAOJDBC:26 - connection established with db, creating prepared statement to save user
+2018-02-12 20:59:54 TRACE TransactionsDAOJDBC:33 - query inserted 1 rows into the bank_users
+2018-02-12 20:59:54 TRACE TransactionsDAOJDBC:36 - updating users id
+2018-02-12 21:00:18 TRACE TransactionsDAOJDBC:81 - method called to check for uniqueness of registration credentials
+2018-02-12 21:00:18 TRACE TransactionsDAOJDBC:82 - Attempting to get connection to db
+2018-02-12 21:00:18 TRACE TransactionsDAOJDBC:86 - connection established with db, creating prepared statement to register user
+2018-02-12 21:00:18 TRACE TransactionsDAOJDBC:91 - username is unique, creating user
+2018-02-12 21:00:18 TRACE TransactionsDAOJDBC:22 - method called to insert new user
+2018-02-12 21:00:18 TRACE TransactionsDAOJDBC:23 - Attempting to get connection to db
+2018-02-12 21:00:19 TRACE TransactionsDAOJDBC:26 - connection established with db, creating prepared statement to save user
+2018-02-12 21:00:19 TRACE TransactionsDAOJDBC:33 - query inserted 1 rows into the bank_users
+2018-02-12 21:00:19 TRACE TransactionsDAOJDBC:36 - updating users id
+2018-02-12 21:00:55 TRACE AccountDAOJDBC:25 - method called to create new account for user with id: 5
+2018-02-12 21:00:55 TRACE AccountDAOJDBC:26 - Attempting to get connection to db
+2018-02-12 21:00:56 TRACE AccountDAOJDBC:28 - connection established with db, creating prepared statement to save account
+2018-02-12 21:01:25 TRACE TransactionsDAOJDBC:51 - method called to check for login credentials and log user in
+2018-02-12 21:01:25 TRACE TransactionsDAOJDBC:52 - Attempting to get connection to db
+2018-02-12 21:01:26 TRACE TransactionsDAOJDBC:56 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 21:01:26 TRACE TransactionsDAOJDBC:60 - obtaining result set of user matching input credentials
+2018-02-12 21:01:26 TRACE TransactionsDAOJDBC:64 - user's credentials found. initializing credentials for current user
+2018-02-12 21:01:35 TRACE AccountDAOJDBC:25 - method called to create new account for user with id: 4
+2018-02-12 21:01:35 TRACE AccountDAOJDBC:26 - Attempting to get connection to db
+2018-02-12 21:01:36 TRACE AccountDAOJDBC:28 - connection established with db, creating prepared statement to save account
+2018-02-12 21:02:18 TRACE AccountDAOJDBC:44 - method called to delete an account
+2018-02-12 21:02:18 TRACE AccountDAOJDBC:45 - Attempting to get connection to db
+2018-02-12 21:02:19 TRACE AccountDAOJDBC:47 - connection established with db, creating prepared statement to save account
+2018-02-12 21:07:08 TRACE TransactionsDAOJDBC:80 - method called to check for uniqueness of registration credentials
+2018-02-12 21:07:08 TRACE TransactionsDAOJDBC:81 - Attempting to get connection to db
+2018-02-12 21:07:10 TRACE TransactionsDAOJDBC:85 - connection established with db, creating prepared statement to register user
+2018-02-12 21:07:11 TRACE TransactionsDAOJDBC:90 - username is unique, creating user
+2018-02-12 21:07:11 TRACE TransactionsDAOJDBC:97 - User credentials are not uniqe.
+2018-02-12 21:08:05 TRACE TransactionsDAOJDBC:80 - method called to check for uniqueness of registration credentials
+2018-02-12 21:08:05 TRACE TransactionsDAOJDBC:81 - Attempting to get connection to db
+2018-02-12 21:08:07 TRACE TransactionsDAOJDBC:85 - connection established with db, creating prepared statement to register user
+2018-02-12 21:08:07 TRACE TransactionsDAOJDBC:90 - username is unique, creating user
+2018-02-12 21:08:07 TRACE TransactionsDAOJDBC:97 - User credentials are not uniqe.
+2018-02-12 21:39:30 TRACE TransactionsDAOJDBC:81 - method called to check for uniqueness of registration credentials
+2018-02-12 21:39:30 TRACE TransactionsDAOJDBC:82 - Attempting to get connection to db
+2018-02-12 21:39:52 WARN  TransactionsDAOJDBC:102 - failed to retrieve user
+2018-02-12 21:44:58 TRACE TransactionsDAOJDBC:51 - method called to check for login credentials and log user in
+2018-02-12 21:44:58 TRACE TransactionsDAOJDBC:52 - Attempting to get connection to db
+2018-02-12 21:45:19 WARN  TransactionsDAOJDBC:73 - failed to retrieve user from database
+2018-02-12 21:45:28 TRACE TransactionsDAOJDBC:81 - method called to check for uniqueness of registration credentials
+2018-02-12 21:45:28 TRACE TransactionsDAOJDBC:82 - Attempting to get connection to db
+2018-02-12 21:45:49 WARN  TransactionsDAOJDBC:102 - failed to retrieve user
+2018-02-12 21:53:20 TRACE TransactionsDAOJDBC:81 - method called to check for uniqueness of registration credentials
+2018-02-12 21:53:20 TRACE TransactionsDAOJDBC:82 - Attempting to get connection to db
+2018-02-12 21:53:22 TRACE TransactionsDAOJDBC:86 - connection established with db, creating prepared statement to register user
+2018-02-12 21:53:22 TRACE TransactionsDAOJDBC:91 - username is unique, creating user
+2018-02-12 21:53:22 TRACE TransactionsDAOJDBC:23 - method called to insert new user
+2018-02-12 21:53:22 TRACE TransactionsDAOJDBC:24 - Attempting to get connection to db
+2018-02-12 21:53:23 TRACE TransactionsDAOJDBC:26 - connection established with db, creating prepared statement to save user
+2018-02-12 21:53:23 TRACE TransactionsDAOJDBC:33 - query inserted 1 rows into the bank_users
+2018-02-12 21:53:23 TRACE TransactionsDAOJDBC:36 - updating users id
+2018-02-12 21:53:51 TRACE AccountDAOJDBC:25 - method called to create new account for user with id: 1
+2018-02-12 21:53:51 TRACE AccountDAOJDBC:26 - Attempting to get connection to db
+2018-02-12 21:53:52 TRACE AccountDAOJDBC:28 - connection established with db, creating prepared statement to save account
+2018-02-12 21:54:00 TRACE TransactionsDAOJDBC:110 - method called to deposit money into account
+2018-02-12 21:54:00 TRACE TransactionsDAOJDBC:111 - Attempting to get connection to db
+2018-02-12 21:54:01 TRACE TransactionsDAOJDBC:115 - connection established with db, creating prepared statement to deposit money for user
+2018-02-12 21:54:01 TRACE TransactionsDAOJDBC:134 - adding deposit transaction to database
+2018-02-12 22:07:13 TRACE TransactionsDAOJDBC:51 - method called to check for login credentials and log user in
+2018-02-12 22:07:13 TRACE TransactionsDAOJDBC:52 - Attempting to get connection to db
+2018-02-12 22:07:15 TRACE TransactionsDAOJDBC:56 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 22:07:15 TRACE TransactionsDAOJDBC:60 - obtaining result set of user matching input credentials
+2018-02-12 22:07:16 TRACE TransactionsDAOJDBC:64 - user's credentials found. initializing credentials for current user
+2018-02-12 22:08:21 TRACE AccountDAOJDBC:44 - method called to delete an account
+2018-02-12 22:08:21 TRACE AccountDAOJDBC:45 - Attempting to get connection to db
+2018-02-12 22:08:22 TRACE AccountDAOJDBC:47 - connection established with db, creating prepared statement to save account
+2018-02-12 22:08:32 TRACE TransactionsDAOJDBC:110 - method called to deposit money into account
+2018-02-12 22:08:32 TRACE TransactionsDAOJDBC:111 - Attempting to get connection to db
+2018-02-12 22:08:34 TRACE TransactionsDAOJDBC:115 - connection established with db, creating prepared statement to deposit money for user
+2018-02-12 22:08:34 TRACE TransactionsDAOJDBC:134 - adding deposit transaction to database
+2018-02-12 22:08:56 TRACE TransactionsDAOJDBC:145 - method called to withdraw money from account
+2018-02-12 22:08:56 TRACE TransactionsDAOJDBC:146 - Attempting to get connection to db
+2018-02-12 22:08:57 TRACE TransactionsDAOJDBC:150 - connection established with db, creating prepared statement to save user
+2018-02-12 22:08:57 TRACE TransactionsDAOJDBC:163 - creating prepare statement for transaction
+2018-02-12 22:08:57 TRACE TransactionsDAOJDBC:169 - adding deposit transaction to database
+2018-02-12 22:09:26 TRACE TransactionsDAOJDBC:183 - method called to view account balance
+2018-02-12 22:09:26 TRACE TransactionsDAOJDBC:184 - Attempting to get connection to db
+2018-02-12 22:09:27 TRACE TransactionsDAOJDBC:189 - connection established with db, creating prepared statement to save user
+2018-02-12 22:09:27 TRACE TransactionsDAOJDBC:193 - selecting balance from result set
+2018-02-12 22:09:37 TRACE TransactionsDAOJDBC:335 - method called to print user transactions
+2018-02-12 22:09:37 TRACE TransactionsDAOJDBC:336 - Attempting to get connection to db
+2018-02-12 22:09:38 TRACE TransactionsDAOJDBC:339 - connection established with db, creating prepared statement to print user's transaction history
+2018-02-12 22:10:30 TRACE TransactionsDAOJDBC:51 - method called to check for login credentials and log user in
+2018-02-12 22:10:30 TRACE TransactionsDAOJDBC:52 - Attempting to get connection to db
+2018-02-12 22:10:32 TRACE TransactionsDAOJDBC:56 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 22:10:33 TRACE TransactionsDAOJDBC:60 - obtaining result set of user matching input credentials
+2018-02-12 22:10:33 TRACE TransactionsDAOJDBC:64 - user's credentials found. initializing credentials for current user
+2018-02-12 22:10:46 TRACE TransactionsDAOJDBC:110 - method called to deposit money into account
+2018-02-12 22:10:46 TRACE TransactionsDAOJDBC:111 - Attempting to get connection to db
+2018-02-12 22:10:47 TRACE TransactionsDAOJDBC:115 - connection established with db, creating prepared statement to deposit money for user
+2018-02-12 22:10:47 TRACE TransactionsDAOJDBC:134 - adding deposit transaction to database
+2018-02-12 22:11:01 TRACE TransactionsDAOJDBC:81 - method called to check for uniqueness of registration credentials
+2018-02-12 22:11:01 TRACE TransactionsDAOJDBC:82 - Attempting to get connection to db
+2018-02-12 22:11:02 TRACE TransactionsDAOJDBC:86 - connection established with db, creating prepared statement to register user
+2018-02-12 22:11:02 TRACE TransactionsDAOJDBC:91 - username is unique, creating user
+2018-02-12 22:11:02 TRACE TransactionsDAOJDBC:23 - method called to insert new user
+2018-02-12 22:11:02 TRACE TransactionsDAOJDBC:24 - Attempting to get connection to db
+2018-02-12 22:11:03 TRACE TransactionsDAOJDBC:26 - connection established with db, creating prepared statement to save user
+2018-02-12 22:11:03 TRACE TransactionsDAOJDBC:33 - query inserted 1 rows into the bank_users
+2018-02-12 22:11:03 TRACE TransactionsDAOJDBC:36 - updating users id
+2018-02-12 22:11:12 TRACE AccountDAOJDBC:25 - method called to create new account for user with id: 2
+2018-02-12 22:11:12 TRACE AccountDAOJDBC:26 - Attempting to get connection to db
+2018-02-12 22:11:13 TRACE AccountDAOJDBC:28 - connection established with db, creating prepared statement to save account
+2018-02-12 22:11:26 TRACE TransactionsDAOJDBC:51 - method called to check for login credentials and log user in
+2018-02-12 22:11:26 TRACE TransactionsDAOJDBC:52 - Attempting to get connection to db
+2018-02-12 22:11:27 TRACE TransactionsDAOJDBC:56 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 22:11:27 TRACE TransactionsDAOJDBC:60 - obtaining result set of user matching input credentials
+2018-02-12 22:11:27 TRACE TransactionsDAOJDBC:64 - user's credentials found. initializing credentials for current user
+2018-02-12 22:11:45 TRACE TransactionsDAOJDBC:252 - method called to quickPay money
+2018-02-12 22:11:45 TRACE TransactionsDAOJDBC:253 - Attempting to get connection to db
+2018-02-12 22:11:47 TRACE TransactionsDAOJDBC:256 - connection established with db, creating prepared statement for quickpay
+2018-02-12 22:11:47 TRACE TransactionsDAOJDBC:269 - creating prepare statement to quickpay into receiver's account
+2018-02-12 22:11:47 TRACE TransactionsDAOJDBC:280 - preparing to insert transaction into database
+2018-02-12 22:12:17 TRACE TransactionsDAOJDBC:110 - method called to deposit money into account
+2018-02-12 22:12:17 TRACE TransactionsDAOJDBC:111 - Attempting to get connection to db
+2018-02-12 22:12:18 TRACE TransactionsDAOJDBC:115 - connection established with db, creating prepared statement to deposit money for user
+2018-02-12 22:12:18 TRACE TransactionsDAOJDBC:134 - adding deposit transaction to database
+2018-02-12 22:12:25 TRACE AccountDAOJDBC:25 - method called to create new account for user with id: 1
+2018-02-12 22:12:25 TRACE AccountDAOJDBC:26 - Attempting to get connection to db
+2018-02-12 22:12:26 TRACE AccountDAOJDBC:28 - connection established with db, creating prepared statement to save account
+2018-02-12 22:12:42 TRACE TransactionsDAOJDBC:210 - method called to transfer money
+2018-02-12 22:12:42 TRACE TransactionsDAOJDBC:211 - Attempting to get connection to db
+2018-02-12 22:12:43 TRACE TransactionsDAOJDBC:215 - connection established with db, creating prepared statement to save user
+2018-02-12 22:12:43 TRACE TransactionsDAOJDBC:235 - preparing to insert transaction
+2018-02-12 22:12:43 TRACE TransactionsDAOJDBC:241 - transaction inserted
+2018-02-12 22:13:14 TRACE ChangeUserAndPassScreen:54 - attempting to change user's credentials
+2018-02-12 22:13:14 TRACE TransactionsDAOJDBC:300 - method called to update username and password
+2018-02-12 22:13:14 TRACE TransactionsDAOJDBC:301 - Attempting to get connection to db
+2018-02-12 22:13:15 TRACE TransactionsDAOJDBC:304 - connection established with db, creating prepared statement to save user
+2018-02-12 22:13:15 TRACE TransactionsDAOJDBC:314 - updating users account information
+2018-02-12 22:13:15 TRACE TransactionsDAOJDBC:321 - users account information has been added
+2018-02-12 22:13:15 TRACE ChangeUserAndPassScreen:62 - curr credentials have been updateds
+2018-02-12 22:13:41 TRACE TransactionsDAOJDBC:358 - method called to delete user
+2018-02-12 22:13:41 TRACE TransactionsDAOJDBC:359 - Attempting to get connection to db
+2018-02-12 22:13:42 TRACE TransactionsDAOJDBC:363 - connection established with db, creating prepared statement to delete user's profile
+2018-02-12 22:13:42 TRACE TransactionsDAOJDBC:372 - users account has been deleted
+2018-02-12 22:16:02 TRACE TransactionsDAOJDBC:51 - method called to check for login credentials and log user in
+2018-02-12 22:16:02 TRACE TransactionsDAOJDBC:52 - Attempting to get connection to db
+2018-02-12 22:16:04 TRACE TransactionsDAOJDBC:56 - connection established with db, creating prepared statement to access login credentials
+2018-02-12 22:16:04 TRACE TransactionsDAOJDBC:60 - obtaining result set of user matching input credentials
+2018-02-12 22:16:04 TRACE TransactionsDAOJDBC:64 - user's credentials found. initializing credentials for current user
+2018-02-12 22:16:08 TRACE TransactionsDAOJDBC:358 - method called to delete user
+2018-02-12 22:16:08 TRACE TransactionsDAOJDBC:359 - Attempting to get connection to db
+2018-02-12 22:16:09 TRACE TransactionsDAOJDBC:363 - connection established with db, creating prepared statement to delete user's profile
+2018-02-12 22:16:09 TRACE TransactionsDAOJDBC:372 - users account has been deleted
+2018-02-13 08:19:04 TRACE TransactionsDAOJDBC:81 - method called to check for uniqueness of registration credentials
+2018-02-13 08:19:04 TRACE TransactionsDAOJDBC:82 - Attempting to get connection to db
+2018-02-13 08:19:05 TRACE TransactionsDAOJDBC:86 - connection established with db, creating prepared statement to register user
+2018-02-13 08:19:06 TRACE TransactionsDAOJDBC:91 - username is unique, creating user
+2018-02-13 08:19:06 TRACE TransactionsDAOJDBC:23 - method called to insert new user
+2018-02-13 08:19:06 TRACE TransactionsDAOJDBC:24 - Attempting to get connection to db
+2018-02-13 08:19:06 TRACE TransactionsDAOJDBC:26 - connection established with db, creating prepared statement to save user
+2018-02-13 08:19:07 TRACE TransactionsDAOJDBC:33 - query inserted 1 rows into the bank_users
+2018-02-13 08:19:07 TRACE TransactionsDAOJDBC:36 - updating users id
+2018-02-13 08:19:12 TRACE AccountDAOJDBC:25 - method called to create new account for user with id: 3
+2018-02-13 08:19:12 TRACE AccountDAOJDBC:26 - Attempting to get connection to db
+2018-02-13 08:19:12 TRACE AccountDAOJDBC:28 - connection established with db, creating prepared statement to save account
+2018-02-13 08:19:18 TRACE AccountDAOJDBC:25 - method called to create new account for user with id: 3
+2018-02-13 08:19:18 TRACE AccountDAOJDBC:26 - Attempting to get connection to db
+2018-02-13 08:19:19 TRACE AccountDAOJDBC:28 - connection established with db, creating prepared statement to save account
+2018-02-13 08:19:25 TRACE AccountDAOJDBC:44 - method called to delete an account
+2018-02-13 08:19:25 TRACE AccountDAOJDBC:45 - Attempting to get connection to db
+2018-02-13 08:19:26 TRACE AccountDAOJDBC:47 - connection established with db, creating prepared statement to save account
+2018-02-13 08:19:33 TRACE TransactionsDAOJDBC:110 - method called to deposit money into account
+2018-02-13 08:19:33 TRACE TransactionsDAOJDBC:111 - Attempting to get connection to db
+2018-02-13 08:19:34 TRACE TransactionsDAOJDBC:115 - connection established with db, creating prepared statement to deposit money for user
+2018-02-13 08:19:34 TRACE TransactionsDAOJDBC:134 - adding deposit transaction to database
+2018-02-13 08:19:45 TRACE TransactionsDAOJDBC:145 - method called to withdraw money from account
+2018-02-13 08:19:45 TRACE TransactionsDAOJDBC:146 - Attempting to get connection to db
+2018-02-13 08:19:45 TRACE TransactionsDAOJDBC:150 - connection established with db, creating prepared statement to save user
+2018-02-13 08:19:45 TRACE TransactionsDAOJDBC:163 - creating prepare statement for transaction
+2018-02-13 08:19:45 TRACE TransactionsDAOJDBC:169 - adding deposit transaction to database
+2018-02-13 08:19:50 TRACE TransactionsDAOJDBC:183 - method called to view account balance
+2018-02-13 08:19:50 TRACE TransactionsDAOJDBC:184 - Attempting to get connection to db
+2018-02-13 08:19:50 TRACE TransactionsDAOJDBC:189 - connection established with db, creating prepared statement to save user
+2018-02-13 08:19:50 TRACE TransactionsDAOJDBC:193 - selecting balance from result set
+2018-02-13 08:19:56 TRACE TransactionsDAOJDBC:335 - method called to print user transactions
+2018-02-13 08:19:56 TRACE TransactionsDAOJDBC:336 - Attempting to get connection to db
+2018-02-13 08:19:56 TRACE TransactionsDAOJDBC:339 - connection established with db, creating prepared statement to print user's transaction history

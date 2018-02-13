@@ -3,19 +3,30 @@ package com.revature.screens;
 import java.util.Scanner;
 
 import com.revature.beans.User;
-import com.revature.dao.BankDAOJDBC;
+import com.revature.dao.TransactionsDAOJDBC;
 
 public class LoginScreen implements Screen {
+	
+	/*******************************************************************************
+	  Class Fields
+	********************************************************************************/
 
 	public Scanner scan = new Scanner(System.in);
+	public TransactionsDAOJDBC dao = new TransactionsDAOJDBC();
 	
-	public BankDAOJDBC dao = new BankDAOJDBC();
+	/*******************************************************************************
+	  Class Constructor
+	********************************************************************************/
 
 	public LoginScreen() {
 		super();
 		prompt();
 	}
 
+	/*******************************************************************************
+	  Screen Prompt Method
+	********************************************************************************/
+	
 	@Override
 	public Screen prompt() {
 		System.out.println("ACCOUNT LOGIN\n");
@@ -33,7 +44,7 @@ public class LoginScreen implements Screen {
 			System.out.println("Welcome to your Account.\n");
 			return new UserAccountScreen(current);
 		} else {
-			System.out.println("You do not have a Revature Banking account. Please register. \n");
+			System.out.println("You do not have an ORACLE BANKING account. Please register. \n");
 			return new RegisterScreen();
 		}
 	}

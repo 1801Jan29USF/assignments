@@ -2,22 +2,35 @@ package com.revature.screens;
 
 import java.util.Scanner;
 
+import org.apache.log4j.Logger;
+
 import com.revature.beans.User;
-import com.revature.dao.BankDAOJDBC;
+import com.revature.dao.TransactionsDAOJDBC;
 
 public class TransferScreen implements Screen {
 
-	private User curr;
-	
-	public Scanner scan = new Scanner(System.in);
+	/*******************************************************************************
+	 * Class Fields
+	 ********************************************************************************/
 
-	public BankDAOJDBC dao = new BankDAOJDBC();
+	private User curr;
+	public Scanner scan = new Scanner(System.in);
+	public TransactionsDAOJDBC dao = new TransactionsDAOJDBC();
+	private Logger log = Logger.getRootLogger();
+
+	/*******************************************************************************
+	 * Constructor
+	 ********************************************************************************/
 
 	public TransferScreen(User curr) {
 		super();
 		this.curr = curr;
 		prompt();
 	}
+
+	/*******************************************************************************
+	 * Screen Prompt
+	 ********************************************************************************/
 
 	@Override
 	public Screen prompt() {
@@ -31,6 +44,8 @@ public class TransferScreen implements Screen {
 		try {
 			transferAmt = Integer.parseInt(scan.nextLine());
 		} catch (NumberFormatException e) {
+
+			log.trace("invalid type of input ");
 			System.out.println("Invalid input for transfer\n");
 			return new UserAccountScreen(curr);
 		}

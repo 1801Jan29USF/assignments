@@ -3,23 +3,34 @@ package com.revature.screens;
 import java.util.Scanner;
 
 import com.revature.beans.User;
-import com.revature.dao.BankDAOJDBC;
+import com.revature.dao.TransactionsDAOJDBC;
 
 public class RegisterScreen implements Screen {
-
+	
+	/*******************************************************************************
+	  Class Fields
+	********************************************************************************/
+	
 	public Scanner scan = new Scanner(System.in);
-	public BankDAOJDBC dao = new BankDAOJDBC();
+	public TransactionsDAOJDBC dao = new TransactionsDAOJDBC();
+	
+	/*******************************************************************************
+	  Constructor
+	********************************************************************************/
 	
 	public RegisterScreen() {
 		super();
 		prompt();
 
 	}
+	
+	/*******************************************************************************
+	  Screen Prompt
+	********************************************************************************/
 
 	@Override
 	public Screen prompt() {
 		System.out.println("ACCOUNT REGISTRATION \n");
-		//added exit functionality in last minute, not the best style :(
 		System.out.println("Please enter your Username or enter exit to return to Main Menu.");
 		String input = scan.nextLine();
 		if (input.hashCode() == "exit".hashCode()) {

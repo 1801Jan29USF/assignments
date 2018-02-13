@@ -6,18 +6,30 @@ import com.revature.beans.User;
 import com.revature.dao.AccountDAOJDBC;
 
 public class CreateAccountScreen implements Screen {
+	
+	/*******************************************************************************
+	  Class Fields
+	********************************************************************************/
 	public Scanner scan = new Scanner(System.in);
 
 	public AccountDAOJDBC dao = new AccountDAOJDBC();
 
 	private User curr;
-
+	
+	/*******************************************************************************
+	 Constructor
+	********************************************************************************/
+	
 	public CreateAccountScreen(User c) {
 		super();
 		this.curr = c;
 		prompt();
 	}
-
+	
+	/*******************************************************************************
+	  Screen Prompt Method
+	********************************************************************************/
+	
 	@Override
 	public Screen prompt() {
 		System.out.println("CREATE ACCOUNT \n");
@@ -29,8 +41,9 @@ public class CreateAccountScreen implements Screen {
 		}
 		System.out.println("What kind of account would you like to create (checking or savings)?");
 		String type = scan.nextLine();
+		//checks to see if user entered savings or checking
 		if (!((type.hashCode() == "savings".hashCode()) || (type.hashCode() == "checking".hashCode()))) {
-			System.out.println("Invalid account option\n");
+			System.out.println("Invalid account type option\n");
 			return new CreateAccountScreen(curr);
 		}
 		dao.createAccount(curr.getId(), name, type);

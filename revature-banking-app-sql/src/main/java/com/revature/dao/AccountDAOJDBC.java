@@ -9,7 +9,14 @@ import org.apache.log4j.Logger;
 
 import com.revature.util.ConnectionUtil;
 
+/*
+ * Implementation of the Account DAO containing methods for
+ * creating and deleting Accounts
+ */
+
+
 public class AccountDAOJDBC implements AccountDAO {
+	
 	private Logger log = Logger.getRootLogger();
 	private ConnectionUtil connUtil = ConnectionUtil.getConnectionUtil();
 
@@ -50,7 +57,5 @@ public class AccountDAOJDBC implements AccountDAO {
 			log.warn("failed to insert new account");
 
 		}
-
 	}
-
 }

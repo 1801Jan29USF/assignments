@@ -8,6 +8,11 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
+/*
+ * Class reads our aws database url, username, and password from database.properties
+ * and returns a connection utility for acces to our database
+ */
+
 public class ConnectionUtil {
 	private Properties prop = new Properties();
 	private static ConnectionUtil connUtil = new ConnectionUtil();

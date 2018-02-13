@@ -2,22 +2,36 @@ package com.revature.screens;
 
 import java.util.Scanner;
 
+import org.apache.log4j.Logger;
+
 import com.revature.beans.User;
-import com.revature.dao.BankDAOJDBC;
+import com.revature.dao.TransactionsDAOJDBC;
 
 public class QuickPayScreen implements Screen {
-
+	
+	/*******************************************************************************
+	  Class Fields
+	********************************************************************************/
+	
 	private User curr;
-
 	public Scanner scan = new Scanner(System.in);
-
-	public BankDAOJDBC dao = new BankDAOJDBC();
+	public TransactionsDAOJDBC dao = new TransactionsDAOJDBC();
+	private Logger log = Logger.getRootLogger();
+	
+	/*******************************************************************************
+	  Constructor
+	********************************************************************************/
+	
 
 	public QuickPayScreen(User u) {
 		super();
 		this.curr = u;
 		prompt();
 	}
+	
+	/*******************************************************************************
+	  Screen Prompt Method
+	********************************************************************************/
 
 	@Override
 	public Screen prompt() {
@@ -31,6 +45,8 @@ public class QuickPayScreen implements Screen {
 		try {
 			amount = Integer.parseInt(scan.nextLine());
 		} catch (NumberFormatException e) {
+			
+			log.trace("invalid input type");
 			System.out.println("Invalid input for Quickpay\n");
 		}
 		if (amount < 0) {

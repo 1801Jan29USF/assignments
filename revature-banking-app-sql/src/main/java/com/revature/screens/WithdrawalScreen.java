@@ -3,14 +3,21 @@ package com.revature.screens;
 import java.util.Scanner;
 
 import com.revature.beans.User;
-import com.revature.dao.BankDAOJDBC;
+import com.revature.dao.TransactionsDAOJDBC;
 
 public class WithdrawalScreen implements Screen {
+	
+	/*******************************************************************************
+	 * Class Fields
+	 ********************************************************************************/
 
 	private User curr;
-	
 	public Scanner scan = new Scanner(System.in);
-	public BankDAOJDBC dao = new BankDAOJDBC();
+	public TransactionsDAOJDBC dao = new TransactionsDAOJDBC();
+	
+	/*******************************************************************************
+	 * Constructor
+	 ********************************************************************************/
 
 	public WithdrawalScreen(User curr) {
 		super();
@@ -18,6 +25,10 @@ public class WithdrawalScreen implements Screen {
 		prompt();
 	}
 
+	/*******************************************************************************
+	 * Screen Prompt
+	 ********************************************************************************/
+	
 	@Override
 	public Screen prompt() {
 		System.out.println("WITHDRAWAL \n");

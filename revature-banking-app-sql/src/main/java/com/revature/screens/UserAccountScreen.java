@@ -3,21 +3,31 @@ package com.revature.screens;
 import java.util.Scanner;
 
 import com.revature.beans.User;
-import com.revature.dao.BankDAOJDBC;
+import com.revature.dao.TransactionsDAOJDBC;
 
 public class UserAccountScreen implements Screen {
+	
+	/*******************************************************************************
+	 * Class Fields
+	 ********************************************************************************/
 
 	public Scanner scan = new Scanner(System.in);
-
-	public BankDAOJDBC dao = new BankDAOJDBC();
-
+	public TransactionsDAOJDBC dao = new TransactionsDAOJDBC();
 	private User curr;
+	
+	/*******************************************************************************
+	 * Constructor
+	 ********************************************************************************/
 
 	public UserAccountScreen(User c) {
 		super();
 		this.curr = c;
 		prompt();
 	}
+	
+	/*******************************************************************************
+	 * Screen Prompt
+	 ********************************************************************************/
 
 	@Override
 	public Screen prompt() {
