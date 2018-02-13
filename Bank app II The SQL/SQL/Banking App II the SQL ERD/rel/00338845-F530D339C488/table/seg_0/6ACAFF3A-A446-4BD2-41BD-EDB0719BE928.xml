@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6ACAFF3A-A446-4BD2-41BD-EDB0719BE928" schemaObject="452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4" name="USER_TO_ACCOUNT">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>USER_TO_ACCOUNT</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:21 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_ID" id="1B921CED-3586-A718-2F3A-AD934D80514D">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>USER_TO_ACCOUNT</sourceObjSchema>
+<sourceObjName>USER_ID</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54373661-14EA-9895-294C-09FEADA5C68A" referredColumn="ABBA3F6B-8108-6A4F-6F6B-FC199FFCA207"/>
+</associations>
+</Column>
+<Column name="ACCOUNT_ID" id="B97BC0A3-902D-1676-CFB5-2A5FF7756BEE">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>USER_TO_ACCOUNT</sourceObjSchema>
+<sourceObjName>ACCOUNT_ID</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD30DD5B-BAE3-7253-4503-E615D1A86F28" referredColumn="17F99579-FEFB-199F-01AF-5FA63CB03436"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="849E209B-BB40-1A72-73D9-80ABEDC6A11B" name="PK_COMPOSITE_U2A_KEY">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>PK_COMPOSITE_U2A_KEY</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:25 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B921CED-3586-A718-2F3A-AD934D80514D"/>
+<colUsage columnID="B97BC0A3-902D-1676-CFB5-2A5FF7756BEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7044426F-ACE7-7A64-1C60-16AEF617F0D9" schemaObject="452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4" name="PK_COMPOSITE_U2A_KEY">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>PK_COMPOSITE_U2A_KEY</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:24 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B921CED-3586-A718-2F3A-AD934D80514D"/>
+<colUsage columnID="B97BC0A3-902D-1676-CFB5-2A5FF7756BEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F33DAED4-D48D-51B6-4B74-C3CCD63B1646" name="FK_U2A_ACCOUNT_ID_CASCADE">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:26 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B97BC0A3-902D-1676-CFB5-2A5FF7756BEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A44E6C24-0A82-6B74-5CAB-79313BFD9D1B" name="FK_U2A_USER_ID_CASCADE">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:26 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B921CED-3586-A718-2F3A-AD934D80514D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

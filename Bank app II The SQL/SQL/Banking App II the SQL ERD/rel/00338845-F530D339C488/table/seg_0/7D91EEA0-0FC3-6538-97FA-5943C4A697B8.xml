@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D91EEA0-0FC3-6538-97FA-5943C4A697B8" schemaObject="452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4" name="USERS">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:21 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_ID" id="ABBA3F6B-8108-6A4F-6F6B-FC199FFCA207">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>USER_ID</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_NAME" id="F9F2D7FC-0C94-D829-D64D-13C4ACC236A7">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>USER_NAME</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD_ID" id="638665EA-0F8C-1B1B-B689-B721F5CDAB4D">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>USERS</sourceObjSchema>
+<sourceObjName>PASSWORD_ID</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F15A971B-CF4A-EA8B-0E59-517FD3F8BC19" referredColumn="C4B89829-78A5-3BBB-AF9D-BC06A6862084"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31EFFB3C-E9B7-93EA-3C7B-483C0A51179B" schemaObject="452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4" name="USERS_PK">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>SYS_C006884</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:24 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABBA3F6B-8108-6A4F-6F6B-FC199FFCA207"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C99A8823-406B-A2D6-CA0E-C1D25B1384F3" schemaObject="452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4" name="USERS_USER_NAME_UN">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>SYS_C006885</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:24 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9F2D7FC-0C94-D829-D64D-13C4ACC236A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3BCAF5C-97B1-D888-5272-2AC7B7212F20" name="FK_PASSWORD_ID_CASCADE">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:26 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="638665EA-0F8C-1B1B-B689-B721F5CDAB4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

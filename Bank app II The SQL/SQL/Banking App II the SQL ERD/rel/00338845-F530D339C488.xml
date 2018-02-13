@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="bank" id="00338845-CD1A-8956-2B26-F530D339C488" mainViewID="8E158717-48D6-4DB0-B036-2BF66B235CDE">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:20 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>bank</connName>
+<connUser>bank</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

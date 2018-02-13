@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ACCOUNT_NAMES" directorySegmentName="seg_0" id="7E3F9573-23AC-4B9A-852D-2D80D6B96DA3">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:21 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<schemaObject>452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9F26C395-4D61-9122-F9D1-9FCF47479E11</segment>
+<tableSpace>8957B50E-9814-0008-9823-BEC2D1805C94</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ACCOUNT_NAME_ID" id="78FF8ED8-A228-81B9-E50D-D41515A2D2A8">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCOUNT_NAME" id="F7796883-30C0-5BA8-8F84-118CE4501E28">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ACCOUNT_NAMES_PK" id="ED8D55BE-A5EE-E75D-F68E-531B83439ED1">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:25 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<schemaObject>452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4</schemaObject>
+<segment>56226032-C19B-8D4B-81B1-E7CF455F2D13</segment>
+<tableSpace>8957B50E-9814-0008-9823-BEC2D1805C94</tableSpace>
+<indexSegment>56226032-C19B-8D4B-81B1-E7CF455F2D13</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="ACCOUNT_NAMES_ACCOUNT_NAME_UN" id="D865B0FD-7E3D-C520-588E-520FD2907144">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:25 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<schemaObject>452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4</schemaObject>
+<segment>56226032-C19B-8D4B-81B1-E7CF455F2D13</segment>
+<tableSpace>8957B50E-9814-0008-9823-BEC2D1805C94</tableSpace>
+<indexSegment>56226032-C19B-8D4B-81B1-E7CF455F2D13</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

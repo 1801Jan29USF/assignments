@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0643692-6EAD-BD34-BD57-3B018C1901A3" schemaObject="452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4" name="PASSWORDS">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>PASSWORDS</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:21 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PASSWORD_ID" id="C4B89829-78A5-3BBB-AF9D-BC06A6862084">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>PASSWORDS</sourceObjSchema>
+<sourceObjName>PASSWORD_ID</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASS_WORD" id="BF8C615F-9D49-F113-6F32-38761724E458">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>PASSWORDS</sourceObjSchema>
+<sourceObjName>PASS_WORD</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF61754F-605B-711C-143B-FA36A45D7541" schemaObject="452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4" name="PASSWORDS_PK">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>SYS_C006887</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:24 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4B89829-78A5-3BBB-AF9D-BC06A6862084"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DD9008F-C7B3-D21B-4244-18E9A902BD2C" schemaObject="452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4" name="PASSWORDS_PASS_WORD_UN">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>SYS_C006888</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:24 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF8C615F-9D49-F113-6F32-38761724E458"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

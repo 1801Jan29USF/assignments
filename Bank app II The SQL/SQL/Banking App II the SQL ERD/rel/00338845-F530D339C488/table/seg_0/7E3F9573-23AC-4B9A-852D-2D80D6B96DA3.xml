@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E3F9573-23AC-4B9A-852D-2D80D6B96DA3" schemaObject="452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4" name="ACCOUNT_NAMES">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>ACCOUNT_NAMES</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:21 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCOUNT_NAME_ID" id="78FF8ED8-A228-81B9-E50D-D41515A2D2A8">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>ACCOUNT_NAMES</sourceObjSchema>
+<sourceObjName>ACCOUNT_NAME_ID</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCOUNT_NAME" id="F7796883-30C0-5BA8-8F84-118CE4501E28">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>ACCOUNT_NAMES</sourceObjSchema>
+<sourceObjName>ACCOUNT_NAME</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED8D55BE-A5EE-E75D-F68E-531B83439ED1" schemaObject="452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4" name="ACCOUNT_NAMES_PK">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>SYS_C006895</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:24 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78FF8ED8-A228-81B9-E50D-D41515A2D2A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D865B0FD-7E3D-C520-588E-520FD2907144" schemaObject="452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4" name="ACCOUNT_NAMES_ACCOUNT_NAME_UN">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>SYS_C006896</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:24 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7796883-30C0-5BA8-8F84-118CE4501E28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

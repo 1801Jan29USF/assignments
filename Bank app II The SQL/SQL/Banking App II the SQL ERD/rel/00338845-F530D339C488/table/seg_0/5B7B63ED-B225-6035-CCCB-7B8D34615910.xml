@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B7B63ED-B225-6035-CCCB-7B8D34615910" schemaObject="452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4" name="ACCOUNTS">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>ACCOUNTS</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:20 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCOUNT_ID" id="17F99579-FEFB-199F-01AF-5FA63CB03436">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>ACCOUNTS</sourceObjSchema>
+<sourceObjName>ACCOUNT_ID</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCOUNT_NAME_ID" id="876D9554-B98C-2FCC-BC04-4F33330D6AF9">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>ACCOUNTS</sourceObjSchema>
+<sourceObjName>ACCOUNT_NAME_ID</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74BCE85F-7042-0112-DB6F-3F058F4C3533" referredColumn="78FF8ED8-A228-81B9-E50D-D41515A2D2A8"/>
+</associations>
+</Column>
+<Column name="BALANCE" id="D08A214D-21C2-5BE2-15D6-22EB7CC5CDD8">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>ACCOUNTS</sourceObjSchema>
+<sourceObjName>BALANCE</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<constraintName>SYS_C006892</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="balance &gt;= 0"/>
+<implementationDef dbType="Oracle Database 12c" definition="balance &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="095AC4A1-87C1-8D41-D4C3-525A8172ED60" schemaObject="452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4" name="ACCOUNTS_PK">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>SYS_C006893</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:23 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17F99579-FEFB-199F-01AF-5FA63CB03436"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4826838-0C7D-9A9A-AF15-BF169DB55239" name="FK_ACCOUNT_NAME_ID_CASCADE">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:26 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="876D9554-B98C-2FCC-BC04-4F33330D6AF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

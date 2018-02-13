@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TRANSACTIONS" directorySegmentName="seg_0" id="3726D4C4-17DE-E3BC-D00C-61F1817080AE">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:21 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<schemaObject>452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9F26C395-4D61-9122-F9D1-9FCF47479E11</segment>
+<tableSpace>8957B50E-9814-0008-9823-BEC2D1805C94</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TRANSACTION_DATE" id="1E462C5F-5340-D817-E0AA-1718C6945919">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_ID" id="30F4D4CB-4CE1-3327-41CB-C43BCDAE6A37">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACCOUNT_ID" id="6DE3A945-D914-8630-FA0D-5FD86C9F8F79">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMOUNT_DEPOSITED" id="7850EED5-F3CA-5E05-63CE-16F03D149A2B">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TRANSACTION_ID" id="B0E0036A-088A-45FA-9A68-2C60B9EC1AC0">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:22 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_USER_ID_CASCADE" id="9F61D338-12A6-E912-F6D8-27D466FF5679">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:26 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ACCOUNT_ID_CASCADE" id="DCAECABA-A5C8-5C6A-B70C-AB79932FA0E1">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:26 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRANSACTIONS_PK" id="E9C94101-5E02-0F3D-F6CE-7A0D424C6C35">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:25 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<schemaObject>452EC13E-F3B4-DF6A-ABF9-B945A7C74EC4</schemaObject>
+<segment>56226032-C19B-8D4B-81B1-E7CF455F2D13</segment>
+<tableSpace>8957B50E-9814-0008-9823-BEC2D1805C94</tableSpace>
+<indexSegment>56226032-C19B-8D4B-81B1-E7CF455F2D13</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

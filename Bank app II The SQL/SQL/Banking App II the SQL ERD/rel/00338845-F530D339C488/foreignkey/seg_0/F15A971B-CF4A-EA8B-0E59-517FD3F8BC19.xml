@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F15A971B-CF4A-EA8B-0E59-517FD3F8BC19" containerWithKeyObject="7D91EEA0-0FC3-6538-97FA-5943C4A697B8" localFKIndex="F3BCAF5C-97B1-D888-5272-2AC7B7212F20" name="FK_PASSWORD_ID_CASCADE">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>FK_PASSWORD_ID_CASCADE</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:26 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<referredTableLongName>BANK.PASSWORDS</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>D0643692-6EAD-BD34-BD57-3B018C1901A3</referredTableID>
+<keyObject>EF61754F-605B-711C-143B-FA36A45D7541</keyObject>
+<referredKeyID>EF61754F-605B-711C-143B-FA36A45D7541</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PASSWORD_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

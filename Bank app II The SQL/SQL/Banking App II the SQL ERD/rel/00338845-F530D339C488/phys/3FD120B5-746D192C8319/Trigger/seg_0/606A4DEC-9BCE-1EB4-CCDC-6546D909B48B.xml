@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="ACCOUNT_ID_TRIG" directorySegmentName="seg_0" id="606A4DEC-9BCE-1EB4-CCDC-6546D909B48B">
+<sourceConnName>bank</sourceConnName>
+<sourceObjSchema>BANK</sourceObjSchema>
+<sourceObjName>ACCOUNT_ID_TRIG</sourceObjName>
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:25 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body>BEGIN&lt;br/&gt;        IF INSERTING THEN&lt;br/&gt;            SELECT account_id_seq.nextVal INTO :new.account_id FROM DUAL;&lt;br/&gt;        ELSIF UPDATING THEN&lt;br/&gt;            SELECT :old.account_id INTO :new.account_id FROM DUAL;&lt;br/&gt;        END IF;&lt;br/&gt;    END;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>45E56DFA-39F4-0420-FACF-B56115CC9AC3</owner>
+<table>5B7B63ED-B225-6035-CCCB-7B8D34615910</table>
+</TriggerOraclev10g>

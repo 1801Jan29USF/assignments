@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Banking App II the SQL ERD" id="9FBA79F6-F582-61C1-45BC-C4AEEB346C64" version="3.5">
+<createdBy>ramjr</createdBy>
+<createdTime>2018-02-13 04:28:02 UTC</createdTime>
+<ownerDesignName>Banking App II the SQL ERD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9FBA79F6-F582-61C1-45BC-C4AEEB346C64</designId>
+</OSDM_Design>
