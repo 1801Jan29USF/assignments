@@ -1,0 +1,1125 @@
+2018-02-12 09:57:07 TRACE BankDAOJDBC:27 - Method called to insert new user.
+2018-02-12 09:57:07 TRACE BankDAOJDBC:28 - Attempting to get connection to db.
+2018-02-12 09:57:07 WARN  BankDAOJDBC:39 - Failed to insert new user.
+2018-02-12 09:58:55 TRACE BankDAOJDBC:27 - Method called to insert new user.
+2018-02-12 09:58:55 TRACE BankDAOJDBC:28 - Attempting to get connection to db.
+2018-02-12 09:58:55 WARN  BankDAOJDBC:39 - Failed to insert new user.
+2018-02-12 10:05:24 TRACE BankDAOJDBC:27 - Method called to insert new user.
+2018-02-12 10:05:24 TRACE BankDAOJDBC:28 - Attempting to get connection to db.
+2018-02-12 10:05:24 WARN  BankDAOJDBC:39 - Failed to insert new user.
+2018-02-12 10:06:59 TRACE BankDAOJDBC:45 - Method called to insert new user with username Charlos
+2018-02-12 10:06:59 TRACE BankDAOJDBC:46 - Attempting to get connection to db.
+2018-02-12 10:06:59 WARN  BankDAOJDBC:56 - Failed to insert new user with username Charlos
+2018-02-12 10:11:16 TRACE BankDAOJDBC:27 - Method called to insert new user.
+2018-02-12 10:11:16 TRACE BankDAOJDBC:28 - Attempting to get connection to db.
+2018-02-12 10:11:16 WARN  BankDAOJDBC:39 - Failed to insert new user.
+2018-02-12 10:12:45 TRACE BankDAOJDBC:27 - Method called to insert new user.
+2018-02-12 10:12:45 TRACE BankDAOJDBC:28 - Attempting to get connection to db.
+2018-02-12 10:12:45 WARN  BankDAOJDBC:39 - Failed to insert new user.
+2018-02-12 10:13:31 TRACE BankDAOJDBC:27 - Method called to insert new user.
+2018-02-12 10:13:31 TRACE BankDAOJDBC:28 - Attempting to get connection to db.
+2018-02-12 10:13:31 WARN  BankDAOJDBC:39 - Failed to insert new user.
+2018-02-12 10:13:57 TRACE BankDAOJDBC:27 - Method called to insert new user.
+2018-02-12 10:13:57 TRACE BankDAOJDBC:28 - Attempting to get connection to db.
+2018-02-12 10:14:35 TRACE BankDAOJDBC:27 - Method called to insert new user.
+2018-02-12 10:14:35 TRACE BankDAOJDBC:28 - Attempting to get connection to db.
+2018-02-12 10:15:42 TRACE BankDAOJDBC:27 - Method called to insert new user.
+2018-02-12 10:15:42 TRACE BankDAOJDBC:28 - Attempting to get connection to db.
+2018-02-12 10:17:36 TRACE BankDAOJDBC:27 - Method called to insert new user.
+2018-02-12 10:17:36 TRACE BankDAOJDBC:28 - Attempting to get connection to db.
+2018-02-12 10:18:52 TRACE BankDAOJDBC:27 - Method called to insert new user.
+2018-02-12 10:18:52 TRACE BankDAOJDBC:28 - Attempting to get connection to db.
+2018-02-12 10:19:43 TRACE BankDAOJDBC:27 - Method called to insert new user.
+2018-02-12 10:19:43 TRACE BankDAOJDBC:28 - Attempting to get connection to db.
+2018-02-12 10:21:19 TRACE BankDAOJDBC:27 - Method called to insert new user.
+2018-02-12 10:21:19 TRACE BankDAOJDBC:28 - Attempting to get connection to db.
+2018-02-12 10:21:36 TRACE BankDAOJDBC:27 - Method called to insert new user.
+2018-02-12 10:21:36 TRACE BankDAOJDBC:28 - Attempting to get connection to db.
+2018-02-12 10:22:12 TRACE BankDAOJDBC:27 - Method called to insert new user.
+2018-02-12 10:22:12 TRACE BankDAOJDBC:28 - Attempting to get connection to db.
+2018-02-12 10:23:11 TRACE BankDAOJDBC:72 - Method called to select user with username Charlos
+2018-02-12 10:23:11 TRACE BankDAOJDBC:73 - Attempting to get connection to db.
+2018-02-12 10:23:12 TRACE BankDAOJDBC:75 - Connection established with db, creating statement.
+2018-02-12 10:23:12 WARN  BankDAOJDBC:88 - Failed to query flashcard.
+2018-02-12 10:23:32 TRACE BankDAOJDBC:72 - Method called to select user with username Charlos
+2018-02-12 10:23:32 TRACE BankDAOJDBC:73 - Attempting to get connection to db.
+2018-02-12 10:23:33 TRACE BankDAOJDBC:75 - Connection established with db, creating statement.
+2018-02-12 10:23:33 WARN  BankDAOJDBC:88 - Failed to query user.
+2018-02-12 10:24:01 TRACE BankDAOJDBC:72 - Method called to select user with username Charlos
+2018-02-12 10:24:01 TRACE BankDAOJDBC:73 - Attempting to get connection to db.
+2018-02-12 10:24:02 TRACE BankDAOJDBC:75 - Connection established with db, creating statement.
+2018-02-12 10:24:02 TRACE BankDAOJDBC:84 - No user found with username Charlos
+2018-02-12 10:24:20 TRACE BankDAOJDBC:72 - Method called to select user with username Charles
+2018-02-12 10:24:20 TRACE BankDAOJDBC:73 - Attempting to get connection to db.
+2018-02-12 10:24:21 TRACE BankDAOJDBC:75 - Connection established with db, creating statement.
+2018-02-12 10:24:22 TRACE BankDAOJDBC:84 - No user found with username Charles
+2018-02-12 10:24:30 TRACE BankDAOJDBC:72 - Method called to select user with username Charlos
+2018-02-12 10:24:30 TRACE BankDAOJDBC:73 - Attempting to get connection to db.
+2018-02-12 10:24:31 TRACE BankDAOJDBC:75 - Connection established with db, creating statement.
+2018-02-12 10:24:31 TRACE BankDAOJDBC:84 - No user found with username Charlos
+2018-02-12 10:30:08 TRACE BankDAOJDBC:72 - Method called to select user with username Charlos
+2018-02-12 10:30:08 TRACE BankDAOJDBC:73 - Attempting to get connection to db.
+2018-02-12 10:30:09 TRACE BankDAOJDBC:75 - Connection established with db, creating statement.
+2018-02-12 10:30:09 TRACE BankDAOJDBC:84 - No user found with username Charlos
+2018-02-12 10:30:28 TRACE BankDAOJDBC:28 - Method called to insert new user.
+2018-02-12 10:30:28 TRACE BankDAOJDBC:29 - Attempting to get connection to db.
+2018-02-12 10:31:29 TRACE BankDAOJDBC:28 - Method called to insert new user.
+2018-02-12 10:31:29 TRACE BankDAOJDBC:29 - Attempting to get connection to db.
+2018-02-12 10:31:31 WARN  BankDAOJDBC:40 - Failed to insert new user.
+2018-02-12 10:32:29 TRACE BankDAOJDBC:28 - Method called to insert new user.
+2018-02-12 10:32:29 TRACE BankDAOJDBC:29 - Attempting to get connection to db.
+2018-02-12 10:32:30 WARN  BankDAOJDBC:40 - Failed to insert new user.
+2018-02-12 10:33:23 TRACE BankDAOJDBC:28 - Method called to insert new user.
+2018-02-12 10:33:23 TRACE BankDAOJDBC:29 - Attempting to get connection to db.
+2018-02-12 10:33:24 WARN  BankDAOJDBC:41 - Failed to insert new user.
+2018-02-12 10:39:59 TRACE BankDAOJDBC:28 - Method called to insert new user.
+2018-02-12 10:39:59 TRACE BankDAOJDBC:29 - Attempting to get connection to db.
+2018-02-12 10:40:01 WARN  BankDAOJDBC:40 - Failed to insert new user.
+2018-02-12 10:40:12 TRACE BankDAOJDBC:28 - Method called to insert new user.
+2018-02-12 10:40:12 TRACE BankDAOJDBC:29 - Attempting to get connection to db.
+2018-02-12 10:40:13 WARN  BankDAOJDBC:40 - Failed to insert new user.
+2018-02-12 10:40:20 TRACE BankDAOJDBC:28 - Method called to insert new user.
+2018-02-12 10:40:20 TRACE BankDAOJDBC:29 - Attempting to get connection to db.
+2018-02-12 10:40:21 WARN  BankDAOJDBC:40 - Failed to insert new user.
+2018-02-12 10:41:14 TRACE BankDAOJDBC:28 - Method called to insert new user.
+2018-02-12 10:41:14 TRACE BankDAOJDBC:29 - Attempting to get connection to db.
+2018-02-12 10:41:16 WARN  BankDAOJDBC:41 - Failed to insert new user.
+2018-02-12 10:41:39 TRACE BankDAOJDBC:74 - Method called to select user with username Charlos
+2018-02-12 10:41:39 TRACE BankDAOJDBC:75 - Attempting to get connection to db.
+2018-02-12 10:41:40 TRACE BankDAOJDBC:77 - Connection established with db, creating statement.
+2018-02-12 10:41:57 TRACE BankDAOJDBC:74 - Method called to select user with username Charlos
+2018-02-12 10:41:57 TRACE BankDAOJDBC:75 - Attempting to get connection to db.
+2018-02-12 10:41:58 TRACE BankDAOJDBC:77 - Connection established with db, creating statement.
+2018-02-12 10:46:13 TRACE BankDAOJDBC:74 - Method called to select flashcard with id Charlos
+2018-02-12 10:46:13 TRACE BankDAOJDBC:75 - Attempting to get connection to db.
+2018-02-12 10:46:13 TRACE BankDAOJDBC:77 - Connection established with db, creating statement.
+2018-02-12 10:47:11 TRACE BankDAOJDBC:74 - Method called to select user with username Charlos
+2018-02-12 10:47:11 TRACE BankDAOJDBC:75 - Attempting to get connection to db.
+2018-02-12 10:47:12 TRACE BankDAOJDBC:77 - Connection established with db, creating statement.
+2018-02-12 10:47:44 TRACE BankDAOJDBC:28 - Method called to insert new user.
+2018-02-12 10:47:44 TRACE BankDAOJDBC:29 - Attempting to get connection to db.
+2018-02-12 10:47:45 DEBUG BankDAOJDBC:38 - Query inserted 1 rows into the db.
+2018-02-12 10:51:46 TRACE BankDAOJDBC:28 - Method called to insert new user.
+2018-02-12 10:51:46 TRACE BankDAOJDBC:29 - Attempting to get connection to db.
+2018-02-12 10:51:47 DEBUG BankDAOJDBC:37 - Query inserted 1 rows into the db.
+2018-02-12 11:04:21 TRACE BankDAOJDBC:86 - Method called to select user with username Charlos
+2018-02-12 11:04:21 TRACE BankDAOJDBC:87 - Attempting to get connection to db.
+2018-02-12 11:04:21 TRACE BankDAOJDBC:89 - Connection established with db, creating statement.
+2018-02-12 11:04:22 TRACE BankDAOJDBC:63 - Method called to update user.
+2018-02-12 11:04:22 TRACE BankDAOJDBC:64 - Attempting to get connection to db.
+2018-02-12 11:04:22 TRACE BankDAOJDBC:66 - Connection established with db, creating statement.
+2018-02-12 11:04:22 WARN  BankDAOJDBC:75 - Failed to update flashcard.
+2018-02-12 11:04:45 TRACE BankDAOJDBC:88 - Method called to select user with username Charlos
+2018-02-12 11:04:45 TRACE BankDAOJDBC:89 - Attempting to get connection to db.
+2018-02-12 11:04:45 TRACE BankDAOJDBC:91 - Connection established with db, creating statement.
+2018-02-12 11:04:46 TRACE BankDAOJDBC:65 - Method called to update user.
+2018-02-12 11:04:46 TRACE BankDAOJDBC:66 - Attempting to get connection to db.
+2018-02-12 11:04:46 TRACE BankDAOJDBC:68 - Connection established with db, creating statement.
+2018-02-12 11:04:46 WARN  BankDAOJDBC:77 - Failed to update flashcard.
+2018-02-12 11:05:44 TRACE BankDAOJDBC:90 - Method called to select user with username Charlos
+2018-02-12 11:05:44 TRACE BankDAOJDBC:91 - Attempting to get connection to db.
+2018-02-12 11:05:45 TRACE BankDAOJDBC:93 - Connection established with db, creating statement.
+2018-02-12 11:05:45 TRACE BankDAOJDBC:67 - Method called to update user.
+2018-02-12 11:05:45 TRACE BankDAOJDBC:68 - Attempting to get connection to db.
+2018-02-12 11:05:46 TRACE BankDAOJDBC:70 - Connection established with db, creating statement.
+2018-02-12 11:05:46 WARN  BankDAOJDBC:79 - Failed to update flashcard.
+2018-02-12 11:06:56 TRACE BankDAOJDBC:90 - Method called to select user with username Charlos
+2018-02-12 11:06:56 TRACE BankDAOJDBC:91 - Attempting to get connection to db.
+2018-02-12 11:06:57 TRACE BankDAOJDBC:93 - Connection established with db, creating statement.
+2018-02-12 11:06:57 TRACE BankDAOJDBC:67 - Method called to update user.
+2018-02-12 11:06:57 TRACE BankDAOJDBC:68 - Attempting to get connection to db.
+2018-02-12 11:06:57 TRACE BankDAOJDBC:70 - Connection established with db, creating statement.
+2018-02-12 11:06:58 WARN  BankDAOJDBC:79 - Failed to update flashcard.
+2018-02-12 11:08:46 TRACE BankDAOJDBC:90 - Method called to select user with username Charlos
+2018-02-12 11:08:46 TRACE BankDAOJDBC:91 - Attempting to get connection to db.
+2018-02-12 11:08:47 TRACE BankDAOJDBC:93 - Connection established with db, creating statement.
+2018-02-12 11:09:32 TRACE BankDAOJDBC:90 - Method called to select user with username Charlos
+2018-02-12 11:09:32 TRACE BankDAOJDBC:91 - Attempting to get connection to db.
+2018-02-12 11:09:33 TRACE BankDAOJDBC:93 - Connection established with db, creating statement.
+2018-02-12 11:09:33 TRACE BankDAOJDBC:67 - Method called to update user.
+2018-02-12 11:09:33 TRACE BankDAOJDBC:68 - Attempting to get connection to db.
+2018-02-12 11:09:33 TRACE BankDAOJDBC:70 - Connection established with db, creating statement.
+2018-02-12 11:09:33 WARN  BankDAOJDBC:79 - Failed to update flashcard.
+2018-02-12 11:09:59 TRACE BankDAOJDBC:90 - Method called to select user with username Charlos
+2018-02-12 11:09:59 TRACE BankDAOJDBC:91 - Attempting to get connection to db.
+2018-02-12 11:10:00 TRACE BankDAOJDBC:93 - Connection established with db, creating statement.
+2018-02-12 11:10:00 TRACE BankDAOJDBC:67 - Method called to update user.
+2018-02-12 11:10:00 TRACE BankDAOJDBC:68 - Attempting to get connection to db.
+2018-02-12 11:10:00 TRACE BankDAOJDBC:70 - Connection established with db, creating statement.
+2018-02-12 11:10:00 TRACE BankDAOJDBC:76 - Updated 1 rows.
+2018-02-12 11:11:13 TRACE BankDAOJDBC:91 - Method called to select user with username Charlos
+2018-02-12 11:11:13 TRACE BankDAOJDBC:92 - Attempting to get connection to db.
+2018-02-12 11:11:14 TRACE BankDAOJDBC:94 - Connection established with db, creating statement.
+2018-02-12 11:11:14 TRACE BankDAOJDBC:103 - No flashcard found with id Charlos
+2018-02-12 11:11:58 TRACE BankDAOJDBC:91 - Method called to select user with username Charlos
+2018-02-12 11:11:58 TRACE BankDAOJDBC:92 - Attempting to get connection to db.
+2018-02-12 11:11:59 TRACE BankDAOJDBC:94 - Connection established with db, creating statement.
+2018-02-12 11:11:59 TRACE BankDAOJDBC:103 - No user found with id Charlos
+2018-02-12 11:16:24 TRACE BankDAOJDBC:93 - Method called to select user with username 'Charlos'
+2018-02-12 11:16:24 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 11:16:26 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 11:16:26 TRACE BankDAOJDBC:69 - Method called to update user.
+2018-02-12 11:16:26 TRACE BankDAOJDBC:70 - Attempting to get connection to db.
+2018-02-12 11:16:26 TRACE BankDAOJDBC:72 - Connection established with db, creating statement.
+2018-02-12 11:16:26 TRACE BankDAOJDBC:79 - Updated 1 rows.
+2018-02-12 11:16:57 TRACE BankDAOJDBC:95 - Method called to select user with username 'Charlos'
+2018-02-12 11:16:57 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 11:16:58 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 11:16:58 TRACE BankDAOJDBC:107 - No user found with username 'Charlos'
+2018-02-12 11:17:06 TRACE BankDAOJDBC:95 - Method called to select user with username Charlos
+2018-02-12 11:17:06 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 11:17:07 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 11:17:07 TRACE BankDAOJDBC:71 - Method called to update user.
+2018-02-12 11:17:07 TRACE BankDAOJDBC:72 - Attempting to get connection to db.
+2018-02-12 11:17:08 TRACE BankDAOJDBC:74 - Connection established with db, creating statement.
+2018-02-12 11:17:08 TRACE BankDAOJDBC:81 - Updated 1 rows.
+2018-02-12 11:17:25 TRACE BankDAOJDBC:95 - Method called to select user with username Charlos
+2018-02-12 11:17:25 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 11:17:26 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 11:17:26 TRACE BankDAOJDBC:71 - Method called to update user.
+2018-02-12 11:17:26 TRACE BankDAOJDBC:72 - Attempting to get connection to db.
+2018-02-12 11:17:26 TRACE BankDAOJDBC:74 - Connection established with db, creating statement.
+2018-02-12 11:17:26 TRACE BankDAOJDBC:81 - Updated 1 rows.
+2018-02-12 11:18:52 TRACE BankDAOJDBC:38 - Method called to insert new user with username Ahmed
+2018-02-12 11:18:52 TRACE BankDAOJDBC:39 - Attempting to get connection to db.
+2018-02-12 11:18:53 TRACE BankDAOJDBC:41 - Connection established with db, creating prepared statement.
+2018-02-12 11:19:07 TRACE BankDAOJDBC:79 - Method called to select user with username Ahmed
+2018-02-12 11:19:07 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-12 11:19:07 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-12 11:19:07 TRACE BankDAOJDBC:79 - Method called to select user with username Ahmed
+2018-02-12 11:19:07 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-12 11:19:08 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-12 11:19:08 TRACE BankDAOJDBC:79 - Method called to select user with username Ahmed
+2018-02-12 11:19:08 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-12 11:19:08 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-12 11:19:20 TRACE BankDAOJDBC:55 - Method called to update user.
+2018-02-12 11:19:20 TRACE BankDAOJDBC:56 - Attempting to get connection to db.
+2018-02-12 11:19:21 TRACE BankDAOJDBC:58 - Connection established with db, creating statement.
+2018-02-12 11:19:21 TRACE BankDAOJDBC:65 - Updated 0 rows.
+2018-02-12 11:21:47 TRACE BankDAOJDBC:79 - Method called to select user with username Ahmed
+2018-02-12 11:21:47 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-12 11:21:47 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-12 11:21:48 TRACE BankDAOJDBC:79 - Method called to select user with username Ahmed
+2018-02-12 11:21:48 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-12 11:21:48 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-12 11:21:48 TRACE BankDAOJDBC:79 - Method called to select user with username Ahmed
+2018-02-12 11:21:48 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-12 11:21:49 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-12 11:21:55 TRACE BankDAOJDBC:55 - Method called to update user.
+2018-02-12 11:21:55 TRACE BankDAOJDBC:56 - Attempting to get connection to db.
+2018-02-12 11:21:55 TRACE BankDAOJDBC:58 - Connection established with db, creating statement.
+2018-02-12 11:21:55 TRACE BankDAOJDBC:65 - Updated 1 rows.
+2018-02-12 11:26:26 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:26:26 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:26:27 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:26:27 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:26:27 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:26:27 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:26:27 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:26:27 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:26:28 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:26:36 TRACE BankDAOJDBC:54 - Method called to update user.
+2018-02-12 11:26:36 TRACE BankDAOJDBC:55 - Attempting to get connection to db.
+2018-02-12 11:26:36 TRACE BankDAOJDBC:57 - Connection established with db, creating statement.
+2018-02-12 11:26:36 TRACE BankDAOJDBC:64 - Updated 1 rows.
+2018-02-12 11:27:31 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:27:31 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:27:32 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:27:32 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:27:32 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:27:33 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:27:33 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:27:33 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:27:33 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:27:41 TRACE BankDAOJDBC:113 - Method called to update user.
+2018-02-12 11:27:41 TRACE BankDAOJDBC:114 - Attempting to get connection to db.
+2018-02-12 11:27:41 TRACE BankDAOJDBC:116 - Connection established with db, creating statement.
+2018-02-12 11:27:41 TRACE BankDAOJDBC:121 - Updated 1 rows.
+2018-02-12 11:27:53 TRACE BankDAOJDBC:113 - Method called to update user.
+2018-02-12 11:27:53 TRACE BankDAOJDBC:114 - Attempting to get connection to db.
+2018-02-12 11:27:54 TRACE BankDAOJDBC:116 - Connection established with db, creating statement.
+2018-02-12 11:27:54 TRACE BankDAOJDBC:121 - Updated 1 rows.
+2018-02-12 11:28:01 TRACE BankDAOJDBC:113 - Method called to update user.
+2018-02-12 11:28:01 TRACE BankDAOJDBC:114 - Attempting to get connection to db.
+2018-02-12 11:28:01 TRACE BankDAOJDBC:116 - Connection established with db, creating statement.
+2018-02-12 11:28:01 TRACE BankDAOJDBC:121 - Updated 1 rows.
+2018-02-12 11:28:08 TRACE BankDAOJDBC:96 - Method called to update user.
+2018-02-12 11:28:08 TRACE BankDAOJDBC:97 - Attempting to get connection to db.
+2018-02-12 11:28:09 TRACE BankDAOJDBC:99 - Connection established with db, creating statement.
+2018-02-12 11:28:09 TRACE BankDAOJDBC:104 - Updated 1 rows.
+2018-02-12 11:29:27 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:29:27 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:29:27 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:29:28 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:29:28 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:29:28 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:29:28 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:29:28 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:29:28 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:29:34 TRACE BankDAOJDBC:96 - Method called to update user.
+2018-02-12 11:29:34 TRACE BankDAOJDBC:97 - Attempting to get connection to db.
+2018-02-12 11:29:34 TRACE BankDAOJDBC:99 - Connection established with db, creating statement.
+2018-02-12 11:29:34 WARN  BankDAOJDBC:107 - Failed to withdraw.
+2018-02-12 11:40:23 TRACE BankDAOJDBC:74 - Method called to select user with username Ahmed
+2018-02-12 11:40:23 TRACE BankDAOJDBC:75 - Attempting to get connection to db.
+2018-02-12 11:40:24 TRACE BankDAOJDBC:77 - Connection established with db, creating statement.
+2018-02-12 11:40:25 TRACE BankDAOJDBC:74 - Method called to select user with username Ahmed
+2018-02-12 11:40:25 TRACE BankDAOJDBC:75 - Attempting to get connection to db.
+2018-02-12 11:40:25 TRACE BankDAOJDBC:77 - Connection established with db, creating statement.
+2018-02-12 11:40:25 TRACE BankDAOJDBC:74 - Method called to select user with username Ahmed
+2018-02-12 11:40:25 TRACE BankDAOJDBC:75 - Attempting to get connection to db.
+2018-02-12 11:40:25 TRACE BankDAOJDBC:77 - Connection established with db, creating statement.
+2018-02-12 11:42:04 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:42:04 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:42:05 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:42:05 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:42:05 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:42:05 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:42:05 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:42:05 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:42:06 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:42:11 TRACE BankDAOJDBC:113 - Method called to update user.
+2018-02-12 11:42:11 TRACE BankDAOJDBC:114 - Attempting to get connection to db.
+2018-02-12 11:42:12 TRACE BankDAOJDBC:116 - Connection established with db, creating statement.
+2018-02-12 11:42:12 WARN  BankDAOJDBC:124 - Failed to deposit.
+2018-02-12 11:42:27 TRACE BankDAOJDBC:96 - Method called to update user.
+2018-02-12 11:42:27 TRACE BankDAOJDBC:97 - Attempting to get connection to db.
+2018-02-12 11:42:28 TRACE BankDAOJDBC:99 - Connection established with db, creating statement.
+2018-02-12 11:42:28 WARN  BankDAOJDBC:107 - Failed to withdraw.
+2018-02-12 11:45:44 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:45:44 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:45:45 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:45:46 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:45:46 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:45:46 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:45:46 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:45:46 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:45:46 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:45:51 TRACE BankDAOJDBC:113 - Method called to update user.
+2018-02-12 11:45:51 TRACE BankDAOJDBC:114 - Attempting to get connection to db.
+2018-02-12 11:45:51 TRACE BankDAOJDBC:116 - Connection established with db, creating statement.
+2018-02-12 11:45:51 WARN  BankDAOJDBC:122 - Failed to deposit.
+2018-02-12 11:49:50 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:49:50 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:49:51 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:49:51 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:49:51 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:49:52 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:49:52 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:49:52 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:49:52 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:49:55 TRACE BankDAOJDBC:117 - Method called to update user.
+2018-02-12 11:49:55 TRACE BankDAOJDBC:118 - Attempting to get connection to db.
+2018-02-12 11:49:55 TRACE BankDAOJDBC:120 - Connection established with db, creating statement.
+2018-02-12 11:49:55 WARN  BankDAOJDBC:131 - Failed to deposit.
+2018-02-12 11:50:02 TRACE BankDAOJDBC:96 - Method called to update user.
+2018-02-12 11:50:02 TRACE BankDAOJDBC:97 - Attempting to get connection to db.
+2018-02-12 11:50:02 TRACE BankDAOJDBC:99 - Connection established with db, creating statement.
+2018-02-12 11:50:02 WARN  BankDAOJDBC:111 - Failed to withdraw.
+2018-02-12 11:52:19 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:52:19 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:52:20 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:52:21 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:52:21 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:52:21 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:52:21 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:52:21 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:52:22 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:52:26 TRACE BankDAOJDBC:113 - Method called to update user.
+2018-02-12 11:52:26 TRACE BankDAOJDBC:114 - Attempting to get connection to db.
+2018-02-12 11:52:26 TRACE BankDAOJDBC:116 - Connection established with db, creating statement.
+2018-02-12 11:52:26 WARN  BankDAOJDBC:124 - Failed to deposit.
+2018-02-12 11:53:30 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:53:30 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:53:31 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:53:31 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:53:31 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:53:32 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:53:32 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:53:32 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:53:33 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:53:34 TRACE BankDAOJDBC:113 - Method called to update user.
+2018-02-12 11:53:34 TRACE BankDAOJDBC:114 - Attempting to get connection to db.
+2018-02-12 11:53:36 TRACE BankDAOJDBC:116 - Connection established with db, creating statement.
+2018-02-12 11:53:36 WARN  BankDAOJDBC:124 - Failed to deposit.
+2018-02-12 11:54:13 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:54:13 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:54:13 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:54:14 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:54:14 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:54:14 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:54:14 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:54:14 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:54:14 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:54:16 TRACE BankDAOJDBC:113 - Method called to update user.
+2018-02-12 11:54:16 TRACE BankDAOJDBC:114 - Attempting to get connection to db.
+2018-02-12 11:54:17 TRACE BankDAOJDBC:116 - Connection established with db, creating statement.
+2018-02-12 11:54:17 WARN  BankDAOJDBC:124 - Failed to deposit.
+2018-02-12 11:55:31 TRACE BankDAOJDBC:80 - Method called to select user with username Charlos
+2018-02-12 11:55:31 TRACE BankDAOJDBC:81 - Attempting to get connection to db.
+2018-02-12 11:55:32 TRACE BankDAOJDBC:83 - Connection established with db, creating statement.
+2018-02-12 11:55:32 TRACE BankDAOJDBC:61 - Method called to update user.
+2018-02-12 11:55:32 TRACE BankDAOJDBC:62 - Attempting to get connection to db.
+2018-02-12 11:55:33 TRACE BankDAOJDBC:64 - Connection established with db, creating statement.
+2018-02-12 11:55:33 WARN  BankDAOJDBC:74 - Failed to update user.
+2018-02-12 11:55:50 TRACE BankDAOJDBC:82 - Method called to select user with username Charlos
+2018-02-12 11:55:50 TRACE BankDAOJDBC:83 - Attempting to get connection to db.
+2018-02-12 11:55:50 TRACE BankDAOJDBC:85 - Connection established with db, creating statement.
+2018-02-12 11:55:51 TRACE BankDAOJDBC:63 - Method called to update user.
+2018-02-12 11:55:51 TRACE BankDAOJDBC:64 - Attempting to get connection to db.
+2018-02-12 11:55:51 TRACE BankDAOJDBC:66 - Connection established with db, creating statement.
+2018-02-12 11:55:51 WARN  BankDAOJDBC:76 - Failed to update user.
+2018-02-12 11:56:27 TRACE BankDAOJDBC:82 - Method called to select user with username Charlos
+2018-02-12 11:56:27 TRACE BankDAOJDBC:83 - Attempting to get connection to db.
+2018-02-12 11:56:28 TRACE BankDAOJDBC:85 - Connection established with db, creating statement.
+2018-02-12 11:56:28 TRACE BankDAOJDBC:105 - Method called to update user.
+2018-02-12 11:56:28 TRACE BankDAOJDBC:106 - Attempting to get connection to db.
+2018-02-12 11:56:28 TRACE BankDAOJDBC:108 - Connection established with db, creating statement.
+2018-02-12 11:56:29 WARN  BankDAOJDBC:116 - Failed to withdraw.
+2018-02-12 11:58:44 TRACE BankDAOJDBC:86 - Method called to select user with username Charlos
+2018-02-12 11:58:44 TRACE BankDAOJDBC:87 - Attempting to get connection to db.
+2018-02-12 11:58:44 TRACE BankDAOJDBC:89 - Connection established with db, creating statement.
+2018-02-12 11:58:45 TRACE BankDAOJDBC:32 - Method called to insert new user.
+2018-02-12 11:58:45 TRACE BankDAOJDBC:33 - Attempting to get connection to db.
+2018-02-12 11:58:45 WARN  BankDAOJDBC:44 - Failed to insert new user.
+2018-02-12 11:58:45 TRACE BankDAOJDBC:109 - Method called to update user.
+2018-02-12 11:58:45 TRACE BankDAOJDBC:110 - Attempting to get connection to db.
+2018-02-12 11:58:46 TRACE BankDAOJDBC:112 - Connection established with db, creating statement.
+2018-02-12 11:58:46 TRACE BankDAOJDBC:117 - Updated 0 rows.
+2018-02-12 11:59:14 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:59:14 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:59:15 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:59:16 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:59:16 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:59:16 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:59:17 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 11:59:17 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 11:59:17 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 11:59:19 TRACE BankDAOJDBC:113 - Method called to update user.
+2018-02-12 11:59:19 TRACE BankDAOJDBC:114 - Attempting to get connection to db.
+2018-02-12 11:59:19 TRACE BankDAOJDBC:116 - Connection established with db, creating statement.
+2018-02-12 11:59:20 WARN  BankDAOJDBC:124 - Failed to deposit.
+2018-02-12 12:00:55 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 12:00:55 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 12:00:56 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 12:00:56 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 12:00:56 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 12:00:57 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 12:00:57 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 12:00:57 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 12:00:57 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 12:00:59 TRACE BankDAOJDBC:113 - Method called to update user.
+2018-02-12 12:00:59 TRACE BankDAOJDBC:114 - Attempting to get connection to db.
+2018-02-12 12:00:59 TRACE BankDAOJDBC:116 - Connection established with db, creating statement.
+2018-02-12 12:00:59 WARN  BankDAOJDBC:126 - Failed to update user.
+2018-02-12 12:01:52 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 12:01:52 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 12:01:53 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 12:01:54 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 12:01:54 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 12:01:54 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 12:01:54 TRACE BankDAOJDBC:73 - Method called to select user with username Ahmed
+2018-02-12 12:01:54 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 12:01:55 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 12:01:57 TRACE BankDAOJDBC:54 - Method called to update user.
+2018-02-12 12:01:57 TRACE BankDAOJDBC:55 - Attempting to get connection to db.
+2018-02-12 12:01:57 TRACE BankDAOJDBC:57 - Connection established with db, creating statement.
+2018-02-12 12:01:57 WARN  BankDAOJDBC:67 - Failed to update user.
+2018-02-12 12:03:37 TRACE BankDAOJDBC:85 - Method called to select user with username Ahmed
+2018-02-12 12:03:37 TRACE BankDAOJDBC:86 - Attempting to get connection to db.
+2018-02-12 12:03:38 TRACE BankDAOJDBC:88 - Connection established with db, creating statement.
+2018-02-12 12:03:38 TRACE BankDAOJDBC:66 - Method called to update user.
+2018-02-12 12:03:38 TRACE BankDAOJDBC:67 - Attempting to get connection to db.
+2018-02-12 12:03:39 TRACE BankDAOJDBC:69 - Connection established with db, creating statement.
+2018-02-12 12:03:39 WARN  BankDAOJDBC:79 - Failed to update user.
+2018-02-12 12:03:39 TRACE BankDAOJDBC:31 - Method called to insert new user.
+2018-02-12 12:03:39 TRACE BankDAOJDBC:32 - Attempting to get connection to db.
+2018-02-12 12:03:40 WARN  BankDAOJDBC:43 - Failed to insert new user.
+2018-02-12 12:03:54 TRACE BankDAOJDBC:87 - Method called to select user with username Ahmed
+2018-02-12 12:03:54 TRACE BankDAOJDBC:88 - Attempting to get connection to db.
+2018-02-12 12:03:55 TRACE BankDAOJDBC:90 - Connection established with db, creating statement.
+2018-02-12 12:03:55 TRACE BankDAOJDBC:68 - Method called to update user.
+2018-02-12 12:03:55 TRACE BankDAOJDBC:69 - Attempting to get connection to db.
+2018-02-12 12:03:55 TRACE BankDAOJDBC:71 - Connection established with db, creating statement.
+2018-02-12 12:03:55 TRACE BankDAOJDBC:78 - Updated 0 rows.
+2018-02-12 12:03:55 TRACE BankDAOJDBC:33 - Method called to insert new user.
+2018-02-12 12:03:55 TRACE BankDAOJDBC:34 - Attempting to get connection to db.
+2018-02-12 12:03:56 WARN  BankDAOJDBC:45 - Failed to insert new user.
+2018-02-12 12:04:33 TRACE BankDAOJDBC:89 - Method called to select user with username Ahmed
+2018-02-12 12:04:33 TRACE BankDAOJDBC:90 - Attempting to get connection to db.
+2018-02-12 12:04:34 TRACE BankDAOJDBC:92 - Connection established with db, creating statement.
+2018-02-12 12:04:34 TRACE BankDAOJDBC:70 - Method called to update user.
+2018-02-12 12:04:34 TRACE BankDAOJDBC:71 - Attempting to get connection to db.
+2018-02-12 12:04:34 TRACE BankDAOJDBC:73 - Connection established with db, creating statement.
+2018-02-12 12:04:35 TRACE BankDAOJDBC:80 - Updated 0 rows.
+2018-02-12 12:04:35 TRACE BankDAOJDBC:35 - Method called to insert new user.
+2018-02-12 12:04:35 TRACE BankDAOJDBC:36 - Attempting to get connection to db.
+2018-02-12 12:04:35 WARN  BankDAOJDBC:47 - Failed to insert new user.
+2018-02-12 12:06:49 TRACE BankDAOJDBC:90 - Method called to select user with username Ahmed
+2018-02-12 12:06:49 TRACE BankDAOJDBC:91 - Attempting to get connection to db.
+2018-02-12 12:06:50 TRACE BankDAOJDBC:93 - Connection established with db, creating statement.
+2018-02-12 12:06:50 TRACE BankDAOJDBC:70 - Method called to update flashcard.
+2018-02-12 12:06:50 TRACE BankDAOJDBC:71 - Attempting to get connection to db.
+2018-02-12 12:06:51 TRACE BankDAOJDBC:73 - Connection established with db, creating statement.
+2018-02-12 12:06:51 WARN  BankDAOJDBC:84 - Failed to update flashcard.
+2018-02-12 12:06:51 TRACE BankDAOJDBC:35 - Method called to insert new user.
+2018-02-12 12:06:51 TRACE BankDAOJDBC:36 - Attempting to get connection to db.
+2018-02-12 12:06:51 WARN  BankDAOJDBC:47 - Failed to insert new user.
+2018-02-12 12:07:42 TRACE BankDAOJDBC:92 - Method called to select user with username Ahmed
+2018-02-12 12:07:42 TRACE BankDAOJDBC:93 - Attempting to get connection to db.
+2018-02-12 12:07:43 TRACE BankDAOJDBC:95 - Connection established with db, creating statement.
+2018-02-12 12:07:43 TRACE BankDAOJDBC:72 - Method called to update flashcard.
+2018-02-12 12:07:43 TRACE BankDAOJDBC:73 - Attempting to get connection to db.
+2018-02-12 12:07:43 TRACE BankDAOJDBC:75 - Connection established with db, creating statement.
+2018-02-12 12:07:43 WARN  BankDAOJDBC:86 - Failed to update flashcard.
+2018-02-12 12:07:43 TRACE BankDAOJDBC:37 - Method called to insert new user.
+2018-02-12 12:07:43 TRACE BankDAOJDBC:38 - Attempting to get connection to db.
+2018-02-12 12:07:44 WARN  BankDAOJDBC:49 - Failed to insert new user.
+2018-02-12 12:08:08 TRACE BankDAOJDBC:93 - Method called to select user with username Ahmed
+2018-02-12 12:08:08 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 12:08:09 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 12:08:09 TRACE BankDAOJDBC:73 - Method called to update flashcard.
+2018-02-12 12:08:09 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 12:08:10 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 12:08:10 WARN  BankDAOJDBC:87 - Failed to update flashcard.
+2018-02-12 12:08:10 TRACE BankDAOJDBC:38 - Method called to insert new user.
+2018-02-12 12:08:10 TRACE BankDAOJDBC:39 - Attempting to get connection to db.
+2018-02-12 12:08:10 WARN  BankDAOJDBC:50 - Failed to insert new user.
+2018-02-12 12:09:09 TRACE BankDAOJDBC:92 - Method called to select user with username Ahmed
+2018-02-12 12:09:09 TRACE BankDAOJDBC:93 - Attempting to get connection to db.
+2018-02-12 12:09:10 TRACE BankDAOJDBC:95 - Connection established with db, creating statement.
+2018-02-12 12:09:10 TRACE BankDAOJDBC:73 - Method called to update flashcard.
+2018-02-12 12:09:10 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 12:09:10 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 12:09:10 WARN  BankDAOJDBC:86 - Failed to update flashcard.
+2018-02-12 12:09:10 TRACE BankDAOJDBC:38 - Method called to insert new user.
+2018-02-12 12:09:10 TRACE BankDAOJDBC:39 - Attempting to get connection to db.
+2018-02-12 12:09:11 WARN  BankDAOJDBC:50 - Failed to insert new user.
+2018-02-12 12:11:12 TRACE BankDAOJDBC:93 - Method called to select user with username Ahmed
+2018-02-12 12:11:12 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 12:11:14 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 12:11:14 TRACE BankDAOJDBC:73 - Method called to update flashcard.
+2018-02-12 12:11:14 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 12:11:14 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 12:11:14 WARN  BankDAOJDBC:87 - Failed to update flashcard.
+2018-02-12 12:11:14 TRACE BankDAOJDBC:38 - Method called to insert new user.
+2018-02-12 12:11:14 TRACE BankDAOJDBC:39 - Attempting to get connection to db.
+2018-02-12 12:11:15 WARN  BankDAOJDBC:50 - Failed to insert new user.
+2018-02-12 12:12:02 TRACE BankDAOJDBC:95 - Method called to select user with username Ahmed
+2018-02-12 12:12:02 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 12:12:03 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 12:12:03 TRACE BankDAOJDBC:75 - Method called to update flashcard.
+2018-02-12 12:12:03 TRACE BankDAOJDBC:76 - Attempting to get connection to db.
+2018-02-12 12:12:04 TRACE BankDAOJDBC:78 - Connection established with db, creating statement.
+2018-02-12 12:12:04 WARN  BankDAOJDBC:89 - Failed to update flashcard.
+2018-02-12 12:12:04 TRACE BankDAOJDBC:38 - Method called to insert new user.
+2018-02-12 12:12:04 TRACE BankDAOJDBC:39 - Attempting to get connection to db.
+2018-02-12 12:12:04 WARN  BankDAOJDBC:51 - Failed to insert new user.
+2018-02-12 12:13:06 TRACE BankDAOJDBC:96 - Method called to select user with username Ahmed
+2018-02-12 12:13:06 TRACE BankDAOJDBC:97 - Attempting to get connection to db.
+2018-02-12 12:13:07 TRACE BankDAOJDBC:99 - Connection established with db, creating statement.
+2018-02-12 12:13:07 TRACE BankDAOJDBC:76 - Method called to update flashcard.
+2018-02-12 12:13:07 TRACE BankDAOJDBC:77 - Attempting to get connection to db.
+2018-02-12 12:13:07 TRACE BankDAOJDBC:79 - Connection established with db, creating statement.
+2018-02-12 12:13:07 WARN  BankDAOJDBC:90 - Failed to update flashcard.
+2018-02-12 12:13:07 TRACE BankDAOJDBC:39 - Method called to insert new user.
+2018-02-12 12:13:07 TRACE BankDAOJDBC:40 - Attempting to get connection to db.
+2018-02-12 12:13:08 WARN  BankDAOJDBC:52 - Failed to insert new user.
+2018-02-12 12:14:32 TRACE BankDAOJDBC:93 - Method called to select user with username Ahmed
+2018-02-12 12:14:32 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 12:14:33 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 12:14:33 TRACE BankDAOJDBC:77 - Method called to update flashcard.
+2018-02-12 12:14:33 TRACE BankDAOJDBC:78 - Attempting to get connection to db.
+2018-02-12 12:14:33 TRACE BankDAOJDBC:80 - Connection established with db, creating statement.
+2018-02-12 12:14:33 WARN  BankDAOJDBC:87 - Failed to update flashcard.
+2018-02-12 12:14:33 TRACE BankDAOJDBC:40 - Method called to insert new user.
+2018-02-12 12:14:33 TRACE BankDAOJDBC:41 - Attempting to get connection to db.
+2018-02-12 12:14:35 WARN  BankDAOJDBC:53 - Failed to insert new user.
+2018-02-12 12:14:39 TRACE BankDAOJDBC:92 - Method called to select user with username Ahmed
+2018-02-12 12:14:39 TRACE BankDAOJDBC:93 - Attempting to get connection to db.
+2018-02-12 12:14:40 TRACE BankDAOJDBC:95 - Connection established with db, creating statement.
+2018-02-12 12:14:40 TRACE BankDAOJDBC:76 - Method called to update flashcard.
+2018-02-12 12:14:40 TRACE BankDAOJDBC:77 - Attempting to get connection to db.
+2018-02-12 12:14:40 TRACE BankDAOJDBC:79 - Connection established with db, creating statement.
+2018-02-12 12:14:40 WARN  BankDAOJDBC:86 - Failed to update flashcard.
+2018-02-12 12:14:40 TRACE BankDAOJDBC:39 - Method called to insert new user.
+2018-02-12 12:14:40 TRACE BankDAOJDBC:40 - Attempting to get connection to db.
+2018-02-12 12:14:41 WARN  BankDAOJDBC:52 - Failed to insert new user.
+2018-02-12 12:15:28 TRACE BankDAOJDBC:92 - Method called to select user with username Ahmed
+2018-02-12 12:15:28 TRACE BankDAOJDBC:93 - Attempting to get connection to db.
+2018-02-12 12:15:29 TRACE BankDAOJDBC:95 - Connection established with db, creating statement.
+2018-02-12 12:15:30 TRACE BankDAOJDBC:76 - Method called to update flashcard.
+2018-02-12 12:15:30 TRACE BankDAOJDBC:77 - Attempting to get connection to db.
+2018-02-12 12:15:30 TRACE BankDAOJDBC:79 - Connection established with db, creating statement.
+2018-02-12 12:15:30 WARN  BankDAOJDBC:86 - Failed to update flashcard.
+2018-02-12 12:15:30 TRACE BankDAOJDBC:39 - Method called to insert new user.
+2018-02-12 12:15:30 TRACE BankDAOJDBC:40 - Attempting to get connection to db.
+2018-02-12 12:15:31 WARN  BankDAOJDBC:52 - Failed to insert new user.
+2018-02-12 12:38:04 TRACE BankDAOJDBC:92 - Method called to select user with username Ahmed
+2018-02-12 12:38:04 TRACE BankDAOJDBC:93 - Attempting to get connection to db.
+2018-02-12 12:38:05 TRACE BankDAOJDBC:95 - Connection established with db, creating statement.
+2018-02-12 12:38:05 TRACE BankDAOJDBC:76 - Method called to update flashcard.
+2018-02-12 12:38:05 TRACE BankDAOJDBC:77 - Attempting to get connection to db.
+2018-02-12 12:38:06 TRACE BankDAOJDBC:79 - Connection established with db, creating statement.
+2018-02-12 12:38:06 WARN  BankDAOJDBC:86 - Failed to update flashcard.
+2018-02-12 12:38:06 TRACE BankDAOJDBC:39 - Method called to insert new user.
+2018-02-12 12:38:06 TRACE BankDAOJDBC:40 - Attempting to get connection to db.
+2018-02-12 12:38:07 WARN  BankDAOJDBC:52 - Failed to insert new user.
+2018-02-12 12:42:04 TRACE BankDAOJDBC:92 - Method called to select user with username Ahmed
+2018-02-12 12:42:04 TRACE BankDAOJDBC:93 - Attempting to get connection to db.
+2018-02-12 12:42:05 TRACE BankDAOJDBC:95 - Connection established with db, creating statement.
+2018-02-12 12:42:05 TRACE BankDAOJDBC:76 - Method called to update flashcard.
+2018-02-12 12:42:05 TRACE BankDAOJDBC:77 - Attempting to get connection to db.
+2018-02-12 12:42:05 TRACE BankDAOJDBC:79 - Connection established with db, creating statement.
+2018-02-12 12:42:05 TRACE BankDAOJDBC:83 - Updated 1 rows.
+2018-02-12 12:42:05 TRACE BankDAOJDBC:39 - Method called to insert new user.
+2018-02-12 12:42:05 TRACE BankDAOJDBC:40 - Attempting to get connection to db.
+2018-02-12 12:42:06 WARN  BankDAOJDBC:52 - Failed to insert new user.
+2018-02-12 12:45:28 TRACE BankDAOJDBC:97 - Method called to select user with username Ahmed
+2018-02-12 12:45:28 TRACE BankDAOJDBC:98 - Attempting to get connection to db.
+2018-02-12 12:45:29 TRACE BankDAOJDBC:100 - Connection established with db, creating statement.
+2018-02-12 12:45:29 TRACE BankDAOJDBC:109 - No user found with username Ahmed
+2018-02-12 12:45:46 TRACE BankDAOJDBC:94 - Method called to select user with username hello
+2018-02-12 12:45:46 TRACE BankDAOJDBC:95 - Attempting to get connection to db.
+2018-02-12 12:45:46 TRACE BankDAOJDBC:97 - Connection established with db, creating statement.
+2018-02-12 12:45:47 TRACE BankDAOJDBC:73 - Method called to update user.
+2018-02-12 12:45:47 TRACE BankDAOJDBC:74 - Attempting to get connection to db.
+2018-02-12 12:45:47 TRACE BankDAOJDBC:76 - Connection established with db, creating statement.
+2018-02-12 12:45:47 TRACE BankDAOJDBC:85 - Updated 1 rows.
+2018-02-12 12:45:47 TRACE BankDAOJDBC:36 - Method called to insert new user.
+2018-02-12 12:45:47 TRACE BankDAOJDBC:37 - Attempting to get connection to db.
+2018-02-12 12:45:48 WARN  BankDAOJDBC:49 - Failed to insert new user.
+2018-02-12 12:55:08 TRACE BankDAOJDBC:95 - Method called to select user with username hello
+2018-02-12 12:55:08 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 12:55:08 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 12:55:09 TRACE BankDAOJDBC:135 - Method called to update user.
+2018-02-12 12:55:09 TRACE BankDAOJDBC:136 - Attempting to get connection to db.
+2018-02-12 12:55:09 TRACE BankDAOJDBC:138 - Connection established with db, creating statement.
+2018-02-12 12:55:09 TRACE BankDAOJDBC:143 - Updated 1 rows.
+2018-02-12 12:55:09 TRACE BankDAOJDBC:37 - Method called to insert new user.
+2018-02-12 12:55:09 TRACE BankDAOJDBC:38 - Attempting to get connection to db.
+2018-02-12 12:55:10 WARN  BankDAOJDBC:50 - Failed to insert new user.
+2018-02-12 12:58:10 TRACE BankDAOJDBC:95 - Method called to select user with username hello
+2018-02-12 12:58:10 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 12:58:11 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 12:58:11 TRACE BankDAOJDBC:135 - Method called to update user.
+2018-02-12 12:58:11 TRACE BankDAOJDBC:136 - Attempting to get connection to db.
+2018-02-12 12:58:12 TRACE BankDAOJDBC:138 - Connection established with db, creating statement.
+2018-02-12 12:58:24 TRACE BankDAOJDBC:95 - Method called to select user with username hello
+2018-02-12 12:58:24 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 12:58:25 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 12:58:26 TRACE BankDAOJDBC:135 - Method called to update user.
+2018-02-12 12:58:26 TRACE BankDAOJDBC:136 - Attempting to get connection to db.
+2018-02-12 12:58:26 TRACE BankDAOJDBC:138 - Connection established with db, creating statement.
+2018-02-12 12:58:36 TRACE BankDAOJDBC:95 - Method called to select user with username hello
+2018-02-12 12:58:36 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 12:58:37 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 12:58:38 TRACE BankDAOJDBC:135 - Method called to update user.
+2018-02-12 12:58:38 TRACE BankDAOJDBC:136 - Attempting to get connection to db.
+2018-02-12 12:58:38 TRACE BankDAOJDBC:138 - Connection established with db, creating statement.
+2018-02-12 12:58:38 WARN  BankDAOJDBC:146 - Failed to update user.
+2018-02-12 12:58:38 TRACE BankDAOJDBC:37 - Method called to insert new user.
+2018-02-12 12:58:38 TRACE BankDAOJDBC:38 - Attempting to get connection to db.
+2018-02-12 12:58:39 WARN  BankDAOJDBC:50 - Failed to insert new user.
+2018-02-12 12:59:21 TRACE BankDAOJDBC:95 - Method called to select user with username hello
+2018-02-12 12:59:21 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 12:59:22 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 12:59:23 TRACE BankDAOJDBC:135 - Method called to update user.
+2018-02-12 12:59:23 TRACE BankDAOJDBC:136 - Attempting to get connection to db.
+2018-02-12 12:59:23 TRACE BankDAOJDBC:138 - Connection established with db, creating statement.
+2018-02-12 13:00:04 TRACE BankDAOJDBC:94 - Method called to select user with username hello
+2018-02-12 13:00:04 TRACE BankDAOJDBC:95 - Attempting to get connection to db.
+2018-02-12 13:00:04 TRACE BankDAOJDBC:97 - Connection established with db, creating statement.
+2018-02-12 13:00:05 TRACE BankDAOJDBC:134 - Method called to update user.
+2018-02-12 13:00:05 TRACE BankDAOJDBC:135 - Attempting to get connection to db.
+2018-02-12 13:00:05 TRACE BankDAOJDBC:137 - Connection established with db, creating statement.
+2018-02-12 13:00:23 TRACE BankDAOJDBC:94 - Method called to select user with username hello
+2018-02-12 13:00:23 TRACE BankDAOJDBC:95 - Attempting to get connection to db.
+2018-02-12 13:00:24 TRACE BankDAOJDBC:97 - Connection established with db, creating statement.
+2018-02-12 13:00:25 TRACE BankDAOJDBC:134 - Method called to update user.
+2018-02-12 13:00:25 TRACE BankDAOJDBC:135 - Attempting to get connection to db.
+2018-02-12 13:00:25 TRACE BankDAOJDBC:137 - Connection established with db, creating statement.
+2018-02-12 13:02:54 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:02:54 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:02:55 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:02:55 TRACE BankDAOJDBC:133 - Method called to update user.
+2018-02-12 13:02:55 TRACE BankDAOJDBC:134 - Attempting to get connection to db.
+2018-02-12 13:02:56 TRACE BankDAOJDBC:136 - Connection established with db, creating statement.
+2018-02-12 13:04:18 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:04:18 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:04:19 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:04:19 TRACE BankDAOJDBC:133 - Method called to update user.
+2018-02-12 13:04:19 TRACE BankDAOJDBC:134 - Attempting to get connection to db.
+2018-02-12 13:04:19 TRACE BankDAOJDBC:136 - Connection established with db, creating statement.
+2018-02-12 13:04:26 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:04:26 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:04:27 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:04:27 TRACE BankDAOJDBC:133 - Method called to update user.
+2018-02-12 13:04:27 TRACE BankDAOJDBC:134 - Attempting to get connection to db.
+2018-02-12 13:04:28 TRACE BankDAOJDBC:136 - Connection established with db, creating statement.
+2018-02-12 13:44:47 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:44:47 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:44:48 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:44:48 TRACE BankDAOJDBC:133 - Method called to update user.
+2018-02-12 13:44:48 TRACE BankDAOJDBC:134 - Attempting to get connection to db.
+2018-02-12 13:44:49 TRACE BankDAOJDBC:136 - Connection established with db, creating statement.
+2018-02-12 13:44:49 TRACE BankDAOJDBC:141 - Updated 1 rows.
+2018-02-12 13:45:03 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:45:03 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:45:04 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:45:04 TRACE BankDAOJDBC:133 - Method called to update user.
+2018-02-12 13:45:04 TRACE BankDAOJDBC:134 - Attempting to get connection to db.
+2018-02-12 13:45:05 TRACE BankDAOJDBC:136 - Connection established with db, creating statement.
+2018-02-12 13:45:05 TRACE BankDAOJDBC:141 - Updated 1 rows.
+2018-02-12 13:46:13 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:46:13 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:46:14 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:46:15 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:46:15 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:46:15 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:46:15 TRACE BankDAOJDBC:133 - Method called to update user.
+2018-02-12 13:46:15 TRACE BankDAOJDBC:134 - Attempting to get connection to db.
+2018-02-12 13:46:16 TRACE BankDAOJDBC:136 - Connection established with db, creating statement.
+2018-02-12 13:46:16 TRACE BankDAOJDBC:141 - Updated 1 rows.
+2018-02-12 13:46:16 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:46:16 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:46:16 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:47:40 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:47:40 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:47:41 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:47:41 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:47:41 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:47:42 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:47:42 TRACE BankDAOJDBC:133 - Method called to update user.
+2018-02-12 13:47:42 TRACE BankDAOJDBC:134 - Attempting to get connection to db.
+2018-02-12 13:47:42 TRACE BankDAOJDBC:136 - Connection established with db, creating statement.
+2018-02-12 13:47:42 TRACE BankDAOJDBC:141 - Updated 1 rows.
+2018-02-12 13:47:42 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:47:42 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:47:43 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:48:01 TRACE BankDAOJDBC:93 - Method called to select user with username Sara
+2018-02-12 13:48:01 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:48:02 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:48:02 TRACE BankDAOJDBC:93 - Method called to select user with username Sara
+2018-02-12 13:48:02 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:48:03 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:48:03 TRACE BankDAOJDBC:93 - Method called to select user with username Sara
+2018-02-12 13:48:03 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:48:03 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:48:08 TRACE BankDAOJDBC:133 - Method called to update user.
+2018-02-12 13:48:08 TRACE BankDAOJDBC:134 - Attempting to get connection to db.
+2018-02-12 13:48:08 TRACE BankDAOJDBC:136 - Connection established with db, creating statement.
+2018-02-12 13:48:08 TRACE BankDAOJDBC:141 - Updated 1 rows.
+2018-02-12 13:49:08 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:49:08 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:49:08 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:49:09 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:49:09 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:49:09 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:49:09 TRACE BankDAOJDBC:133 - Method called to update user.
+2018-02-12 13:49:09 TRACE BankDAOJDBC:134 - Attempting to get connection to db.
+2018-02-12 13:49:10 TRACE BankDAOJDBC:136 - Connection established with db, creating statement.
+2018-02-12 13:49:10 TRACE BankDAOJDBC:141 - Updated 1 rows.
+2018-02-12 13:49:10 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:49:10 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:49:10 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:49:15 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:49:15 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:49:15 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:49:16 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:49:16 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:49:16 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:49:16 TRACE BankDAOJDBC:133 - Method called to update user.
+2018-02-12 13:49:16 TRACE BankDAOJDBC:134 - Attempting to get connection to db.
+2018-02-12 13:49:17 TRACE BankDAOJDBC:136 - Connection established with db, creating statement.
+2018-02-12 13:49:17 TRACE BankDAOJDBC:141 - Updated 1 rows.
+2018-02-12 13:49:17 TRACE BankDAOJDBC:93 - Method called to select user with username hello
+2018-02-12 13:49:17 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:49:17 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:49:25 TRACE BankDAOJDBC:93 - Method called to select user with username Sara
+2018-02-12 13:49:25 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:49:25 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:49:26 TRACE BankDAOJDBC:93 - Method called to select user with username Sara
+2018-02-12 13:49:26 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:49:26 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:49:26 TRACE BankDAOJDBC:93 - Method called to select user with username Sara
+2018-02-12 13:49:26 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:49:27 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:49:31 TRACE BankDAOJDBC:133 - Method called to update user.
+2018-02-12 13:49:31 TRACE BankDAOJDBC:134 - Attempting to get connection to db.
+2018-02-12 13:49:32 TRACE BankDAOJDBC:136 - Connection established with db, creating statement.
+2018-02-12 13:49:32 TRACE BankDAOJDBC:141 - Updated 1 rows.
+2018-02-12 13:51:16 TRACE BankDAOJDBC:93 - Method called to select user with username Sara
+2018-02-12 13:51:16 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:51:17 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:51:18 TRACE BankDAOJDBC:93 - Method called to select user with username Sara
+2018-02-12 13:51:18 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:51:18 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:51:18 TRACE BankDAOJDBC:93 - Method called to select user with username Sara
+2018-02-12 13:51:18 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:51:19 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:51:21 TRACE BankDAOJDBC:133 - Method called to update user.
+2018-02-12 13:51:21 TRACE BankDAOJDBC:134 - Attempting to get connection to db.
+2018-02-12 13:51:22 TRACE BankDAOJDBC:136 - Connection established with db, creating statement.
+2018-02-12 13:51:22 TRACE BankDAOJDBC:141 - Updated 1 rows.
+2018-02-12 13:52:15 TRACE BankDAOJDBC:93 - Method called to select user with username Sara
+2018-02-12 13:52:15 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:52:16 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:52:16 TRACE BankDAOJDBC:93 - Method called to select user with username Sara
+2018-02-12 13:52:16 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:52:17 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:52:17 TRACE BankDAOJDBC:133 - Method called to update user.
+2018-02-12 13:52:17 TRACE BankDAOJDBC:134 - Attempting to get connection to db.
+2018-02-12 13:52:17 TRACE BankDAOJDBC:136 - Connection established with db, creating statement.
+2018-02-12 13:52:17 TRACE BankDAOJDBC:141 - Updated 1 rows.
+2018-02-12 13:52:17 TRACE BankDAOJDBC:93 - Method called to select user with username Sara
+2018-02-12 13:52:17 TRACE BankDAOJDBC:94 - Attempting to get connection to db.
+2018-02-12 13:52:18 TRACE BankDAOJDBC:96 - Connection established with db, creating statement.
+2018-02-12 13:53:08 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:53:08 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:53:09 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:53:09 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:53:09 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:53:10 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:53:10 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:53:10 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:53:10 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:53:10 TRACE BankDAOJDBC:74 - Method called to update user.
+2018-02-12 13:53:10 TRACE BankDAOJDBC:75 - Attempting to get connection to db.
+2018-02-12 13:53:11 TRACE BankDAOJDBC:77 - Connection established with db, creating statement.
+2018-02-12 13:53:11 TRACE BankDAOJDBC:86 - Updated 1 rows.
+2018-02-12 13:53:11 TRACE BankDAOJDBC:135 - Method called to update user.
+2018-02-12 13:53:11 TRACE BankDAOJDBC:136 - Attempting to get connection to db.
+2018-02-12 13:53:11 TRACE BankDAOJDBC:138 - Connection established with db, creating statement.
+2018-02-12 13:53:11 TRACE BankDAOJDBC:143 - Updated 1 rows.
+2018-02-12 13:53:11 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:53:11 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:53:12 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:53:56 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:53:56 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:53:57 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:53:57 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:53:57 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:53:58 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:53:58 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:53:58 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:53:58 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:53:58 TRACE BankDAOJDBC:74 - Method called to update user.
+2018-02-12 13:53:58 TRACE BankDAOJDBC:75 - Attempting to get connection to db.
+2018-02-12 13:53:59 TRACE BankDAOJDBC:77 - Connection established with db, creating statement.
+2018-02-12 13:53:59 TRACE BankDAOJDBC:86 - Updated 1 rows.
+2018-02-12 13:53:59 TRACE BankDAOJDBC:135 - Method called to update user.
+2018-02-12 13:53:59 TRACE BankDAOJDBC:136 - Attempting to get connection to db.
+2018-02-12 13:53:59 TRACE BankDAOJDBC:138 - Connection established with db, creating statement.
+2018-02-12 13:54:00 TRACE BankDAOJDBC:143 - Updated 1 rows.
+2018-02-12 13:54:00 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:54:00 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:54:00 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:54:45 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:54:45 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:54:46 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:54:47 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:54:47 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:54:47 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:54:47 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:54:47 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:54:48 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:54:48 TRACE BankDAOJDBC:74 - Method called to update user.
+2018-02-12 13:54:48 TRACE BankDAOJDBC:75 - Attempting to get connection to db.
+2018-02-12 13:54:48 TRACE BankDAOJDBC:77 - Connection established with db, creating statement.
+2018-02-12 13:54:48 TRACE BankDAOJDBC:86 - Updated 1 rows.
+2018-02-12 13:54:48 TRACE BankDAOJDBC:135 - Method called to update user.
+2018-02-12 13:54:48 TRACE BankDAOJDBC:136 - Attempting to get connection to db.
+2018-02-12 13:54:51 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:54:51 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:54:52 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:54:52 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:54:52 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:54:52 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:54:52 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:54:52 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:54:53 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:54:53 TRACE BankDAOJDBC:74 - Method called to update user.
+2018-02-12 13:54:53 TRACE BankDAOJDBC:75 - Attempting to get connection to db.
+2018-02-12 13:54:53 TRACE BankDAOJDBC:77 - Connection established with db, creating statement.
+2018-02-12 13:54:53 TRACE BankDAOJDBC:86 - Updated 1 rows.
+2018-02-12 13:54:53 TRACE BankDAOJDBC:135 - Method called to update user.
+2018-02-12 13:54:53 TRACE BankDAOJDBC:136 - Attempting to get connection to db.
+2018-02-12 13:54:54 TRACE BankDAOJDBC:138 - Connection established with db, creating statement.
+2018-02-12 13:54:54 TRACE BankDAOJDBC:143 - Updated 1 rows.
+2018-02-12 13:54:54 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:54:54 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:55:03 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:55:03 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:55:04 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:55:04 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:55:04 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:55:05 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:55:05 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:55:05 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:55:06 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:55:31 TRACE BankDAOJDBC:135 - Method called to update user.
+2018-02-12 13:55:31 TRACE BankDAOJDBC:136 - Attempting to get connection to db.
+2018-02-12 13:55:31 TRACE BankDAOJDBC:138 - Connection established with db, creating statement.
+2018-02-12 13:55:31 TRACE BankDAOJDBC:143 - Updated 1 rows.
+2018-02-12 13:56:41 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:56:41 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:56:42 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:56:43 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:56:43 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:56:43 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:56:43 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 13:56:43 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:56:43 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:57:18 TRACE BankDAOJDBC:95 - Method called to select user with username Kappa
+2018-02-12 13:57:19 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:57:19 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:57:20 TRACE BankDAOJDBC:95 - Method called to select user with username Kappa
+2018-02-12 13:57:20 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:57:20 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 13:57:20 TRACE BankDAOJDBC:95 - Method called to select user with username Kappa
+2018-02-12 13:57:20 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 13:57:21 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 14:03:41 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 14:03:41 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 14:03:42 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 14:03:42 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 14:03:42 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 14:03:43 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 14:03:43 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 14:03:43 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 14:03:43 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 14:22:52 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 14:22:52 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 14:22:53 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 14:22:53 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 14:22:53 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 14:22:54 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 14:22:54 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 14:22:54 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 14:22:54 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 14:22:54 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 14:22:54 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 14:22:55 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 16:21:12 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 16:21:12 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 16:21:13 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 16:21:14 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 16:21:14 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 16:21:14 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 16:21:14 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 16:21:14 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 16:21:15 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 16:21:15 TRACE BankDAOJDBC:95 - Method called to select user with username Sara
+2018-02-12 16:21:15 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 16:21:15 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 16:21:24 TRACE BankDAOJDBC:135 - Method called to withdraw amount 100.0
+2018-02-12 16:21:24 TRACE BankDAOJDBC:136 - Attempting to get connection to db.
+2018-02-12 16:21:25 TRACE BankDAOJDBC:138 - Connection established with db, creating statement.
+2018-02-12 16:21:25 TRACE BankDAOJDBC:143 - Updated 1 rows.
+2018-02-12 16:21:31 TRACE BankDAOJDBC:118 - Method called to withdraw amount 100.0
+2018-02-12 16:21:31 TRACE BankDAOJDBC:119 - Attempting to get connection to db.
+2018-02-12 16:21:31 TRACE BankDAOJDBC:121 - Connection established with db, creating statement.
+2018-02-12 16:21:31 TRACE BankDAOJDBC:126 - Updated 1 rows.
+2018-02-12 23:32:11 TRACE BankDAOJDBC:56 - Method called to insert new user with username Yes
+2018-02-12 23:32:11 TRACE BankDAOJDBC:57 - Attempting to get connection to db.
+2018-02-12 23:34:11 TRACE BankDAOJDBC:56 - Method called to insert new user with username Yes
+2018-02-12 23:34:11 TRACE BankDAOJDBC:57 - Attempting to get connection to db.
+2018-02-12 23:34:12 TRACE BankDAOJDBC:59 - Connection established with db, creating prepared statement.
+2018-02-12 23:34:21 TRACE BankDAOJDBC:95 - Method called to select user with username Yes
+2018-02-12 23:34:21 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 23:34:22 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 23:34:22 TRACE BankDAOJDBC:95 - Method called to select user with username Yes
+2018-02-12 23:34:22 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 23:34:23 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 23:34:23 TRACE BankDAOJDBC:95 - Method called to select user with username Yes
+2018-02-12 23:34:23 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 23:34:23 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 23:34:23 TRACE BankDAOJDBC:95 - Method called to select user with username Yes
+2018-02-12 23:34:23 TRACE BankDAOJDBC:96 - Attempting to get connection to db.
+2018-02-12 23:34:24 TRACE BankDAOJDBC:98 - Connection established with db, creating statement.
+2018-02-12 23:34:33 TRACE BankDAOJDBC:135 - Method called to withdraw amount 100.0
+2018-02-12 23:34:33 TRACE BankDAOJDBC:136 - Attempting to get connection to db.
+2018-02-12 23:34:34 TRACE BankDAOJDBC:138 - Connection established with db, creating statement.
+2018-02-12 23:34:34 TRACE BankDAOJDBC:143 - Updated 1 rows.
+2018-02-12 23:59:42 TRACE BankDAOJDBC:79 - Method called to select user with username Sara
+2018-02-12 23:59:42 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-12 23:59:43 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-12 23:59:43 TRACE BankDAOJDBC:79 - Method called to select user with username Sara
+2018-02-12 23:59:43 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-12 23:59:43 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-12 23:59:43 TRACE BankDAOJDBC:79 - Method called to select user with username Sara
+2018-02-12 23:59:43 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-12 23:59:44 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-12 23:59:44 TRACE BankDAOJDBC:79 - Method called to select user with username Sara
+2018-02-12 23:59:44 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-12 23:59:45 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-12 23:59:50 TRACE BankDAOJDBC:119 - Method called to withdraw amount 100.0
+2018-02-12 23:59:50 TRACE BankDAOJDBC:120 - Attempting to get connection to db.
+2018-02-12 23:59:51 TRACE BankDAOJDBC:122 - Connection established with db, creating statement.
+2018-02-12 23:59:51 TRACE BankDAOJDBC:127 - Updated 1 rows.
+2018-02-12 23:59:51 TRACE BankDAOJDBC:136 - Method called to insert new transaction.
+2018-02-12 23:59:51 TRACE BankDAOJDBC:137 - Attempting to get connection to db.
+2018-02-12 23:59:52 TRACE BankDAOJDBC:139 - Connection established with db, creating prepared statement.
+2018-02-13 00:01:22 TRACE BankDAOJDBC:79 - Method called to select user with username Sara
+2018-02-13 00:01:22 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-13 00:01:23 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-13 00:01:23 TRACE BankDAOJDBC:79 - Method called to select user with username Sara
+2018-02-13 00:01:23 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-13 00:01:24 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-13 00:01:24 TRACE BankDAOJDBC:79 - Method called to select user with username Sara
+2018-02-13 00:01:24 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-13 00:01:24 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-13 00:01:24 TRACE BankDAOJDBC:79 - Method called to select user with username Sara
+2018-02-13 00:01:24 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-13 00:01:25 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-13 00:01:28 TRACE BankDAOJDBC:119 - Method called to withdraw amount 100.0
+2018-02-13 00:01:28 TRACE BankDAOJDBC:120 - Attempting to get connection to db.
+2018-02-13 00:01:28 TRACE BankDAOJDBC:122 - Connection established with db, creating statement.
+2018-02-13 00:01:29 TRACE BankDAOJDBC:127 - Updated 1 rows.
+2018-02-13 00:01:30 TRACE BankDAOJDBC:136 - Method called to insert new transaction.
+2018-02-13 00:01:30 TRACE BankDAOJDBC:137 - Attempting to get connection to db.
+2018-02-13 00:01:30 TRACE BankDAOJDBC:139 - Connection established with db, creating prepared statement.
+2018-02-13 00:01:30 DEBUG BankDAOJDBC:149 - Query inserted 1 rows into the db.
+2018-02-13 00:03:25 TRACE BankDAOJDBC:119 - Method called to withdraw amount 100.0
+2018-02-13 00:03:25 TRACE BankDAOJDBC:120 - Attempting to get connection to db.
+2018-02-13 00:03:26 TRACE BankDAOJDBC:122 - Connection established with db, creating statement.
+2018-02-13 00:03:26 TRACE BankDAOJDBC:127 - Updated 1 rows.
+2018-02-13 00:03:26 TRACE BankDAOJDBC:136 - Method called to insert new transaction.
+2018-02-13 00:03:26 TRACE BankDAOJDBC:137 - Attempting to get connection to db.
+2018-02-13 00:03:26 TRACE BankDAOJDBC:139 - Connection established with db, creating prepared statement.
+2018-02-13 00:03:26 DEBUG BankDAOJDBC:149 - Query inserted 1 rows into the db.
+2018-02-13 00:05:58 TRACE BankDAOJDBC:79 - Method called to select user with username Sara
+2018-02-13 00:05:58 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-13 00:05:59 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-13 00:05:59 TRACE BankDAOJDBC:79 - Method called to select user with username Sara
+2018-02-13 00:05:59 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-13 00:06:00 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-13 00:06:00 TRACE BankDAOJDBC:79 - Method called to select user with username Sara
+2018-02-13 00:06:00 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-13 00:06:01 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-13 00:06:01 TRACE BankDAOJDBC:79 - Method called to select user with username Sara
+2018-02-13 00:06:01 TRACE BankDAOJDBC:80 - Attempting to get connection to db.
+2018-02-13 00:06:01 TRACE BankDAOJDBC:82 - Connection established with db, creating statement.
+2018-02-13 00:06:04 TRACE BankDAOJDBC:158 - Method called to select transaction with id 22
+2018-02-13 00:06:04 TRACE BankDAOJDBC:159 - Attempting to get connection to db.
+2018-02-13 00:06:04 TRACE BankDAOJDBC:161 - Connection established with db, creating statement.
+2018-02-13 00:06:04 TRACE BankDAOJDBC:170 - No transaction found with id 22
+2018-02-13 00:13:17 TRACE BankDAOJDBC:81 - Method called to select user with username Sara
+2018-02-13 00:13:17 TRACE BankDAOJDBC:82 - Attempting to get connection to db.
+2018-02-13 00:13:18 TRACE BankDAOJDBC:84 - Connection established with db, creating statement.
+2018-02-13 00:13:18 TRACE BankDAOJDBC:81 - Method called to select user with username Sara
+2018-02-13 00:13:18 TRACE BankDAOJDBC:82 - Attempting to get connection to db.
+2018-02-13 00:13:19 TRACE BankDAOJDBC:84 - Connection established with db, creating statement.
+2018-02-13 00:13:19 TRACE BankDAOJDBC:81 - Method called to select user with username Sara
+2018-02-13 00:13:19 TRACE BankDAOJDBC:82 - Attempting to get connection to db.
+2018-02-13 00:13:19 TRACE BankDAOJDBC:84 - Connection established with db, creating statement.
+2018-02-13 00:13:19 TRACE BankDAOJDBC:81 - Method called to select user with username Sara
+2018-02-13 00:13:19 TRACE BankDAOJDBC:82 - Attempting to get connection to db.
+2018-02-13 00:13:20 TRACE BankDAOJDBC:84 - Connection established with db, creating statement.
+2018-02-13 00:13:22 TRACE BankDAOJDBC:121 - Method called to withdraw amount 100.0
+2018-02-13 00:13:22 TRACE BankDAOJDBC:122 - Attempting to get connection to db.
+2018-02-13 00:13:23 TRACE BankDAOJDBC:124 - Connection established with db, creating statement.
+2018-02-13 00:13:23 TRACE BankDAOJDBC:129 - Updated 1 rows.
+2018-02-13 00:13:23 TRACE BankDAOJDBC:138 - Method called to insert new transaction.
+2018-02-13 00:13:23 TRACE BankDAOJDBC:139 - Attempting to get connection to db.
+2018-02-13 00:13:24 TRACE BankDAOJDBC:141 - Connection established with db, creating prepared statement.
+2018-02-13 00:13:24 DEBUG BankDAOJDBC:151 - Query inserted 1 rows into the db.
+2018-02-13 00:13:28 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:13:28 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:13:28 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:15:41 TRACE BankDAOJDBC:81 - Method called to select user with username Sara
+2018-02-13 00:15:41 TRACE BankDAOJDBC:82 - Attempting to get connection to db.
+2018-02-13 00:15:42 TRACE BankDAOJDBC:84 - Connection established with db, creating statement.
+2018-02-13 00:15:42 TRACE BankDAOJDBC:81 - Method called to select user with username Sara
+2018-02-13 00:15:42 TRACE BankDAOJDBC:82 - Attempting to get connection to db.
+2018-02-13 00:15:43 TRACE BankDAOJDBC:84 - Connection established with db, creating statement.
+2018-02-13 00:15:43 TRACE BankDAOJDBC:81 - Method called to select user with username Sara
+2018-02-13 00:15:43 TRACE BankDAOJDBC:82 - Attempting to get connection to db.
+2018-02-13 00:15:43 TRACE BankDAOJDBC:84 - Connection established with db, creating statement.
+2018-02-13 00:15:44 TRACE BankDAOJDBC:81 - Method called to select user with username Sara
+2018-02-13 00:15:44 TRACE BankDAOJDBC:82 - Attempting to get connection to db.
+2018-02-13 00:15:44 TRACE BankDAOJDBC:84 - Connection established with db, creating statement.
+2018-02-13 00:15:48 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:15:48 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:15:48 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:15:49 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:15:49 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:15:49 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:15:49 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:15:49 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:15:50 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:15:50 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:15:50 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:15:50 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:15:50 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:15:50 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:15:51 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:15:51 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:15:51 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:15:51 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:15:51 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:15:51 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:15:52 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:15:52 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:15:52 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:15:52 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:15:52 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:15:52 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:15:53 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:17:31 TRACE BankDAOJDBC:81 - Method called to select user with username Sara
+2018-02-13 00:17:31 TRACE BankDAOJDBC:82 - Attempting to get connection to db.
+2018-02-13 00:17:32 TRACE BankDAOJDBC:84 - Connection established with db, creating statement.
+2018-02-13 00:17:32 TRACE BankDAOJDBC:81 - Method called to select user with username Sara
+2018-02-13 00:17:32 TRACE BankDAOJDBC:82 - Attempting to get connection to db.
+2018-02-13 00:17:33 TRACE BankDAOJDBC:84 - Connection established with db, creating statement.
+2018-02-13 00:17:33 TRACE BankDAOJDBC:81 - Method called to select user with username Sara
+2018-02-13 00:17:33 TRACE BankDAOJDBC:82 - Attempting to get connection to db.
+2018-02-13 00:17:33 TRACE BankDAOJDBC:84 - Connection established with db, creating statement.
+2018-02-13 00:17:34 TRACE BankDAOJDBC:81 - Method called to select user with username Sara
+2018-02-13 00:17:34 TRACE BankDAOJDBC:82 - Attempting to get connection to db.
+2018-02-13 00:17:34 TRACE BankDAOJDBC:84 - Connection established with db, creating statement.
+2018-02-13 00:17:36 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:17:36 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:17:37 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:17:37 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:17:37 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:17:37 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:17:37 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:17:37 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:17:38 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:17:38 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:17:38 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:17:39 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:17:39 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:17:39 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:17:39 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:17:39 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:17:39 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:17:40 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:17:40 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:17:40 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:17:40 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:17:40 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:17:40 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:17:41 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:17:41 TRACE BankDAOJDBC:160 - Method called to select transactions with user id 22
+2018-02-13 00:17:41 TRACE BankDAOJDBC:161 - Attempting to get connection to db.
+2018-02-13 00:17:41 TRACE BankDAOJDBC:164 - Connection established with db, creating statement.
+2018-02-13 00:23:07 TRACE BankDAOJDBC:39 - Connection established with db, creating prepared statement.
+2018-02-13 00:24:37 TRACE BankDAOJDBC:79 - No user found with username 
+2018-02-13 00:24:37 TRACE BankDAOJDBC:79 - No user found with username 
+2018-02-13 00:25:03 WARN  BankDAOJDBC:47 - Failed to insert new user with username Charles
+2018-02-13 08:50:13 TRACE BankDAOJDBC:79 - No user found with username cahskld
+2018-02-13 08:50:14 TRACE BankDAOJDBC:79 - No user found with username cahskld
+2018-02-13 13:25:59 TRACE BankDAOJDBC:79 - No user found with username hello
+2018-02-13 13:25:59 TRACE BankDAOJDBC:79 - No user found with username hello
+2018-02-13 13:35:10 TRACE BankDAOJDBC:80 - No user found with username asd
+2018-02-13 13:35:10 TRACE BankDAOJDBC:80 - No user found with username asd
+2018-02-13 13:37:42 TRACE BankDAOJDBC:80 - No user found with username asd
+2018-02-13 13:37:43 TRACE BankDAOJDBC:80 - No user found with username asd
+2018-02-13 13:49:32 TRACE BankDAOJDBC:79 - No user found with username 
+2018-02-13 13:49:32 TRACE BankDAOJDBC:79 - No user found with username 
+2018-02-13 13:51:49 TRACE BankDAOJDBC:79 - No user found with username 1
+2018-02-13 13:55:44 WARN  BankDAOJDBC:98 - Failed to withdraw.
+2018-02-13 15:34:19 TRACE BankDAOJDBC:79 - No user found with username Loch Ness Mons
