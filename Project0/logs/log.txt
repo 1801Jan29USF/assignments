@@ -1,0 +1,706 @@
+2018-02-12 11:20:49 TRACE UserDAOjdbc:57 - Method called to check if user exists.
+2018-02-12 11:20:49 TRACE UserDAOjdbc:58 - Attempting to connect to database.
+2018-02-12 11:20:50 TRACE UserDAOjdbc:60 - Connection established.
+2018-02-12 11:21:08 TRACE UserDAOjdbc:57 - Method called to check if user exists.
+2018-02-12 11:21:08 TRACE UserDAOjdbc:58 - Attempting to connect to database.
+2018-02-12 11:21:08 TRACE UserDAOjdbc:60 - Connection established.
+2018-02-12 11:21:17 TRACE UserDAOjdbc:27 - Method called to add new user.
+2018-02-12 11:21:17 TRACE UserDAOjdbc:28 - Attempting to connect to database.
+2018-02-12 11:21:17 TRACE UserDAOjdbc:30 - Connection established.
+2018-02-12 11:21:18 WARN  UserDAOjdbc:45 - Failed to insert new user.
+2018-02-12 11:25:26 TRACE UserDAOjdbc:57 - Method called to check if user exists.
+2018-02-12 11:25:26 TRACE UserDAOjdbc:58 - Attempting to connect to database.
+2018-02-12 11:25:27 TRACE UserDAOjdbc:60 - Connection established.
+2018-02-12 11:25:32 TRACE UserDAOjdbc:27 - Method called to add new user.
+2018-02-12 11:25:32 TRACE UserDAOjdbc:28 - Attempting to connect to database.
+2018-02-12 11:25:32 TRACE UserDAOjdbc:30 - Connection established.
+2018-02-12 11:25:32 DEBUG UserDAOjdbc:38 - Query inserted 1 row(s) into the db
+2018-02-12 11:25:32 WARN  UserDAOjdbc:45 - Failed to insert new user.
+2018-02-12 11:32:32 TRACE UserDAOjdbc:58 - Method called to check if user exists.
+2018-02-12 11:32:32 TRACE UserDAOjdbc:59 - Attempting to connect to database.
+2018-02-12 11:32:33 TRACE UserDAOjdbc:61 - Connection established.
+2018-02-12 11:32:36 TRACE UserDAOjdbc:58 - Method called to check if user exists.
+2018-02-12 11:32:36 TRACE UserDAOjdbc:59 - Attempting to connect to database.
+2018-02-12 11:32:36 TRACE UserDAOjdbc:61 - Connection established.
+2018-02-12 11:32:46 TRACE UserDAOjdbc:27 - Method called to add new user.
+2018-02-12 11:32:46 TRACE UserDAOjdbc:28 - Attempting to connect to database.
+2018-02-12 11:32:46 TRACE UserDAOjdbc:30 - Connection established.
+2018-02-12 11:32:46 DEBUG UserDAOjdbc:38 - Query inserted 1 row(s) into the db
+2018-02-12 11:32:46 WARN  UserDAOjdbc:46 - Failed to insert new user.
+2018-02-12 11:33:36 TRACE UserDAOjdbc:58 - Method called to check if user exists.
+2018-02-12 11:33:36 TRACE UserDAOjdbc:59 - Attempting to connect to database.
+2018-02-12 11:33:37 TRACE UserDAOjdbc:61 - Connection established.
+2018-02-12 11:34:21 TRACE UserDAOjdbc:58 - Method called to check if user exists.
+2018-02-12 11:34:21 TRACE UserDAOjdbc:59 - Attempting to connect to database.
+2018-02-12 11:34:22 TRACE UserDAOjdbc:61 - Connection established.
+2018-02-12 11:34:25 TRACE UserDAOjdbc:58 - Method called to check if user exists.
+2018-02-12 11:34:25 TRACE UserDAOjdbc:59 - Attempting to connect to database.
+2018-02-12 11:34:26 TRACE UserDAOjdbc:61 - Connection established.
+2018-02-12 11:35:00 TRACE UserDAOjdbc:58 - Method called to check if user exists.
+2018-02-12 11:35:00 TRACE UserDAOjdbc:59 - Attempting to connect to database.
+2018-02-12 11:35:00 TRACE UserDAOjdbc:61 - Connection established.
+2018-02-12 11:35:08 TRACE UserDAOjdbc:58 - Method called to check if user exists.
+2018-02-12 11:35:08 TRACE UserDAOjdbc:59 - Attempting to connect to database.
+2018-02-12 11:35:08 TRACE UserDAOjdbc:61 - Connection established.
+2018-02-12 11:35:13 TRACE UserDAOjdbc:27 - Method called to add new user.
+2018-02-12 11:35:13 TRACE UserDAOjdbc:28 - Attempting to connect to database.
+2018-02-12 11:35:14 TRACE UserDAOjdbc:30 - Connection established.
+2018-02-12 11:35:14 DEBUG UserDAOjdbc:38 - Query inserted 1 row(s) into the db
+2018-02-12 11:35:14 WARN  UserDAOjdbc:46 - Failed to insert new user.
+2018-02-12 11:35:20 TRACE UserDAOjdbc:58 - Method called to check if user exists.
+2018-02-12 11:35:20 TRACE UserDAOjdbc:59 - Attempting to connect to database.
+2018-02-12 11:35:20 TRACE UserDAOjdbc:61 - Connection established.
+2018-02-12 11:35:20 TRACE UserDAOjdbc:154 - Method called to get flashcard with username fred
+2018-02-12 11:35:20 TRACE UserDAOjdbc:155 - Attempting to connect to database.
+2018-02-12 11:35:21 WARN  UserDAOjdbc:167 - SQL error. Failed to retrieve user.
+2018-02-12 11:45:06 TRACE UserDAOjdbc:60 - Method called to check if user exists.
+2018-02-12 11:45:06 TRACE UserDAOjdbc:61 - Attempting to connect to database.
+2018-02-12 11:45:07 TRACE UserDAOjdbc:63 - Connection established.
+2018-02-12 11:45:14 TRACE UserDAOjdbc:60 - Method called to check if user exists.
+2018-02-12 11:45:14 TRACE UserDAOjdbc:61 - Attempting to connect to database.
+2018-02-12 11:45:14 TRACE UserDAOjdbc:63 - Connection established.
+2018-02-12 11:45:18 TRACE UserDAOjdbc:60 - Method called to check if user exists.
+2018-02-12 11:45:18 TRACE UserDAOjdbc:61 - Attempting to connect to database.
+2018-02-12 11:45:19 TRACE UserDAOjdbc:63 - Connection established.
+2018-02-12 11:45:27 TRACE UserDAOjdbc:28 - Method called to add new user.
+2018-02-12 11:45:27 TRACE UserDAOjdbc:29 - Attempting to connect to database.
+2018-02-12 11:45:27 TRACE UserDAOjdbc:31 - Connection established.
+2018-02-12 11:45:27 DEBUG UserDAOjdbc:39 - Query inserted 1 row(s) into the db
+2018-02-12 11:45:27 WARN  UserDAOjdbc:48 - Failed to insert new user.
+2018-02-12 11:51:09 TRACE UserDAOjdbc:60 - Method called to check if user exists.
+2018-02-12 11:51:09 TRACE UserDAOjdbc:61 - Attempting to connect to database.
+2018-02-12 11:51:09 TRACE UserDAOjdbc:63 - Connection established.
+2018-02-12 11:51:17 TRACE UserDAOjdbc:28 - Method called to add new user.
+2018-02-12 11:51:17 TRACE UserDAOjdbc:29 - Attempting to connect to database.
+2018-02-12 11:51:18 TRACE UserDAOjdbc:31 - Connection established.
+2018-02-12 11:51:18 DEBUG UserDAOjdbc:39 - Query inserted 1 row(s) into the db
+2018-02-12 11:51:18 WARN  UserDAOjdbc:48 - Failed to insert new user.
+2018-02-12 12:03:45 TRACE UserDAOjdbc:61 - Method called to check if user exists.
+2018-02-12 12:03:45 TRACE UserDAOjdbc:62 - Attempting to connect to database.
+2018-02-12 12:03:46 TRACE UserDAOjdbc:64 - Connection established.
+2018-02-12 12:03:50 TRACE UserDAOjdbc:28 - Method called to add new user.
+2018-02-12 12:03:50 TRACE UserDAOjdbc:29 - Attempting to connect to database.
+2018-02-12 12:03:51 TRACE UserDAOjdbc:31 - Connection established.
+2018-02-12 12:03:51 DEBUG UserDAOjdbc:40 - Query inserted 1 row(s) into the db
+2018-02-12 12:03:51 TRACE UserDAOjdbc:42 - getGeneratedKeys success
+2018-02-12 19:11:36 TRACE UserDAOjdbc:61 - Method called to check if user exists.
+2018-02-12 19:11:36 TRACE UserDAOjdbc:62 - Attempting to connect to database.
+2018-02-12 19:11:36 TRACE UserDAOjdbc:64 - Connection established.
+2018-02-12 19:11:41 TRACE UserDAOjdbc:28 - Method called to add new user.
+2018-02-12 19:11:41 TRACE UserDAOjdbc:29 - Attempting to connect to database.
+2018-02-12 19:11:42 TRACE UserDAOjdbc:31 - Connection established.
+2018-02-12 19:11:42 DEBUG UserDAOjdbc:40 - Query inserted 1 row(s) into the db
+2018-02-12 19:11:42 TRACE UserDAOjdbc:42 - getGeneratedKeys success
+2018-02-12 19:12:25 TRACE UserDAOjdbc:61 - Method called to check if user exists.
+2018-02-12 19:12:25 TRACE UserDAOjdbc:62 - Attempting to connect to database.
+2018-02-12 19:12:26 TRACE UserDAOjdbc:64 - Connection established.
+2018-02-12 19:12:26 TRACE UserDAOjdbc:157 - Method called to get flashcard with username try
+2018-02-12 19:12:26 TRACE UserDAOjdbc:158 - Attempting to connect to database.
+2018-02-12 19:12:27 WARN  UserDAOjdbc:170 - SQL error. Failed to retrieve user.
+2018-02-12 19:45:16 TRACE UserDAOjdbc:59 - Method called to check if user exists.
+2018-02-12 19:45:16 TRACE UserDAOjdbc:60 - Attempting to connect to database.
+2018-02-12 19:45:17 TRACE UserDAOjdbc:62 - Connection established.
+2018-02-12 19:45:23 TRACE UserDAOjdbc:59 - Method called to check if user exists.
+2018-02-12 19:45:23 TRACE UserDAOjdbc:60 - Attempting to connect to database.
+2018-02-12 19:45:24 TRACE UserDAOjdbc:62 - Connection established.
+2018-02-12 19:45:29 TRACE UserDAOjdbc:28 - Method called to add new user.
+2018-02-12 19:45:29 TRACE UserDAOjdbc:29 - Attempting to connect to database.
+2018-02-12 19:45:30 TRACE UserDAOjdbc:31 - Connection established.
+2018-02-12 19:45:30 DEBUG UserDAOjdbc:39 - Query inserted 1 row(s) into the db
+2018-02-12 19:58:19 TRACE UserDAOjdbc:59 - Method called to check if user exists.
+2018-02-12 19:58:19 TRACE UserDAOjdbc:60 - Attempting to connect to database.
+2018-02-12 19:58:20 TRACE UserDAOjdbc:62 - Connection established.
+2018-02-12 19:58:20 TRACE UserDAOjdbc:155 - Method called to get User with username user
+2018-02-12 19:58:20 TRACE UserDAOjdbc:156 - Attempting to connect to database.
+2018-02-12 19:58:21 WARN  UserDAOjdbc:168 - SQL error. Failed to retrieve user.
+2018-02-12 19:59:15 TRACE UserDAOjdbc:59 - Method called to check if user exists.
+2018-02-12 19:59:15 TRACE UserDAOjdbc:60 - Attempting to connect to database.
+2018-02-12 19:59:16 TRACE UserDAOjdbc:62 - Connection established.
+2018-02-12 19:59:16 TRACE UserDAOjdbc:155 - Method called to get User with username user
+2018-02-12 19:59:16 TRACE UserDAOjdbc:156 - Attempting to connect to database.
+2018-02-12 19:59:17 WARN  UserDAOjdbc:168 - SQL error. Failed to retrieve user.
+2018-02-12 20:01:49 TRACE UserDAOjdbc:59 - Method called to check if user exists.
+2018-02-12 20:01:49 TRACE UserDAOjdbc:60 - Attempting to connect to database.
+2018-02-12 20:01:50 TRACE UserDAOjdbc:62 - Connection established.
+2018-02-12 20:01:50 TRACE UserDAOjdbc:158 - Method called to get User with username user
+2018-02-12 20:01:50 TRACE UserDAOjdbc:159 - Attempting to connect to database.
+2018-02-12 20:01:51 WARN  UserDAOjdbc:172 - SQL error. Failed to retrieve user.
+2018-02-12 20:05:56 TRACE UserDAOjdbc:60 - Method called to check if user exists.
+2018-02-12 20:05:56 TRACE UserDAOjdbc:61 - Attempting to connect to database.
+2018-02-12 20:05:57 TRACE UserDAOjdbc:63 - Connection established.
+2018-02-12 20:05:57 TRACE UserDAOjdbc:69 - Method reached end.
+2018-02-12 20:05:57 TRACE UserDAOjdbc:163 - Method called to get User with username user
+2018-02-12 20:05:57 TRACE UserDAOjdbc:164 - Attempting to connect to database.
+2018-02-12 20:05:58 WARN  UserDAOjdbc:177 - SQL error. Failed to retrieve user.
+2018-02-12 20:05:58 TRACE UserDAOjdbc:179 - Method reached end.
+2018-02-12 20:11:55 TRACE UserDAOjdbc:60 - Method called to check if user exists.
+2018-02-12 20:11:55 TRACE UserDAOjdbc:61 - Attempting to connect to database.
+2018-02-12 20:11:56 TRACE UserDAOjdbc:63 - Connection established.
+2018-02-12 20:11:56 TRACE UserDAOjdbc:73 - Method reached end.
+2018-02-12 20:12:05 TRACE UserDAOjdbc:28 - Method called to add new user.
+2018-02-12 20:12:05 TRACE UserDAOjdbc:29 - Attempting to connect to database.
+2018-02-12 20:12:06 TRACE UserDAOjdbc:31 - Connection established.
+2018-02-12 20:12:06 DEBUG UserDAOjdbc:39 - Query inserted 1 row(s) into the db
+2018-02-12 20:12:06 TRACE RegisterScreen:59 - User created with id: 75
+
+2018-02-12 20:12:14 TRACE UserDAOjdbc:60 - Method called to check if user exists.
+2018-02-12 20:12:14 TRACE UserDAOjdbc:61 - Attempting to connect to database.
+2018-02-12 20:12:14 TRACE UserDAOjdbc:63 - Connection established.
+2018-02-12 20:12:14 TRACE UserDAOjdbc:69 - Method reached end.
+2018-02-12 20:12:14 TRACE UserDAOjdbc:163 - Method called to get User with username notakeyword
+2018-02-12 20:12:14 TRACE UserDAOjdbc:164 - Attempting to connect to database.
+2018-02-12 20:12:15 WARN  UserDAOjdbc:177 - SQL error. Failed to retrieve user.
+2018-02-12 20:12:15 TRACE UserDAOjdbc:179 - Method reached end.
+2018-02-12 20:13:59 TRACE UserDAOjdbc:60 - Method called to check if user exists.
+2018-02-12 20:13:59 TRACE UserDAOjdbc:61 - Attempting to connect to database.
+2018-02-12 20:14:00 TRACE UserDAOjdbc:63 - Connection established.
+2018-02-12 20:14:00 TRACE UserDAOjdbc:69 - Method reached end.
+2018-02-12 20:14:00 TRACE LoginScreen:37 - user with this name does exist.
+2018-02-12 20:14:00 TRACE UserDAOjdbc:163 - Method called to get User with username notakeyword
+2018-02-12 20:14:00 TRACE UserDAOjdbc:164 - Attempting to connect to database.
+2018-02-12 20:14:01 WARN  UserDAOjdbc:177 - SQL error. Failed to retrieve user.
+2018-02-12 20:14:01 TRACE UserDAOjdbc:179 - Method reached end.
+2018-02-12 20:14:01 TRACE LoginScreen:39 - Successfully 'got' the user.
+2018-02-12 20:19:34 TRACE UserDAOjdbc:60 - Method called to check if user exists.
+2018-02-12 20:19:34 TRACE UserDAOjdbc:61 - Attempting to connect to database.
+2018-02-12 20:19:35 TRACE UserDAOjdbc:63 - Connection established.
+2018-02-12 20:19:35 TRACE UserDAOjdbc:69 - Method reached end.
+2018-02-12 20:19:35 TRACE UserDAOjdbc:164 - Method called to get User with username notakeyword
+2018-02-12 20:19:35 TRACE UserDAOjdbc:165 - Attempting to connect to database.
+2018-02-12 20:19:35 TRACE UserDAOjdbc:167 - Connection established.
+2018-02-12 20:30:03 TRACE UserDAOjdbc:60 - Method called to check if user exists.
+2018-02-12 20:30:03 TRACE UserDAOjdbc:61 - Attempting to connect to database.
+2018-02-12 20:30:04 TRACE UserDAOjdbc:63 - Connection successful.
+2018-02-12 20:30:04 TRACE UserDAOjdbc:69 - Method reached end.
+2018-02-12 20:30:04 TRACE UserDAOjdbc:164 - Method called to get User with username notakeyword
+2018-02-12 20:30:04 TRACE UserDAOjdbc:165 - Attempting to connect to database.
+2018-02-12 20:30:05 TRACE UserDAOjdbc:167 - Connection successful.
+2018-02-12 20:31:18 TRACE UserDAOjdbc:60 - Method called to check if user exists.
+2018-02-12 20:31:18 TRACE UserDAOjdbc:61 - Attempting to connect to database.
+2018-02-12 20:31:18 TRACE UserDAOjdbc:63 - Connection successful.
+2018-02-12 20:31:19 TRACE UserDAOjdbc:69 - Method reached end.
+2018-02-12 20:31:19 TRACE UserDAOjdbc:164 - Method called to get User with username notakeyword
+2018-02-12 20:31:19 TRACE UserDAOjdbc:165 - Attempting to connect to database.
+2018-02-12 20:31:19 TRACE UserDAOjdbc:167 - Connection successful.
+2018-02-12 20:31:48 TRACE UserDAOjdbc:93 - Method called to update user.
+2018-02-12 20:31:48 TRACE UserDAOjdbc:94 - Attempting to connect to database.
+2018-02-12 20:31:49 TRACE UserDAOjdbc:96 - Connection successful.
+2018-02-12 20:31:49 TRACE UserDAOjdbc:101 - Updated 1 row(s).
+2018-02-12 20:54:00 TRACE UserDAOjdbc:59 - Method called to check if user exists.
+2018-02-12 20:54:00 TRACE UserDAOjdbc:60 - Attempting to connect to database.
+2018-02-12 20:54:01 TRACE UserDAOjdbc:62 - Connection successful.
+2018-02-12 20:54:09 TRACE UserDAOjdbc:28 - Method called to add new user.
+2018-02-12 20:54:09 TRACE UserDAOjdbc:29 - Attempting to connect to database.
+2018-02-12 20:54:10 TRACE UserDAOjdbc:31 - Connection successful.
+2018-02-12 20:54:10 DEBUG UserDAOjdbc:39 - Query inserted 1 row(s) into the db
+2018-02-12 20:54:10 TRACE RegisterScreen:59 - User created with id: 76
+
+2018-02-12 20:54:25 TRACE UserDAOjdbc:59 - Method called to check if user exists.
+2018-02-12 20:54:25 TRACE UserDAOjdbc:60 - Attempting to connect to database.
+2018-02-12 20:54:26 TRACE UserDAOjdbc:62 - Connection successful.
+2018-02-12 20:59:56 TRACE UserDAOjdbc:59 - Method called to check if user exists.
+2018-02-12 20:59:56 TRACE UserDAOjdbc:60 - Attempting to connect to database.
+2018-02-12 20:59:57 TRACE UserDAOjdbc:62 - Connection successful.
+2018-02-12 21:00:14 TRACE UserDAOjdbc:59 - Method called to check if user exists.
+2018-02-12 21:00:14 TRACE UserDAOjdbc:60 - Attempting to connect to database.
+2018-02-12 21:00:14 TRACE UserDAOjdbc:62 - Connection successful.
+2018-02-12 21:00:21 TRACE UserDAOjdbc:28 - Method called to add new user.
+2018-02-12 21:00:21 TRACE UserDAOjdbc:29 - Attempting to connect to database.
+2018-02-12 21:00:21 TRACE UserDAOjdbc:31 - Connection successful.
+2018-02-12 21:00:21 DEBUG UserDAOjdbc:39 - Query inserted 1 row(s) into the db
+2018-02-12 21:00:21 TRACE RegisterScreen:59 - User created with id: 77
+
+2018-02-12 21:00:25 TRACE UserDAOjdbc:59 - Method called to check if user exists.
+2018-02-12 21:00:25 TRACE UserDAOjdbc:60 - Attempting to connect to database.
+2018-02-12 21:00:26 TRACE UserDAOjdbc:62 - Connection successful.
+2018-02-12 21:01:07 TRACE UserDAOjdbc:59 - Method called to check if user exists.
+2018-02-12 21:01:07 TRACE UserDAOjdbc:60 - Attempting to connect to database.
+2018-02-12 21:01:08 TRACE UserDAOjdbc:62 - Connection successful.
+2018-02-12 21:01:14 TRACE UserDAOjdbc:28 - Method called to add new user.
+2018-02-12 21:01:14 TRACE UserDAOjdbc:29 - Attempting to connect to database.
+2018-02-12 21:01:14 TRACE UserDAOjdbc:31 - Connection successful.
+2018-02-12 21:01:14 DEBUG UserDAOjdbc:39 - Query inserted 1 row(s) into the db
+2018-02-12 21:01:14 TRACE RegisterScreen:60 - User created with id: 78
+
+2018-02-12 21:01:19 TRACE UserDAOjdbc:59 - Method called to check if user exists.
+2018-02-12 21:01:19 TRACE UserDAOjdbc:60 - Attempting to connect to database.
+2018-02-12 21:01:19 TRACE UserDAOjdbc:62 - Connection successful.
+2018-02-12 21:01:19 TRACE UserDAOjdbc:159 - Method called to get User with username benjamin
+2018-02-12 21:01:19 TRACE UserDAOjdbc:160 - Attempting to connect to database.
+2018-02-12 21:01:20 TRACE UserDAOjdbc:162 - Connection successful.
+2018-02-12 21:01:40 TRACE UserDAOjdbc:59 - Method called to check if user exists.
+2018-02-12 21:01:40 TRACE UserDAOjdbc:60 - Attempting to connect to database.
+2018-02-12 21:01:40 TRACE UserDAOjdbc:62 - Connection successful.
+2018-02-12 21:01:40 TRACE UserDAOjdbc:159 - Method called to get User with username benjamin
+2018-02-12 21:01:40 TRACE UserDAOjdbc:160 - Attempting to connect to database.
+2018-02-12 21:01:41 TRACE UserDAOjdbc:162 - Connection successful.
+2018-02-12 21:02:51 TRACE UserDAOjdbc:89 - Method called to update user.
+2018-02-12 21:02:51 TRACE UserDAOjdbc:90 - Attempting to connect to database.
+2018-02-12 21:02:52 TRACE UserDAOjdbc:92 - Connection successful.
+2018-02-12 21:02:52 TRACE UserDAOjdbc:97 - Updated 1 row(s).
+2018-02-12 21:03:00 TRACE UserDAOjdbc:89 - Method called to update user.
+2018-02-12 21:03:00 TRACE UserDAOjdbc:90 - Attempting to connect to database.
+2018-02-12 21:03:00 TRACE UserDAOjdbc:92 - Connection successful.
+2018-02-12 21:03:00 TRACE UserDAOjdbc:97 - Updated 1 row(s).
+2018-02-12 21:03:16 TRACE UserDAOjdbc:89 - Method called to update user.
+2018-02-12 21:03:16 TRACE UserDAOjdbc:90 - Attempting to connect to database.
+2018-02-12 21:03:17 TRACE UserDAOjdbc:92 - Connection successful.
+2018-02-12 21:03:17 TRACE UserDAOjdbc:97 - Updated 1 row(s).
+2018-02-12 22:59:51 TRACE UserDAOjdbc:61 - Method called to check if user exists.
+2018-02-12 22:59:51 TRACE UserDAOjdbc:62 - Attempting to connect to database.
+2018-02-12 22:59:52 TRACE UserDAOjdbc:64 - Connection successful.
+2018-02-12 22:59:52 TRACE UserDAOjdbc:161 - Method called to get User with username notakeyword
+2018-02-12 22:59:52 TRACE UserDAOjdbc:162 - Attempting to connect to database.
+2018-02-12 22:59:53 TRACE UserDAOjdbc:164 - Connection successful.
+2018-02-12 23:00:00 TRACE UserDAOjdbc:184 - Method called to get user history with username notakeyword
+2018-02-12 23:00:00 TRACE UserDAOjdbc:185 - Attempting to connect to database.
+2018-02-12 23:00:00 TRACE UserDAOjdbc:187 - Connection successful.
+2018-02-12 23:00:02 WARN  UserDAOjdbc:209 - SQL error. Failed to retrieve user.
+2018-02-12 23:00:35 TRACE UserDAOjdbc:61 - Method called to check if user exists.
+2018-02-12 23:00:35 TRACE UserDAOjdbc:62 - Attempting to connect to database.
+2018-02-12 23:00:36 TRACE UserDAOjdbc:64 - Connection successful.
+2018-02-12 23:00:36 TRACE UserDAOjdbc:161 - Method called to get User with username notakeyword
+2018-02-12 23:00:36 TRACE UserDAOjdbc:162 - Attempting to connect to database.
+2018-02-12 23:00:37 TRACE UserDAOjdbc:164 - Connection successful.
+2018-02-12 23:00:41 TRACE UserDAOjdbc:184 - Method called to get user history with username notakeyword
+2018-02-12 23:00:41 TRACE UserDAOjdbc:185 - Attempting to connect to database.
+2018-02-12 23:00:41 TRACE UserDAOjdbc:187 - Connection successful.
+2018-02-12 23:00:41 WARN  UserDAOjdbc:209 - SQL error. Failed to retrieve user.
+2018-02-12 23:03:58 TRACE UserDAOjdbc:61 - Method called to check if user exists.
+2018-02-12 23:03:58 TRACE UserDAOjdbc:62 - Attempting to connect to database.
+2018-02-12 23:03:59 TRACE UserDAOjdbc:64 - Connection successful.
+2018-02-12 23:03:59 TRACE UserDAOjdbc:161 - Method called to get User with username notakeyword
+2018-02-12 23:03:59 TRACE UserDAOjdbc:162 - Attempting to connect to database.
+2018-02-12 23:03:59 TRACE UserDAOjdbc:164 - Connection successful.
+2018-02-12 23:04:04 TRACE UserDAOjdbc:184 - Method called to get user history with username notakeyword
+2018-02-12 23:04:04 TRACE UserDAOjdbc:185 - Attempting to connect to database.
+2018-02-12 23:04:05 TRACE UserDAOjdbc:187 - Connection successful.
+2018-02-12 23:04:05 WARN  UserDAOjdbc:209 - SQL error. Failed to retrieve user.
+2018-02-12 23:05:17 TRACE UserDAOjdbc:61 - Method called to check if user exists.
+2018-02-12 23:05:17 TRACE UserDAOjdbc:62 - Attempting to connect to database.
+2018-02-12 23:05:18 TRACE UserDAOjdbc:64 - Connection successful.
+2018-02-12 23:05:18 TRACE UserDAOjdbc:161 - Method called to get User with username notakeyword
+2018-02-12 23:05:18 TRACE UserDAOjdbc:162 - Attempting to connect to database.
+2018-02-12 23:05:18 TRACE UserDAOjdbc:164 - Connection successful.
+2018-02-12 23:05:22 TRACE UserDAOjdbc:184 - Method called to get user history with username notakeyword
+2018-02-12 23:05:22 TRACE UserDAOjdbc:185 - Attempting to connect to database.
+2018-02-12 23:05:22 TRACE UserDAOjdbc:187 - Connection successful.
+2018-02-12 23:05:23 WARN  UserDAOjdbc:209 - SQL error. Failed to retrieve user.
+2018-02-12 23:05:38 TRACE UserDAOjdbc:61 - Method called to check if user exists.
+2018-02-12 23:05:38 TRACE UserDAOjdbc:62 - Attempting to connect to database.
+2018-02-12 23:05:39 TRACE UserDAOjdbc:64 - Connection successful.
+2018-02-12 23:05:39 TRACE UserDAOjdbc:161 - Method called to get User with username notakeyword
+2018-02-12 23:05:39 TRACE UserDAOjdbc:162 - Attempting to connect to database.
+2018-02-12 23:05:40 TRACE UserDAOjdbc:164 - Connection successful.
+2018-02-12 23:05:43 TRACE UserDAOjdbc:184 - Method called to get user history with username notakeyword
+2018-02-12 23:05:43 TRACE UserDAOjdbc:185 - Attempting to connect to database.
+2018-02-12 23:05:44 TRACE UserDAOjdbc:187 - Connection successful.
+2018-02-12 23:05:44 WARN  UserDAOjdbc:209 - SQL error. Failed to retrieve user.
+2018-02-12 23:09:03 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:09:03 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:09:03 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:09:04 TRACE UserDAOjdbc:162 - Method called to get User with username notakeyword
+2018-02-12 23:09:04 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-12 23:09:04 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-12 23:09:08 TRACE UserDAOjdbc:185 - Method called to get user history with username notakeyword
+2018-02-12 23:09:08 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-12 23:09:08 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-12 23:09:09 WARN  UserDAOjdbc:212 - SQL error. Failed to retrieve user.
+2018-02-12 23:14:28 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:14:28 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:14:29 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:14:30 TRACE UserDAOjdbc:162 - Method called to get User with username notakeyword
+2018-02-12 23:14:30 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-12 23:14:30 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-12 23:14:34 TRACE UserDAOjdbc:185 - Method called to get user history with username notakeyword
+2018-02-12 23:14:34 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-12 23:14:34 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-12 23:14:35 WARN  UserDAOjdbc:212 - SQL error. Failed to retrieve user.
+2018-02-12 23:19:12 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:19:12 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:19:13 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:19:16 TRACE UserDAOjdbc:31 - Method called to add new user.
+2018-02-12 23:19:16 TRACE UserDAOjdbc:32 - Attempting to connect to database.
+2018-02-12 23:19:17 TRACE UserDAOjdbc:34 - Connection successful.
+2018-02-12 23:19:17 DEBUG UserDAOjdbc:42 - Query inserted 1 row(s) into the db
+2018-02-12 23:19:17 TRACE RegisterScreen:60 - User created with id: 79
+
+2018-02-12 23:19:20 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:19:20 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:19:21 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:19:23 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:19:23 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:19:23 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:19:23 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-12 23:19:23 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-12 23:19:24 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-12 23:19:26 TRACE UserDAOjdbc:185 - Method called to get user history with username tmp
+2018-02-12 23:19:26 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-12 23:19:27 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-12 23:19:27 WARN  UserDAOjdbc:211 - SQL error. Failed to retrieve user.
+2018-02-12 23:19:39 TRACE UserDAOjdbc:92 - Method called to update user.
+2018-02-12 23:19:39 TRACE UserDAOjdbc:93 - Attempting to connect to database.
+2018-02-12 23:19:40 TRACE UserDAOjdbc:95 - Connection successful.
+2018-02-12 23:19:40 TRACE UserDAOjdbc:100 - Updated 1 row(s).
+2018-02-12 23:19:43 TRACE UserDAOjdbc:92 - Method called to update user.
+2018-02-12 23:19:43 TRACE UserDAOjdbc:93 - Attempting to connect to database.
+2018-02-12 23:19:44 TRACE UserDAOjdbc:95 - Connection successful.
+2018-02-12 23:19:44 TRACE UserDAOjdbc:100 - Updated 1 row(s).
+2018-02-12 23:19:48 TRACE UserDAOjdbc:92 - Method called to update user.
+2018-02-12 23:19:48 TRACE UserDAOjdbc:93 - Attempting to connect to database.
+2018-02-12 23:19:48 TRACE UserDAOjdbc:95 - Connection successful.
+2018-02-12 23:19:48 TRACE UserDAOjdbc:100 - Updated 1 row(s).
+2018-02-12 23:26:53 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:26:53 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:26:54 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:26:54 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-12 23:26:54 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-12 23:26:55 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-12 23:27:04 TRACE UserDAOjdbc:185 - Method called to get user history with username tmp
+2018-02-12 23:27:04 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-12 23:27:05 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-12 23:27:05 WARN  UserDAOjdbc:211 - SQL error. Failed to retrieve user.
+2018-02-12 23:32:37 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:32:37 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:32:38 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:32:38 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-12 23:32:38 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-12 23:32:38 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-12 23:32:43 TRACE UserDAOjdbc:185 - Method called to get user history with username tmp
+2018-02-12 23:32:43 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-12 23:32:44 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-12 23:32:44 WARN  UserDAOjdbc:211 - SQL error. Failed to retrieve user.
+2018-02-12 23:35:23 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:35:23 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:35:23 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:35:24 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-12 23:35:24 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-12 23:35:24 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-12 23:35:27 TRACE UserDAOjdbc:185 - Method called to get user history with username tmp
+2018-02-12 23:35:27 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-12 23:35:27 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-12 23:35:27 WARN  UserDAOjdbc:211 - SQL error. Failed to retrieve user.
+2018-02-12 23:35:46 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:35:46 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:35:47 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:35:47 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-12 23:35:47 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-12 23:35:48 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-12 23:36:00 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:36:01 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:36:01 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:36:02 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-12 23:36:02 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-12 23:36:02 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-12 23:36:04 TRACE UserDAOjdbc:185 - Method called to get user history with username tmp
+2018-02-12 23:36:04 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-12 23:36:05 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-12 23:36:05 WARN  UserDAOjdbc:211 - SQL error. Failed to retrieve user.
+2018-02-12 23:40:47 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:40:47 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:40:48 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:40:48 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-12 23:40:48 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-12 23:40:49 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-12 23:40:51 TRACE UserDAOjdbc:185 - Method called to get user history with username tmp
+2018-02-12 23:40:51 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-12 23:40:52 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-12 23:40:52 WARN  UserDAOjdbc:212 - SQL error. Failed to retrieve user.
+2018-02-12 23:54:57 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:54:57 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:54:58 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:54:58 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-12 23:54:58 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-12 23:54:58 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-12 23:55:01 TRACE UserDAOjdbc:185 - Method called to get user history with username tmp
+2018-02-12 23:55:01 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-12 23:55:01 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-12 23:55:01 TRACE UserDAOjdbc:190 - Checkpoint1
+2018-02-12 23:55:02 WARN  UserDAOjdbc:213 - SQL error. Failed to retrieve user.
+2018-02-12 23:55:25 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:55:25 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:55:26 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:55:26 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-12 23:55:26 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-12 23:55:27 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-12 23:55:29 TRACE UserDAOjdbc:185 - Method called to get user history with username tmp
+2018-02-12 23:55:29 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-12 23:55:30 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-12 23:55:30 TRACE UserDAOjdbc:190 - Checkpoint1
+2018-02-12 23:55:30 WARN  UserDAOjdbc:213 - SQL error. Failed to retrieve user.
+2018-02-12 23:55:49 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:55:49 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:55:50 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:55:50 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-12 23:55:50 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-12 23:55:51 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-12 23:55:54 TRACE UserDAOjdbc:185 - Method called to get user history with username tmp
+2018-02-12 23:55:54 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-12 23:55:55 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-12 23:55:55 TRACE UserDAOjdbc:190 - Checkpoint1
+2018-02-12 23:55:55 WARN  UserDAOjdbc:214 - SQL error. Failed to retrieve user.
+2018-02-12 23:56:24 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:56:24 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:56:24 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:56:25 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-12 23:56:25 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-12 23:56:25 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-12 23:56:28 TRACE UserDAOjdbc:185 - Method called to get user history with username tmp
+2018-02-12 23:56:28 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-12 23:56:28 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-12 23:56:28 TRACE UserDAOjdbc:190 - Checkpoint1
+2018-02-12 23:56:28 WARN  UserDAOjdbc:215 - SQL error. Failed to retrieve user.
+2018-02-12 23:57:04 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:57:04 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:57:05 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:57:05 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-12 23:57:05 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-12 23:57:05 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-12 23:57:08 TRACE UserDAOjdbc:185 - Method called to get user history with username tmp
+2018-02-12 23:57:08 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-12 23:57:16 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-12 23:57:16 TRACE UserDAOjdbc:190 - Checkpoint1
+2018-02-12 23:57:16 WARN  UserDAOjdbc:215 - SQL error. Failed to retrieve user.
+2018-02-12 23:57:51 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-12 23:57:51 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-12 23:57:52 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-12 23:57:52 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-12 23:57:52 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-12 23:57:53 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-12 23:57:55 TRACE UserDAOjdbc:185 - Method called to get user history with username tmp
+2018-02-12 23:57:55 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-12 23:57:55 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-12 23:57:55 TRACE UserDAOjdbc:190 - Checkpoint1
+2018-02-12 23:57:55 TRACE UserDAOjdbc:192 - Checkpoint2
+2018-02-12 23:57:55 TRACE UserDAOjdbc:194 - Checkpoint3
+2018-02-12 23:57:55 WARN  UserDAOjdbc:215 - SQL error. Failed to retrieve user.
+2018-02-13 00:09:03 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-13 00:09:03 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-13 00:09:04 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-13 00:09:04 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-13 00:09:04 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-13 00:09:04 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-13 00:09:09 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-13 00:09:09 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-13 00:09:09 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-13 00:09:15 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-13 00:09:15 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-13 00:09:16 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-13 00:09:16 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-13 00:09:16 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-13 00:09:16 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-13 00:09:20 TRACE UserDAOjdbc:185 - Method called to get user history with username tmp
+2018-02-13 00:09:20 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-13 00:09:21 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-13 00:09:21 WARN  UserDAOjdbc:211 - SQL error. Failed to retrieve user.
+2018-02-13 00:14:36 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-13 00:14:36 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-13 00:14:37 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-13 00:14:37 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-13 00:14:37 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-13 00:14:38 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-13 00:14:40 TRACE UserDAOjdbc:185 - Method called to get user history with username tmp
+2018-02-13 00:14:40 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-13 00:14:41 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-13 00:14:41 WARN  UserDAOjdbc:211 - SQL error. Failed to retrieve user.
+2018-02-13 00:21:22 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-13 00:21:22 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-13 00:21:23 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-13 00:21:23 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-13 00:21:23 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-13 00:21:23 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-13 00:21:26 TRACE UserDAOjdbc:185 - Method called to get user history with username tmp
+2018-02-13 00:21:26 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-13 00:21:26 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-13 00:21:26 WARN  UserDAOjdbc:212 - SQL error. Failed to retrieve user.
+2018-02-13 00:26:03 TRACE UserDAOjdbc:62 - Method called to check if user exists.
+2018-02-13 00:26:03 TRACE UserDAOjdbc:63 - Attempting to connect to database.
+2018-02-13 00:26:04 TRACE UserDAOjdbc:65 - Connection successful.
+2018-02-13 00:26:04 TRACE UserDAOjdbc:162 - Method called to get User with username tmp
+2018-02-13 00:26:04 TRACE UserDAOjdbc:163 - Attempting to connect to database.
+2018-02-13 00:26:05 TRACE UserDAOjdbc:165 - Connection successful.
+2018-02-13 00:26:07 TRACE UserDAOjdbc:185 - Method called to get user history with username tmp
+2018-02-13 00:26:07 TRACE UserDAOjdbc:186 - Attempting to connect to database.
+2018-02-13 00:26:08 TRACE UserDAOjdbc:188 - Connection successful.
+2018-02-13 00:26:08 WARN  UserDAOjdbc:211 - SQL error. Failed to retrieve user history.
+2018-02-13 00:31:20 TRACE UserDAOjdbc:63 - Method called to check if user exists.
+2018-02-13 00:31:20 TRACE UserDAOjdbc:64 - Attempting to connect to database.
+2018-02-13 00:31:21 TRACE UserDAOjdbc:66 - Connection successful.
+2018-02-13 00:31:21 TRACE UserDAOjdbc:163 - Method called to get User with username tmp
+2018-02-13 00:31:21 TRACE UserDAOjdbc:164 - Attempting to connect to database.
+2018-02-13 00:31:22 TRACE UserDAOjdbc:166 - Connection successful.
+2018-02-13 00:31:24 TRACE UserDAOjdbc:186 - Method called to get user history with username tmp
+2018-02-13 00:31:24 TRACE UserDAOjdbc:187 - Attempting to connect to database.
+2018-02-13 00:31:25 TRACE UserDAOjdbc:189 - Connection successful.
+2018-02-13 00:31:25 WARN  UserDAOjdbc:212 - SQL error. Failed to retrieve user history.
+2018-02-13 00:31:45 TRACE UserDAOjdbc:63 - Method called to check if user exists.
+2018-02-13 00:31:45 TRACE UserDAOjdbc:64 - Attempting to connect to database.
+2018-02-13 00:31:46 TRACE UserDAOjdbc:66 - Connection successful.
+2018-02-13 00:31:46 TRACE UserDAOjdbc:163 - Method called to get User with username tmp
+2018-02-13 00:31:46 TRACE UserDAOjdbc:164 - Attempting to connect to database.
+2018-02-13 00:31:46 TRACE UserDAOjdbc:166 - Connection successful.
+2018-02-13 00:31:49 TRACE UserDAOjdbc:186 - Method called to get user history with username tmp
+2018-02-13 00:31:49 TRACE UserDAOjdbc:187 - Attempting to connect to database.
+2018-02-13 00:31:49 TRACE UserDAOjdbc:189 - Connection successful.
+2018-02-13 00:31:50 WARN  UserDAOjdbc:212 - SQL error. Failed to retrieve user history.
+2018-02-13 00:32:32 TRACE UserDAOjdbc:63 - Method called to check if user exists.
+2018-02-13 00:32:32 TRACE UserDAOjdbc:64 - Attempting to connect to database.
+2018-02-13 00:32:33 TRACE UserDAOjdbc:66 - Connection successful.
+2018-02-13 00:32:33 TRACE UserDAOjdbc:163 - Method called to get User with username tmp
+2018-02-13 00:32:33 TRACE UserDAOjdbc:164 - Attempting to connect to database.
+2018-02-13 00:32:34 TRACE UserDAOjdbc:166 - Connection successful.
+2018-02-13 00:32:36 TRACE UserDAOjdbc:186 - Method called to get user history with username tmp
+2018-02-13 00:32:36 TRACE UserDAOjdbc:187 - Attempting to connect to database.
+2018-02-13 00:32:36 TRACE UserDAOjdbc:189 - Connection successful.
+2018-02-13 00:32:36 WARN  UserDAOjdbc:212 - SQL error. Failed to retrieve user history.
+2018-02-13 00:35:27 TRACE UserDAOjdbc:63 - Method called to check if user exists.
+2018-02-13 00:35:27 TRACE UserDAOjdbc:64 - Attempting to connect to database.
+2018-02-13 00:35:28 TRACE UserDAOjdbc:66 - Connection successful.
+2018-02-13 00:35:28 TRACE UserDAOjdbc:163 - Method called to get User with username tmp
+2018-02-13 00:35:28 TRACE UserDAOjdbc:164 - Attempting to connect to database.
+2018-02-13 00:35:29 TRACE UserDAOjdbc:166 - Connection successful.
+2018-02-13 00:35:34 TRACE UserDAOjdbc:186 - Method called to get user history with username tmp
+2018-02-13 00:35:34 TRACE UserDAOjdbc:187 - Attempting to connect to database.
+2018-02-13 00:35:35 TRACE UserDAOjdbc:189 - Connection successful.
+2018-02-13 00:35:35 WARN  UserDAOjdbc:212 - SQL error. Failed to retrieve user history.
+2018-02-13 00:40:18 TRACE UserDAOjdbc:63 - Method called to check if user exists.
+2018-02-13 00:40:18 TRACE UserDAOjdbc:64 - Attempting to connect to database.
+2018-02-13 00:40:19 TRACE UserDAOjdbc:66 - Connection successful.
+2018-02-13 00:40:19 TRACE UserDAOjdbc:163 - Method called to get User with username tmp
+2018-02-13 00:40:19 TRACE UserDAOjdbc:164 - Attempting to connect to database.
+2018-02-13 00:40:20 TRACE UserDAOjdbc:166 - Connection successful.
+2018-02-13 00:40:23 TRACE UserDAOjdbc:186 - Method called to get user history with username tmp
+2018-02-13 00:40:23 TRACE UserDAOjdbc:187 - Attempting to connect to database.
+2018-02-13 00:40:23 TRACE UserDAOjdbc:189 - Connection successful.
+2018-02-13 00:41:27 TRACE UserDAOjdbc:63 - Method called to check if user exists.
+2018-02-13 00:41:27 TRACE UserDAOjdbc:64 - Attempting to connect to database.
+2018-02-13 00:41:28 TRACE UserDAOjdbc:66 - Connection successful.
+2018-02-13 00:41:28 TRACE UserDAOjdbc:163 - Method called to get User with username tmp
+2018-02-13 00:41:28 TRACE UserDAOjdbc:164 - Attempting to connect to database.
+2018-02-13 00:41:29 TRACE UserDAOjdbc:166 - Connection successful.
+2018-02-13 00:41:32 TRACE UserDAOjdbc:186 - Method called to get user history with username tmp
+2018-02-13 00:41:32 TRACE UserDAOjdbc:187 - Attempting to connect to database.
+2018-02-13 00:41:33 TRACE UserDAOjdbc:189 - Connection successful.
+2018-02-13 00:41:33 WARN  UserDAOjdbc:212 - SQL error. Failed to retrieve user history.
+2018-02-13 00:44:05 TRACE UserDAOjdbc:63 - Method called to check if user exists.
+2018-02-13 00:44:05 TRACE UserDAOjdbc:64 - Attempting to connect to database.
+2018-02-13 00:44:06 TRACE UserDAOjdbc:66 - Connection successful.
+2018-02-13 00:44:06 TRACE UserDAOjdbc:163 - Method called to get User with username tmp
+2018-02-13 00:44:06 TRACE UserDAOjdbc:164 - Attempting to connect to database.
+2018-02-13 00:44:06 TRACE UserDAOjdbc:166 - Connection successful.
+2018-02-13 00:44:11 TRACE UserDAOjdbc:63 - Method called to check if user exists.
+2018-02-13 00:44:11 TRACE UserDAOjdbc:64 - Attempting to connect to database.
+2018-02-13 00:44:12 TRACE UserDAOjdbc:66 - Connection successful.
+2018-02-13 00:44:12 TRACE UserDAOjdbc:163 - Method called to get User with username tmp
+2018-02-13 00:44:12 TRACE UserDAOjdbc:164 - Attempting to connect to database.
+2018-02-13 00:44:12 TRACE UserDAOjdbc:166 - Connection successful.
+2018-02-13 00:44:15 TRACE UserDAOjdbc:186 - Method called to get user history with username tmp
+2018-02-13 00:44:15 TRACE UserDAOjdbc:187 - Attempting to connect to database.
+2018-02-13 00:44:16 TRACE UserDAOjdbc:189 - Connection successful.
+2018-02-13 00:44:16 TRACE UserDAOjdbc:194 - Check
+2018-02-13 00:44:16 WARN  UserDAOjdbc:213 - SQL error. Failed to retrieve user history.
+2018-02-13 00:46:59 TRACE UserDAOjdbc:63 - Method called to check if user exists.
+2018-02-13 00:46:59 TRACE UserDAOjdbc:64 - Attempting to connect to database.
+2018-02-13 00:47:00 TRACE UserDAOjdbc:66 - Connection successful.
+2018-02-13 00:47:00 TRACE UserDAOjdbc:163 - Method called to get User with username tmp
+2018-02-13 00:47:00 TRACE UserDAOjdbc:164 - Attempting to connect to database.
+2018-02-13 00:47:00 TRACE UserDAOjdbc:166 - Connection successful.
+2018-02-13 00:47:03 TRACE UserDAOjdbc:186 - Method called to get user history with username tmp
+2018-02-13 00:47:03 TRACE UserDAOjdbc:187 - Attempting to connect to database.
+2018-02-13 00:47:03 TRACE UserDAOjdbc:189 - Connection successful.
+2018-02-13 00:47:03 TRACE UserDAOjdbc:194 - Check
+2018-02-13 00:47:03 WARN  UserDAOjdbc:217 - SQL error. Failed to retrieve user history.
+2018-02-13 00:48:08 TRACE UserDAOjdbc:63 - Method called to check if user exists.
+2018-02-13 00:48:08 TRACE UserDAOjdbc:64 - Attempting to connect to database.
+2018-02-13 00:48:09 TRACE UserDAOjdbc:66 - Connection successful.
+2018-02-13 00:48:09 TRACE UserDAOjdbc:163 - Method called to get User with username tmp
+2018-02-13 00:48:09 TRACE UserDAOjdbc:164 - Attempting to connect to database.
+2018-02-13 00:48:09 TRACE UserDAOjdbc:166 - Connection successful.
+2018-02-13 00:48:12 TRACE UserDAOjdbc:186 - Method called to get user history with username tmp
+2018-02-13 00:48:12 TRACE UserDAOjdbc:187 - Attempting to connect to database.
+2018-02-13 00:48:12 TRACE UserDAOjdbc:189 - Connection successful.
+2018-02-13 00:48:12 TRACE UserDAOjdbc:195 - Check
+2018-02-13 00:58:54 TRACE UserDAOjdbc:64 - Method called to check if user exists.
+2018-02-13 00:58:54 TRACE UserDAOjdbc:65 - Attempting to connect to database.
+2018-02-13 00:58:55 TRACE UserDAOjdbc:67 - Connection successful.
+2018-02-13 00:58:55 TRACE UserDAOjdbc:164 - Method called to get User with username tmp
+2018-02-13 00:58:55 TRACE UserDAOjdbc:165 - Attempting to connect to database.
+2018-02-13 00:58:55 TRACE UserDAOjdbc:167 - Connection successful.
+2018-02-13 00:59:08 TRACE UserDAOjdbc:187 - Method called to get user history with username tmp
+2018-02-13 00:59:08 TRACE UserDAOjdbc:188 - Attempting to connect to database.
+2018-02-13 00:59:09 TRACE UserDAOjdbc:190 - Connection successful.
+2018-02-13 00:59:09 TRACE UserDAOjdbc:196 - Check
+2018-02-13 00:59:09 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 00:59:09 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 00:59:09 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 00:59:09 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 00:59:09 TRACE UserDAOjdbc:211 - Finished going through result set.
+2018-02-13 01:00:53 TRACE UserDAOjdbc:64 - Method called to check if user exists.
+2018-02-13 01:00:53 TRACE UserDAOjdbc:65 - Attempting to connect to database.
+2018-02-13 01:00:53 TRACE UserDAOjdbc:67 - Connection successful.
+2018-02-13 01:00:54 TRACE UserDAOjdbc:164 - Method called to get User with username tmp
+2018-02-13 01:00:54 TRACE UserDAOjdbc:165 - Attempting to connect to database.
+2018-02-13 01:00:54 TRACE UserDAOjdbc:167 - Connection successful.
+2018-02-13 01:00:58 TRACE UserDAOjdbc:187 - Method called to get user history with username tmp
+2018-02-13 01:00:58 TRACE UserDAOjdbc:188 - Attempting to connect to database.
+2018-02-13 01:00:58 TRACE UserDAOjdbc:190 - Connection successful.
+2018-02-13 01:00:58 TRACE UserDAOjdbc:196 - Check
+2018-02-13 01:00:58 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:00:58 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:00:58 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:00:58 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:00:58 TRACE UserDAOjdbc:211 - Finished going through result set.
+2018-02-13 01:01:26 TRACE UserDAOjdbc:187 - Method called to get user history with username tmp
+2018-02-13 01:01:26 TRACE UserDAOjdbc:188 - Attempting to connect to database.
+2018-02-13 01:01:27 TRACE UserDAOjdbc:190 - Connection successful.
+2018-02-13 01:01:27 TRACE UserDAOjdbc:196 - Check
+2018-02-13 01:01:27 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:01:27 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:01:27 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:01:27 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:01:27 TRACE UserDAOjdbc:211 - Finished going through result set.
+2018-02-13 01:01:59 TRACE UserDAOjdbc:64 - Method called to check if user exists.
+2018-02-13 01:01:59 TRACE UserDAOjdbc:65 - Attempting to connect to database.
+2018-02-13 01:01:59 TRACE UserDAOjdbc:67 - Connection successful.
+2018-02-13 01:02:00 TRACE UserDAOjdbc:164 - Method called to get User with username tmp
+2018-02-13 01:02:00 TRACE UserDAOjdbc:165 - Attempting to connect to database.
+2018-02-13 01:02:00 TRACE UserDAOjdbc:167 - Connection successful.
+2018-02-13 01:02:03 TRACE UserDAOjdbc:187 - Method called to get user history with username tmp
+2018-02-13 01:02:03 TRACE UserDAOjdbc:188 - Attempting to connect to database.
+2018-02-13 01:02:04 TRACE UserDAOjdbc:190 - Connection successful.
+2018-02-13 01:02:04 TRACE UserDAOjdbc:196 - Check
+2018-02-13 01:02:04 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:02:04 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:02:04 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:02:04 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:02:04 TRACE UserDAOjdbc:211 - Finished going through result set.
+2018-02-13 01:03:32 TRACE UserDAOjdbc:64 - Method called to check if user exists.
+2018-02-13 01:03:32 TRACE UserDAOjdbc:65 - Attempting to connect to database.
+2018-02-13 01:03:33 TRACE UserDAOjdbc:67 - Connection successful.
+2018-02-13 01:03:33 TRACE UserDAOjdbc:164 - Method called to get User with username tmp
+2018-02-13 01:03:33 TRACE UserDAOjdbc:165 - Attempting to connect to database.
+2018-02-13 01:03:34 TRACE UserDAOjdbc:167 - Connection successful.
+2018-02-13 01:03:37 TRACE UserDAOjdbc:187 - Method called to get user history with username tmp
+2018-02-13 01:03:37 TRACE UserDAOjdbc:188 - Attempting to connect to database.
+2018-02-13 01:03:37 TRACE UserDAOjdbc:190 - Connection successful.
+2018-02-13 01:03:37 TRACE UserDAOjdbc:196 - Check
+2018-02-13 01:03:37 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:03:37 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:03:37 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:03:37 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:03:37 TRACE UserDAOjdbc:211 - Finished going through result set.
+2018-02-13 01:04:09 TRACE UserDAOjdbc:64 - Method called to check if user exists.
+2018-02-13 01:04:09 TRACE UserDAOjdbc:65 - Attempting to connect to database.
+2018-02-13 01:04:10 TRACE UserDAOjdbc:67 - Connection successful.
+2018-02-13 01:04:10 TRACE UserDAOjdbc:164 - Method called to get User with username tmp
+2018-02-13 01:04:10 TRACE UserDAOjdbc:165 - Attempting to connect to database.
+2018-02-13 01:04:11 TRACE UserDAOjdbc:167 - Connection successful.
+2018-02-13 01:04:13 TRACE UserDAOjdbc:187 - Method called to get user history with username tmp
+2018-02-13 01:04:13 TRACE UserDAOjdbc:188 - Attempting to connect to database.
+2018-02-13 01:04:13 TRACE UserDAOjdbc:190 - Connection successful.
+2018-02-13 01:04:13 TRACE UserDAOjdbc:196 - Check
+2018-02-13 01:04:13 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:04:13 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:04:13 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:04:13 TRACE UserDAOjdbc:198 - Attempting to store result set.
+2018-02-13 01:04:13 TRACE UserDAOjdbc:211 - Finished going through result set.
