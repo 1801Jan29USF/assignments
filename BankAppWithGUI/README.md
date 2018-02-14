@@ -1,5 +1,5 @@
 # Banking Application
-A simple banking app which uses JDBC nad Oracle SQL Developer,in order to have persistent data even after the program closes.
+A simple banking app which uses JDBC, in order to have persistent data even after the program closes. A GUI has been added to help with functionality
 
 # Functionality
 * A user can login
