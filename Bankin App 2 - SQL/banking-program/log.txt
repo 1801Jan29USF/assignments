@@ -1,0 +1,2006 @@
+2018-02-10 21:41:36 TRACE AddUserDAOJDBC:55 - Method called to add new user
+2018-02-10 21:41:36 TRACE AddUserDAOJDBC:56 - Attempting to get connection to db
+2018-02-10 21:41:38 TRACE AddUserDAOJDBC:58 - connection established with db, creating prepared statement
+2018-02-10 21:41:38 WARN  AddUserDAOJDBC:70 - failed to insert new flashcard
+2018-02-10 21:43:36 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-10 21:43:36 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-10 21:43:37 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-10 21:43:37 WARN  AddUserDAOJDBC:57 - failed to insert new flashcard
+2018-02-10 21:46:13 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-10 21:46:13 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-10 21:46:14 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-10 21:46:14 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-10 21:46:14 TRACE AddUserDAOJDBC:50 - ps good
+2018-02-10 21:46:14 WARN  AddUserDAOJDBC:59 - failed to insert new flashcard
+2018-02-10 21:50:05 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-10 21:50:05 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-10 21:50:08 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-10 21:50:08 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-10 21:50:08 TRACE AddUserDAOJDBC:50 - ps good
+2018-02-10 21:50:08 WARN  AddUserDAOJDBC:59 - failed to insert new flashcard
+2018-02-10 22:48:46 TRACE LoginDAOJDBC:38 - method called to insert new flashcard
+2018-02-10 22:48:46 TRACE LoginDAOJDBC:39 - Attempting to get connection to db
+2018-02-10 22:48:48 TRACE LoginDAOJDBC:41 - connection established with db, creating prepared statement
+2018-02-10 22:48:48 TRACE LoginDAOJDBC:43 - prepard statement is good
+2018-02-10 22:48:48 TRACE LoginDAOJDBC:46 - ps is good
+2018-02-10 22:48:48 WARN  LoginDAOJDBC:55 - failed to insert new flashcard
+2018-02-10 22:49:30 TRACE LoginDAOJDBC:38 - method called to insert new flashcard
+2018-02-10 22:49:30 TRACE LoginDAOJDBC:39 - Attempting to get connection to db
+2018-02-10 22:49:31 TRACE LoginDAOJDBC:41 - connection established with db, creating prepared statement
+2018-02-10 22:49:31 TRACE LoginDAOJDBC:43 - prepard statement is good
+2018-02-10 22:49:31 TRACE LoginDAOJDBC:46 - ps is good
+2018-02-10 22:49:31 WARN  LoginDAOJDBC:56 - failed to insert new flashcard
+2018-02-10 22:49:56 TRACE LoginDAOJDBC:38 - method called to insert new flashcard
+2018-02-10 22:49:56 TRACE LoginDAOJDBC:39 - Attempting to get connection to db
+2018-02-10 22:49:57 TRACE LoginDAOJDBC:41 - connection established with db, creating prepared statement
+2018-02-10 22:49:57 TRACE LoginDAOJDBC:43 - prepard statement is good
+2018-02-10 22:49:57 TRACE LoginDAOJDBC:46 - ps is good
+2018-02-10 22:49:58 WARN  LoginDAOJDBC:56 - failed to insert new flashcard
+2018-02-10 22:52:09 TRACE LoginDAOJDBC:38 - method called to insert new flashcard
+2018-02-10 22:52:09 TRACE LoginDAOJDBC:39 - Attempting to get connection to db
+2018-02-10 22:52:10 TRACE LoginDAOJDBC:41 - connection established with db, creating prepared statement
+2018-02-10 22:52:10 TRACE LoginDAOJDBC:43 - prepard statement is good
+2018-02-10 22:52:10 TRACE LoginDAOJDBC:46 - ps is good
+2018-02-10 22:52:11 WARN  LoginDAOJDBC:53 - failed to insert new flashcard
+2018-02-10 22:58:26 TRACE LoginDAOJDBC:38 - method called to insert new flashcard
+2018-02-10 22:58:26 TRACE LoginDAOJDBC:39 - Attempting to get connection to db
+2018-02-10 22:58:27 TRACE LoginDAOJDBC:41 - connection established with db, creating prepared statement
+2018-02-10 22:58:27 TRACE LoginDAOJDBC:43 - prepard statement is good
+2018-02-10 22:58:27 TRACE LoginDAOJDBC:46 - ps is good
+2018-02-10 22:58:27 WARN  LoginDAOJDBC:54 - failed to insert new flashcard
+2018-02-10 23:00:01 TRACE LoginDAOJDBC:38 - method called to insert new flashcard
+2018-02-10 23:00:01 TRACE LoginDAOJDBC:39 - Attempting to get connection to db
+2018-02-10 23:00:02 TRACE LoginDAOJDBC:41 - connection established with db, creating prepared statement
+2018-02-10 23:00:02 TRACE LoginDAOJDBC:43 - prepard statement is good
+2018-02-10 23:00:02 TRACE LoginDAOJDBC:46 - ps is good
+2018-02-10 23:00:03 WARN  LoginDAOJDBC:54 - failed to insert new flashcard
+2018-02-10 23:01:37 TRACE LoginDAOJDBC:38 - method called to insert new flashcard
+2018-02-10 23:01:37 TRACE LoginDAOJDBC:39 - Attempting to get connection to db
+2018-02-10 23:01:38 TRACE LoginDAOJDBC:41 - connection established with db, creating prepared statement
+2018-02-10 23:01:38 TRACE LoginDAOJDBC:43 - prepard statement is good
+2018-02-10 23:01:38 TRACE LoginDAOJDBC:46 - ps is good
+2018-02-10 23:01:39 WARN  LoginDAOJDBC:54 - failed to insert new flashcard
+2018-02-10 23:03:43 TRACE LoginDAOJDBC:38 - method called to insert new flashcard
+2018-02-10 23:03:43 TRACE LoginDAOJDBC:39 - Attempting to get connection to db
+2018-02-10 23:03:44 TRACE LoginDAOJDBC:41 - connection established with db, creating prepared statement
+2018-02-10 23:03:44 TRACE LoginDAOJDBC:43 - prepard statement is good
+2018-02-10 23:03:44 TRACE LoginDAOJDBC:46 - ps is good
+2018-02-10 23:04:16 TRACE LoginDAOJDBC:38 - method called to insert new flashcard
+2018-02-10 23:04:16 TRACE LoginDAOJDBC:39 - Attempting to get connection to db
+2018-02-10 23:04:17 TRACE LoginDAOJDBC:41 - connection established with db, creating prepared statement
+2018-02-10 23:04:17 TRACE LoginDAOJDBC:43 - prepard statement is good
+2018-02-10 23:04:17 TRACE LoginDAOJDBC:46 - ps is good
+2018-02-10 23:05:13 TRACE LoginDAOJDBC:38 - method called to insert new flashcard
+2018-02-10 23:05:13 TRACE LoginDAOJDBC:39 - Attempting to get connection to db
+2018-02-10 23:05:14 TRACE LoginDAOJDBC:41 - connection established with db, creating prepared statement
+2018-02-10 23:05:14 TRACE LoginDAOJDBC:43 - prepard statement is good
+2018-02-10 23:05:14 TRACE LoginDAOJDBC:46 - ps is good
+2018-02-10 23:10:52 TRACE LoginDAOJDBC:39 - method called to insert new flashcard
+2018-02-10 23:10:52 TRACE LoginDAOJDBC:40 - Attempting to get connection to db
+2018-02-10 23:10:53 TRACE LoginDAOJDBC:42 - connection established with db, creating prepared statement
+2018-02-10 23:10:54 TRACE LoginDAOJDBC:44 - prepard statement is good
+2018-02-10 23:10:54 TRACE LoginDAOJDBC:47 - ps is good
+2018-02-10 23:11:27 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-10 23:11:27 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-10 23:11:29 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-10 23:11:29 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-10 23:11:29 TRACE AddUserDAOJDBC:50 - ps good
+2018-02-10 23:11:29 WARN  AddUserDAOJDBC:59 - failed to insert new flashcard
+2018-02-10 23:19:08 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-10 23:19:08 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-10 23:19:09 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-10 23:19:09 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-10 23:19:09 TRACE AddUserDAOJDBC:50 - ps good
+2018-02-10 23:19:09 WARN  AddUserDAOJDBC:57 - failed to insert new flashcard
+2018-02-10 23:22:53 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-10 23:22:53 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-10 23:22:54 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-10 23:22:55 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-10 23:22:55 TRACE AddUserDAOJDBC:50 - ps good
+2018-02-10 23:22:55 WARN  AddUserDAOJDBC:57 - failed to insert new flashcard
+2018-02-10 23:23:13 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-10 23:23:13 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-10 23:23:18 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-10 23:23:18 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-10 23:23:18 TRACE AddUserDAOJDBC:50 - ps good
+2018-02-10 23:23:18 WARN  AddUserDAOJDBC:57 - failed to insert new flashcard
+2018-02-10 23:24:51 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-10 23:24:51 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-10 23:24:52 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-10 23:24:52 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-10 23:24:52 TRACE AddUserDAOJDBC:50 - ps good
+2018-02-10 23:24:52 WARN  AddUserDAOJDBC:57 - failed to insert new flashcard
+2018-02-10 23:32:51 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-10 23:32:51 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-10 23:32:52 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-10 23:32:53 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-10 23:32:53 TRACE AddUserDAOJDBC:50 - ps good
+2018-02-10 23:32:53 WARN  AddUserDAOJDBC:58 - failed to insert new flashcard
+2018-02-11 13:06:46 TRACE LoginDAOJDBC:39 - method called to insert new flashcard
+2018-02-11 13:06:46 TRACE LoginDAOJDBC:40 - Attempting to get connection to db
+2018-02-11 13:06:48 TRACE LoginDAOJDBC:42 - connection established with db, creating prepared statement
+2018-02-11 13:06:48 TRACE LoginDAOJDBC:44 - prepard statement is good
+2018-02-11 13:06:48 TRACE LoginDAOJDBC:47 - ps is good
+2018-02-11 13:09:03 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:09:03 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:09:04 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:09:04 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:09:04 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:09:14 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:09:14 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:09:15 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:09:15 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:09:15 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:10:14 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:10:14 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:10:15 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:10:15 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:10:15 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:10:44 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:10:44 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:10:45 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:10:45 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:10:45 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:11:02 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:11:02 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:11:03 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:11:03 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:11:03 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:12:11 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:12:11 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:12:12 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:12:13 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:12:13 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:13:06 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:13:06 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:13:07 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:13:07 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:13:07 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:13:07 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:13:07 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:13:08 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:13:08 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:13:08 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:13:59 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:13:59 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:14:00 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:14:00 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:14:00 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:14:00 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:14:00 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:14:01 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:14:01 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:14:01 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:14:01 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:14:01 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:14:01 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:14:01 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:14:01 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:14:01 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:14:01 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:14:02 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:14:02 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:14:02 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:14:02 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:14:02 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:14:03 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:14:03 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:14:03 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:14:03 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:14:03 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:14:03 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:14:03 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:14:03 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:14:03 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:14:03 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:14:04 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:14:04 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:14:04 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:14:04 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:14:04 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:14:05 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:14:05 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:14:05 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:14:05 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:14:05 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:14:06 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:14:06 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:14:06 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:14:06 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:14:06 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:14:06 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:14:06 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:14:06 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:14:06 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:14:06 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:14:07 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:14:07 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:14:07 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:14:07 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:14:07 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:14:08 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:14:08 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:14:08 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:14:08 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:14:08 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-11 13:14:08 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-11 13:14:08 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-11 13:14:08 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-11 13:14:08 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-11 13:14:08 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:15:08 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-12 10:15:08 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-12 10:15:30 WARN  AddUserDAOJDBC:58 - failed to new user
+2018-02-12 10:23:57 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-12 10:23:57 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-12 10:23:58 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-12 10:23:59 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-12 10:23:59 TRACE AddUserDAOJDBC:50 - ps good
+2018-02-12 10:23:59 WARN  AddUserDAOJDBC:58 - failed to new user
+2018-02-12 10:33:14 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-12 10:33:14 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-12 10:33:15 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-12 10:33:15 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-12 10:33:15 TRACE AddUserDAOJDBC:50 - ps good
+2018-02-12 10:33:15 WARN  AddUserDAOJDBC:58 - failed to new user
+2018-02-12 10:35:45 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-12 10:35:45 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-12 10:35:46 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-12 10:35:46 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-12 10:35:46 TRACE AddUserDAOJDBC:50 - ps good
+2018-02-12 10:35:47 WARN  AddUserDAOJDBC:58 - failed to new user
+2018-02-12 10:37:05 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-12 10:37:05 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-12 10:37:06 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-12 10:37:06 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-12 10:37:06 TRACE AddUserDAOJDBC:50 - ps good
+2018-02-12 10:37:06 WARN  AddUserDAOJDBC:58 - failed to new user
+2018-02-12 10:37:33 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-12 10:37:33 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-12 10:37:34 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-12 10:37:34 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-12 10:37:34 WARN  AddUserDAOJDBC:58 - failed to insert new user
+2018-02-12 10:42:15 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-12 10:42:15 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-12 10:42:16 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-12 10:42:16 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-12 10:42:16 WARN  AddUserDAOJDBC:58 - failed to insert new user
+2018-02-12 10:47:31 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:31 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:32 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:32 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:32 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:33 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:33 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:33 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:33 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:33 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:33 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:33 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:34 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:34 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:34 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:34 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:34 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:34 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:34 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:34 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:34 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:34 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:35 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:35 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:35 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:35 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:35 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:36 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:36 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:36 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:36 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:36 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:36 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:36 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:36 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:36 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:36 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:37 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:37 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:37 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:37 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:37 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:37 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:37 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:37 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:37 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:37 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:38 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:38 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:38 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:38 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:38 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:38 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:38 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:38 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:38 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:38 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:39 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:39 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:39 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:39 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:39 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:40 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:40 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:40 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:40 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:40 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:40 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:40 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:40 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:40 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:40 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:41 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:41 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:41 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:41 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:41 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:41 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:41 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:41 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:41 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:41 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:42 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:42 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:42 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:42 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:42 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:42 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:42 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:42 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:43 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:43 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:43 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:43 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:43 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:43 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:43 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:44 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:44 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:44 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:44 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:44 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:44 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:44 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:44 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:44 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:44 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:45 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:45 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:45 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:45 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:45 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:45 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:45 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:45 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:45 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:45 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:46 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:46 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:46 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:46 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:46 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:47 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:47 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:47 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:47 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:47 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:47 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:47 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:47 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:47 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:47 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:48 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 10:47:48 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 10:47:48 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 10:47:48 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 10:47:48 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 10:47:58 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-12 10:47:58 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-12 10:47:59 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-12 10:47:59 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-12 10:47:59 WARN  AddUserDAOJDBC:58 - failed to insert new user
+2018-02-12 10:49:44 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-12 10:49:44 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-12 10:49:45 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-12 10:49:45 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-12 10:49:45 WARN  AddUserDAOJDBC:59 - failed to insert new user
+2018-02-12 10:58:44 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-12 10:58:44 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-12 10:58:45 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-12 10:58:45 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-12 10:58:45 WARN  AddUserDAOJDBC:59 - failed to insert new user
+2018-02-12 11:00:35 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-12 11:00:35 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-12 11:00:36 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-12 11:00:36 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-12 11:00:36 WARN  AddUserDAOJDBC:59 - failed to insert new user
+2018-02-12 11:04:31 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-12 11:04:31 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-12 11:04:31 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-12 11:04:31 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-12 11:04:32 WARN  AddUserDAOJDBC:59 - failed to insert new user
+2018-02-12 11:08:54 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 11:08:54 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 11:08:55 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 11:08:55 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 11:08:55 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 11:08:56 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 11:08:56 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 11:08:56 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 11:08:56 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 11:08:56 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 11:10:50 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 11:10:50 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 11:10:50 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 11:10:51 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 11:10:51 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 11:10:51 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 11:10:51 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 11:10:51 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 11:10:51 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 11:10:51 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 11:40:53 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-12 11:40:53 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-12 11:40:54 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-12 11:40:55 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-12 11:40:55 WARN  AddUserDAOJDBC:59 - failed to insert new user
+2018-02-12 12:57:12 TRACE AddUserDAOJDBC:42 - Method called to add new user
+2018-02-12 12:57:12 TRACE AddUserDAOJDBC:43 - Attempting to get connection to db
+2018-02-12 12:57:13 TRACE AddUserDAOJDBC:45 - connection established with db, creating prepared statement
+2018-02-12 12:57:13 TRACE AddUserDAOJDBC:47 - prepstatment good
+2018-02-12 12:57:13 WARN  AddUserDAOJDBC:59 - failed to insert new user
+2018-02-12 13:54:11 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 13:54:12 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 13:54:39 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 13:54:51 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 13:54:51 WARN  AddUserDAOJDBC:63 - failed to insert new user
+2018-02-12 13:55:41 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 13:55:41 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 13:55:42 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 13:55:42 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 13:55:42 WARN  AddUserDAOJDBC:63 - failed to insert new user
+2018-02-12 19:42:46 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 19:42:46 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 19:42:47 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 19:42:47 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 19:42:48 WARN  AddUserDAOJDBC:63 - failed to insert new user
+2018-02-12 19:43:34 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 19:43:34 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 19:43:35 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 19:43:35 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 19:43:35 WARN  AddUserDAOJDBC:63 - failed to insert new user
+2018-02-12 19:46:01 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 19:46:01 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 19:46:02 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 19:46:03 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 19:49:09 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 19:49:09 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 19:49:10 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 19:49:11 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 19:56:02 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 19:56:02 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 19:56:03 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 19:56:04 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 19:57:57 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 19:57:57 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 19:57:58 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 19:57:58 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 20:05:09 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 20:05:09 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 20:05:11 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 20:05:11 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 20:05:21 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 20:05:21 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 20:05:22 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 20:05:22 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 20:23:04 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 20:23:04 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 20:23:05 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 20:23:05 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 20:24:21 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 20:24:21 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 20:24:22 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 20:24:22 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 20:32:15 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 20:32:15 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 20:32:16 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 20:32:16 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 20:34:58 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 20:34:58 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 20:34:59 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 20:34:59 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 20:38:22 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 20:38:22 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 20:38:24 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 20:38:24 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 20:40:29 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 20:40:29 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 20:40:30 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 20:40:30 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 20:41:26 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 20:41:26 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 20:41:27 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 20:41:27 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 20:42:51 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 20:42:51 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 20:42:52 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 20:42:53 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 20:44:09 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 20:44:09 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 20:44:10 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 20:44:10 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 20:46:02 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 20:46:02 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 20:46:03 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 20:46:03 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 20:46:03 WARN  AddUserDAOJDBC:63 - failed to insert new user
+2018-02-12 20:46:37 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 20:46:37 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 20:46:38 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 20:46:38 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 20:49:38 TRACE AddUserDAOJDBC:45 - Method called to add new user
+2018-02-12 20:49:38 TRACE AddUserDAOJDBC:46 - Attempting to get connection to db
+2018-02-12 20:49:39 TRACE AddUserDAOJDBC:48 - connection established with db, creating prepared statement
+2018-02-12 20:49:39 TRACE AddUserDAOJDBC:50 - prepstatment good
+2018-02-12 20:49:39 DEBUG AddUserDAOJDBC:56 - query inserted 1 rows into the db
+2018-02-12 20:50:42 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:50:42 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:50:43 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:50:43 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:50:43 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:50:43 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:50:43 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:50:44 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:50:44 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:50:44 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:51:40 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:51:40 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:51:41 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:51:41 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:51:41 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:51:41 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:51:41 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:51:42 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:51:42 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:51:42 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:54:12 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:54:12 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:54:13 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:54:14 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:54:14 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:54:14 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:54:14 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:54:14 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:54:14 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:54:14 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:54:19 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:54:19 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:54:20 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:54:20 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:54:20 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:54:21 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:54:21 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:54:21 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:54:21 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:54:21 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:54:21 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:54:21 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:54:22 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:54:22 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:54:22 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:54:22 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:54:22 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:54:22 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:54:22 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:54:22 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:54:22 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:54:22 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:54:23 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:54:23 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:54:23 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:54:23 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:54:23 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:54:24 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:54:24 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:54:24 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:54:24 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:54:24 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:54:25 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:54:25 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:54:25 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:54:25 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:54:25 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:54:25 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:54:25 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:54:25 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:54:25 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:54:25 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:54:26 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:54:26 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:54:26 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:54:26 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:54:26 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:54:27 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:54:27 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:54:27 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:54:27 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:54:27 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 20:54:27 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-12 20:54:27 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-12 20:54:27 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-12 20:54:27 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-12 20:54:27 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-12 21:22:43 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:22:43 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:22:44 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:22:45 TRACE AddUserDAOJDBC:79 - prepstatment good
+2018-02-12 21:22:45 WARN  AddUserDAOJDBC:92 - failed to insert new user
+2018-02-12 21:22:45 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 21:22:45 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 21:22:46 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 21:22:46 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 21:22:46 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 21:23:31 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-12 21:23:31 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-12 21:23:59 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:23:59 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:24:00 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:24:01 TRACE AddUserDAOJDBC:79 - prepstatment good
+2018-02-12 21:24:01 WARN  AddUserDAOJDBC:92 - failed to insert new user
+2018-02-12 21:24:01 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 21:24:01 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 21:24:02 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 21:24:02 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 21:24:02 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 21:25:02 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:25:02 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:25:03 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:25:03 TRACE AddUserDAOJDBC:79 - prepstatment good
+2018-02-12 21:25:03 WARN  AddUserDAOJDBC:92 - failed to insert new user
+2018-02-12 21:25:03 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 21:25:03 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 21:25:04 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 21:25:04 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 21:25:04 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 21:41:47 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:41:47 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:41:48 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:41:48 TRACE AddUserDAOJDBC:79 - prepstatment good
+2018-02-12 21:41:48 WARN  AddUserDAOJDBC:91 - failed to insert new user
+2018-02-12 21:41:48 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:41:48 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:41:49 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:41:49 TRACE AddUserDAOJDBC:79 - prepstatment good
+2018-02-12 21:41:49 WARN  AddUserDAOJDBC:91 - failed to insert new user
+2018-02-12 21:41:49 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 21:41:49 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 21:41:50 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 21:41:50 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 21:41:50 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 21:42:18 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:42:18 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:42:18 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:42:18 TRACE AddUserDAOJDBC:79 - prepstatment good
+2018-02-12 21:42:18 WARN  AddUserDAOJDBC:91 - failed to insert new user
+2018-02-12 21:42:18 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:42:18 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:42:19 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:42:19 TRACE AddUserDAOJDBC:79 - prepstatment good
+2018-02-12 21:42:19 WARN  AddUserDAOJDBC:91 - failed to insert new user
+2018-02-12 21:42:19 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 21:42:19 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 21:42:20 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 21:42:20 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 21:42:20 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 21:44:25 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:44:25 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:44:26 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:44:26 TRACE AddUserDAOJDBC:79 - prepstatment good
+2018-02-12 21:44:26 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:44:26 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:44:27 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:44:27 TRACE AddUserDAOJDBC:79 - prepstatment good
+2018-02-12 21:44:27 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 21:44:27 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 21:44:28 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 21:44:28 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 21:44:28 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 21:46:17 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:46:17 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:46:18 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:46:18 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:46:19 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:46:19 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:46:19 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:46:19 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:46:37 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:46:37 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:46:37 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:46:37 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:46:37 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:46:37 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:46:38 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:46:38 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:49:09 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:49:09 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:49:10 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:49:10 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:49:10 TRACE AddUserDAOJDBC:89 -  Usernamed
+2018-02-12 21:49:10 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:49:10 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:49:11 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:49:11 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:49:11 TRACE AddUserDAOJDBC:89 -  Usernamed
+2018-02-12 21:49:11 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 21:49:11 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 21:49:12 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 21:49:12 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 21:49:12 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 21:57:24 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:57:24 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:57:26 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:57:26 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:57:26 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:57:26 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:57:27 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:57:27 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:57:49 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:57:49 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:57:49 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:57:49 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:57:50 TRACE AddUserDAOJDBC:89 -  Usernamed
+2018-02-12 21:57:50 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:57:50 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:57:50 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:57:50 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:57:50 TRACE AddUserDAOJDBC:89 -  Usernamed
+2018-02-12 21:57:50 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 21:57:50 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 21:57:51 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 21:57:51 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 21:57:51 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 21:58:27 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:58:27 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:58:28 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:58:28 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:58:28 TRACE AddUserDAOJDBC:89 -  Usernamed
+2018-02-12 21:58:28 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:58:28 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:58:29 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:58:29 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:58:29 TRACE AddUserDAOJDBC:89 -  Usernamed
+2018-02-12 21:58:29 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 21:58:29 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 21:58:29 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 21:58:30 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 21:58:30 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 21:58:41 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:58:41 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:58:42 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:58:42 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:58:43 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:58:43 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:58:43 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:58:43 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:59:41 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:59:41 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:59:42 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:59:42 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:59:42 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:59:42 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:59:43 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:59:43 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:59:50 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:59:50 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:59:51 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:59:51 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 21:59:51 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 21:59:51 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 21:59:52 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 21:59:52 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:00:21 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:00:21 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:00:44 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:00:44 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:00:52 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:00:52 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:00:52 WARN  AddUserDAOJDBC:91 - failed to insert new user
+2018-02-12 22:00:52 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:00:52 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:00:54 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:00:54 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:00:54 WARN  AddUserDAOJDBC:91 - failed to insert new user
+2018-02-12 22:00:54 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 22:00:54 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 22:00:55 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 22:00:55 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 22:00:55 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 22:01:39 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:01:39 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:01:40 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:01:40 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:01:40 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:01:40 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:01:41 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:01:41 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:01:47 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:01:47 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:01:48 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:01:48 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:01:48 WARN  AddUserDAOJDBC:91 - failed to insert new user
+2018-02-12 22:01:48 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:01:48 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:01:49 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:01:49 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:01:49 WARN  AddUserDAOJDBC:91 - failed to insert new user
+2018-02-12 22:01:49 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 22:01:49 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 22:01:50 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 22:01:50 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 22:01:50 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 22:02:35 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:02:35 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:02:36 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:02:36 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:02:37 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:02:37 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:02:38 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:02:38 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:02:38 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 22:02:38 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 22:02:39 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 22:02:39 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 22:02:39 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 22:03:04 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:03:04 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:03:05 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:03:05 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:03:05 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:03:05 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:03:05 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:03:05 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:03:06 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 22:03:06 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 22:03:06 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 22:03:06 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 22:03:06 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 22:04:56 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:04:56 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:04:57 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:04:57 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:04:57 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:04:57 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:04:58 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:04:58 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:04:58 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 22:04:58 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 22:04:58 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 22:04:58 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 22:04:59 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 22:05:42 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:05:42 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:05:43 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:05:44 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:05:44 WARN  AddUserDAOJDBC:91 - failed to insert new user
+2018-02-12 22:05:44 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:05:44 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:05:45 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:05:45 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:05:45 WARN  AddUserDAOJDBC:91 - failed to insert new user
+2018-02-12 22:05:45 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 22:05:45 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 22:05:45 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 22:05:45 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 22:05:45 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 22:06:09 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:06:09 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:06:09 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:06:09 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:06:10 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:06:10 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:06:10 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:06:10 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:06:10 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 22:06:10 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 22:06:11 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 22:06:11 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 22:06:11 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 22:06:50 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:06:50 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:06:52 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:06:52 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:06:52 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:06:52 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:06:53 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:06:53 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:07:19 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:07:19 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:07:19 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:07:19 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:07:20 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:07:20 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:07:20 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:07:20 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:07:20 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 22:07:20 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 22:07:21 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 22:07:21 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 22:07:21 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 22:07:43 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:07:43 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:07:43 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:07:43 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:07:43 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:07:43 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:07:44 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:07:44 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:11:04 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:11:04 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:11:05 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:11:05 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:11:05 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:11:05 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:11:06 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:11:06 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:11:27 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:11:27 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:11:28 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:11:28 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:11:28 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:11:28 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:11:29 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:11:29 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:11:29 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 22:11:29 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 22:11:29 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 22:11:29 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 22:11:29 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 22:12:10 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:12:10 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:12:11 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:12:11 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:12:12 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:12:12 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:12:13 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:12:13 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:12:13 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 22:12:13 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 22:12:15 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 22:12:15 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 22:12:15 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 22:12:57 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:12:57 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:12:59 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:12:59 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:12:59 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:12:59 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:13:00 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:13:00 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:13:00 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 22:13:00 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 22:13:00 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 22:13:00 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 22:13:00 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 22:14:10 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:14:10 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:14:12 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:14:12 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:14:12 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:14:12 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:14:13 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:14:13 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:14:13 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 22:14:13 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 22:14:14 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 22:14:14 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 22:14:14 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-12 22:18:07 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:18:07 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:18:08 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:18:08 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:18:08 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-12 22:18:08 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:18:09 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-12 22:18:09 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-12 22:18:09 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-12 22:18:09 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-12 22:18:10 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-12 22:18:10 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-12 22:18:10 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-13 09:02:33 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 09:02:33 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 09:02:35 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 09:02:36 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 09:02:36 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 09:02:36 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 09:02:37 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 09:02:37 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 09:02:37 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-13 09:02:37 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-13 09:02:38 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-13 09:02:38 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-13 09:02:38 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-13 09:04:07 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 09:04:07 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 09:04:08 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 09:04:08 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 09:04:08 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 09:04:08 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 09:04:09 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 09:04:09 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 09:04:39 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 09:04:39 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 09:04:39 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 09:04:39 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 09:04:40 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 09:04:40 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 09:04:40 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 09:04:40 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 09:04:40 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-13 09:04:40 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-13 09:04:41 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-13 09:04:41 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-13 09:04:41 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-13 09:05:08 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:08 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:10 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:11 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:11 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:11 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:11 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:11 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:11 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:11 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:11 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:11 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:12 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:12 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:12 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:12 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:12 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:12 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:12 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:12 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:12 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:12 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:13 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:13 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:13 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:13 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:13 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:13 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:13 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:13 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:14 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:14 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:14 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:14 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:14 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:14 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:14 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:15 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:15 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:15 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:15 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:15 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:15 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:15 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:15 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:16 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:16 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:16 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:16 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:16 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:16 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:16 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:17 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:17 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:17 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:17 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:17 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:17 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:17 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:17 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:17 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:17 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:18 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:18 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:18 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:18 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:18 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:18 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:18 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:18 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:18 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:18 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:19 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:19 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:19 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:19 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:19 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:20 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:20 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:20 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:20 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:20 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:20 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:20 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:20 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:20 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:20 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:21 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:21 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:21 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:21 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:21 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:22 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:22 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:22 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:22 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:22 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:22 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:22 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:22 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:22 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:22 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:23 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:23 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:23 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:23 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:23 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:23 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:23 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:23 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:23 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:23 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:24 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:24 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:24 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:24 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:24 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:24 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:24 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:24 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:25 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:25 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:25 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:25 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:25 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:25 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:25 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:26 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:26 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:26 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:26 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:26 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:26 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:26 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:26 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:27 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:27 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:27 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:27 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:27 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:27 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:27 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:28 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:28 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:28 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:28 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:28 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:28 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:28 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:28 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:28 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:28 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:29 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:29 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:29 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:29 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:29 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:29 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:29 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:29 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:29 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:29 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:30 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:30 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:30 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:30 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:30 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:30 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:30 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:30 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:31 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:31 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:37 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:37 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:38 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:38 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:38 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 09:05:38 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 09:05:38 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 09:05:39 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 09:05:39 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 09:05:39 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 12:06:20 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 12:06:20 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 12:06:21 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 12:06:21 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 12:06:21 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 12:06:21 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 12:06:22 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 12:06:22 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 12:06:22 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 12:06:22 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 12:06:22 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 12:06:22 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 12:06:22 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 12:09:28 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 12:09:28 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 12:09:29 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 12:09:29 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 12:09:29 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 12:09:29 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 12:09:30 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 12:09:30 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 12:09:30 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 12:09:30 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 12:09:30 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 12:09:30 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 12:09:30 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 12:09:39 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 12:09:39 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 12:09:40 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 12:09:40 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 12:09:40 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 12:09:40 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 12:09:40 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 12:09:40 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 12:09:40 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 12:09:40 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 12:09:41 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 12:09:41 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 12:09:41 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 12:10:24 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 12:10:24 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 12:10:25 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 12:10:25 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 12:10:25 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 12:10:25 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 12:10:25 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 12:10:25 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 12:10:42 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 12:10:42 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 12:10:42 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 12:10:42 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 12:10:42 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 12:10:42 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 12:10:43 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 12:10:43 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 12:11:12 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 12:11:12 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 12:11:12 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 12:11:12 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 12:11:12 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 12:11:12 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 12:11:13 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 12:11:13 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 12:11:13 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 12:11:13 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 12:11:13 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 12:11:13 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 12:11:13 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 12:11:16 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 12:11:16 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 12:21:05 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 12:21:05 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 12:21:07 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 12:21:07 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 12:21:07 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 12:21:07 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 12:21:07 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 12:21:07 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 12:21:07 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 12:21:07 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 12:21:08 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 12:21:08 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 12:21:08 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 13:09:22 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:09:22 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:09:23 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:09:23 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:09:23 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:09:23 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:09:24 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:09:24 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:09:24 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 13:09:24 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 13:09:24 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 13:09:24 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 13:09:24 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 13:09:30 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:09:30 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:10:05 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:10:05 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:10:05 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:10:05 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:10:05 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:10:05 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:10:06 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:10:06 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:10:25 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:10:25 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:10:25 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:10:25 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:10:25 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:10:25 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:10:26 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:10:26 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:10:26 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 13:10:26 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 13:10:26 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 13:10:26 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 13:10:26 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 13:10:30 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:10:30 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:10:56 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:10:56 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:10:56 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:10:56 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:10:56 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:10:56 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:10:57 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:10:57 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:11:07 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:11:07 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:11:08 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:11:08 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:11:08 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:11:08 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:11:08 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:11:08 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:11:08 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 13:11:08 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 13:11:09 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 13:11:09 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 13:11:09 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 13:11:11 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:11:11 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:24:17 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:24:17 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:24:18 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:24:18 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:24:18 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:24:18 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:24:18 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:24:18 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:24:18 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 13:24:18 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 13:24:19 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 13:24:19 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 13:24:19 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 13:24:21 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:24:21 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:24:36 TRACE UserScreenDAOJDB:51 - method called to view balance 
+2018-02-13 13:24:36 TRACE UserScreenDAOJDB:52 - Attempting to get connection to db
+2018-02-13 13:24:36 WARN  UserScreenDAOJDB:66 - failed to deposit
+2018-02-13 13:24:36 TRACE UserScreenDAOJDB:51 - method called to view balance 
+2018-02-13 13:24:36 TRACE UserScreenDAOJDB:52 - Attempting to get connection to db
+2018-02-13 13:24:37 WARN  UserScreenDAOJDB:66 - failed to deposit
+2018-02-13 13:24:37 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:24:37 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:25:51 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:25:51 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:25:52 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:25:52 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:25:52 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:25:52 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:25:53 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:25:53 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:25:53 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 13:25:53 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 13:25:53 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 13:25:53 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 13:25:53 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 13:25:58 TRACE UserScreenDAOJDB:51 - method called to view balance 
+2018-02-13 13:25:58 TRACE UserScreenDAOJDB:52 - Attempting to get connection to db
+2018-02-13 13:25:58 WARN  UserScreenDAOJDB:68 - failed to deposit
+2018-02-13 13:25:58 TRACE UserScreenDAOJDB:51 - method called to view balance 
+2018-02-13 13:25:58 TRACE UserScreenDAOJDB:52 - Attempting to get connection to db
+2018-02-13 13:25:59 WARN  UserScreenDAOJDB:68 - failed to deposit
+2018-02-13 13:25:59 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:25:59 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:38:22 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:38:23 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:38:25 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:38:26 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:38:26 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:38:26 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:38:27 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:38:27 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:38:27 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 13:38:27 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 13:38:27 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 13:38:27 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 13:38:27 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 13:38:45 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:38:45 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:38:59 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:38:59 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:39:00 TRACE UserScreenDAOJDB:51 - method called to view balance 
+2018-02-13 13:39:00 TRACE UserScreenDAOJDB:52 - Attempting to get connection to db
+2018-02-13 13:39:00 WARN  UserScreenDAOJDB:68 - failed to deposit
+2018-02-13 13:39:00 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:39:00 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:39:01 TRACE UserScreenDAOJDB:51 - method called to view balance 
+2018-02-13 13:39:01 TRACE UserScreenDAOJDB:52 - Attempting to get connection to db
+2018-02-13 13:39:01 WARN  UserScreenDAOJDB:68 - failed to deposit
+2018-02-13 13:39:01 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:39:01 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:39:08 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:39:08 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:39:08 TRACE UserScreenDAOJDB:51 - method called to view balance 
+2018-02-13 13:39:08 TRACE UserScreenDAOJDB:52 - Attempting to get connection to db
+2018-02-13 13:39:09 WARN  UserScreenDAOJDB:68 - failed to deposit
+2018-02-13 13:39:09 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:39:09 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:39:09 TRACE UserScreenDAOJDB:51 - method called to view balance 
+2018-02-13 13:39:09 TRACE UserScreenDAOJDB:52 - Attempting to get connection to db
+2018-02-13 13:39:10 WARN  UserScreenDAOJDB:68 - failed to deposit
+2018-02-13 13:39:10 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:39:10 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:43:00 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:43:00 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:43:00 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:43:01 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:43:01 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:43:01 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:43:01 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:43:01 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:43:01 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 13:43:01 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 13:43:02 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 13:43:02 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 13:43:02 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 13:43:03 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:43:03 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:43:09 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:43:09 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:43:09 TRACE UserScreenDAOJDB:51 - method called to view balance 
+2018-02-13 13:43:09 TRACE UserScreenDAOJDB:52 - Attempting to get connection to db
+2018-02-13 13:43:10 WARN  UserScreenDAOJDB:73 - failed to deposit
+2018-02-13 13:43:10 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:43:10 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:43:11 TRACE UserScreenDAOJDB:51 - method called to view balance 
+2018-02-13 13:43:11 TRACE UserScreenDAOJDB:52 - Attempting to get connection to db
+2018-02-13 13:43:11 WARN  UserScreenDAOJDB:73 - failed to deposit
+2018-02-13 13:43:11 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:43:11 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:51:51 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:51:51 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:51:52 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:51:52 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:51:53 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 13:51:53 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 13:51:53 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 13:51:53 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 13:51:53 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 13:51:53 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 13:51:54 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 13:51:54 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 13:51:54 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 13:51:56 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:51:56 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:52:02 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:52:02 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:52:02 TRACE UserScreenDAOJDB:51 - method called to view balance 
+2018-02-13 13:52:02 TRACE UserScreenDAOJDB:52 - Attempting to get connection to db
+2018-02-13 13:52:03 WARN  UserScreenDAOJDB:73 - failed to deposit
+2018-02-13 13:52:03 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:52:03 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 13:52:03 TRACE UserScreenDAOJDB:51 - method called to view balance 
+2018-02-13 13:52:03 TRACE UserScreenDAOJDB:52 - Attempting to get connection to db
+2018-02-13 13:52:04 WARN  UserScreenDAOJDB:73 - failed to deposit
+2018-02-13 13:52:04 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 13:52:04 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 14:01:17 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 14:01:17 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 14:01:18 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:01:18 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:01:18 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 14:01:18 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 14:01:18 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:01:18 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:01:19 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:01:19 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:01:19 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:01:19 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:01:19 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:01:22 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 14:01:22 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 14:01:33 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 14:01:33 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 14:01:34 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 14:01:34 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 14:01:34 WARN  UserScreenDAOJDB:69 - failed to deposit
+2018-02-13 14:01:34 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 14:01:34 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 14:01:35 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 14:01:35 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 14:01:35 WARN  UserScreenDAOJDB:69 - failed to deposit
+2018-02-13 14:01:35 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 14:01:35 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 14:15:35 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 14:15:35 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 14:15:36 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:15:36 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:15:36 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 14:15:36 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 14:15:37 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:15:37 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:15:37 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:37 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:37 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:37 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:37 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:37 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:37 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:38 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:38 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:38 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:38 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:38 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:38 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:38 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:38 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:38 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:38 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:39 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:39 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:39 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:39 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:39 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:39 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:39 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:39 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:39 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:39 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:40 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:40 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:40 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:40 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:40 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:40 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:40 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:40 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:40 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:40 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:41 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:41 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:41 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:41 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:41 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:41 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:41 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:41 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:41 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:41 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:42 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:42 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:42 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:42 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:42 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:43 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:43 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:43 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:43 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:43 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:43 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:43 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:43 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:43 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:43 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:44 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:44 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:44 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:44 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:44 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:44 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:44 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:44 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:44 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:44 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:45 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:45 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:45 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:45 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:45 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:45 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:45 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:45 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:46 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:46 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:46 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:46 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:46 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:46 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:46 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:46 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:46 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:46 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:47 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:47 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:47 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:47 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:47 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:15:47 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:47 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:56 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 14:15:56 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 14:15:57 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:15:57 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:15:57 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 14:15:57 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 14:15:58 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:15:58 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:15:58 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:15:58 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:15:59 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:15:59 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:15:59 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:16:02 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 14:16:02 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 14:17:31 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 14:17:31 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 14:17:32 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:17:32 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:17:32 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 14:17:32 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 14:17:32 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:17:32 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:17:32 TRACE AddUserDAOJDBC:46 - Method called to add new user
+2018-02-13 14:17:32 TRACE AddUserDAOJDBC:47 - Attempting to get connection to db
+2018-02-13 14:17:33 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-13 14:17:33 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-13 14:17:34 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-13 14:17:45 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 14:17:45 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 14:17:46 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:17:46 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:17:46 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 14:17:46 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 14:17:46 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:17:46 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:17:46 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:17:46 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:17:47 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:17:47 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:17:47 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:17:50 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 14:17:50 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 14:18:09 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 14:18:09 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 14:18:09 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:18:09 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:18:09 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 14:18:09 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 14:18:10 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:18:10 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:18:30 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 14:18:30 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 14:18:31 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:18:31 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:18:31 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 14:18:31 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 14:18:32 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:18:32 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:18:32 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:32 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:32 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:32 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:32 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:32 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:32 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:33 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:33 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:33 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:33 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:33 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:33 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:33 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:33 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:33 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:33 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:34 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:34 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:34 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:34 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:34 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:34 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:34 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:34 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:34 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:34 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:35 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:35 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:35 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:35 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:35 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:35 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:35 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:35 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:35 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:35 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:36 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:36 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:36 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:36 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:36 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:36 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:36 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:36 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:37 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:37 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:37 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:37 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:37 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:37 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:37 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:38 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:38 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:38 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:38 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:38 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:38 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:38 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:38 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:38 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:38 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:54 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 14:18:54 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 14:18:54 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:18:54 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:18:55 TRACE AddUserDAOJDBC:74 - Method called to add new user
+2018-02-13 14:18:55 TRACE AddUserDAOJDBC:75 - Attempting to get connection to db
+2018-02-13 14:18:55 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:18:55 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:18:55 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:55 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:56 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:56 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:56 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:56 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:56 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:56 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:56 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:56 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:56 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:56 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:57 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:57 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:57 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:57 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:57 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:57 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:57 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:57 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:57 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:57 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:58 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:58 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:58 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:58 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:58 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:58 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:58 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:58 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:58 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:58 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:59 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:59 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:59 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:59 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:59 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:18:59 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:18:59 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:18:59 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:18:59 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:18:59 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:19:00 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:19:00 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:19:00 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:19:00 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:19:00 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:19:00 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:19:00 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:19:00 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:19:00 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:19:00 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:19:01 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:19:01 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:19:01 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:19:01 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:19:01 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:19:01 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:19:01 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:19:01 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:19:01 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:19:01 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:19:02 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:19:02 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:19:02 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:19:02 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:19:02 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:19:02 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:19:02 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:19:02 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:26:32 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:26:33 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:26:33 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:26:33 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:26:55 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:26:55 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:26:56 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:26:56 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:27:16 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:27:16 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:27:17 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:27:17 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:27:17 TRACE LoginDAOJDBC:40 - method called to insert new flashcard
+2018-02-13 14:27:17 TRACE LoginDAOJDBC:41 - Attempting to get connection to db
+2018-02-13 14:27:17 TRACE LoginDAOJDBC:43 - connection established with db, creating prepared statement
+2018-02-13 14:27:17 TRACE LoginDAOJDBC:45 - prepard statement is good
+2018-02-13 14:27:17 TRACE LoginDAOJDBC:48 - ps is good
+2018-02-13 14:34:34 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:34:34 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:34:35 TRACE AddUserDAOJDBC:77 - connection established with db, creating prepared statement
+2018-02-13 14:34:35 TRACE AddUserDAOJDBC:79 - Checking Username
+2018-02-13 14:34:35 TRACE AddUserDAOJDBC:49 - connection established with db, creating prepared statement
+2018-02-13 14:34:35 TRACE AddUserDAOJDBC:51 - prepstatment good
+2018-02-13 14:34:35 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-13 14:56:54 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-13 19:50:36 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 19:50:36 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 19:50:37 WARN  UserScreenDAOJDB:63 - failed to deposit
+2018-02-13 19:50:38 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 19:50:38 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 19:50:39 WARN  UserScreenDAOJDB:63 - failed to deposit
+2018-02-13 19:51:37 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 19:51:37 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 19:51:38 WARN  UserScreenDAOJDB:63 - failed to deposit
+2018-02-13 19:51:39 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 19:51:39 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 19:51:40 WARN  UserScreenDAOJDB:63 - failed to deposit
+2018-02-13 19:56:21 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 19:56:21 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 19:56:22 WARN  UserScreenDAOJDB:63 - failed to deposit
+2018-02-13 19:56:23 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 19:56:23 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 19:56:24 WARN  UserScreenDAOJDB:63 - failed to deposit
+2018-02-13 19:59:27 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 19:59:27 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 19:59:28 WARN  UserScreenDAOJDB:63 - failed to deposit
+2018-02-13 19:59:29 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 19:59:29 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 19:59:30 WARN  UserScreenDAOJDB:63 - failed to deposit
+2018-02-13 20:19:25 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 20:19:25 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 20:19:25 WARN  UserScreenDAOJDB:62 - failed to deposit
+2018-02-13 20:20:10 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 20:20:10 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 20:20:10 WARN  UserScreenDAOJDB:62 - failed to deposit
+2018-02-13 20:24:45 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 20:24:45 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 20:24:45 WARN  UserScreenDAOJDB:62 - failed to deposit
+2018-02-13 20:25:32 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 20:25:32 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 20:25:33 WARN  UserScreenDAOJDB:62 - failed to deposit
+2018-02-13 20:26:26 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 20:26:26 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 20:26:27 WARN  UserScreenDAOJDB:62 - failed to deposit
+2018-02-13 20:28:05 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 20:28:05 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 20:28:06 WARN  UserScreenDAOJDB:62 - failed to deposit
+2018-02-13 20:35:41 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 20:35:41 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 20:35:41 WARN  UserScreenDAOJDB:62 - failed to deposit
+2018-02-13 20:38:56 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 20:38:56 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 20:38:56 WARN  UserScreenDAOJDB:62 - failed to deposit
+2018-02-13 20:41:00 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 20:41:01 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 20:41:01 WARN  UserScreenDAOJDB:62 - failed to deposit
+2018-02-13 20:41:45 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 20:41:45 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 20:41:45 WARN  UserScreenDAOJDB:62 - failed to deposit
+2018-02-13 20:43:21 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 20:43:21 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 20:43:21 WARN  UserScreenDAOJDB:62 - failed to deposit
+2018-02-13 20:48:31 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 20:48:31 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 20:48:31 WARN  UserScreenDAOJDB:62 - failed to deposit
+2018-02-13 20:50:38 TRACE UserScreenDAOJDB:49 - method called to view balance 
+2018-02-13 20:50:38 TRACE UserScreenDAOJDB:50 - Attempting to get connection to db
+2018-02-13 20:50:39 TRACE UserScreenDAOJDB:60 - amount Deposited
+2018-02-13 20:58:15 TRACE UserScreenDAOJDB:45 - method called to view balance 
+2018-02-13 20:58:15 TRACE UserScreenDAOJDB:46 - Attempting to get connection to db
+2018-02-13 20:58:16 TRACE UserScreenDAOJDB:56 - amount Deposited
+2018-02-13 20:58:26 TRACE UserScreenDAOJDB:45 - method called to view balance 
+2018-02-13 20:58:26 TRACE UserScreenDAOJDB:46 - Attempting to get connection to db
+2018-02-13 20:58:26 TRACE UserScreenDAOJDB:56 - amount Deposited
+2018-02-13 21:04:58 TRACE UserScreenDAOJDB:43 - method called to view balance 
+2018-02-13 21:04:58 TRACE UserScreenDAOJDB:44 - Attempting to get connection to db
+2018-02-13 21:04:59 TRACE UserScreenDAOJDB:53 - amount Deposited
+2018-02-13 21:05:32 TRACE UserScreenDAOJDB:43 - method called to view balance 
+2018-02-13 21:05:32 TRACE UserScreenDAOJDB:44 - Attempting to get connection to db
+2018-02-13 21:05:33 TRACE UserScreenDAOJDB:53 - amount Deposited
+2018-02-13 21:08:30 TRACE UserScreenDAOJDB:66 - method called to view balance 
+2018-02-13 21:08:30 TRACE UserScreenDAOJDB:67 - Attempting to get connection to db
+2018-02-13 21:08:30 TRACE UserScreenDAOJDB:76 - amount Withdrawn 
+2018-02-13 21:09:13 TRACE UserScreenDAOJDB:43 - method called to view balance 
+2018-02-13 21:09:13 TRACE UserScreenDAOJDB:44 - Attempting to get connection to db
+2018-02-13 21:09:14 TRACE UserScreenDAOJDB:53 - amount Deposited
+2018-02-13 23:04:22 WARN  TransactionsDAOJDBC:38 - Failed to insert transaction.
+2018-02-13 23:04:23 TRACE UserScreenDAOJDB:43 - method called to view balance 
+2018-02-13 23:04:23 TRACE UserScreenDAOJDB:44 - Attempting to get connection to db
+2018-02-13 23:04:23 TRACE UserScreenDAOJDB:53 - amount Deposited
+2018-02-13 23:07:59 WARN  TransactionsDAOJDBC:38 - Failed to insert transaction.
+2018-02-13 23:08:00 TRACE UserScreenDAOJDB:66 - method called to view balance 
+2018-02-13 23:08:00 TRACE UserScreenDAOJDB:67 - Attempting to get connection to db
+2018-02-13 23:08:01 TRACE UserScreenDAOJDB:76 - amount Withdrawn 
+2018-02-13 23:09:14 WARN  TransactionsDAOJDBC:38 - Failed to insert transaction.
+2018-02-13 23:09:15 TRACE UserScreenDAOJDB:43 - method called to view balance 
+2018-02-13 23:09:15 TRACE UserScreenDAOJDB:44 - Attempting to get connection to db
+2018-02-13 23:09:15 TRACE UserScreenDAOJDB:53 - amount Deposited
+2018-02-13 23:30:45 WARN  TransactionsDAOJDBC:38 - Failed to insert transaction.
+2018-02-13 23:30:46 TRACE UserScreenDAOJDB:43 - method called to view balance 
+2018-02-13 23:30:46 TRACE UserScreenDAOJDB:44 - Attempting to get connection to db
+2018-02-13 23:30:47 TRACE UserScreenDAOJDB:53 - amount Deposited
+2018-02-13 23:38:41 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 23:38:41 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 23:38:48 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 23:38:48 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 23:38:49 TRACE UserScreenDAOJDB:43 - method called to view balance 
+2018-02-13 23:38:49 TRACE UserScreenDAOJDB:44 - Attempting to get connection to db
+2018-02-13 23:38:49 TRACE UserScreenDAOJDB:53 - amount Deposited
+2018-02-13 23:38:49 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 23:38:49 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 23:41:14 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 23:41:14 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 23:41:20 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 23:41:20 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 23:41:20 TRACE UserScreenDAOJDB:43 - method called to view balance 
+2018-02-13 23:41:20 TRACE UserScreenDAOJDB:44 - Attempting to get connection to db
+2018-02-13 23:41:21 TRACE UserScreenDAOJDB:53 - amount Deposited
+2018-02-13 23:41:21 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 23:41:21 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 23:43:41 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 23:43:41 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 23:43:47 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 23:43:47 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 23:43:48 TRACE UserScreenDAOJDB:43 - method called to view balance 
+2018-02-13 23:43:48 TRACE UserScreenDAOJDB:44 - Attempting to get connection to db
+2018-02-13 23:43:49 TRACE UserScreenDAOJDB:53 - amount Deposited
+2018-02-13 23:43:49 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 23:43:49 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 23:43:59 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 23:43:59 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 23:44:01 WARN  TransactionsDAOJDBC:38 - Failed to insert transaction.
+2018-02-13 23:44:01 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 23:44:01 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 23:44:02 TRACE UserScreenDAOJDB:66 - method called to view balance 
+2018-02-13 23:44:02 TRACE UserScreenDAOJDB:67 - Attempting to get connection to db
+2018-02-13 23:44:02 TRACE UserScreenDAOJDB:76 - amount Withdrawn 
+2018-02-13 23:44:03 TRACE UserScreenDAOJDB:22 - method called to view balance 
+2018-02-13 23:44:03 TRACE UserScreenDAOJDB:23 - Attempting to get connection to db
+2018-02-13 23:44:24 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
+2018-02-13 23:46:03 DEBUG AddUserDAOJDBC:57 - query inserted 1 rows into the db
