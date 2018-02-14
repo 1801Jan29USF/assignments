@@ -122,8 +122,21 @@ END create_account_for_user;
 /
 
 /*******************************************************************************
-   Functions
+   Functions 
 ********************************************************************************/
+--never used in project
+CREATE OR REPLACE FUNCTION count_number_of_transactions_by_user
+(user_id_param IN number) 
+RETURN  number 
+IS 
+transaction_count number;
+begin
+    SELECT COUNT(transaction_id) INTO transaction_count FROM transactions
+    WHERE user_id  = user_id_param
+    RETURN transaction_count;
+end;
+-- delimiter for plsql blocks
+/
 
 commit;
 exit;
