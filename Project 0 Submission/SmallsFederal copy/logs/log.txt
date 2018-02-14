@@ -1,0 +1,561 @@
+2018-02-11 19:48:51 TRACE SFDAOJDBC:35 - method called to insert new User
+2018-02-11 19:48:51 TRACE SFDAOJDBC:36 - Attempting to et connection to db
+2018-02-11 19:48:52 TRACE SFDAOJDBC:39 - connection established with db, creating prepared statement
+2018-02-11 19:48:52 DEBUG SFDAOJDBC:44 - a query inserted 1 row(s) into the db
+2018-02-11 19:48:52 WARN  SFDAOJDBC:51 - failed to insert new user
+2018-02-11 19:52:38 TRACE SFDAOJDBC:35 - method called to insert new User
+2018-02-11 19:52:38 TRACE SFDAOJDBC:36 - Attempting to et connection to db
+2018-02-11 19:52:39 TRACE SFDAOJDBC:39 - connection established with db, creating prepared statement
+2018-02-11 19:52:40 DEBUG SFDAOJDBC:44 - a query inserted 1 row(s) into the db
+2018-02-11 19:52:40 WARN  SFDAOJDBC:51 - failed to insert new user
+2018-02-11 19:59:20 TRACE SFDAOJDBC:35 - method called to insert new User
+2018-02-11 19:59:20 TRACE SFDAOJDBC:36 - Attempting to et connection to db
+2018-02-11 19:59:20 TRACE SFDAOJDBC:39 - connection established with db, creating prepared statement
+2018-02-11 19:59:21 DEBUG SFDAOJDBC:44 - a query inserted 1 row(s) into the db
+2018-02-11 19:59:21 WARN  SFDAOJDBC:51 - failed to insert new user
+2018-02-11 20:04:32 TRACE SFDAOJDBC:72 - method called to update user
+2018-02-11 20:04:32 TRACE SFDAOJDBC:73 - Attempting to get connection to db
+2018-02-11 20:04:33 WARN  SFDAOJDBC:80 - failed to update user
+2018-02-11 20:07:26 TRACE SFDAOJDBC:72 - method called to update user
+2018-02-11 20:07:26 TRACE SFDAOJDBC:73 - Attempting to get connection to db
+2018-02-11 20:07:27 WARN  SFDAOJDBC:80 - failed to update user
+2018-02-11 20:29:32 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-11 20:29:32 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-11 20:29:34 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-11 20:29:34 DEBUG SFDAOJDBC:32 - a query inserted 1 row(s) into the db
+2018-02-11 20:29:34 WARN  SFDAOJDBC:39 - failed to insert new user
+2018-02-11 20:57:29 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-11 20:57:29 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-11 20:57:31 TRACE SFDAOJDBC:59 - Username or password invalid
+2018-02-11 21:04:10 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-11 21:04:10 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-11 21:04:11 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-11 21:08:42 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-11 21:08:42 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-11 21:08:43 WARN  SFDAOJDBC:64 - failed to retreive user
+2018-02-11 21:09:33 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-11 21:09:33 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-11 21:09:34 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-11 21:12:33 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-11 21:12:33 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-11 21:12:34 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-11 21:21:36 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-11 21:21:36 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-11 21:21:37 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-11 21:30:31 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-11 21:30:31 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-11 21:30:33 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-11 21:37:01 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-11 21:37:01 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-11 21:37:03 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-11 21:40:43 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-11 21:40:43 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-11 21:40:44 WARN  SFDAOJDBC:64 - failed to retreive user
+2018-02-11 21:49:59 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-11 21:49:59 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-11 21:50:00 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-11 21:51:59 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-11 21:51:59 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-11 21:52:01 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-11 21:55:06 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-11 21:55:06 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-11 21:55:07 WARN  SFDAOJDBC:64 - failed to retreive user
+2018-02-11 21:55:44 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-11 21:55:44 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-11 21:55:45 WARN  SFDAOJDBC:65 - failed to retreive user
+2018-02-11 21:58:50 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-11 21:58:50 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-11 21:58:51 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-11 22:13:01 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-11 22:13:01 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-11 22:13:03 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-12 08:48:46 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 08:48:46 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 08:48:46 WARN  SFDAOJDBC:64 - failed to retreive user
+2018-02-12 08:49:25 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 08:49:25 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 08:49:27 WARN  SFDAOJDBC:64 - failed to retreive user
+2018-02-12 08:54:54 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 08:54:54 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 08:54:55 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-12 08:57:42 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 08:57:44 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 09:39:06 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 09:39:06 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 09:39:34 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 09:39:34 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 09:39:35 WARN  SFDAOJDBC:81 - failed to update user
+2018-02-12 09:40:23 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 09:40:23 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 10:11:57 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 10:11:57 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 10:12:23 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 10:12:23 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 10:12:23 WARN  SFDAOJDBC:81 - failed to update user
+2018-02-12 10:12:47 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 10:12:47 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 10:16:13 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 10:16:13 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 10:16:21 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 10:16:21 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 10:16:21 WARN  SFDAOJDBC:81 - failed to update user
+2018-02-12 10:18:14 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 10:18:14 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 10:18:22 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 10:18:22 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 10:18:22 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 10:18:46 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 10:18:46 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 10:19:21 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 10:19:21 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 10:19:32 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 10:19:32 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 10:19:32 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 10:19:47 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 10:19:47 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 10:21:35 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 10:21:35 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 10:21:36 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-12 10:23:46 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 10:23:46 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 10:23:57 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 10:23:57 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 10:23:57 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 10:25:09 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 10:25:09 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 10:25:09 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 10:25:09 DEBUG SFDAOJDBC:32 - a query inserted 1 row(s) into the db
+2018-02-12 10:25:09 WARN  SFDAOJDBC:39 - failed to insert new user
+2018-02-12 10:26:08 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 10:26:08 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 10:26:54 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 10:26:54 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 10:26:55 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 11:54:27 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 11:54:27 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 11:55:38 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 11:55:38 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 11:55:38 WARN  SFDAOJDBC:81 - failed to update user
+2018-02-12 11:57:28 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 11:57:28 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 11:57:38 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 11:57:38 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 11:57:38 WARN  SFDAOJDBC:81 - failed to update user
+2018-02-12 11:58:41 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 11:58:41 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 11:58:46 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 11:58:46 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 11:58:47 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 11:59:59 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 11:59:59 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 12:59:49 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 12:59:49 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 13:00:16 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 13:00:16 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 13:00:17 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 13:00:24 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 13:00:24 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 13:00:25 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 18:18:36 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 18:18:36 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 18:18:56 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 18:18:56 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 18:18:57 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 18:20:05 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 18:20:05 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 18:20:06 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 18:20:06 DEBUG SFDAOJDBC:32 - a query inserted 1 row(s) into the db
+2018-02-12 18:20:06 WARN  SFDAOJDBC:39 - failed to insert new user
+2018-02-12 18:20:20 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 18:20:20 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 18:20:20 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-12 18:21:21 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 18:21:21 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 19:21:19 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 19:21:19 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 19:21:21 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-12 19:37:46 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 19:37:46 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 19:40:41 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 19:40:41 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 19:40:50 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 19:40:50 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 19:40:51 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 19:41:03 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 19:41:03 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 20:05:45 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 20:05:45 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 20:05:47 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-12 20:34:42 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 20:34:42 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 20:34:44 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-12 20:35:09 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 20:35:09 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 20:35:10 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 20:35:11 DEBUG SFDAOJDBC:32 - a query inserted 1 row(s) into the db
+2018-02-12 20:35:11 WARN  SFDAOJDBC:39 - failed to insert new user
+2018-02-12 20:49:29 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 20:49:29 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 20:49:43 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 20:49:43 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 20:49:44 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 20:50:09 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 20:50:09 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 20:50:10 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 20:57:26 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 20:57:26 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 20:57:27 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 20:57:27 DEBUG SFDAOJDBC:32 - a query inserted 1 row(s) into the db
+2018-02-12 20:57:27 WARN  SFDAOJDBC:39 - failed to insert new user
+2018-02-12 20:57:36 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 20:57:36 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 20:57:51 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 20:57:51 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 20:59:21 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 20:59:21 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 20:59:27 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 20:59:27 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 21:00:26 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 21:00:26 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 21:00:35 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 21:00:35 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 21:00:35 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 21:00:45 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 21:00:45 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 21:00:46 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 21:01:36 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 21:01:36 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 21:01:51 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 21:01:51 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 21:03:06 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 21:03:06 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 21:03:07 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 21:03:07 DEBUG SFDAOJDBC:32 - a query inserted 1 row(s) into the db
+2018-02-12 21:03:07 WARN  SFDAOJDBC:39 - failed to insert new user
+2018-02-12 21:03:54 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 21:03:54 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 21:04:02 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 21:04:02 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 21:04:02 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 21:04:22 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 21:04:22 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 21:04:23 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 21:04:47 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 21:04:47 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 21:08:54 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 21:08:54 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 21:09:06 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 21:09:06 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 21:09:17 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 21:09:17 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 21:09:18 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 21:26:26 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 21:26:26 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 21:26:28 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-12 21:26:42 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 21:26:42 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 21:26:42 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 21:26:42 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 21:27:36 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 21:27:36 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 21:27:37 TRACE SFDAOJDBC:58 - Username or password invalid
+2018-02-12 21:30:16 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 21:30:16 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 21:47:08 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 21:47:08 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 22:07:12 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 22:07:12 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 22:07:14 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 22:07:43 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 22:07:43 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 22:08:03 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 22:08:03 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 22:09:05 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 22:09:05 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 22:09:06 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 22:09:18 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 22:09:18 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 22:17:08 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 22:17:08 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 22:17:45 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 22:17:45 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 22:17:45 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 22:17:45 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 22:19:27 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 22:19:27 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 22:19:28 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 22:19:43 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 22:19:43 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 22:19:43 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 22:19:43 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 22:20:00 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 22:20:00 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 22:20:01 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 22:20:01 DEBUG SFDAOJDBC:32 - a query inserted 1 row(s) into the db
+2018-02-12 22:20:12 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 22:20:12 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 22:20:13 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 22:20:13 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 22:20:49 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 22:20:49 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 22:20:49 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 22:21:03 TRACE SFDAOJDBC:73 - method called to update user
+2018-02-12 22:21:03 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 22:21:04 TRACE SFDAOJDBC:78 - updated 1 rows
+2018-02-12 22:26:35 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 22:26:35 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 22:27:00 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 22:27:00 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 22:27:01 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 22:27:01 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 22:27:23 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 22:27:23 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 22:27:23 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 22:27:24 DEBUG SFDAOJDBC:32 - a query inserted 1 row(s) into the db
+2018-02-12 22:28:32 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 22:28:32 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 22:28:32 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 22:30:00 TRACE SFDAOJDBC:47 - method called to get user
+2018-02-12 22:30:00 TRACE SFDAOJDBC:48 - Attempting to get connection to db
+2018-02-12 22:30:11 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 22:30:11 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 22:30:11 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 22:30:12 WARN  SFDAOJDBC:39 - failed to insert new user
+2018-02-12 22:32:30 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 22:32:30 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 22:32:32 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 22:32:32 WARN  SFDAOJDBC:40 - failed to insert new user, username not available
+2018-02-12 22:35:42 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-12 22:35:42 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-12 22:35:59 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 22:35:59 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 22:35:59 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 22:35:59 DEBUG SFDAOJDBC:32 - a query inserted 1 row(s) into the db
+2018-02-12 22:35:59 WARN  SFDAOJDBC:40 - failed to insert new user, username not available
+2018-02-12 22:36:51 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 22:36:51 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 22:36:51 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 22:36:52 DEBUG SFDAOJDBC:32 - a query inserted 1 row(s) into the db
+2018-02-12 22:36:52 WARN  SFDAOJDBC:40 - failed to insert new user, username not available
+2018-02-12 22:39:23 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-12 22:39:23 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-12 22:39:25 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-12 22:39:25 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-12 22:39:36 TRACE SFDAOJDBC:74 - method called to update user
+2018-02-12 22:39:36 TRACE SFDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:39:37 TRACE SFDAOJDBC:79 - updated 1 rows
+2018-02-12 22:41:44 TRACE SFDAOJDBC:74 - method called to update user
+2018-02-12 22:41:44 TRACE SFDAOJDBC:75 - Attempting to get connection to db
+2018-02-12 22:41:45 TRACE SFDAOJDBC:79 - updated 1 rows
+2018-02-12 22:44:59 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 22:44:59 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 22:45:00 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 22:45:00 DEBUG SFDAOJDBC:32 - a query inserted 1 row(s) into the db
+2018-02-12 22:46:55 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 22:46:55 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 22:46:55 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 22:46:56 WARN  SFDAOJDBC:40 - failed to insert new user, username not available
+2018-02-12 22:48:13 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 22:48:13 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 22:48:14 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 22:48:14 DEBUG SFDAOJDBC:32 - a query inserted 1 row(s) into the db
+2018-02-12 22:49:06 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 22:49:06 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 22:49:07 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 22:49:07 WARN  SFDAOJDBC:40 - failed to insert new user, username not available
+2018-02-12 22:50:35 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-12 22:50:35 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-12 22:50:36 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-12 22:50:36 DEBUG SFDAOJDBC:32 - a query inserted 1 row(s) into the db
+2018-02-12 23:24:41 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-12 23:24:41 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-12 23:24:42 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-12 23:24:42 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-12 23:24:51 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-12 23:24:51 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-12 23:24:51 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-12 23:24:55 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-12 23:24:55 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 23:26:00 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-12 23:26:00 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-12 23:26:01 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-12 23:26:01 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-12 23:26:07 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-12 23:26:07 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 23:26:23 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-12 23:26:23 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-12 23:26:23 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-12 23:26:39 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-12 23:26:39 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-12 23:26:40 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-12 23:26:56 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-12 23:26:56 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-12 23:26:57 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-12 23:27:01 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-12 23:27:01 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 23:28:35 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-12 23:28:35 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-12 23:28:37 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-12 23:28:37 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-12 23:28:48 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-12 23:28:48 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-12 23:28:48 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-12 23:28:59 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-12 23:28:59 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-12 23:29:00 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-12 23:29:04 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-12 23:29:04 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 23:29:55 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-12 23:29:55 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-12 23:29:56 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-12 23:30:00 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-12 23:30:00 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-12 23:30:01 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-12 23:30:04 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-12 23:30:04 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-12 23:30:05 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-12 23:30:12 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-12 23:30:12 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 23:30:59 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-12 23:30:59 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-12 23:31:00 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-12 23:31:04 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-12 23:31:04 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-12 23:31:04 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-12 23:31:08 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-12 23:31:08 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 23:31:56 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-12 23:31:56 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-12 23:31:56 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-12 23:32:01 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-12 23:32:01 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-12 23:32:01 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-12 23:32:04 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-12 23:32:04 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 23:32:57 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-12 23:32:57 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 23:34:26 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-12 23:34:26 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-12 23:34:27 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-12 23:34:27 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-12 23:34:29 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-12 23:34:29 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-12 23:35:27 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-12 23:35:27 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-12 23:35:29 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-12 23:35:29 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-12 23:35:31 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-12 23:35:31 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-13 00:00:58 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 00:00:58 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 00:01:12 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 00:01:12 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 00:01:13 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 00:01:13 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 00:01:41 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-13 00:01:41 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-13 00:01:41 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-13 00:01:48 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-13 00:01:48 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-13 00:01:48 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-13 00:01:55 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-13 00:01:55 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-13 00:01:55 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-13 00:02:02 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-13 00:02:02 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-13 13:24:19 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-13 13:24:19 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-13 13:24:22 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-13 13:24:23 DEBUG SFDAOJDBC:32 - a query inserted 1 row(s) into the db
+2018-02-13 13:24:40 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 13:24:40 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 13:24:41 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 13:24:41 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 13:24:55 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-13 13:24:55 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-13 13:24:56 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-13 13:25:07 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-13 13:25:07 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-13 13:37:18 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 13:37:18 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 13:37:29 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 13:37:29 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 13:37:30 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 13:37:30 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 13:37:36 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-13 13:37:36 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-13 13:39:45 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-13 13:39:45 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-13 13:39:46 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-13 13:39:51 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-13 13:39:51 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-13 13:40:31 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-13 13:40:31 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-13 13:40:43 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-13 13:40:43 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-13 13:40:44 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-13 13:40:49 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-13 13:40:49 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-13 13:42:54 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 13:42:54 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 13:42:55 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 13:42:55 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 13:43:03 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-13 13:43:03 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-13 13:46:17 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-13 13:46:17 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-13 13:46:18 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-13 13:46:18 DEBUG SFDAOJDBC:32 - a query inserted 1 row(s) into the db
+2018-02-13 13:46:28 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 13:46:28 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 13:46:28 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 13:46:28 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 13:46:40 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-13 13:46:40 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-13 13:46:40 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-13 13:46:44 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-13 13:46:44 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-13 13:46:44 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-13 13:46:48 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-13 13:46:48 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-13 13:46:48 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-13 13:46:53 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-13 13:46:53 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-13 13:46:53 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-13 13:46:58 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-13 13:46:58 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-13 13:46:58 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-13 13:47:01 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-13 13:47:01 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-13 13:47:26 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 13:47:26 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 13:47:27 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 13:47:27 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 13:47:52 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-13 13:47:52 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-13 13:52:11 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 13:52:11 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 13:52:12 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 13:52:12 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 13:52:15 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-13 13:52:15 TRACE SFDAOJDBC:74 - Attempting to get connection to db
+2018-02-13 14:55:23 TRACE SFDAOJDBC:22 - method called to insert new User
+2018-02-13 14:55:23 TRACE SFDAOJDBC:23 - Attempting to et connection to db
+2018-02-13 14:55:24 TRACE SFDAOJDBC:26 - connection established with db, creating prepared statement
+2018-02-13 14:55:24 DEBUG SFDAOJDBC:32 - a query inserted 1 row(s) into the db
+2018-02-13 14:55:42 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 14:55:42 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 14:55:43 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 14:55:43 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 14:56:07 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-13 14:56:07 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-13 14:56:08 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-13 14:56:26 TRACE SFDAOJDBC:102 - method called to update user
+2018-02-13 14:56:26 TRACE SFDAOJDBC:103 - Attempting to get connection to db
+2018-02-13 14:56:26 TRACE SFDAOJDBC:107 - updated 1 rows
+2018-02-13 14:56:53 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 14:56:53 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 14:56:54 TRACE SFDAOJDBC:48 - method called to get user
+2018-02-13 14:56:54 TRACE SFDAOJDBC:49 - Attempting to get connection to db
+2018-02-13 14:57:07 TRACE SFDAOJDBC:73 - method called to get user transactions
+2018-02-13 14:57:07 TRACE SFDAOJDBC:74 - Attempting to get connection to db
