@@ -1,0 +1,1429 @@
+2018-02-09 15:41:21 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:41:29 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 15:41:31 TRACE BankDAOJDBC:82 - attempting to log in
+2018-02-09 15:41:32 TRACE BankDAOJDBC:86 - Connection established!
+2018-02-09 15:41:32 WARN  BankDAOJDBC:100 - Unable to login.
+2018-02-09 15:41:32 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:42:52 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:42:54 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 15:42:56 TRACE BankDAOJDBC:82 - attempting to log in
+2018-02-09 15:42:57 TRACE BankDAOJDBC:86 - Connection established!
+2018-02-09 15:42:57 WARN  BankDAOJDBC:100 - Unable to login.
+2018-02-09 15:42:57 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:43:40 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:43:44 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 15:43:45 TRACE BankDAOJDBC:82 - attempting to log in
+2018-02-09 15:43:46 TRACE BankDAOJDBC:86 - Connection established!
+2018-02-09 15:43:46 WARN  BankDAOJDBC:100 - Unable to login.
+2018-02-09 15:43:46 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:44:28 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:44:52 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:44:54 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 15:44:55 TRACE BankDAOJDBC:82 - attempting to log in
+2018-02-09 15:44:56 TRACE BankDAOJDBC:86 - Connection established!
+2018-02-09 15:44:57 WARN  BankDAOJDBC:100 - Unable to login.
+2018-02-09 15:44:57 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:46:02 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:46:04 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 15:46:05 TRACE BankDAOJDBC:82 - attempting to log in
+2018-02-09 15:46:07 TRACE BankDAOJDBC:86 - Connection established!
+2018-02-09 15:47:46 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:47:50 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 15:47:52 TRACE BankDAOJDBC:82 - attempting to log in
+2018-02-09 15:47:53 TRACE BankDAOJDBC:86 - Connection established!
+2018-02-09 15:47:53 WARN  BankDAOJDBC:100 - Unable to login.
+2018-02-09 15:47:53 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:50:09 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:50:11 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 15:50:12 TRACE BankDAOJDBC:82 - attempting to log in
+2018-02-09 15:50:14 TRACE BankDAOJDBC:86 - Connection established!
+2018-02-09 15:50:14 WARN  BankDAOJDBC:100 - Unable to login.
+2018-02-09 15:50:14 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:50:15 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 15:50:16 TRACE BankDAOJDBC:82 - attempting to log in
+2018-02-09 15:50:17 TRACE BankDAOJDBC:86 - Connection established!
+2018-02-09 15:50:17 WARN  BankDAOJDBC:100 - Unable to login.
+2018-02-09 15:50:17 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:50:22 TRACE RegisterScreen:39 - Choose a password.
+2018-02-09 15:50:24 TRACE RegisterScreen:41 - Confirm your password.
+2018-02-09 15:50:27 TRACE RegisterScreen:49 - What is your starting balance?
+2018-02-09 15:50:30 TRACE BankDAOJDBC:36 - method called to add new user
+2018-02-09 15:50:30 TRACE BankDAOJDBC:37 - Attempting to connect to DB
+2018-02-09 15:50:31 TRACE BankDAOJDBC:40 - Connection established with db, creating prepared statement
+2018-02-09 15:50:31 DEBUG BankDAOJDBC:47 - query inserted 1 rows into the db
+2018-02-09 15:50:31 WARN  BankDAOJDBC:52 - failed to add new user
+2018-02-09 15:50:31 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:52:07 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:52:11 TRACE RegisterScreen:33 - Choose a password.
+2018-02-09 15:52:13 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-09 15:52:14 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-09 15:52:17 TRACE BankDAOJDBC:36 - method called to add new user
+2018-02-09 15:52:17 TRACE BankDAOJDBC:37 - Attempting to connect to DB
+2018-02-09 15:52:18 TRACE BankDAOJDBC:40 - Connection established with db, creating prepared statement
+2018-02-09 15:52:18 DEBUG BankDAOJDBC:47 - query inserted 1 rows into the db
+2018-02-09 15:52:18 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:54:55 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:54:57 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 15:54:58 TRACE BankDAOJDBC:80 - attempting to log in
+2018-02-09 15:54:59 TRACE BankDAOJDBC:84 - Connection established!
+2018-02-09 15:54:59 WARN  BankDAOJDBC:98 - Unable to login.
+2018-02-09 15:54:59 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:56:01 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:56:05 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 15:56:06 TRACE BankDAOJDBC:80 - attempting to log in
+2018-02-09 15:56:07 TRACE BankDAOJDBC:84 - Connection established!
+2018-02-09 15:56:07 WARN  BankDAOJDBC:98 - Unable to login.
+2018-02-09 15:56:07 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:56:58 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:57:01 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 15:57:03 TRACE BankDAOJDBC:80 - attempting to log in
+2018-02-09 15:57:04 TRACE BankDAOJDBC:84 - Connection established!
+2018-02-09 15:57:04 WARN  BankDAOJDBC:98 - Unable to login.
+2018-02-09 15:57:04 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:57:26 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:57:27 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 15:57:28 TRACE BankDAOJDBC:80 - attempting to log in
+2018-02-09 15:57:29 TRACE BankDAOJDBC:84 - Connection established!
+2018-02-09 15:57:30 TRACE BankDAOJDBC:87 - Statement created.
+2018-02-09 15:57:30 WARN  BankDAOJDBC:99 - Unable to login.
+2018-02-09 15:57:30 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:57:58 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 15:58:01 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 15:58:02 TRACE BankDAOJDBC:80 - attempting to log in
+2018-02-09 15:58:03 TRACE BankDAOJDBC:84 - Connection established!
+2018-02-09 15:58:04 TRACE BankDAOJDBC:87 - Statement created.
+2018-02-09 15:58:04 WARN  BankDAOJDBC:101 - Unable to login.
+2018-02-09 15:58:04 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 16:02:00 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 16:02:14 TRACE RegisterScreen:33 - Choose a password.
+2018-02-09 16:02:21 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-09 16:02:30 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-09 16:02:37 TRACE BankDAOJDBC:36 - method called to add new user
+2018-02-09 16:02:37 TRACE BankDAOJDBC:37 - Attempting to connect to DB
+2018-02-09 16:02:39 TRACE BankDAOJDBC:40 - Connection established with db, creating prepared statement
+2018-02-09 16:02:39 DEBUG BankDAOJDBC:47 - query inserted 1 rows into the db
+2018-02-09 16:02:39 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 16:03:05 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 16:03:11 TRACE BankDAOJDBC:80 - attempting to log in
+2018-02-09 16:03:12 TRACE BankDAOJDBC:84 - Connection established!
+2018-02-09 16:03:12 TRACE BankDAOJDBC:87 - Statement created.
+2018-02-09 16:03:12 WARN  BankDAOJDBC:101 - Unable to login.
+2018-02-09 16:03:12 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 16:04:27 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 16:04:33 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 16:04:42 TRACE BankDAOJDBC:80 - attempting to log in
+2018-02-09 16:04:43 TRACE BankDAOJDBC:84 - Connection established!
+2018-02-09 16:04:43 TRACE BankDAOJDBC:87 - Statement created.
+2018-02-09 16:04:43 TRACE BankDAOJDBC:89 - username inserted
+2018-02-09 16:04:43 TRACE BankDAOJDBC:91 - password inserted
+2018-02-09 16:04:43 WARN  BankDAOJDBC:101 - Unable to login.
+2018-02-09 16:04:43 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 16:05:10 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 16:05:12 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 16:05:13 TRACE BankDAOJDBC:80 - attempting to log in
+2018-02-09 16:05:14 TRACE BankDAOJDBC:84 - Connection established!
+2018-02-09 16:05:15 TRACE BankDAOJDBC:87 - Statement created.
+2018-02-09 16:05:15 TRACE BankDAOJDBC:89 - username inserted
+2018-02-09 16:05:15 TRACE BankDAOJDBC:91 - password inserted
+2018-02-09 16:05:15 WARN  BankDAOJDBC:101 - Unable to login.
+2018-02-09 16:05:15 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 16:06:31 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 16:06:35 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 16:06:36 TRACE BankDAOJDBC:80 - attempting to log in
+2018-02-09 16:06:37 TRACE BankDAOJDBC:84 - Connection established!
+2018-02-09 16:06:37 TRACE BankDAOJDBC:87 - Statement created.
+2018-02-09 16:06:37 TRACE BankDAOJDBC:89 - username inserted
+2018-02-09 16:06:37 TRACE BankDAOJDBC:91 - password inserted
+2018-02-09 16:06:37 WARN  BankDAOJDBC:101 - Unable to login.
+2018-02-09 16:06:37 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 16:23:00 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 18:07:20 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 18:07:30 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 18:07:31 TRACE BankDAOJDBC:88 - attempting to log in
+2018-02-09 18:07:33 TRACE BankDAOJDBC:92 - Connection established!
+2018-02-09 18:11:29 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 18:11:33 TRACE RegisterScreen:33 - Choose a password.
+2018-02-09 18:11:35 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-09 18:11:39 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-09 18:11:45 TRACE BankDAOJDBC:35 - method called to add new user
+2018-02-09 18:11:45 TRACE BankDAOJDBC:36 - Attempting to connect to DB
+2018-02-09 18:11:46 TRACE BankDAOJDBC:39 - Connection established with db, creating prepared statement
+2018-02-09 18:11:46 DEBUG BankDAOJDBC:46 - query inserted 1 rows into the db
+2018-02-09 18:11:46 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 18:12:09 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 18:12:10 TRACE BankDAOJDBC:88 - attempting to log in
+2018-02-09 18:12:11 TRACE BankDAOJDBC:92 - Connection established!
+2018-02-09 18:12:11 TRACE BankDAOJDBC:95 - Statement created.
+2018-02-09 18:12:11 TRACE BankDAOJDBC:97 - username inserted
+2018-02-09 18:12:11 TRACE BankDAOJDBC:99 - password inserted
+2018-02-09 18:12:11 WARN  BankDAOJDBC:109 - Unable to login.
+2018-02-09 18:12:11 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 18:15:43 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 18:15:47 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 18:15:48 TRACE BankDAOJDBC:88 - attempting to log in
+2018-02-09 18:15:49 TRACE BankDAOJDBC:92 - Connection established!
+2018-02-09 18:15:50 TRACE BankDAOJDBC:95 - Statement created.
+2018-02-09 18:15:50 TRACE BankDAOJDBC:97 - username inserted
+2018-02-09 18:15:50 TRACE BankDAOJDBC:99 - password inserted
+2018-02-09 18:15:50 WARN  BankDAOJDBC:109 - Unable to login.
+2018-02-09 18:15:50 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 18:19:08 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-09 18:19:12 TRACE LoginScreen:46 - Enter your password.
+2018-02-09 18:19:14 TRACE BankDAOJDBC:88 - attempting to log in
+2018-02-09 18:19:16 TRACE BankDAOJDBC:92 - Connection established!
+2018-02-09 18:19:16 TRACE BankDAOJDBC:95 - Statement created.
+2018-02-09 18:19:16 TRACE BankDAOJDBC:97 - username inserted
+2018-02-09 18:20:30 TRACE BankDAOJDBC:99 - password inserted
+2018-02-10 16:59:15 TRACE BankDAOJDBC:57 - method called to add new user
+2018-02-10 16:59:15 TRACE BankDAOJDBC:58 - Attempting to connect to DB
+2018-02-10 16:59:18 TRACE BankDAOJDBC:62 - Connection established with db, creating prepared statement
+2018-02-10 16:59:18 WARN  BankDAOJDBC:71 - Unable to complete deposit.
+2018-02-10 16:59:18 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 16:59:59 TRACE BankDAOJDBC:57 - method called to deposit
+2018-02-10 16:59:59 TRACE BankDAOJDBC:58 - Attempting to connect to DB
+2018-02-10 17:00:00 TRACE BankDAOJDBC:62 - Connection established with db, creating prepared statement
+2018-02-10 17:00:01 DEBUG BankDAOJDBC:68 - deposit inserted, 1 rows updated.
+2018-02-10 17:00:01 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 17:12:16 TRACE BankDAOJDBC:57 - method called to deposit
+2018-02-10 17:12:16 TRACE BankDAOJDBC:58 - Attempting to connect to DB
+2018-02-10 17:12:17 TRACE BankDAOJDBC:62 - Connection established with db, creating prepared statement
+2018-02-10 17:12:17 DEBUG BankDAOJDBC:68 - deposit inserted, 1 rows updated.
+2018-02-10 17:12:17 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 17:14:04 TRACE BankDAOJDBC:57 - method called to deposit
+2018-02-10 17:14:04 TRACE BankDAOJDBC:58 - Attempting to connect to DB
+2018-02-10 17:14:05 TRACE BankDAOJDBC:62 - Connection established with db, creating prepared statement
+2018-02-10 17:14:05 DEBUG BankDAOJDBC:68 - deposit inserted, 1 rows updated.
+2018-02-10 17:14:05 TRACE BankDAOJDBC:79 - Method called to withdraw
+2018-02-10 17:14:06 TRACE BankDAOJDBC:83 - Connection established with db, creating prepared statement
+2018-02-10 17:14:06 DEBUG BankDAOJDBC:89 - withdraw complete, 1 rows updated.
+2018-02-10 17:14:06 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 17:21:28 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:21:30 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:21:30 WARN  BankDAOJDBC:119 - Unable to obtain balance.
+2018-02-10 17:21:30 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 17:23:24 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:23:25 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:23:26 WARN  BankDAOJDBC:117 - Unable to obtain balance.
+2018-02-10 17:23:26 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 17:24:19 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:24:20 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:24:20 WARN  BankDAOJDBC:117 - Unable to obtain balance.
+2018-02-10 17:24:20 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 17:24:32 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:24:34 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:24:34 WARN  BankDAOJDBC:117 - Unable to obtain balance.
+2018-02-10 17:24:34 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 17:25:08 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:25:09 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:25:09 WARN  BankDAOJDBC:117 - Unable to obtain balance.
+2018-02-10 17:25:09 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 17:26:46 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:26:47 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:26:48 WARN  BankDAOJDBC:117 - Unable to obtain balance.
+2018-02-10 17:26:48 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 17:27:55 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:27:57 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:27:57 WARN  BankDAOJDBC:120 - Unable to obtain balance.
+2018-02-10 17:27:57 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 17:30:08 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:30:09 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:30:09 WARN  BankDAOJDBC:117 - Unable to obtain balance.
+2018-02-10 17:30:09 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 17:30:21 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:30:22 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:33:27 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:33:28 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:33:28 WARN  BankDAOJDBC:118 - Unable to obtain balance.
+2018-02-10 17:33:28 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 17:34:37 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:34:39 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:34:39 WARN  BankDAOJDBC:118 - Unable to obtain balance.
+2018-02-10 17:34:39 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 17:34:44 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:34:45 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:35:45 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:35:46 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:35:46 TRACE BankDAOJDBC:107 - prepared statement created.
+2018-02-10 17:35:47 WARN  BankDAOJDBC:119 - Unable to obtain balance.
+2018-02-10 17:35:47 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 17:36:03 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:36:05 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:36:05 TRACE BankDAOJDBC:107 - prepared statement created.
+2018-02-10 17:36:05 WARN  BankDAOJDBC:119 - Unable to obtain balance.
+2018-02-10 17:36:05 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 17:36:22 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:36:23 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:36:23 TRACE BankDAOJDBC:107 - prepared statement created.
+2018-02-10 17:42:10 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:42:12 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:42:12 TRACE BankDAOJDBC:107 - prepared statement created.
+2018-02-10 17:44:27 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:44:28 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:44:29 TRACE BankDAOJDBC:108 - prepared statement created.
+2018-02-10 17:44:29 WARN  BankDAOJDBC:120 - Unable to obtain balance.
+2018-02-10 17:44:29 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 17:48:28 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 17:48:29 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 17:48:29 TRACE BankDAOJDBC:107 - prepared statement created.
+2018-02-10 17:48:29 WARN  BankDAOJDBC:119 - Unable to obtain balance.
+2018-02-10 17:48:29 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 18:18:00 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 18:18:02 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 18:18:02 TRACE BankDAOJDBC:107 - prepared statement created.
+2018-02-10 18:18:02 WARN  BankDAOJDBC:119 - Unable to obtain balance.
+2018-02-10 18:18:02 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 18:21:28 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 18:21:29 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 18:21:30 TRACE BankDAOJDBC:107 - prepared statement created.
+2018-02-10 18:21:30 WARN  BankDAOJDBC:119 - Unable to obtain balance.
+2018-02-10 18:21:30 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 18:22:00 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 18:22:01 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 18:22:01 TRACE BankDAOJDBC:107 - prepared statement created.
+2018-02-10 18:22:02 WARN  BankDAOJDBC:119 - Unable to obtain balance.
+2018-02-10 18:22:02 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 19:03:55 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 19:03:56 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 19:03:56 TRACE BankDAOJDBC:107 - prepared statement created.
+2018-02-10 19:03:57 WARN  BankDAOJDBC:119 - Unable to obtain balance.
+2018-02-10 19:03:57 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 19:04:01 TRACE LoginScreen:46 - Enter your password.
+2018-02-10 19:04:03 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-10 19:04:03 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-10 19:04:03 TRACE BankDAOJDBC:137 - Statement created.
+2018-02-10 19:04:03 TRACE BankDAOJDBC:139 - username inserted
+2018-02-10 19:04:03 TRACE BankDAOJDBC:141 - password inserted
+2018-02-10 19:04:03 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-10 19:04:03 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-10 19:04:03 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-10 19:04:03 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-10 19:04:03 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-10 19:05:08 TRACE DepositScreen:24 - Enter the amount you would like to deposit.
+2018-02-10 19:05:11 TRACE BankDAOJDBC:57 - method called to deposit
+2018-02-10 19:05:11 TRACE BankDAOJDBC:58 - Attempting to connect to DB
+2018-02-10 19:05:11 TRACE BankDAOJDBC:62 - Connection established with db, creating prepared statement
+2018-02-10 19:05:11 DEBUG BankDAOJDBC:68 - deposit inserted, 1 rows updated.
+2018-02-10 19:05:12 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-10 19:05:12 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-10 19:05:12 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-10 19:05:12 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-10 19:05:12 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-10 19:05:23 TRACE BankDAOJDBC:79 - Method called to withdraw
+2018-02-10 19:05:23 TRACE BankDAOJDBC:83 - Connection established with db, creating prepared statement
+2018-02-10 19:05:23 DEBUG BankDAOJDBC:89 - withdraw complete, 1 rows updated.
+2018-02-10 19:05:23 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-10 19:05:23 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-10 19:05:23 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-10 19:05:23 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-10 19:05:23 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-10 19:07:27 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 19:07:30 TRACE LoginScreen:46 - Enter your password.
+2018-02-10 19:07:31 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-10 19:07:32 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-10 19:07:32 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-10 19:07:32 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-10 19:07:32 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-10 19:07:32 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-10 19:07:32 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-10 19:07:50 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-10 19:07:50 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-10 19:07:50 TRACE BankDAOJDBC:107 - prepared statement created.
+2018-02-10 19:07:50 WARN  BankDAOJDBC:119 - Unable to obtain balance.
+2018-02-10 19:07:50 TRACE MainMenu:41 - Your balance is0
+2018-02-10 19:07:50 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-10 19:07:50 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-10 19:07:50 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-10 19:07:50 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-10 19:07:50 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-10 19:08:48 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-10 19:08:52 TRACE LoginScreen:46 - Enter your password.
+2018-02-10 19:08:54 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-10 19:08:55 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-10 19:08:56 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-10 19:08:56 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-10 19:08:56 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-10 19:08:56 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-10 19:08:56 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-10 19:10:31 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-11 12:02:21 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-11 12:02:25 TRACE LoginScreen:46 - Enter your password.
+2018-02-11 12:02:27 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-11 12:02:28 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-11 12:02:29 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:02:29 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:02:29 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:02:29 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:02:29 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:02:32 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-11 12:02:34 TRACE LoginScreen:46 - Enter your password.
+2018-02-11 12:02:35 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-11 12:02:36 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-11 12:02:36 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:02:36 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:02:36 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:02:36 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:02:36 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:02:58 WARN  WithdrawScreen:45 - Invalid input. Please enter a number to withdraw
+2018-02-11 12:03:03 TRACE BankDAOJDBC:79 - Method called to withdraw
+2018-02-11 12:03:04 TRACE BankDAOJDBC:83 - Connection established with db, creating prepared statement
+2018-02-11 12:03:04 DEBUG BankDAOJDBC:89 - withdraw complete, 1 rows updated.
+2018-02-11 12:03:04 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:03:04 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:03:04 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:03:04 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:03:04 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:06:18 TRACE BankDAOJDBC:79 - Method called to withdraw
+2018-02-11 12:06:18 TRACE BankDAOJDBC:83 - Connection established with db, creating prepared statement
+2018-02-11 12:06:18 DEBUG BankDAOJDBC:89 - withdraw complete, 1 rows updated.
+2018-02-11 12:06:19 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:06:19 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:06:19 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:06:19 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:06:19 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:06:31 TRACE BankDAOJDBC:79 - Method called to withdraw
+2018-02-11 12:06:32 TRACE BankDAOJDBC:83 - Connection established with db, creating prepared statement
+2018-02-11 12:06:32 DEBUG BankDAOJDBC:89 - withdraw complete, 1 rows updated.
+2018-02-11 12:06:32 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:06:32 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:06:32 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:06:32 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:06:32 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:07:07 TRACE DepositScreen:24 - Enter the amount you would like to deposit.
+2018-02-11 12:07:10 TRACE BankDAOJDBC:57 - method called to deposit
+2018-02-11 12:07:10 TRACE BankDAOJDBC:58 - Attempting to connect to DB
+2018-02-11 12:07:10 TRACE BankDAOJDBC:62 - Connection established with db, creating prepared statement
+2018-02-11 12:07:10 DEBUG BankDAOJDBC:68 - deposit inserted, 1 rows updated.
+2018-02-11 12:07:10 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:07:10 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:07:10 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:07:10 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:07:10 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:18:40 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-11 12:18:44 TRACE RegisterScreen:33 - Choose a password.
+2018-02-11 12:18:46 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-11 12:18:47 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-11 12:18:49 TRACE BankDAOJDBC:35 - method called to add new user
+2018-02-11 12:18:49 TRACE BankDAOJDBC:36 - Attempting to connect to DB
+2018-02-11 12:18:50 TRACE BankDAOJDBC:39 - Connection established with db, creating prepared statement
+2018-02-11 12:18:51 DEBUG BankDAOJDBC:46 - query inserted 1 rows into the db
+2018-02-11 12:18:51 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-11 12:18:55 TRACE LoginScreen:46 - Enter your password.
+2018-02-11 12:18:56 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-11 12:18:56 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-11 12:18:56 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:18:56 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:18:56 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:18:56 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:18:56 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:18:58 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-11 12:18:59 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-11 12:18:59 TRACE BankDAOJDBC:107 - prepared statement created.
+2018-02-11 12:18:59 WARN  BankDAOJDBC:119 - Unable to obtain balance.
+2018-02-11 12:18:59 TRACE MainMenu:41 - Your balance is0
+2018-02-11 12:18:59 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:18:59 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:18:59 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:18:59 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:18:59 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:19:08 TRACE BankDAOJDBC:79 - Method called to withdraw
+2018-02-11 12:19:09 TRACE BankDAOJDBC:83 - Connection established with db, creating prepared statement
+2018-02-11 12:19:09 WARN  BankDAOJDBC:92 - Unable to complete withdrawal.
+2018-02-11 12:19:09 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:19:09 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:19:09 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:19:09 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:19:09 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:20:57 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-11 12:21:03 TRACE LoginScreen:46 - Enter your password.
+2018-02-11 12:21:05 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-11 12:21:06 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-11 12:21:06 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:21:06 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:21:06 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:21:06 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:21:06 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:21:07 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-11 12:21:08 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-11 12:21:08 TRACE BankDAOJDBC:107 - prepared statement created.
+2018-02-11 12:21:08 WARN  BankDAOJDBC:119 - Unable to obtain balance.
+2018-02-11 12:21:08 TRACE MainMenu:41 - Your balance is0
+2018-02-11 12:21:08 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:21:08 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:21:08 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:21:08 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:21:08 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:21:30 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-11 12:21:32 TRACE LoginScreen:46 - Enter your password.
+2018-02-11 12:21:33 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-11 12:21:35 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-11 12:21:35 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:21:35 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:21:35 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:21:35 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:21:35 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:21:37 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-11 12:21:37 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-11 12:21:37 TRACE BankDAOJDBC:107 - prepared statement created.
+2018-02-11 12:21:37 TRACE MainMenu:41 - Your balance is500
+2018-02-11 12:21:37 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:21:37 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:21:37 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:21:37 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:21:37 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:22:37 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-11 12:22:49 TRACE RegisterScreen:33 - Choose a password.
+2018-02-11 12:22:52 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-11 12:22:57 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-11 12:23:01 TRACE BankDAOJDBC:35 - method called to add new user
+2018-02-11 12:23:01 TRACE BankDAOJDBC:36 - Attempting to connect to DB
+2018-02-11 12:23:02 TRACE BankDAOJDBC:39 - Connection established with db, creating prepared statement
+2018-02-11 12:23:03 DEBUG BankDAOJDBC:46 - query inserted 1 rows into the db
+2018-02-11 12:23:03 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-11 12:23:16 TRACE LoginScreen:46 - Enter your password.
+2018-02-11 12:23:17 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-11 12:23:18 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-11 12:23:18 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:23:18 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:23:18 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:23:18 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:23:18 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:23:20 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-11 12:23:20 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-11 12:23:20 TRACE BankDAOJDBC:107 - prepared statement created.
+2018-02-11 12:23:20 TRACE MainMenu:41 - Your balance is9001
+2018-02-11 12:23:20 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:23:20 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:23:20 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:23:20 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:23:20 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:23:31 TRACE BankDAOJDBC:79 - Method called to withdraw
+2018-02-11 12:23:31 TRACE BankDAOJDBC:83 - Connection established with db, creating prepared statement
+2018-02-11 12:23:31 DEBUG BankDAOJDBC:89 - withdraw complete, 1 rows updated.
+2018-02-11 12:23:31 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:23:31 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:23:31 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:23:31 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:23:31 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:32:22 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-11 12:34:13 TRACE LoginScreen:46 - Enter your password.
+2018-02-11 12:34:15 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-11 12:34:16 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-11 12:34:17 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:34:17 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:34:17 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:34:17 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:34:17 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:34:19 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-11 12:34:20 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-11 12:34:20 TRACE BankDAOJDBC:107 - prepared statement created.
+2018-02-11 12:34:20 TRACE MainMenu:41 - Your balance is500
+2018-02-11 12:34:20 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:34:20 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:34:20 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:34:20 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:34:20 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:34:41 TRACE DepositScreen:24 - Enter the amount you would like to deposit.
+2018-02-11 12:34:42 TRACE BankDAOJDBC:57 - method called to deposit
+2018-02-11 12:34:42 TRACE BankDAOJDBC:58 - Attempting to connect to DB
+2018-02-11 12:34:43 TRACE BankDAOJDBC:62 - Connection established with db, creating prepared statement
+2018-02-11 12:34:43 DEBUG BankDAOJDBC:68 - deposit inserted, 1 rows updated.
+2018-02-11 12:34:43 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:34:43 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:34:43 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:34:43 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:34:43 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:34:47 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-11 12:34:48 TRACE LoginScreen:46 - Enter your password.
+2018-02-11 12:34:51 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-11 12:34:51 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-11 12:34:51 WARN  BankDAOJDBC:147 - No user found.
+2018-02-11 12:34:52 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:34:52 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:34:52 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:34:52 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:34:52 TRACE MainMenu:34 - Type 9 to log out.
+2018-02-11 12:38:15 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-11 12:38:18 TRACE LoginScreen:46 - Enter your password.
+2018-02-11 12:38:21 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-11 12:38:23 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-11 12:38:23 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:38:23 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:38:23 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:38:23 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:38:23 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-11 12:38:23 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-11 12:38:28 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-11 12:38:30 TRACE LoginScreen:46 - Enter your password.
+2018-02-11 12:38:32 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-11 12:38:32 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-11 12:38:32 WARN  BankDAOJDBC:147 - No user found.
+2018-02-11 12:38:32 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-11 12:38:39 TRACE LoginScreen:46 - Enter your password.
+2018-02-11 12:38:40 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-11 12:38:40 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-11 12:38:41 WARN  BankDAOJDBC:147 - No user found.
+2018-02-11 12:38:41 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-11 12:38:43 TRACE LoginScreen:46 - Enter your password.
+2018-02-11 12:38:44 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-11 12:38:44 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-11 12:38:45 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-11 12:38:45 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-11 12:38:45 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-11 12:38:45 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-11 12:38:45 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-11 12:38:45 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 09:41:07 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 09:41:33 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 09:41:37 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 09:41:38 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-12 09:41:40 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-12 09:41:40 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 09:41:40 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 09:41:40 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 09:41:40 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 09:41:40 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 09:41:40 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 09:41:43 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 09:41:43 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 09:42:17 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 09:42:19 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 09:42:20 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-12 09:42:21 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-12 09:42:21 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 09:42:21 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 09:42:21 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 09:42:21 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 09:42:21 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 09:42:21 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 09:42:23 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 09:42:23 TRACE BankDAOJDBC:158 - Fetching transaction history...
+2018-02-12 09:42:23 TRACE BankDAOJDBC:161 - Connection established!
+2018-02-12 09:42:23 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 09:43:09 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 09:43:11 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 09:43:12 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-12 09:43:13 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-12 09:43:13 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 09:43:13 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 09:43:13 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 09:43:13 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 09:43:13 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 09:43:13 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 09:43:16 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 09:43:16 TRACE BankDAOJDBC:158 - Fetching transaction history...
+2018-02-12 09:43:16 TRACE BankDAOJDBC:161 - Connection established!
+2018-02-12 09:43:16 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 09:43:16 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 09:43:16 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 09:43:16 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 09:43:16 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 09:43:16 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 09:50:20 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 09:50:23 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 09:50:24 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-12 09:50:25 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-12 09:50:25 WARN  BankDAOJDBC:147 - No user found.
+2018-02-12 09:50:25 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 09:50:29 TRACE RegisterScreen:33 - Choose a password.
+2018-02-12 09:50:33 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-12 09:50:35 WARN  RegisterScreen:39 - Passwords do not match.
+2018-02-12 09:50:35 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 09:50:38 TRACE RegisterScreen:33 - Choose a password.
+2018-02-12 09:50:41 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-12 09:50:42 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-12 09:50:45 TRACE BankDAOJDBC:35 - method called to add new user
+2018-02-12 09:50:45 TRACE BankDAOJDBC:36 - Attempting to connect to DB
+2018-02-12 09:50:45 TRACE BankDAOJDBC:39 - Connection established with db, creating prepared statement
+2018-02-12 09:50:45 DEBUG BankDAOJDBC:46 - query inserted 1 rows into the db
+2018-02-12 09:50:45 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 09:50:48 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 09:50:49 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-12 09:50:50 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-12 09:50:50 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 09:50:50 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 09:50:50 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 09:50:50 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 09:50:50 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 09:50:50 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 09:50:53 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-12 09:50:53 TRACE BankDAOJDBC:104 - Connection established with db, creating prepared statement
+2018-02-12 09:50:53 TRACE BankDAOJDBC:107 - prepared statement created.
+2018-02-12 09:50:53 TRACE MainMenu:42 - Your balance is 9001
+2018-02-12 09:50:53 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 09:50:53 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 09:50:53 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 09:50:53 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 09:50:53 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 09:50:53 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 09:51:54 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 09:51:57 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 09:51:59 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-12 09:52:00 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-12 09:52:00 WARN  BankDAOJDBC:147 - No user found.
+2018-02-12 09:52:00 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 09:52:02 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 09:52:03 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-12 09:52:03 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-12 09:52:03 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 09:52:03 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 09:52:03 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 09:52:03 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 09:52:03 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 09:52:03 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 09:52:05 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-12 09:52:05 TRACE MainMenu:42 - Your balance is 9001
+2018-02-12 09:52:05 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 09:52:05 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 09:52:05 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 09:52:05 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 09:52:05 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 09:52:05 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 09:52:12 TRACE BankDAOJDBC:79 - Method called to withdraw
+2018-02-12 09:52:13 TRACE BankDAOJDBC:83 - Connection established with db, creating prepared statement
+2018-02-12 09:52:13 DEBUG BankDAOJDBC:89 - withdraw complete, 1 rows updated.
+2018-02-12 09:52:13 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 09:52:13 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 09:52:13 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 09:52:13 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 09:52:13 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 09:52:13 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 09:52:15 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-12 09:52:15 TRACE MainMenu:42 - Your balance is 8501
+2018-02-12 09:52:15 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 09:52:15 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 09:52:15 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 09:52:15 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 09:52:15 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 09:52:15 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 09:52:23 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 09:54:38 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 09:54:39 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 09:54:40 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-12 09:54:41 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-12 09:54:42 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 09:54:42 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 09:54:42 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 09:54:42 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 09:54:42 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 09:54:42 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 09:54:43 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 09:54:43 TRACE BankDAOJDBC:158 - Fetching transaction history...
+2018-02-12 09:54:44 TRACE BankDAOJDBC:161 - Connection established!
+2018-02-12 09:54:44 TRACE BankDAOJDBC:166 - oracle.jdbc.driver.ForwardOnlyResultSet@6b67034
+2018-02-12 09:54:44 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 09:54:44 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 09:54:44 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 09:54:44 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 09:54:44 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 09:54:44 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 09:55:00 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 09:55:02 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 09:55:03 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-12 09:55:04 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-12 09:55:05 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 09:55:05 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 09:55:05 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 09:55:05 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 09:55:05 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 09:55:05 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 09:55:06 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 09:55:06 TRACE BankDAOJDBC:158 - Fetching transaction history...
+2018-02-12 09:55:06 TRACE BankDAOJDBC:161 - Connection established!
+2018-02-12 09:55:06 TRACE BankDAOJDBC:166 - oracle.jdbc.driver.ForwardOnlyResultSet@25359ed8
+2018-02-12 09:55:06 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 09:55:06 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 09:55:06 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 09:55:06 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 09:55:06 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 09:55:06 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:17:37 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 10:17:40 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 10:17:42 TRACE BankDAOJDBC:130 - attempting to log in
+2018-02-12 10:17:43 TRACE BankDAOJDBC:134 - Connection established!
+2018-02-12 10:17:43 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:17:43 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:17:43 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:17:43 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:17:43 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:17:43 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:17:45 TRACE BankDAOJDBC:100 - method called to get user balance
+2018-02-12 10:17:45 TRACE MainMenu:42 - Your balance is 750.0
+2018-02-12 10:17:45 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:17:45 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:17:45 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:17:45 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:17:45 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:17:45 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:27:32 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 10:27:36 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 10:27:37 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 10:27:38 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 10:27:39 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:27:39 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:27:39 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:27:39 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:27:39 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:27:39 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:27:40 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 10:27:40 TRACE BankDAOJDBC:159 - Fetching transaction history...
+2018-02-12 10:27:40 TRACE BankDAOJDBC:162 - Connection established!
+2018-02-12 10:27:40 TRACE BankDAOJDBC:171 - Transaction [u_id=61, transact_id=81, before_bal=500.0, after_bal=750.0, log_time=2018-02-11 17:34:48.982457]
+2018-02-12 10:27:40 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:27:40 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:27:40 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:27:40 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:27:40 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:27:40 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:30:18 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 10:30:20 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 10:30:21 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 10:30:23 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 10:30:23 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:30:23 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:30:23 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:30:23 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:30:23 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:30:23 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:31:10 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 10:31:10 TRACE BankDAOJDBC:159 - Fetching transaction history...
+2018-02-12 10:31:10 TRACE BankDAOJDBC:162 - Connection established!
+2018-02-12 10:31:29 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 10:31:31 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 10:31:32 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 10:31:33 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 10:31:33 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:31:33 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:31:33 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:31:33 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:31:33 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:31:33 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:31:34 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 10:31:34 TRACE BankDAOJDBC:159 - Fetching transaction history...
+2018-02-12 10:31:35 TRACE BankDAOJDBC:162 - Connection established!
+2018-02-12 10:31:35 TRACE BankDAOJDBC:171 - Transaction [User Id=61, Transaction ID:81, Before balance:500.0, After Balance:750.0, Time:2018-02-11 17:34:48.982457]
+2018-02-12 10:31:35 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:31:35 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:31:35 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:31:35 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:31:35 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:31:35 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:32:07 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 10:32:08 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 10:32:10 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 10:32:11 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 10:32:11 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:32:11 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:32:11 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:32:11 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:32:11 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:32:11 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:32:12 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 10:32:12 TRACE BankDAOJDBC:159 - Fetching transaction history...
+2018-02-12 10:32:13 TRACE BankDAOJDBC:162 - Connection established!
+2018-02-12 10:32:13 TRACE BankDAOJDBC:171 - Transaction [Transaction ID:81, Before balance:500.0, After Balance:750.0, Time:2018-02-11 17:34:48.982457]
+2018-02-12 10:32:13 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:32:13 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:32:13 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:32:13 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:32:13 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:32:13 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:32:24 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 10:32:25 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 10:32:26 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 10:32:27 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 10:32:28 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:32:28 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:32:28 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:32:28 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:32:28 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:32:28 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:32:30 TRACE BankDAOJDBC:101 - method called to get user balance
+2018-02-12 10:32:30 TRACE MainMenu:42 - Your balance is 750.0
+2018-02-12 10:32:30 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:32:30 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:32:30 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:32:30 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:32:30 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:32:30 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:32:34 TRACE BankDAOJDBC:80 - Method called to withdraw
+2018-02-12 10:32:35 TRACE BankDAOJDBC:84 - Connection established with db, creating prepared statement
+2018-02-12 10:32:35 DEBUG BankDAOJDBC:90 - withdraw complete, 1 rows updated.
+2018-02-12 10:32:35 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:32:35 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:32:35 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:32:35 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:32:35 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:32:35 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:32:38 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 10:32:38 TRACE BankDAOJDBC:159 - Fetching transaction history...
+2018-02-12 10:32:39 TRACE BankDAOJDBC:162 - Connection established!
+2018-02-12 10:32:39 TRACE BankDAOJDBC:171 - Transaction [Transaction ID:81, Before balance:500.0, After Balance:750.0, Time:2018-02-11 17:34:48.982457]
+2018-02-12 10:32:39 TRACE BankDAOJDBC:171 - Transaction [Transaction ID:102, Before balance:750.0, After Balance:250.0, Time:2018-02-12 15:32:40.603467]
+2018-02-12 10:32:39 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:32:39 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:32:39 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:32:39 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:32:39 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:32:39 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:47:51 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 10:48:08 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 10:48:11 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 10:48:12 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 10:48:13 WARN  BankDAOJDBC:148 - No user found.
+2018-02-12 10:48:13 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 10:48:22 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 10:48:26 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 10:48:27 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 10:48:27 WARN  BankDAOJDBC:148 - No user found.
+2018-02-12 10:48:27 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 10:48:31 TRACE RegisterScreen:33 - Choose a password.
+2018-02-12 10:48:33 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-12 10:48:35 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-12 10:48:39 TRACE BankDAOJDBC:36 - method called to add new user
+2018-02-12 10:48:39 DEBUG BankDAOJDBC:47 - query inserted 1 rows into the db
+2018-02-12 10:48:39 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 10:48:43 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 10:48:45 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 10:48:45 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 10:48:45 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:48:45 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:48:45 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:48:45 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:48:45 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:48:45 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:49:04 TRACE BankDAOJDBC:101 - method called to get user balance
+2018-02-12 10:49:05 TRACE MainMenu:42 - Your balance is 1.0E7
+2018-02-12 10:49:05 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:49:05 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:49:05 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:49:05 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:49:05 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:49:05 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:49:33 TRACE DepositScreen:24 - Enter the amount you would like to deposit.
+2018-02-12 10:49:35 TRACE BankDAOJDBC:58 - method called to deposit
+2018-02-12 10:49:35 DEBUG BankDAOJDBC:69 - deposit inserted, 1 rows updated.
+2018-02-12 10:49:35 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:49:35 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:49:35 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:49:35 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:49:35 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:49:35 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:49:41 TRACE BankDAOJDBC:80 - Method called to withdraw
+2018-02-12 10:49:41 TRACE BankDAOJDBC:84 - Connection established with db, creating prepared statement
+2018-02-12 10:49:41 WARN  BankDAOJDBC:93 - Unable to complete withdrawal, withdrawing amount exceeds balance!
+2018-02-12 10:49:41 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:49:41 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:49:41 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:49:41 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:49:41 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:49:41 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:49:46 TRACE BankDAOJDBC:80 - Method called to withdraw
+2018-02-12 10:49:47 TRACE BankDAOJDBC:84 - Connection established with db, creating prepared statement
+2018-02-12 10:49:47 DEBUG BankDAOJDBC:90 - withdraw complete, 1 rows updated.
+2018-02-12 10:49:47 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:49:47 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:49:47 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:49:47 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:49:47 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:49:47 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:49:49 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 10:49:49 TRACE BankDAOJDBC:159 - Fetching transaction history...
+2018-02-12 10:49:50 TRACE BankDAOJDBC:170 - Transaction [Transaction ID:103, Before balance:1.0E7, After Balance:1.0000001E7, Time:2018-02-12 15:49:41.103843]
+2018-02-12 10:49:50 TRACE BankDAOJDBC:170 - Transaction [Transaction ID:104, Before balance:1.0000001E7, After Balance:9990001.0, Time:2018-02-12 15:49:52.533523]
+2018-02-12 10:49:50 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:49:50 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:49:50 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:49:50 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:49:50 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:49:50 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:50:11 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 10:50:43 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 10:50:44 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 10:50:45 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 10:50:45 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:50:45 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:50:45 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:50:45 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:50:45 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:50:45 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:50:58 TRACE DepositScreen:24 - Enter the amount you would like to deposit.
+2018-02-12 10:51:08 WARN  DepositScreen:40 - Invalid input, give a number.
+2018-02-12 10:51:08 TRACE DepositScreen:24 - Enter the amount you would like to deposit.
+2018-02-12 10:51:12 TRACE BankDAOJDBC:58 - method called to deposit
+2018-02-12 10:51:13 DEBUG BankDAOJDBC:69 - deposit inserted, 1 rows updated.
+2018-02-12 10:51:13 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:51:13 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:51:13 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:51:13 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:51:13 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:51:13 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:51:15 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 10:52:29 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 10:52:32 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 10:52:33 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 10:52:33 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:52:33 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:52:33 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:52:33 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:52:33 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:52:33 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:52:36 TRACE DepositScreen:24 - Enter the amount you would like to deposit.
+2018-02-12 10:52:39 WARN  DepositScreen:33 - Deposit amount cannot be negative.
+2018-02-12 10:52:39 TRACE DepositScreen:24 - Enter the amount you would like to deposit.
+2018-02-12 10:52:45 TRACE BankDAOJDBC:58 - method called to deposit
+2018-02-12 10:52:46 DEBUG BankDAOJDBC:69 - deposit inserted, 1 rows updated.
+2018-02-12 10:52:46 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:52:46 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:52:46 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:52:46 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:52:46 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:52:46 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:52:54 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 10:54:48 TRACE LoginScreen:37 - Welcome to login page. Enter your username, or type New to make a new account.
+2018-02-12 10:57:59 TRACE RegisterScreen:33 - Choose a password.
+2018-02-12 10:58:01 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-12 10:58:03 WARN  RegisterScreen:39 - Passwords do not match.
+2018-02-12 10:58:26 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 10:58:27 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 10:58:28 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 10:58:29 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:58:29 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:58:29 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:58:29 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:58:29 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:58:29 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:58:34 TRACE BankDAOJDBC:101 - method called to get user balance
+2018-02-12 10:58:34 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:58:34 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:58:34 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:58:34 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:58:34 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:58:34 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:59:15 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 10:59:17 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 10:59:18 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 10:59:18 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:59:18 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:59:18 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:59:18 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:59:18 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:59:18 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:59:26 TRACE BankDAOJDBC:101 - method called to get user balance
+2018-02-12 10:59:27 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:59:27 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:59:27 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:59:27 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:59:27 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:59:27 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 10:59:31 TRACE BankDAOJDBC:80 - Method called to withdraw
+2018-02-12 10:59:31 TRACE BankDAOJDBC:84 - Connection established with db, creating prepared statement
+2018-02-12 10:59:31 WARN  BankDAOJDBC:93 - Unable to complete withdrawal, withdrawing amount exceeds balance!
+2018-02-12 10:59:31 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 10:59:31 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 10:59:31 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 10:59:31 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 10:59:31 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 10:59:31 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 11:00:23 TRACE RegisterScreen:33 - Choose a password.
+2018-02-12 11:00:24 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-12 11:00:26 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-12 11:00:27 TRACE BankDAOJDBC:36 - method called to add new user
+2018-02-12 11:00:29 WARN  BankDAOJDBC:50 - failed to add new user
+2018-02-12 11:00:40 TRACE RegisterScreen:33 - Choose a password.
+2018-02-12 11:00:41 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-12 11:00:43 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-12 11:00:44 TRACE BankDAOJDBC:36 - method called to add new user
+2018-02-12 11:00:44 DEBUG BankDAOJDBC:47 - query inserted 1 rows into the db
+2018-02-12 11:00:47 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 11:00:48 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 11:00:48 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 11:00:48 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 11:00:48 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 11:00:48 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 11:00:48 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 11:00:48 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 11:00:48 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 11:00:50 TRACE BankDAOJDBC:101 - method called to get user balance
+2018-02-12 11:00:50 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 11:00:50 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 11:00:50 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 11:00:50 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 11:00:50 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 11:00:50 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 11:00:53 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 11:00:53 TRACE BankDAOJDBC:159 - Fetching transaction history...
+2018-02-12 11:00:54 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 11:00:54 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 11:00:54 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 11:00:54 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 11:00:54 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 11:00:54 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 11:01:04 TRACE DepositScreen:24 - Enter the amount you would like to deposit.
+2018-02-12 11:01:05 TRACE BankDAOJDBC:58 - method called to deposit
+2018-02-12 11:01:06 DEBUG BankDAOJDBC:69 - deposit inserted, 1 rows updated.
+2018-02-12 11:01:06 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 11:01:06 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 11:01:06 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 11:01:06 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 11:01:06 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 11:01:06 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 11:01:08 TRACE BankDAOJDBC:101 - method called to get user balance
+2018-02-12 11:01:09 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 11:01:09 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 11:01:09 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 11:01:09 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 11:01:09 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 11:01:09 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 11:01:11 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 11:01:11 TRACE BankDAOJDBC:159 - Fetching transaction history...
+2018-02-12 11:01:11 TRACE BankDAOJDBC:170 - Transaction [Transaction ID:107, Before balance:1.0, After Balance:2.0, Time:2018-02-12 16:01:11.150493]
+2018-02-12 11:01:11 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 11:01:11 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 11:01:11 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 11:01:11 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 11:01:11 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 11:01:11 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 11:01:38 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 11:01:40 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 11:01:41 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 11:01:41 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 11:01:41 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 11:01:41 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 11:01:41 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 11:01:41 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 11:01:41 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 11:01:43 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 11:01:43 TRACE BankDAOJDBC:159 - Fetching transaction history...
+2018-02-12 11:01:43 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 11:01:43 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 11:01:43 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 11:01:43 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 11:01:43 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 11:01:43 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 11:02:06 TRACE DepositScreen:24 - Enter the amount you would like to deposit.
+2018-02-12 11:02:07 TRACE BankDAOJDBC:58 - method called to deposit
+2018-02-12 11:02:08 DEBUG BankDAOJDBC:69 - deposit inserted, 1 rows updated.
+2018-02-12 11:02:08 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 11:02:08 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 11:02:08 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 11:02:08 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 11:02:08 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 11:02:08 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 11:02:09 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 11:02:09 TRACE BankDAOJDBC:159 - Fetching transaction history...
+2018-02-12 11:02:09 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 11:02:10 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 11:02:10 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 11:02:10 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 11:02:10 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 11:02:10 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 11:02:46 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 11:02:48 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 11:02:49 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 11:02:49 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 11:02:49 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 11:02:49 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 11:02:49 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 11:02:49 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 11:02:49 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 11:02:53 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 11:02:53 TRACE BankDAOJDBC:159 - Fetching transaction history...
+2018-02-12 11:02:54 TRACE MainMenu:30 - Welcome to the Main Menu, select an option.
+2018-02-12 11:02:54 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 11:02:54 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 11:02:54 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 11:02:54 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 11:02:54 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 11:03:52 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 11:03:54 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 11:03:55 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 11:03:55 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 11:03:55 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 11:03:55 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 11:03:55 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 11:03:55 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 21:10:02 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 21:10:03 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 21:10:05 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 21:10:05 WARN  BankDAOJDBC:148 - No user found.
+2018-02-12 22:02:26 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 22:02:27 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 22:02:29 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 22:02:29 WARN  BankDAOJDBC:148 - No user found.
+2018-02-12 22:02:34 TRACE RegisterScreen:33 - Choose a password.
+2018-02-12 22:02:35 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-12 22:02:37 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-12 22:02:38 TRACE BankDAOJDBC:36 - method called to add new user
+2018-02-12 22:02:39 DEBUG BankDAOJDBC:47 - query inserted 1 rows into the db
+2018-02-12 22:02:46 TRACE RegisterScreen:33 - Choose a password.
+2018-02-12 22:02:47 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-12 22:02:48 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-12 22:02:50 TRACE BankDAOJDBC:36 - method called to add new user
+2018-02-12 22:02:50 WARN  BankDAOJDBC:50 - failed to add new user
+2018-02-12 22:23:09 TRACE RegisterScreen:33 - Choose a password.
+2018-02-12 22:23:11 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-12 22:23:16 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-12 22:46:32 TRACE BankDAOJDBC:36 - method called to add new user
+2018-02-12 22:46:33 DEBUG BankDAOJDBC:47 - query inserted 1 rows into the db
+2018-02-12 22:46:36 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 22:46:37 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 22:46:37 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 22:46:37 WARN  BankDAOJDBC:148 - No user found.
+2018-02-12 22:46:41 TRACE LoginScreen:46 - Enter your password.
+2018-02-12 22:46:42 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-12 22:46:43 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-12 22:46:43 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 22:46:43 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 22:46:43 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 22:46:43 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 22:46:43 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 22:46:45 TRACE DepositScreen:24 - Enter the amount you would like to deposit.
+2018-02-12 22:46:47 TRACE BankDAOJDBC:58 - method called to deposit
+2018-02-12 22:46:48 DEBUG BankDAOJDBC:69 - deposit inserted, 1 rows updated.
+2018-02-12 22:46:48 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 22:46:48 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 22:46:48 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 22:46:48 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 22:46:48 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 22:46:50 TRACE BankDAOJDBC:101 - method called to get user balance
+2018-02-12 22:46:51 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 22:46:51 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 22:46:51 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 22:46:51 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 22:46:51 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-12 22:46:54 TRACE MainMenu:52 - Your transaction history: 
+2018-02-12 22:46:54 TRACE BankDAOJDBC:159 - Fetching transaction history...
+2018-02-12 22:46:55 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-12 22:46:55 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-12 22:46:55 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-12 22:46:55 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-12 22:46:55 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-13 09:13:31 TRACE LoginScreen:46 - Enter your password.
+2018-02-13 09:13:32 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-13 09:17:58 TRACE LoginScreen:46 - Enter your password.
+2018-02-13 09:17:59 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-13 09:18:00 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-13 09:18:00 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-13 09:18:00 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-13 09:18:00 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-13 09:18:00 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-13 09:18:00 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-13 09:52:07 TRACE MainMenu:52 - Your transaction history: 
+2018-02-13 09:52:07 TRACE BankDAOJDBC:159 - Fetching transaction history...
+2018-02-13 09:52:08 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-13 09:52:08 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-13 09:52:08 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-13 09:52:08 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-13 09:52:08 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-13 09:52:17 TRACE BankDAOJDBC:101 - method called to get user balance
+2018-02-13 09:52:17 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-13 09:52:17 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-13 09:52:17 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-13 09:52:17 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-13 09:52:17 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-13 09:52:22 TRACE BankDAOJDBC:80 - Method called to withdraw
+2018-02-13 09:52:23 DEBUG BankDAOJDBC:90 - withdraw complete, 1 rows updated.
+2018-02-13 09:52:23 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-13 09:52:23 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-13 09:52:23 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-13 09:52:23 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-13 09:52:23 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-13 09:52:26 TRACE LoginScreen:46 - Enter your password.
+2018-02-13 09:52:28 TRACE BankDAOJDBC:131 - attempting to log in
+2018-02-13 09:52:28 TRACE BankDAOJDBC:135 - Connection established!
+2018-02-13 09:52:28 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-13 09:52:28 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-13 09:52:28 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-13 09:52:28 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-13 09:52:28 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-13 09:52:30 TRACE BankDAOJDBC:101 - method called to get user balance
+2018-02-13 09:52:31 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-13 09:52:31 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-13 09:52:31 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-13 09:52:31 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-13 09:52:31 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-13 09:52:33 TRACE MainMenu:52 - Your transaction history: 
+2018-02-13 09:52:33 TRACE BankDAOJDBC:159 - Fetching transaction history...
+2018-02-13 09:52:34 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-13 09:52:34 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-13 09:52:34 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-13 09:52:34 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-13 09:52:34 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-13 09:52:45 TRACE LoginScreen:46 - Enter your password.
+2018-02-13 09:52:47 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 09:52:48 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 09:52:48 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-13 09:52:48 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-13 09:52:48 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-13 09:52:48 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-13 09:52:48 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-13 09:52:49 TRACE BankDAOJDBC:99 - method called to get user balance
+2018-02-13 09:52:50 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-13 09:52:50 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-13 09:52:50 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-13 09:52:50 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-13 09:52:50 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-13 09:52:52 TRACE MainMenu:52 - Your transaction history: 
+2018-02-13 09:52:52 TRACE BankDAOJDBC:156 - Fetching transaction history...
+2018-02-13 09:52:52 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-13 09:52:52 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-13 09:52:52 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-13 09:52:52 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-13 09:52:52 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-13 11:46:56 TRACE LoginScreen:46 - Enter your password.
+2018-02-13 11:46:57 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 11:46:58 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 11:46:58 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-13 11:46:58 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-13 11:46:58 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-13 11:46:58 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-13 11:46:58 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-13 11:47:01 TRACE BankDAOJDBC:99 - method called to get user balance
+2018-02-13 11:47:01 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-13 11:47:01 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-13 11:47:01 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-13 11:47:01 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-13 11:47:01 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-13 11:47:04 TRACE MainMenu:52 - Your transaction history: 
+2018-02-13 11:47:04 TRACE BankDAOJDBC:156 - Fetching transaction history...
+2018-02-13 11:47:04 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-13 11:47:04 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-13 11:47:04 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-13 11:47:04 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-13 11:47:04 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-13 11:47:11 TRACE LoginScreen:46 - Enter your password.
+2018-02-13 11:47:12 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 11:47:12 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 11:47:12 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-13 11:47:12 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-13 11:47:12 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-13 11:47:12 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-13 11:47:12 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-13 11:47:13 TRACE BankDAOJDBC:99 - method called to get user balance
+2018-02-13 11:47:14 TRACE MainMenu:31 - Type 1 to view your balance and info.
+2018-02-13 11:47:14 TRACE MainMenu:32 - Type 2 to make a deposit.
+2018-02-13 11:47:14 TRACE MainMenu:33 - Type 3 to make a withdrawal.
+2018-02-13 11:47:14 TRACE MainMenu:34 - Type 5 to view your transaction history.
+2018-02-13 11:47:14 TRACE MainMenu:35 - Type 9 to log out.
+2018-02-13 11:50:01 TRACE LoginScreen:46 - Enter your password.
+2018-02-13 11:50:05 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 11:50:06 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 11:50:17 TRACE BankDAOJDBC:99 - method called to get user balance
+2018-02-13 11:51:09 TRACE MainMenu:52 - Your transaction history: 
+2018-02-13 11:51:09 TRACE BankDAOJDBC:156 - Fetching transaction history...
+2018-02-13 11:51:30 TRACE BankDAOJDBC:58 - method called to deposit
+2018-02-13 11:51:32 DEBUG BankDAOJDBC:68 - deposit inserted, 1 rows updated.
+2018-02-13 11:51:35 TRACE MainMenu:52 - Your transaction history: 
+2018-02-13 11:51:35 TRACE BankDAOJDBC:156 - Fetching transaction history...
+2018-02-13 11:52:10 TRACE LoginScreen:46 - Enter your password.
+2018-02-13 11:52:12 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 11:52:13 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 11:52:14 TRACE MainMenu:52 - Your transaction history: 
+2018-02-13 11:52:14 TRACE BankDAOJDBC:156 - Fetching transaction history...
+2018-02-13 11:53:45 TRACE LoginScreen:46 - Enter your password.
+2018-02-13 11:53:46 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 11:53:47 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 11:53:48 TRACE BankDAOJDBC:156 - Fetching transaction history...
+2018-02-13 12:00:33 TRACE LoginScreen:46 - Enter your password.
+2018-02-13 12:00:36 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 12:00:37 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 12:00:37 WARN  BankDAOJDBC:145 - No user found.
+2018-02-13 12:00:42 TRACE LoginScreen:46 - Enter your password.
+2018-02-13 12:00:43 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 12:00:44 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 12:00:57 TRACE LoginScreen:46 - Enter your password.
+2018-02-13 12:00:58 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 12:00:59 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 12:01:02 TRACE BankDAOJDBC:99 - method called to get user balance
+2018-02-13 12:01:02 TRACE MainMenu:41 - Your balance is 1300.0
+2018-02-13 12:01:37 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 12:01:38 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 12:10:24 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 12:10:27 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 12:10:36 TRACE BankDAOJDBC:58 - method called to deposit
+2018-02-13 12:10:36 DEBUG BankDAOJDBC:68 - deposit inserted, 1 rows updated.
+2018-02-13 12:10:44 WARN  DepositScreen:40 - Invalid input, give a number.
+2018-02-13 13:35:51 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 13:35:53 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 13:35:56 TRACE BankDAOJDBC:99 - method called to get user balance
+2018-02-13 13:35:56 TRACE MainMenu:41 - Your balance is 1800.0
+2018-02-13 13:36:02 TRACE BankDAOJDBC:156 - Fetching transaction history...
+2018-02-13 14:05:17 TRACE RegisterScreen:33 - Choose a password.
+2018-02-13 14:05:19 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-13 14:05:20 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-13 14:06:20 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 14:06:21 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 14:06:22 WARN  BankDAOJDBC:145 - No user found.
+2018-02-13 14:09:58 TRACE RegisterScreen:33 - Choose a password.
+2018-02-13 14:10:00 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-13 14:10:03 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-13 14:10:06 TRACE BankDAOJDBC:36 - method called to add new user
+2018-02-13 14:10:07 DEBUG BankDAOJDBC:47 - query inserted 1 rows into the db
+2018-02-13 14:10:13 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 14:10:13 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 14:21:21 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 14:21:23 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 14:21:24 TRACE BankDAOJDBC:99 - method called to get user balance
+2018-02-13 14:21:25 TRACE MainMenu:41 - Your balance is 1800.0
+2018-02-13 14:21:28 TRACE BankDAOJDBC:58 - method called to deposit
+2018-02-13 14:21:29 DEBUG BankDAOJDBC:68 - deposit inserted, 1 rows updated.
+2018-02-13 14:21:31 TRACE BankDAOJDBC:79 - Method called to withdraw
+2018-02-13 14:21:32 DEBUG BankDAOJDBC:89 - withdraw complete, 1 rows updated.
+2018-02-13 14:21:34 TRACE BankDAOJDBC:156 - Fetching transaction history...
+2018-02-13 14:56:36 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 14:56:37 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 14:56:39 TRACE BankDAOJDBC:99 - method called to get user balance
+2018-02-13 14:56:39 TRACE MainMenu:41 - Your balance is 1800.0
+2018-02-13 14:56:46 WARN  DepositScreen:32 - Deposit amount cannot be negative.
+2018-02-13 14:56:51 WARN  DepositScreen:39 - Invalid input, give a number.
+2018-02-13 14:57:05 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 14:57:06 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 14:57:12 WARN  WithdrawScreen:39 - Please enter a number greater than zero.
+2018-02-13 14:57:17 WARN  WithdrawScreen:45 - Invalid input. Please enter a number to withdraw
+2018-02-13 15:07:06 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 15:07:07 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 15:07:11 TRACE BankDAOJDBC:58 - method called to deposit
+2018-02-13 15:07:12 DEBUG BankDAOJDBC:68 - deposit inserted, 1 rows updated.
+2018-02-13 15:07:14 TRACE BankDAOJDBC:99 - method called to get user balance
+2018-02-13 15:07:15 TRACE MainMenu:41 - Your balance is 2300.0
+2018-02-13 15:16:43 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 15:16:44 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 15:16:46 TRACE BankDAOJDBC:156 - Fetching transaction history...
+2018-02-13 15:29:44 TRACE BankDAOJDBC:125 - attempting to log in
+2018-02-13 15:29:45 TRACE BankDAOJDBC:129 - Connection established!
+2018-02-13 15:30:10 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 15:30:11 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 15:30:12 TRACE BankDAOJDBC:99 - method called to get user balance
+2018-02-13 15:30:13 TRACE MainMenu:41 - Your balance is 2300.0
+2018-02-13 15:35:01 TRACE RegisterScreen:33 - Choose a password.
+2018-02-13 15:35:02 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-13 15:35:05 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-13 15:35:07 TRACE BankDAOJDBC:36 - method called to add new user
+2018-02-13 15:35:08 WARN  BankDAOJDBC:50 - Failed - This username may already be taken!
+2018-02-13 15:35:32 TRACE RegisterScreen:33 - Choose a password.
+2018-02-13 15:35:33 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-13 15:35:35 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-13 15:35:36 TRACE BankDAOJDBC:36 - method called to add new user
+2018-02-13 15:35:37 WARN  BankDAOJDBC:50 - Failed - This username may already be taken!
+2018-02-13 16:16:22 TRACE RegisterScreen:33 - Choose a password.
+2018-02-13 16:16:24 TRACE RegisterScreen:35 - Confirm your password.
+2018-02-13 16:16:28 TRACE RegisterScreen:43 - What is your starting balance?
+2018-02-13 16:16:32 TRACE BankDAOJDBC:36 - method called to add new user
+2018-02-13 16:16:37 DEBUG BankDAOJDBC:47 - query inserted 1 rows into the db
+2018-02-13 16:16:47 TRACE BankDAOJDBC:128 - attempting to log in
+2018-02-13 16:16:47 TRACE BankDAOJDBC:132 - Connection established!
+2018-02-13 16:16:59 TRACE BankDAOJDBC:99 - method called to get user balance
+2018-02-13 16:16:59 TRACE MainMenu:41 - Your balance is 1000.0
+2018-02-13 16:17:09 WARN  DepositScreen:32 - Deposit amount cannot be negative.
+2018-02-13 16:17:14 WARN  DepositScreen:39 - Invalid input, give a number.
+2018-02-13 16:17:21 TRACE BankDAOJDBC:58 - method called to deposit
+2018-02-13 16:17:21 DEBUG BankDAOJDBC:68 - deposit inserted, 1 rows updated.
+2018-02-13 16:17:23 TRACE BankDAOJDBC:99 - method called to get user balance
+2018-02-13 16:17:24 TRACE MainMenu:41 - Your balance is 1150.0
+2018-02-13 16:17:30 WARN  WithdrawScreen:39 - Please enter a number greater than zero.
+2018-02-13 16:17:33 WARN  WithdrawScreen:45 - Invalid input. Please enter a number to withdraw
+2018-02-13 16:17:37 TRACE BankDAOJDBC:79 - Method called to withdraw
+2018-02-13 16:17:38 DEBUG BankDAOJDBC:89 - withdraw complete, 1 rows updated.
+2018-02-13 16:17:40 TRACE BankDAOJDBC:99 - method called to get user balance
+2018-02-13 16:17:41 TRACE MainMenu:41 - Your balance is 1000.0
+2018-02-13 16:17:47 TRACE BankDAOJDBC:156 - Fetching transaction history...
