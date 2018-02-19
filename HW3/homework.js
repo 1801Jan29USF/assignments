@@ -123,6 +123,80 @@ function isPalindrome(someStr) {
 
 }
 
+// 8. Shapes
+// Define function: printShape(shape, height, character)
+// shape is a String and is either "Square", "Triangle", "Diamond".
+// height is a Number and is the height of the shape. Assume the number is odd.
+// character is a String that represents the contents of the shape. Assume this String contains just one character.
+// Use a switch statement to determine which shape was passed in.
+// Use the console.log function to print the desired shape.
+// Example for printShape("Square", 3, "%");
+// %%%
+// %%%
+// %%%
+// Example for printShape("Triangle", 3, "$");
+// $
+// $$
+// $$$
+// Example for printShape("Diamond", 5, "*");
+//   *
+//  ***
+// *****
+//  ***
+//   *
+
+function printShape(shape, height, character) {
+    let i = 0;
+    let j = 0;
+    let k = 0;
+
+    if (shape === "Triangle") {
+        for (i = 1; i <= height; i++) {
+            let row = '';
+            for (j = 1; j <= i; j++) {
+                row += character;
+            }
+            console.log(row);
+        }
+        return;
+    }
+    if (shape === "Square") {
+
+        for (k = 0; k < height * height; k++) {
+            if (k !== 0 && k % height === 0) {
+                console.log("");
+            }
+            console.log(character);
+        }
+        return;
+    }
+
+    //print diamond
+
+    let m = 0
+    let s = 0;
+    for (m = 1; m <= height; ++m) {
+        for (s = 1; s <= height - m; ++s) {
+            console.log(" ");
+        }
+        for (s = 1; s <= m; ++s) {
+            console.log(character + " ");
+        }
+        console.log("\n");
+    }
+    for (m = height - 1; m >= 1; --m) {
+        for (s = 1; s <= height - m; ++s) {
+            console.log(" ");
+        }
+        for (s = 1; s <= m; ++s) {
+            console.log(character + " ");
+        }
+        console.log("\n");
+    }
+
+
+}
+
 // 9. Object literal
 // Define function traverseObject(someObj)
 // Print every property and it's value.
@@ -187,6 +261,7 @@ function Person(name, age) {
 function getPerson(name, age) {
     return new Person(name, age);
 }
+
 
 
 
@@ -276,83 +351,7 @@ function getCustomAttribute() {
 // Add <input> element values.
 // Put the sum in the <span> element.
 // If values cannot be added, put "Cannot add" in the <span> element
-
-// 8. Shapes
-// Define function: printShape(shape, height, character)
-// shape is a String and is either "Square", "Triangle", "Diamond".
-// height is a Number and is the height of the shape. Assume the number is odd.
-// character is a String that represents the contents of the shape. Assume this String contains just one character.
-// Use a switch statement to determine which shape was passed in.
-// Use the console.log function to print the desired shape.
-// Example for printShape("Square", 3, "%");
-// %%%
-// %%%
-// %%%
-// Example for printShape("Triangle", 3, "$");
-// $
-// $$
-// $$$
-// Example for printShape("Diamond", 5, "*");
-//   *
-//  ***
-// *****
-//  ***
-//   *
-
-function printShape(shape, height, character) {
-    let i = 0;
-    let j = 0;
-    let k = 0;
-
-    if (shape === "Triangle") {
-        for (i = 1; i <= height; i++) {
-            let row = '';
-            for (j = 1; j <= i; j++) {
-                row += character;
-            }
-            console.log(row);
-        }
-        return;
-    }
-    if (shape === "Square") {
-
-        for (k = 0; k < height * height; k++) {
-            if (k !== 0 && k % height === 0) {
-                console.log("");
-            }
-            console.log(character);
-        }
-        return;
-    }
-
-    //print diamond
-
-    let m = 0
-    let s = 0;
-    for (m = 1; m <= height; ++m) {
-        for (s = 1; s <= height - m; ++s) {
-            console.log(" ");
-        }
-        for (s = 1; s <= m; ++s) {
-            console.log(character + " ");
-        }
-        console.log("\n");
-    }
-    for (m = height - 1; m >= 1; --m) {
-        for (s = 1; s <= height - m; ++s) {
-            console.log(" ");
-        }
-        for (s = 1; s <= m; ++s) {
-            console.log(character + " ");
-        }
-        console.log("\n");
-    }
-
-
-}
-
-
-//S L I C K
+// S L I C K
 function sum() {
     let hasNumber = /\d/;
     let one = document.getElementById("num1").value;
