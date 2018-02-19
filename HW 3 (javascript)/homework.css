@@ -1,0 +1,16 @@
+.hidden{
+    display: none;
+}
+
+.colored-blue {
+    background-color: blue;
+}
+.colored-red {
+    background-color: red;
+}
+.colored-green {
+    background-color: green;
+}
+.colored-orange {
+    background-color: orange;
+}
