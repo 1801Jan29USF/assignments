@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>DOM</title>
+</head>
+<body>
+  
+  <div>
+    <div>
+      <h3>Sum: <span id="sum"></span></h3>
+      <h5 id="currentTime">Waiting for time...</h5>
+    </div>
+    <div>
+      <h1>United <span data-customAttr="USA">States</span> of America (<span>USA</span>)</h1>
+      <div><a>Click Here</a><a>Click Here</a><a>Click Here</a><a>Click Here</a><a>Click Here</a></div>
+      <a>Click Here</a>
+      <a>Click <span>Here1</span></a>
+      <a>Click Here</a>
+      <div>
+	  <select name="colors">
+	    <option value="green">Green</option>
+	    <option value="blue">Blue</option>
+	    <option value="red" selected="selected">Red</option>
+	    <option value="purple">Purple</option>
+	    <option value="yellow" selected="selected">Yellow</option>
+	  </select>
+      </div>
+    </div>
+    <p id="helloWorld" onClick="setTimeout(function(){randomColor();}, 3000);">Hello, World!</p>
+    <div>
+      <table>
+          <tbody id="empTable">
+        <tr>
+          <th>Name</th>
+          <th>Department</th>
+        </tr>
+        <tr>
+          <td class="empName" onmouseover="showHide(this)">John</td>
+          <td>Sales</td>
+        </tr>
+        <tr>
+          <td class="empName" onmouseover="showHide(this)">Amy</td>
+          <td>Finance</td>
+        </tr>
+        <tr>
+          <td class="empName" onmouseover="showHide(this)">Austin</td>
+          <td>Sales</td>
+        </tr>
+        <tr>
+          <td class="empName" onmouseover="showHide(this)">Katie</td>
+          <td>Marketing</td>
+        </tr>
+        <tr>
+          <td class="empName" data-customAttr="court" onmouseover="showHide(this)">Courtney</td>
+          <td>Sales</td>
+        </tr>
+        <tr>
+          <td class="empName" onmouseover="showHide(this)">Scout</td>
+          <td>Sales</td>
+        </tr>
+          </tbody>
+      </table>
+    </div>
+    <form id="firstForm">
+      <a>Click <span>Here2</span></a>
+	  <input type="text" data-customAttr="7"/><br/>
+	  <input type="text" data-customAttr="24"/><br/>
+	  <input type="radio" name="favoriteAnimal" value="dog"/>Dog<br/>
+	  <input type="radio" name="favoriteColor" value="blue" onclick="favoriteColorChange(this)"/>Blue<br/>
+	  <input id="num1" class="nums" type="text" onchange="add()" value=0 /><br/>
+	  <input type="radio" name="favoriteAnimal" value="cat"/>Cat<br/>
+	  <input type="radio" name="favoriteColor" value="red" onclick="favoriteColorChange(this)"/>Red<br/>
+	  <input type="radio" name="favoriteAnimal" value="horse"/>Horse<br/>
+	  <input type="radio" name="favoriteAnimal" value="dolphin"/>Dolphin<br/>
+	  <a>Click <span>Here</span></a><br/>
+	  <input type="radio" name="favoriteAnimal" value="eagle"/>Eagle<br/>
+	  <input type="radio" name="favoriteColor" value="green" onclick="favoriteColorChange(this)"/>Green<br/>
+	  <input type="radio" name="favoriteColor" value="orange" onclick="favoriteColorChange(this)"/>Orange<br/>
+	  <select name="hobbies">
+	    <option value="photography">Photography</option>
+	    <option value="football" selected="selected">Football</option>
+	    <option value="kayaking" selected="selected">Kayaking</option>
+	    <option value="hiking">Hiking</option>
+	    <option value="programming" selected="selected">Programming</option>
+	  </select>
+	  <input id="num2" class="nums" type="text" onchange="add()" value=0 />
+	  <select name="skills" id="skills" onchange="skillChange()">
+	    <option value="java" >Java</option>
+	    <option value="net" >.NET</option>
+	    <option value="dom" selected="selected">DOM</option>
+	    <option value="html" >HTML</option>
+	    <option value="css" >CSS</option>
+	    <option value="javascript" selected="selected">Javascript</option>
+	  </select>
+    </form>
+  </div>
+  <a>Click Here</a>
+  <a>Click <span data-customAttr="500">Here3</span></a>
+  <a>Click Here</a>
+	  
+  <script type="text/javascript">
+      //1. USA
+      function getUSA(){
+          for(let i=0; i<document.getElementsByTagName('span').length; i++){
+              if(document.getElementsByTagName('span')[i].innerHTML === 'USA')
+                  console.log(document.getElementsByTagName('span')[i])
+          }
+      }
+      //2. Sales
+      function getAllInSales(){
+          let t = document.getElementById('empTable').rows;
+          for(let i=0; i<t.length; i++){
+              let name = t[i].cells[0];
+              let dept = t[i].cells[1];
+              if(dept.innerHTML === 'Sales'){
+                  console.log(name.innerHTML)
+              }
+          }
+      }
+      //3. Click Here
+      function getAnchorChildren(){//works but it's coincidental
+          let anchors = document.getElementsByTagName('a');
+          for(let i=0; i<anchors.length; i++){
+              let children = anchors[i].children;
+              for(let j=0; j<children.length; j++){
+                  console.log(children[j]);
+                  if(children[j].tagName === 'span'){
+                      console.log(children[j].innerHTML)
+                  }
+              }
+          }
+      }
+      //4. Hobbies
+      function getHobbies(){
+          let skills = document.getElementById('skills');
+          for(let i=0; i<skills.length; i++){
+              console.log(skills[i]);
+              if(skills[i].selected){
+                  console.log(skills[i].value + " - " + skills[i].innerHTML)
+              }
+          }
+      }
+      //5. Custom Attribute
+      function getCustomAttribute(){
+          let custom = document.getElementsByTagName('*');
+          for(let i=0; i<custom.length; i++){
+              if(custom[i].getAttribute('data-customAttr') !== null){
+                  console.log(custom[i].getAttribute('data-customAttr') + " " + custom[i])
+              }
+          }
+      }
+      //6. Sum Event
+      function add(){
+          let num1 = document.getElementById('num1');
+          let num2 = document.getElementById('num2');
+          let sum = document.getElementById('sum');
+          console.log(num1.value);
+          console.log(num2.value);
+          sum.innerText = Number(num1.value) + Number(num2.value);
+          if(sum.innerText === 'NaN'){
+              sum.innerText = 'cannot add'
+          }
+      }
+      //7. Skills Event
+      function skillChange(){
+          let select = document.getElementById('skills');
+          let selected = select.options[select.selectedIndex].innerText;
+          alert('Are you sure '+ selected +' is one of your skills?')
+      }
+      //8. Favorite Color Event
+      function favoriteColorChange(color){
+          let buttons = document.getElementsByName('favoriteColor');
+          for(let i=0; i<buttons.length; i++){
+              buttons[i].style.backgroundColor = color.value;
+          }
+      }
+      //9. Show/Hide Event
+      function showHide(emp){
+          if(emp.style.opacity === '0'){
+              emp.style.opacity = '1'
+          }
+          else{
+              emp.style.opacity = '0'
+          }
+      }
+      //10. Current Time
+      setInterval(function(){updateTime()}, 1000);
+      function updateTime(){
+          let date = new Date();
+          let h = date.getHours();
+          let am = false;
+          if(h<12)am = true;
+          let m = date.getMinutes();
+          if(m<10)m = "0"+m;
+          let s = date.getSeconds();
+          if(s<10)s = "0"+s;
+          if(am){
+              document.getElementById('currentTime').innerText =
+                  h + ':' + m + ':' + s + " AM"
+          }
+          else{
+              document.getElementById('currentTime').innerText =
+                  h + ':' + m + ':' + s + " AM"
+          }
+      }
+      //11. Delay
+      function randomColor(){
+          let hello = document.getElementById('helloWorld');
+          let rgb = Math.floor(Math.random()*16581375);
+          let hexRGB = ("0"+(Number(rgb).toString(16))).slice(-6).toUpperCase();
+          hello.style.color = "#"+hexRGB;
+      }
+      //12. Walk the DOM
+      function func(node){
+          console.log(node);
+      }
+
+      function walkTheDOM(node, func){
+          let root = node;
+          if(node === ''){
+              root = document.documentElement;
+          }
+          let children = root.children;
+          for(let i=0; i<children.length; i++){
+              walkTheDOM(children[i], func)
+          }
+          func(node);
+      }
+  </script>
+  
+</body>
+</html>
