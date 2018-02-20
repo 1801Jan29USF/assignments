@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>DOM</title>
+</head>
+
+<body>
+
+    <div>
+        <div>
+            <h3>Sum:
+                <span id="sum"></span>
+            </h3>
+            <h5 id="currentTime" onload=" CurrentTime()"></h5>
+        </div>
+        <div>
+            <h1>United
+                <span data-customAttr="USA">States</span> of America (
+                <span>USA</span>)</h1>
+            <div>
+                <a>
+                    <button onclick="getUSA()">Click Here</button>
+                </a>
+                <a>Click Here</a>
+                <a>Click Here</a>
+                <a>Click Here</a>
+                <a>Click Here</a>
+            </div>
+            <a>Click Here</a>
+            <a>Click
+                <span>Here1</span>
+            </a>
+            <a>Click Here</a>
+            <div>
+                <select name="colors">
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="red" selected="selected">Red</option>
+                    <option value="purple">Purple</option>
+                    <option value="yellow" selected="selected">Yellow</option>
+                </select>
+            </div>
+        </div>
+        <p id="helloWorld" onClick="randomColor()">Hello, World!</p>
+        <div>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Department</th>
+                </tr>
+                <tr>
+                    <td class="empName" onmouseover="hideName(this)">John</td>
+                    <td>Sales</td>
+                </tr>
+                <tr>
+                    <td class="empName" onmouseover="hideName(this)">Amy</td>
+                    <td>Finance</td>
+                </tr>
+                <tr>
+                    <td class="empName" onmouseover="hideName(this)">Austin</td>
+                    <td>Sales</td>
+                </tr>
+                <tr>
+                    <td class="empName" onmouseover="hideName(this)">Katie</td>
+                    <td>Marketing</td>
+                </tr>
+                <tr>
+                    <td class="empName" data-customAttr="court" onmouseover="hideName(this)">Courtney</td>
+                    <td>Sales</td>
+                </tr>
+                <tr>
+                    <td class="empName">Scout</td>
+                    <td>Sales</td>
+                </tr>
+            </table>
+        </div>
+        <form id="firstForm">
+            <a>Click
+                <span>Here2</span>
+            </a>
+
+
+
+
+            <input type="text" data-customAttr="7" />
+            <br/>
+            <input type="text" data-customAttr="24" />
+            <br/>
+            <input type="radio" name="favoriteAnimal" value="dog" />Dog
+            <br/>
+            <input type="radio" name="favoriteColor" onchange="changedCol(this)" value="blue" />Blue
+            <br/>
+            <input id="num1" class="nums" type="text" onchange="add()" />
+            <br/>
+            <input type="radio" name="favoriteAnimal" value="cat" />Cat
+            <br/>
+            <input type="radio" name="favoriteColor" onchange="changedCol(this)" value="red" />Red
+            <br/>
+            <input type="radio" name="favoriteAnimal" value="horse" />Horse
+            <br/>
+            <input type="radio" name="favoriteAnimal" value="dolphin" />Dolphin
+            <br/>
+            <a>Click
+                <span>Here</span>
+            </a>
+            <br/>
+            <input type="radio" name="favoriteAnimal" value="eagle" />Eagle
+            <br/>
+            <input type="radio" name="favoriteColor" onchange="changedCol(this)" value="green" />Green
+            <br/>
+            <input type="radio" name="favoriteColor" onchange="changedCol(this)" value="orange" />Orange
+            <br/>
+            <select name="hobbies">
+                <option value="photography">Photography</option>
+                <option value="football" selected="selected">Football</option>
+                <option value="kayaking" selected="selected">Kayaking</option>
+                <option value="hiking">Hiking</option>
+                <option value="programming" selected="selected">Programming</option>
+            </select>
+            <input id="num2" class="nums" type="text" onchange="add()" />
+            <select name="skills" onchange="getSkill()">
+                <option value="java">Java</option>
+                <option value="net">.NET</option>
+                <option value="dom" selected="selected">DOM</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript" selected="selected">Javascript</option>
+            </select>
+        </form>
+    </div>
+    <a>Click Here</a>
+    <a>Click
+        <span data-customAttr="500">Here3</span>
+    </a>
+    <a>Click Here</a>
+    <br>
+    <br>
+
+    <div>
+        <!-- Question 6 -->
+        <input id="num1" class="nums" type="text" />
+        <input id="num2" class="nums" type="text" onchange="add(this);" />
+        <br>
+        <h3>Sum:
+            <span id="sum"></span>
+        </h3>
+    </div>
+
+
+    <script type="text/javascript">
+
+        // ---------------------------------------------------------
+        //                Part 1
+        //----------------------------------------------------------
+
+        // 1. Fibonacci
+
+        function fib(n) {
+            if (n < 2) {
+                return 1;
+            } else {
+                return fib(n - 2) + fib(n - 1);
+            }
+        }
+
+        //2. Bubble Sort
+
+        let numArray = [0, 5, 6, 3, 2, 3, 7, 9, 8, 4];
+        function bubbleSort(numArray) {
+
+            let temp = 0;
+
+            for (let i = 0; i < numArray.length; i++) {
+                for (let j = 1; j < (numArray.length - i); j++) {
+                    if (numArray[j - 1] > numArray[j]) {
+                        temp = numArray[j - 1];
+                        numArray[j - 1] = numArray[j];
+                        numArray[j] = temp;
+                    }
+                }
+
+            }
+
+            return numArray
+        }
+
+        //3. Reverse String
+        function reverseStr(someStr) {
+            let str = "";
+            for (let i = someStr.length - 1; i >= 0; i--) {
+                str += someStr[i];
+
+            }
+            return str
+        }
+
+        //4. Factorial
+        function factorial(n) {
+
+            if (n == 0) {
+                return 1;
+            } else {
+                return (n * factorial(n - 1));
+
+            }
+        }
+
+        //6. Even Number
+
+        function isEven(someNum) {
+
+            if ((someNum / 2) * 2 == someNum) {
+                return someNum + " is an Even number";
+            } else {
+                return someNum + " is not an even number";
+            }
+        }
+
+        //7. Palindrome
+
+        function isPalindrome(someStr) {
+            let s = someStr.length;
+            for (let i = 0; i < (someStr.length / 2); i++) {
+                if (someStr[i] !== someStr[someStr.length - 1 - i]) {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+
+        //9. Object literal
+        function traverseObject(someObj) {
+            let result = "";
+            for (let p in someObj) {
+                if (someObj.hasOwnProperty(p)) {
+                    result += p + " , " + someObj[p] + "\n";
+                }
+            }
+            return result;
+        }
+
+        //10. Delete Element
+        function deleteElement(someArr) {
+            console.log(someArr.length);
+            delete someArr[2];
+            console.log(someArr.length);
+        }
+
+
+        // 11. Splice Element
+
+        function spliceElement(someArr) {
+
+            console.log(someArr.length);
+            someArr.spliceElement(2, 1);
+            console.log(someArr.length);
+
+        }
+
+
+        //12. Defining an object using a constructor
+
+        function Person(name, age) {
+            this.name = name;
+
+            this.age = age;
+
+            let john = new Person("John", 30);
+
+            return john.name + " is " + john.age + "Years old."
+
+        }
+
+
+        //13. Defining an object using an object literal
+        function getPerson(name, age) {
+
+            return {
+                name: "name",
+                age: "age"
+            };
+
+            return getPerson.name + " is " + getPerson.age;
+        }
+
+        //----------------------------------------------------------------
+        //                  Part 2
+        //---------------------------------------------------------------
+
+        //Question 1-
+        function getUSA() {
+            let USA = document.body.getElementsByTagName("span");
+            for (let i = 0; i < USA.length; i++) {
+                let s = USA[i].textContent.search("USA");
+                if (s != -1) {
+                    console.log(USA[i].textContent);
+                }
+            }
+        }
+
+        //Question 2 -
+        function getPeopleInSales() {
+            let table = document.getElementsByTagName("table")[0];
+            for (let i = 0; i < table.rows.length; i++) {
+                let t = table.rows[i].cells;
+                if (t[1].textContent === "Sales") {
+                    console.log(t[0].textContent);
+                }
+            }
+
+        }
+
+        //Question 3
+        function getAnchorChildren() {
+
+        }
+
+        //Question 4
+        function getHobbies() {
+
+            let skills = document.getElementsByName("skills")[0];
+
+            for (let i = 0; i < skills.length; i++) {
+                let selectedFromSkills = skills.options[i].value;
+                let contentFromSkills = skills.options[i].textContent;
+                console.log(contentFromSkills + ":" + selectedFromSkills);
+
+            }
+
+        }
+
+        //Quetion 5
+        function getCustomAttribute() {
+            let elements = document.querySelectorAll('[data-customAttr]');
+            for (let i = 0; i < elements.length; i++) {
+                console.log(elements[i].dataset.customattr);
+
+            }
+        }
+
+
+        //  Question 6
+        function add() {
+            let x, y;
+            x = Number(document.getElementById("num1").value);
+            y = Number(document.getElementById("num2").value);
+
+            document.getElementById("sum").innerText = x + y;
+        }
+
+
+        //Questin 7
+        function getSkill() {
+            if (document.getElementsByTagName('select')[2].value == 'java') {
+                alert("Are you sure java is one of your skills?");
+            }
+            if (document.getElementsByTagName('select')[2].value == 'net') {
+                alert("Are you sure net is one of your skills?");
+            }
+            if (document.getElementsByTagName('select')[2].value == 'dom') {
+                alert("Are you sure dom is one of your skills?");
+            }
+            if (document.getElementsByTagName('select')[2].value == 'html') {
+                alert("Are you sure html is one of your skills?");
+            }
+            if (document.getElementsByTagName('select')[2].value == 'css') {
+                alert("Are you sure css is one of your skills?");
+            }
+            if (document.getElementsByTagName('select')[2].value == 'javascript') {
+                alert("Are you sure javascript is one of your skills?");
+            }
+
+
+        }
+
+        //Question 8
+
+        function changedCol(x) {
+            let favCol = document.getElementsByName("favoriteColor");
+            for (let i = 0; i < favCol.length; i++) {
+                favCol[i].style.backgroundColor = x.value;
+
+            }
+
+            //Question 9
+
+            function hideName(hide) {
+
+                if (hide.style.opacity == 0) {
+                    hide.style.opacity = 1;
+                } else {
+                    hide.style.opacity = 0;
+                }
+            }
+        }
+
+        //Question 10
+        function CurrentTime() {
+            let CurrentTime = new Date();
+            let t = CurrentTime.getHours() + ":" + CurrentTime.getMinutes() + ":" + CurrentTime.getSeconds();
+
+            document.getElementById("currentTime").innerText = t;
+        }
+
+        //Question 11
+
+        function randomColor() {
+            let rColor = Math.floor(Math.random() * 16777215).toString(16);
+            document.getElementById("helloWorld").style.color = rColor;
+        }
+
+
+        //Question 12
+        function walkTheDOM(node, func) {
+
+            func(node);
+            for (let i = 0; i < node.children.length; ++i) {
+                walkTheDOM(node.children[i], func);
+            }
+
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>
