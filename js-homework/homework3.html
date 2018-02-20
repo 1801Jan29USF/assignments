@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="css/style.css"> 
+<meta charset="ISO-8859-1">
+<title>DOM</title>
+<style type = "text/css">
+  #radio {
+
+    background-color: khaki;
+  }
+
+</style>
+</head>
+<body>
+  
+  <div>
+    <div>
+      <h3>Sum: <span id="sum"></span></h3>
+      <h5 id="currentTime"></h5>
+    </div>
+    <div>
+      <h1>United <span data-customAttr="USA">States</span> of America (<span>USA</span>)</h1>
+      <div><a>Click Here</a><a>Click Here</a><a>Click Here</a><a>Click Here</a><a>Click Here</a></div>
+      <a>Click Here</a>
+      <a>Click <span>Here1</span></a>
+      <a>Click Here</a>
+      <div>
+	  <select name="colors">
+	    <option value="green">Green</option>
+	    <option value="blue">Blue</option>
+	    <option value="red" selected="selected">Red</option>
+	    <option value="purple">Purple</option>
+	    <option value="yellow" selected="selected">Yellow</option>
+	  </select>
+      </div>
+    </div>
+    <p id="helloWorld" onclick="setTimeout(myfunction,3000);">Hello, World!</p>
+    <div>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Department</th>
+        </tr>
+        <tr>
+          <td class="empName" id="ide" onmouseover="hidefunction()"> John</td>
+          <td>Sales</td>
+        </tr>
+        <tr>
+          <td class="empName" id="ide" onmouseover="hidefunction()">Amy</td>
+          <td>Finance</td>
+        </tr>
+        <tr>
+          <td class="empName" onmouseover="hidefunction()" >Austin</td>
+          <td>Sales</td>
+        </tr>
+        <tr>
+          <td class="empName" onmouseover="hidefunction()" >Katie</td>
+          <td>Marketing</td>
+        </tr>
+        <tr>
+          <td class="empName" onmouseover="hidefunction()"  data-customAttr="court">Courtney</td>
+          <td>Sales</td>
+        </tr>
+        <tr>
+          <td class="empName" onmouseover="hidefunction()"   >Scout</td>
+          <td>Sales</td>
+        </tr>
+      </table>
+    </div>
+    <form id="firstForm">
+      <a>Click <span id="radio" onclick="colorFunct()">Here2</span></a>
+	  <input type="text" data-customAttr="7"/><br/>
+	  <input type="text" data-customAttr="24"/><br/>
+	  <input type="radio" name="favoriteAnimal" value="dog"/>Dog<br/>
+	  <span ><input type="radio" name="favoriteColor" value="blue"/>Blue<br/></span>
+	  <input id="num1" class="nums" type="text"/><br/>
+	  <input type="radio" name="favoriteAnimal" value="cat"/>Cat<br/>
+	  <span><input type="radio" name="favoriteColor" value="red"/>Red<br/></span>
+	  <input type="radio" name="favoriteAnimal" value="horse"/>Horse<br/>
+	  <input type="radio" name="favoriteAnimal" value="dolphin"/>Dolphin<br/>
+	  <a>Click <span>Here</span></a><br/>
+	  <input type="radio" name="favoriteAnimal" value="eagle"/>Eagle<br/>
+	  <span><input type="radio" name="favoriteColor" value="green"/>Green<br/></span>
+	  <span><input type="radio" name="favoriteColor" value="orange"/>Orange<br/></span>
+	  <select name="hobbies">
+	    <option value="photography">Photography</option>
+	    <option value="football" selected="selected">Football</option>
+	    <option value="kayaking" selected="selected">Kayaking</option>
+	    <option value="hiking">Hiking</option>
+	    <option value="programming" selected="selected">Programming</option>
+	  </select>
+	  <input id="num2" class="nums" type="text"/>
+	  <select name="skills" id="skil">
+	    <option value="java">Java</option>
+	    <option value="net">.NET</option>
+	    <option value="dom" selected="selected">DOM</option>
+	    <option value="html">HTML</option>
+	    <option value="css">CSS</option>
+	    <option value="javascript" selected="selected">Javascript</option>
+	  </select>
+    </form>
+  </div>
+  <a>Click Here</a>
+  <a>Click <span data-customAttr="500">Here3</span></a>
+  <a>Click Here</a>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
+	  
+  <script type="text/javascript">
+
+    //USA
+    function getUSA() {
+      let ele = document.getElementsByTagName('*');
+      let a;
+      for (let i = 0; i < ele.length; i++) {
+        if (ele[i].innerText === 'USA') {
+             a = ele[i];
+          
+        } else {
+          continue;
+        }
+        
+      }
+      console.log(a);
+      console.log(a.innerText);
+      
+    }
+    //Sales
+    function getPeopleInSales(){
+     let a = document.getElementsByTagName('table');
+     for (let i = 0; i < a.length; i++) {
+       if(a[i].innerText === 'Sales'){
+                console.log(a[i]);
+                //console.log(a[i].innerText);
+     }
+       
+     }
+     console.log(a);
+     console.log(a.innerText);
+    }
+    //3
+    function getAnchorChildren(){
+      //let b = document.getElementsByTagName('a').childNodes('span').innerText;
+      children = document.querySelectorAll('a span');
+      for (let i = 0; i< children.length; i++) {
+        console.log(children[i].innerText);
+        
+      }
+      console.log(children);
+
+    }
+
+    //Hobbies
+    function getHobbies() {
+      c = document.querySelectorAll('#skil option');
+      for (let i = 0; i< c.length; i++) {
+        console.log(c[i].innerText);
+        
+      }
+      console.log(c);
+
+
+      
+    }
+
+
+    //Custom Attribute
+    function getCustomAttribute(){
+      c = document.querySelectorAll('[data-customAttr]');
+      for (let i = 0; i< c.length; i++) {
+        console.log(c[i].innerText);
+        
+      }
+      //console.log(c);
+    
+    }
+    ///SUM EVENT
+    document.getElementById("skil").onchange = function(){
+
+      let num = document.getElementById("num1").value;
+      let num2 = document.getElementById("num2").value;
+      let total =  (parseInt(num) + parseInt(num2));
+      if (total === NaN) {
+        document.getElementById("sum").innerText = "Cannot Add"
+
+        
+      }else{
+        document.getElementById("sum").innerHTML =  total;
+      }
+
+
+
+    }
+    //skill Event
+      
+    
+  function colorFunct() {
+    document.getElementById("radio").innerHTML.style.backgroundcolor = 'blue';
+    
+  }
+
+
+
+    function hidefunction() {
+     //document.getElementByClassName("empName").style.display ="none";
+     let x = document.getElementsByClassName("empName");
+    documen.getElementByTagName
+     for (let i = 0; i < x.length; i++) {
+            x[i].style.opacity = '0.5';
+       
+     }
+    
+     
+    }
+    
+    
+    //Time
+    var d = new Date();
+    hours = d.getHours();
+    minutes = d.getMinutes();
+    seconds = d.getSeconds();
+    
+   
+    if (minutes < 10) {
+	 minutes = "0" + minutes;
+  }
+
+	var suffix = "AM";
+	if (hours >= 12) {
+    suffix = "PM";
+    hours = hours - 12;
+	}
+	if (hours == 0) {
+	 hours = 12;
+  }
+  result = ' '+hours+':'+minutes+':'+seconds +' ' + suffix;
+
+
+    document.getElementById('currentTime').innerHTML=result;
+
+    
+
+    ///delay
+    function myfunction() {
+     document.getElementById("helloWorld").style.color = randomColors();
+    }
+
+      
+      function randomColors() {
+       return '#' + Math.floor(Math.random() * 16777215).toString(16);
+      }
+
+    //walking the dom
+    function walkTheDOM(node, func) {
+      var children = node.childNodes;
+      for (var i = 0; i < children.length; i++)  // Children are siblings to each other
+          walkTheDOM(children[i], func);
+       func(node);
+      
+    }
+    let c = document.querySelectorAll(".empName");
+    
+
+  </script>
+    
+
+  
+ 
+</body>
+</html>
