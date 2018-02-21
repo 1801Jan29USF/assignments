@@ -20,9 +20,10 @@ public class ViewBalanceScreen implements Screen {
             rs.next();
             bal = rs.getDouble(1);
             System.out.printf("Current balance is: $%.2f\n", bal);
-            if(bal < 5000) System.out.println("Your business here is appreciated.");
+            if(bal < 100) System.out.println("Your account balance is below the minimum allowable balance. Charges will be applied on a weekly basis if this persists.");
+            else if(bal < 5000) System.out.println("Your business here is appreciated.");
             else if (bal < 10000) System.out.println("Thank you for trusting Faceless Banking Corporation.");
-            else if (bal < 50000) System.out.println("You are an appreciated member of the Faceless family.");
+            else if (bal < 50000) System.out.println("You are an appreciated member of the Faceless Banking family.");
             else if (bal < 100000) System.out.println("Remember to make use of our new VIP lounge, only open to committed members like yourself.");
         } catch (SQLException e) {
             System.out.println("Something went wrong. Try again later.");

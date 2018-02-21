@@ -49,7 +49,6 @@ public class ScreenFactory {
                 currentScreen = new WithdrawScreen();
                 break;
             default:
-                System.out.println("UHOH");
                 break;
         }
     }

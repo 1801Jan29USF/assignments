@@ -43,7 +43,7 @@ public class LoginScreen implements Screen {
             case "VALID":
                 System.out.print("Log in successful. ");
                 User.setUname(user);
-                System.out.printf("Welcome back, %s.\n", User.getUname());
+                System.out.printf("Welcome, %s.\n", User.getUname());
                 ScreenFactory.getScreenFactory().setCurrentScreen("mainLogIn");
                 break;
         }
