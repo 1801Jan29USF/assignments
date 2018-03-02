@@ -1,0 +1,73 @@
+<div class="container">
+  <button class="btn btn-dark" (click)="logout()">Logout</button>
+  <button class="btn btn-info" *ngIf="role == 'Finance Manager'" (click)="empTickets()" (click)="class='invisible'">Show All Tickets</button>
+  <button class="btn btn-info" *ngIf="role == 'Finance Manager'" (click)="myTickects()">Show My Tickets</button>
+  <button class="btn btn-light" (click)="sortAsc(reimbursements, 'status')">Sort by Status Asc</button>
+  <button class="btn btn-light" (click)="sortAsc(reimbursements, '-status')">Sort by Status Desc</button>
+</div>
+<div id="req-table">
+  <form (ngSubmit)="requestReimb()" id="req-tr">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <button class="btn btn-primary" (ngSubmit)="requestReimb()" id="req-td" type="submit">New</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <input type="text" name="amount" [(ngModel)]="data.amount" class="form-control" id="req-td" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <input type="text" name="description" placeholder="Description" [(ngModel)]="data.description" class="form-control" id="req-td"
+          />
+        </div>
+      </div>
+      <div class="form-group">
+        <select [(ngModel)]="data.typeId" name="type" class="form-control" id="req-td">
+          <option *ngFor="let t of (types)" [ngValue]="t.id">{{ t.type }}</option>
+        </select>
+      </div>
+    </div>
+  </form>
+</div>
+<table class="table table-responsive table-inverse">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Amount</th>
+      <th scope="col">Description</th>
+      <th scope="col">Type</th>
+      <th scope="col">Submitted</th>
+      <th scope="col">Resolved</th>
+      <th scope="col">Author</th>
+      <th scope="col">Resolver</th>
+      <th scope="col" data-sortable="true">Status</th>
+      <th *ngIf="role == 'Finance Manager'" scope="col">Approve</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let r of (reimbursements)" [ngStyle]="{'background-color': r.status == 'Approved' ? 'green' : r.status == 'Declined' ? 'red' : 'black'}"
+      name="reimbursements" id='addr1'>
+      <!-- <tr *ngFor="let r of (reimbursements)"
+      name="reimbursements" id='addr1'> -->
+      <td>{{ r.id }}</td>
+      <td>{{ r.amount | currency:'USD':'symbol':'1.2-2' }}</td>
+      <td>{{ r.description }}</td>
+      <td>{{ r.type }}</td>
+      <td>{{ r.submitted | localDateTime }}</td>
+      <td>{{ r.resolved | localDateTime }}</td>
+      <td>{{ r.author }}</td>
+      <td>{{ r.resolver }}</td>
+      <td>{{ r.status }}</td>
+      <td>
+        <button *ngIf="role == 'Finance Manager' && r.authorId != userId" type="button" class="btn btn-success" (click)="approve('Approved', r.id, r)"
+          id="req-td">Approve</button>
+        <!-- <button (ngSubmit)="approve()"id="req-td" type="submit">Approve</button> -->
+        <button *ngIf="role == 'Finance Manager' && r.authorId != userId" type="button" class="btn btn-danger" (click)="approve('Declined', r.id, r)"
+          id="req-td">Decline</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
