@@ -1,0 +1,103 @@
+2018-02-22 18:51:28 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 18:51:28 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 18:54:42 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 18:54:42 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 18:55:41 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 18:55:42 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 18:56:12 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 18:56:12 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 18:57:44 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 18:57:44 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 18:58:55 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 18:58:55 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 19:06:00 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 19:06:00 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 19:12:40 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 19:12:40 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 19:12:55 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 19:12:55 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 19:14:01 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 19:14:01 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 19:14:32 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 19:20:07 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 19:20:07 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 19:22:03 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 19:22:03 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 19:22:06 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 19:22:06 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 19:22:14 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 19:22:14 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 19:29:58 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 19:30:01 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 19:52:40 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 19:52:42 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 20:00:00 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 20:00:03 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 20:02:18 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-22 20:02:21 DEBUG ersDaoJdbc:36 - failed to add user
+2018-02-22 20:06:48 TRACE ersDaoJdbc:24 - method called to create user jman
+2018-02-25 17:26:40 TRACE ersDaoJdbc:51 - method called to log a reimbursement request forjman
+2018-02-25 17:26:43 DEBUG ersDaoJdbc:62 - failed to add reimbursement
+2018-02-25 17:30:20 TRACE ersDaoJdbc:51 - method called to log a reimbursement request forjman
+2018-02-25 17:36:38 TRACE ersDaoJdbc:51 - method called to log a reimbursement request forjman
+2018-02-25 17:43:26 TRACE ersDaoJdbc:51 - method called to log a reimbursement request forjman
+2018-02-25 19:50:03 TRACE ersDaoJdbc:77 - method called to find all reimbursements visible by current user
+2018-02-25 19:50:04 TRACE ersDaoJdbc:78 - Attempting to get connection to db
+2018-02-25 19:50:07 WARN  ersDaoJdbc:95 - failed to retreive reimbursements
+2018-02-25 19:51:19 TRACE ersDaoJdbc:77 - method called to find all reimbursements visible by current user
+2018-02-25 19:51:19 TRACE ersDaoJdbc:78 - Attempting to get connection to db
+2018-02-25 19:51:21 WARN  ersDaoJdbc:95 - failed to retreive reimbursements
+2018-02-25 19:51:46 TRACE ersDaoJdbc:77 - method called to find all reimbursements visible by current user
+2018-02-25 19:51:46 TRACE ersDaoJdbc:78 - Attempting to get connection to db
+2018-02-25 19:51:48 WARN  ersDaoJdbc:95 - failed to retreive reimbursements
+2018-02-25 19:59:35 TRACE ersDaoJdbc:77 - method called to find all reimbursements visible by current user
+2018-02-25 19:59:35 TRACE ersDaoJdbc:78 - Attempting to get connection to db
+2018-02-25 19:59:38 WARN  ersDaoJdbc:96 - failed to retreive reimbursements
+2018-02-25 20:00:10 TRACE ersDaoJdbc:77 - method called to find all reimbursements visible by current user
+2018-02-25 20:00:10 TRACE ersDaoJdbc:78 - Attempting to get connection to db
+2018-02-25 20:00:13 WARN  ersDaoJdbc:96 - failed to retreive reimbursements
+2018-02-25 20:02:16 TRACE ersDaoJdbc:77 - method called to find all reimbursements visible by current user
+2018-02-25 20:02:16 TRACE ersDaoJdbc:78 - Attempting to get connection to db
+2018-02-25 20:02:52 WARN  ersDaoJdbc:96 - failed to retreive reimbursements
+2018-02-25 20:04:58 TRACE ersDaoJdbc:77 - method called to find all reimbursements visible by current user
+2018-02-25 20:04:58 TRACE ersDaoJdbc:78 - Attempting to get connection to db
+2018-02-25 20:05:04 WARN  ersDaoJdbc:96 - failed to retreive reimbursements
+2018-02-25 20:13:30 TRACE ersDaoJdbc:76 - method called to find all reimbursements visible by current user
+2018-02-25 20:13:30 TRACE ersDaoJdbc:77 - Attempting to get connection to db
+2018-02-25 20:13:33 WARN  ersDaoJdbc:101 - failed to retreive reimbursements
+2018-02-25 20:15:44 TRACE ersDaoJdbc:76 - method called to find all reimbursements visible by current user
+2018-02-25 20:15:44 TRACE ersDaoJdbc:77 - Attempting to get connection to db
+2018-02-25 20:15:46 WARN  ersDaoJdbc:101 - failed to retreive reimbursements
+2018-02-25 20:16:02 TRACE ersDaoJdbc:76 - method called to find all reimbursements visible by current user
+2018-02-25 20:16:02 TRACE ersDaoJdbc:77 - Attempting to get connection to db
+2018-02-25 20:16:04 WARN  ersDaoJdbc:101 - failed to retreive reimbursements
+2018-02-25 20:18:46 TRACE ersDaoJdbc:76 - method called to find all reimbursements visible by current user
+2018-02-25 20:18:46 TRACE ersDaoJdbc:77 - Attempting to get connection to db
+2018-02-25 20:18:49 WARN  ersDaoJdbc:101 - failed to retreive reimbursements
+2018-02-25 20:33:31 TRACE ersDaoJdbc:76 - method called to find all reimbursements visible by current user
+2018-02-25 20:33:31 TRACE ersDaoJdbc:77 - Attempting to get connection to db
+2018-02-25 20:33:34 WARN  ersDaoJdbc:101 - failed to retreive reimbursements
+2018-02-25 20:38:55 TRACE ersDaoJdbc:76 - method called to find all reimbursements visible by current user
+2018-02-25 20:38:56 TRACE ersDaoJdbc:77 - Attempting to get connection to db
+2018-02-25 20:38:58 WARN  ersDaoJdbc:103 - failed to retreive reimbursements
+2018-02-25 20:40:40 TRACE ersDaoJdbc:78 - method called to find all reimbursements visible by current user
+2018-02-25 20:40:40 TRACE ersDaoJdbc:79 - Attempting to get connection to db
+2018-02-25 20:40:42 TRACE ersDaoJdbc:101 - retreived all reimbursements and returning the list
+2018-02-26 10:01:48 TRACE ersDaoJdbc:37 - method called to create user jman
+2018-02-26 10:03:34 TRACE ersDaoJdbc:58 - Attempting to retrieve user data
+2018-02-26 10:03:35 DEBUG ersDaoJdbc:80 - failed to add user
+2018-02-26 10:05:46 TRACE ersDaoJdbc:58 - Attempting to retrieve user data
+2018-02-26 10:05:48 DEBUG ersDaoJdbc:80 - failed to add user
+2018-02-26 10:07:20 TRACE ersDaoJdbc:58 - Attempting to retrieve user data
+2018-02-26 11:37:54 TRACE ersDaoJdbc:58 - Attempting to retrieve user data
+2018-02-26 11:39:06 TRACE ersDaoJdbc:58 - Attempting to retrieve user data
+2018-02-27 09:13:44 TRACE ersDaoJdbc:40 - method called to create user jman2
+2018-02-27 09:13:46 TRACE ersDaoJdbc:59 - Attempting to retrieve user data
+2018-02-27 10:16:01 TRACE ersDaoJdbc:40 - method called to create user jman2
+2018-02-27 10:16:06 DEBUG ersDaoJdbc:52 - failed to add user
+2018-02-27 10:16:06 TRACE ersDaoJdbc:59 - Attempting to retrieve user data
+2018-02-27 23:14:03 TRACE ersDaoJdbc:97 - method called to log a reimbursement request forjman
+2018-02-28 12:59:04 TRACE ersDaoJdbc:45 - method called to create user admin
+2018-02-28 12:59:25 TRACE ersDaoJdbc:45 - method called to create user admin
+2018-02-28 12:59:27 DEBUG ersDaoJdbc:57 - failed to add user
+2018-03-01 21:21:00 TRACE ersDaoJdbc:45 - method called to create user dude

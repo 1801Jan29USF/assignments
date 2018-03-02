@@ -1,0 +1,65 @@
+
+<head>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+
+<div class="container">
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> 
+<div class="mail-box">
+	<aside class="lg-side">
+		<div class="inbox-head" style= "display: inline-block; width:100%">
+			<h3>Reimbursements</h3>
+			<div class="pull-right position">
+			<button class="btn btn-default" style="display:inline" (click) = "currentStatus=''">All</button>
+			<button class="btn btn-default" style="display:inline" (click) = "currentStatus='Pending'">Pending</button>
+			<button class="btn btn-default" style="display:inline" (click) = "currentStatus='Approved'">Approved</button>
+			<button class="btn btn-default" style="display:inline" (click) = "currentStatus='Denied'">Denied</button>
+			</div>
+		</div>
+		<router-outlet></router-outlet>
+		<div style= "display: inline-block">
+			<button class="btn btn-default pull-right" style="margin-top:20px;" data-toggle="modal" (click) = "getReimbursements()" data-target= "#item_add"><i class="glyphicon glyphicon-plus"></i> Refresh</button>
+	    	<button class="btn btn-default pull-right" style="margin-top:20px;" data-toggle="modal" (click) = "lNav()" data-target= "#item_add"><i class="glyphicon glyphicon-plus"></i> New Reimbursement</button>
+		</div>
+		<div class="inbox-body">
+			<div class="mail-option">
+				<table class="table table-inbox table-hover">				
+					<thead>
+						<tr class="unread">
+							<th class="col-sm-2 view-message  dont-show">Amount</th>
+							<th class="view-message col-sm-3">Submitted</th>
+							<th class="view-message col-sm-3">Author</th>
+							<th class="view-message col-sm-3">Type</th>
+							<th class="col-sm-2"> 
+								<span>Status
+									<div>
+										<span class="label label-success pull-left"> </span> 
+										<span class="label label-info pull-left"> </span>
+										<span class="label label-warning pull-left"> </span>
+										<span class="label label-danger pull-left"> </span>
+									</div>
+								</span>
+							</th>
+					</thead>
+					<tbody>
+                        <tr *ngFor="let reimbursement of reimbursements | statuspipe:currentStatus" class="view-message" (click) = "rNav(reimbursement)">
+                            <td>{{reimbursement.amount}}</td>
+                            <td>{{reimbursement.submitted | date:"EEEE, MMMM d, y, h:mm:ss"}}</td>
+                            <td>{{reimbursement.author}}</td>
+							<td>{{reimbursement.type}}</td>
+                            <td>{{reimbursement.status}}</td>
+                        </tr>
+						
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</aside>
+</div>

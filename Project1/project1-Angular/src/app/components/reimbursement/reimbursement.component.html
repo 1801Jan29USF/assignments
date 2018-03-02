@@ -1,0 +1,10 @@
+<div class="card" style = "margin: auto">
+    <div class="card-block">
+      <h4 class="card-title">Reimbursement Submitted on {{reimbursement.submitted | date:"EEEE, MMMM d, y, h:mm:ss"}}</h4>
+      <h6 class="card-subtitle mb-2 text-muted">Submitted by {{reimbursement.author}}</h6>
+      <p class="card-text">Description: {{reimbursement.description}}</p>
+      <h6 class="card-subtitle mb-2 text-muted">Type: {{reimbursement.type}}</h6>
+      <button class = "btn btn-primary" (click) = "resolveReimbursement('Approved')">Approve</button>
+      <button class = "btn btn-primary" (click) = "resolveReimbursement('Denied')">Deny</button>
+    </div>
+  </div>
